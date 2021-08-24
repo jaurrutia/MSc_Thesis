@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  19 AUG 2021 17:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  24 AUG 2021 03:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,11 +1394,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 LaTeX Warning: Unused global option(s):
     [pdftex].
 
-(./tesis.aux (./0-4-Resumen/1-Resumen.aux)
-
-LaTeX Warning: Label `section:basics' multiply defined.
-
-)
+(./tesis.aux (./0-4-Resumen/1-Resumen.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
@@ -1423,7 +1419,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count503
 \scratchdimen=\dimen324
@@ -1503,7 +1500,7 @@ LaTeX Info: Redefining \nameref on input line 106.
 \@outlinefile=\write8
 \openout8 = `tesis.out'.
 
-<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=87, 2007.5pt x 2256.43pt>
+<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=115, 2007.5pt x 2256.43pt>
 File: Latex/Classes/Escudos/UNAM_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/UNAM_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/UNAM_crest_blue.pdf  used on inp
@@ -1563,181 +1560,76 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
  [4
 
 ]
-(./0-5-Introduccion/1-Motivation-Structure.tex) [1
+(./0-5-Introduccion/1-Motivation-Structure.tex
+Overfull \hbox (7.65039pt too wide) in paragraph at lines 15--17
+\T1/cmr/bx/n/10.95 Fabrication -> Par-tially em-bed-ded NPs -> No an-a-lyt-i-ca
+l (ap-prox-i-mated) method
+ []
+
+) [1
 
 
-] (./1-Theory/1-Basics.tex
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
-Make it at least 13.59999pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[2]
-Chapter 1.
-
-LaTeX Warning: Citation 'griffiths2013electrodynamics' on page 3 undefined on i
-nput line 15.
-
-[3
+] [2
 
 ]
-
-LaTeX Warning: Citation 'hecht1998optics' on page 4 undefined on input line 32.
-
-
-LaTeX Font Info:    Trying to load font information for U+eus on input line 32.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
-File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eus.cfg
-File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
-)
-
-LaTeX Warning: Citation 'griffiths2013electrodynamics' on page 4 undefined on i
-nput line 32.
-
-
-Overfull \hbox (68.19989pt too wide) in paragraph at lines 32--33
-[]\T1/cmr/m/n/10.95 (-20) If you want to show two equa-tions in only one row, u
-se the macros \T1/cmr/bx/n/10.95 \eqhalf\T1/cmr/m/n/10.95 (-20) , for example[[
-]]
- []
-
-
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 35--38
-$[]$ $[]$
- []
-
-
-Overfull \hbox (2.42162pt too wide) in paragraph at lines 42--45
-$[]$ $[]$
- []
-
-<1-Theory/figs/plant.jpg, id=158, 301.125pt x 301.125pt>
-File: 1-Theory/figs/plant.jpg Graphic file (type jpg)
-<use 1-Theory/figs/plant.jpg>
-Package pdftex.def Info: 1-Theory/figs/plant.jpg  used on input line 60.
-(pdftex.def)             Requested size: 195.75162pt x 195.76108pt.
-File: 1-Theory/figs/plant.jpg Graphic file (type jpg)
-<use 1-Theory/figs/plant.jpg>
-Package pdftex.def Info: 1-Theory/figs/plant.jpg  used on input line 66.
-(pdftex.def)             Requested size: 195.75162pt x 195.76108pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [4] [5 <./1-Theory/figs/plant.jpg>] (./1-Theory/2-Something_more_specific.tex
-) [6] (./2-Results/1-Something.tex [7] [8
+Chapter 1.
+[3] [4
 
 ]
 Chapter 2.
-) [9] (./3-Conclusions/1-Conclusions.tex [10]
+[5] [6
 
-LaTeX Warning: Citation 'reyes2018analytical' on page 11 undefined on input lin
-e 5.
+]
+Chapter 3.
+[7] [8
 
-
-LaTeX Warning: Citation 'pena-gomar2006coherent' on page 11 undefined on input 
-line 5.
-
-
-LaTeX Warning: Citation 'barrera1991optical' on page 11 undefined on input line
- 5.
-
-
-LaTeX Warning: Citation 'garcia2012multiple' on page 11 undefined on input line
- 5.
-
-
-Overfull \hbox (25.33684pt too wide) in paragraph at lines 5--6
-\T1/cmr/m/n/10.95 (-20) Make a short sum-mary of the con-tent of the the-sis [[
-], [],
- []
-
-) (./5-Apendices/1-Something_extra.tex [11
-
-] [12
+]
+Chapter 4.
+[9] [10
 
 ]
 Appendix A.
-) [13]
 
-LaTeX Warning: Empty bibliography on input line 154.
+LaTeX Warning: Empty bibliography on input line 177.
 
-[14] (./tesis.lof)
+[11] (./tesis.lof)
 \tf@lof=\write10
 \openout10 = `tesis.lof'.
 
- [15] [16
-
-]
+ [12]
 runsystem(makeindex tesis.idx)...executed safely (allowed).
 
- (./tesis.ind) [17
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
- (./tesis.aux
-(./0-4-Resumen/1-Resumen.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+ (./tesis.ind)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+ (./tesis.aux (./0-4-Resumen/1-Resumen.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3B87103217D569EA18ACF78FF812E099;581.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                tesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: ABD255AA30420A8AE43E73F458CC8F73;1263.
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38067 strings out of 481239
- 741754 string characters out of 5920378
- 1465846 words of memory out of 5000000
- 52499 multiletter control sequences out of 15000+600000
- 550896 words of font info for 94 fonts, out of 8000000 for 9000
+ 37687 strings out of 481239
+ 734568 string characters out of 5920378
+ 1458839 words of memory out of 5000000
+ 52189 multiletter control sequences out of 15000+600000
+ 544600 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,107p,894b,1142s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,107p,894b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cme
-x9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb>
-Output written on tesis.pdf (23 pages, 1338555 bytes).
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/
+cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb>
+Output written on tesis.pdf (18 pages, 1159181 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 16639 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 11058 words of extra memory for PDF output out of 12000 (max. 10000000)
 

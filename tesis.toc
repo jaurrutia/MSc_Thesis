@@ -6,32 +6,22 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Optical properties of single plasmonic nanoparticles}{3}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Mie Theory: Quasi-static Approximation}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Amplitude Matrix and Cross Sections}{3}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Depolarization Factors}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Mie Theory: Spherical Symmetry}{6}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Substrate effects}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Results and discussion}{9}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Collections: Effective Medium Theories}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Finite Element Method and Analytical Solutions}{9}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}3D theories: summary}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Incrustation Degree of a Spherical Particle}{9}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Bruggemann \& Maxwell Garnett}{5}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}Conclusions}{11}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}2-D Arrays}{5}{section.2.2}%
+\contentsline {section}{\numberline {3.1}Future Work: Application on Metasurfaces}{11}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Island Theory}{5}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {A}The Finite Element Method}{13}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Dipolar Model}{5}{subsection.2.2.2}%
+\contentsline {chapter}{List of Figures}{16}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Results and discussion}{7}{chapter.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Single particle: Incrustation degree (COMSOL + approximate solutions)}{7}{section.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Analytical extention to a monolayer}{7}{section.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusions}{9}{chapter.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Finite Element Method}{11}{appendix.A}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{12}{section*.3}%
+\contentsline {chapter}{Index}{17}{section*.8}%

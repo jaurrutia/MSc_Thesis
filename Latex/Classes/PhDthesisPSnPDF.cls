@@ -59,7 +59,7 @@
 			%\captionsetup[subfigure]{labelformat=brace,justification=centerlast}
 		\usepackage[export]{adjustbox}
 		\usepackage{wrapfig}                    			% to include figure with text wrapping around it
-
+		
 	%--------------------- Color/equations -related stuff
 		\usepackage[dvipsnames]{xcolor}
 			% TLOZ: BOW color palette 
@@ -80,6 +80,7 @@
 		\usepackage[most]{tcolorbox}
 			\tcbset{colback=lgreen,   colbacktitle = dgreen, frame hidden , % colframe= lgray,
 			fonttitle=\bfseries , boxrule = 0pt, standard jigsaw,  opacityback=.85, opacitybacktitle =1}% sharp corners = downhill, boxrule = .75mm }
+		
 
 	%----------------------- Language and references ------------------------------
 %		\usepackage[spanish,mexico]{babel}			% Comment for english
@@ -109,6 +110,25 @@
 		\usepackage{mathdots}                    			%  \iddots
 		\usepackage{mathtools}
 		\usepackage{physics}
+
+	%------------------------- Tikz --------------------------------------
+		\usepackage{tikz,pgfplots}
+		\usetikzlibrary{hobby} 
+			\usetikzlibrary{decorations.shapes}
+			\usetikzlibrary{arrows.meta,calc,decorations.markings,math,arrows.meta}
+			\usetikzlibrary{arrows,shapes,positioning}
+			\usetikzlibrary{%
+  							decorations.pathreplacing,%
+						    decorations.pathmorphing%
+							}	
+			\usepackage{tikz-3dplot}
+			%-------Dar dirección de las líneas (PONER FLECHITAS)
+				\tikzstyle arrowstyle=[scale=1]
+				\tikzstyle directed=[postaction={decorate,decoration={markings,
+									 mark=at position .65 with{\arrow[arrowstyle]{stealth}}}}]
+				\tikzstyle reverse directed=[postaction={decorate,decoration={markings,
+									mark=at position .65 with {\arrowreversed[arrowstyle]{stealth};}}}]  		 	
+
 
 
 %---------------------------------------------------------------------------------

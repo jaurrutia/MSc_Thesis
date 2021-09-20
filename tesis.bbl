@@ -184,6 +184,96 @@
     \field{year}{1999}
   \endentry
 
+  \entry{pellarin_forward_2019}{article}{}
+    \name{author}{10}{}{%
+      {{hash=PM}{%
+         family={Pellarin},
+         familyi={P\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bonnet},
+         familyi={B\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lermé},
+         familyi={L\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Perrier},
+         familyi={P\bibinitperiod},
+         given={Floriane},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Laverdant},
+         familyi={L\bibinitperiod},
+         given={Julien},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LMA}{%
+         family={Lebeault},
+         familyi={L\bibinitperiod},
+         given={Marie-Ange},
+         giveni={M\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hermelin},
+         familyi={H\bibinitperiod},
+         given={Sylvain},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hillenkamp},
+         familyi={H\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Broyer},
+         familyi={B\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cottancin},
+         familyi={C\bibinitperiod},
+         given={Emmanuel},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PMBCLJPFLJLMAHSHMBMCE1}
+    \strng{fullhash}{PMBCLJPFLJLMAHSHMBMCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1021/acs.jpcc.9b03245
+    \endverb
+    \field{issn}{1932-7447, 1932-7455}
+    \field{number}{24}
+    \field{pages}{15217\bibrangedash 15229}
+    \field{shorttitle}{Forward and {Backward} {Extinction} {Measurements} on a
+  {Single} {Supported} {Nanoparticle}}
+    \field{title}{Forward and {Backward} {Extinction} {Measurements} on a
+  {Single} {Supported} {Nanoparticle}: {Implications} of the {Generalized}
+  {Optical} {Theorem}}
+    \verb{url}
+    \verb https://pubs.acs.org/doi/10.1021/acs.jpcc.9b03245
+    \endverb
+    \field{volume}{123}
+    \field{journaltitle}{The Journal of Physical Chemistry C}
+    \field{month}{06}
+    \field{year}{2019}
+    \field{urlday}{03}
+    \field{urlmonth}{08}
+    \field{urlyear}{2021}
+  \endentry
+
   \entry{newton_optical_1976}{article}{}
     \name{author}{1}{}{%
       {{hash=NRG}{%
@@ -219,45 +309,27 @@
     \field{urlyear}{2020}
   \endentry
 
-  \entry{hecht1998optics}{book}{}
+  \entry{zangwill_modern_2013}{book}{}
     \name{author}{1}{}{%
-      {{hash=HE}{%
-         family={Hecht},
-         familyi={H\bibinitperiod},
-         given={Eugene},
-         giveni={E\bibinitperiod},
+      {{hash=ZA}{%
+         family={Zangwill},
+         familyi={Z\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Addison Wesley}%
+      {Cambridge University Press}%
     }
-    \strng{namehash}{HE1}
-    \strng{fullhash}{HE1}
+    \strng{namehash}{ZA1}
+    \strng{fullhash}{ZA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{edition}{4$^\circ$}
-    \field{title}{Optics}
-    \field{year}{1998}
-  \endentry
-
-  \entry{griffiths2013electrodynamics}{book}{}
-    \name{author}{1}{}{%
-      {{hash=GDJ}{%
-         family={Griffiths},
-         familyi={G\bibinitperiod},
-         given={David\bibnamedelima Jeffrey},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
+    \field{isbn}{978-0-521-89697-9}
+    \field{title}{Modern {E}lectrodynamics}
+    \list{location}{1}{%
+      {Cambridge}%
     }
-    \list{publisher}{1}{%
-      {Pearson}%
-    }
-    \strng{namehash}{GDJ1}
-    \strng{fullhash}{GDJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{edition}{4$^\circ$}
-    \field{title}{Introduction to electrodynamics}
     \field{year}{2013}
   \endentry
 \enddatalist

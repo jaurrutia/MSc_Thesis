@@ -1,0 +1,36 @@
+% !TeX root = ../tesis.tex
+
+The electric and magnetic field, denoted as $\vb{E}$ and $\vb{B}$, respectively, are a solution to the homogeneous vectorial Helmholtz\index{Helmholtz!Equation, Vectorial} when an harmonic dependence is assume and a spacial domain with no external charge nor current densities is assumed, that is,
+%
+% -----------------------------
+\begin{subequations}
+\begin{tcolorbox}[title = Vectorial Helmholtz Equation,	ams align, breakable]
+	\grad^2 \vb{E}(\vb{r},\omega) + k_\text{m}^2 \vb{E}(\vb{r},\omega) &= \vb{0},\\
+  \grad^2 \vb{B}(\vb{r},\omega) + k_\text{m}^2 \vb{B}(\vb{r},\omega) &= \vb{0}.
+\end{tcolorbox}
+\label{eq:Helmholtz}
+\end{subequations}
+% ------------------------------
+%
+where the vectorial operator $\grad^2$ must be understood as $\grad^2 = \nabla(\nabla\cdot) - \curl\curl $, and $k_\text{m}$ is the wave number in the matrix. It is possible to build a basis set for the electric ang magnetic fields as long as the elements if this basis are also solution to Eq. \eqref{eq:Helmholtz}. One alternative is to employ the following set of vector functions
+%
+% -----------------------------
+\begin{align}
+	\vb{L} =& \nabla \psi, 
+	\label{eq:L}\\
+	\vb{M} =& \nabla\times(\vb{r}\psi),
+	\label{eq:M}\\
+	\vb{M} =&  \frac{1}{k_\text{m}}\nabla\times\vb{M},
+	\label{eq:N}
+\end{align}
+% ------------------------------
+%
+that are solution to the homogeneous vectorial Helmholtz equation as long as the scalar function $\psi$ is solution to the scalar Helmholtz equation\index{Helmholtz!Equation, Scalar}
+%
+% -----------------------------
+\begin{align}
+	\nabla^2 \psi + k_\text{m} \psi = 0.
+\end{align}
+% ------------------------------
+%
+The thriad $\left\{\vb{L},\vb{M},\vb{N}\righ\}$ is a set of orthogonal vectors\footnote{Employing the Einstein sum convention with $\epsilon_{ijk}$ the Levi-Civita symbol, Eq. \eqref{eq:M} can be the written as follows: $M_i = [\nabla\times(\vb{r}\psi)]_i =  \epsilon_{ijk}\partial_j(r_k\psi) =\psi\epsilon_{ijk}\partial_j(r_k) -\epsilon_{ikj}r_k\partial_j\psi  =\psi[\nabla\times\vb{r}]_i - [\vb{r}\times\nabla\psi]_i = - [\vb{r}\times\nabla\psi]_i$, therefore $\vb{M}$ is orthogonal to $\vb{L}$ and $\vb{r}$. In a similar manner, $\vb{M}$} 

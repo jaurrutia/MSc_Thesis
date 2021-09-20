@@ -129,6 +129,7 @@
 				\tikzstyle reverse directed=[postaction={decorate,decoration={markings,
 									mark=at position .65 with {\arrowreversed[arrowstyle]{stealth};}}}]  		 	
 
+\usepackage{svg}
 
 
 %---------------------------------------------------------------------------------

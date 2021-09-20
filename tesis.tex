@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                     Bachelor thesis template 
-%						 Science Faculty 
-%								at 
+%                     Bachelor thesis template
+%						 Science Faculty
+%								at
 %			National Autonomous University of Mexico (UNAM)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % based on Harish Bhanderi's PhD/MPhil template, then Uni Cambridge
@@ -16,7 +16,7 @@
 %
 %
 %
-% All used packages are found in  
+% All used packages are found in
 %
 %					./Latex/Classes/PhDthesisPSnPDF.cls
 %
@@ -36,12 +36,13 @@
 \include{Latex/Comands}           % Special commands written by the author
 
 \usepackage{setspace}
-
+\usepackage{layouts}
+\svgpath{{1-Theory-Figs}}
 %%-------------------------------------------------------------------------------
-%                                  Information of the Student                   
+%                                  Information of the Student
 %-------------------------------------------------------------------------------
 % --- Default information for Bachelor's degree
-%\author{Jonathan Alexis Urrutia Anguiano} 
+%\author{Jonathan Alexis Urrutia Anguiano}
 %\title{Optical response of partially embedded nanospheres}
 %\programa{Posgrado en Ciencias Físicas} % Licenciatura en Física
 %\degree{Maestro en Ciencias}% Maestro en / Doctor en
@@ -64,7 +65,7 @@
 % --- Default information for Grad degree
 
 \posgradotrue
-		\author{Jonathan Alexis Urrutia Anguiano} 
+		\author{Jonathan Alexis Urrutia Anguiano}
 		\title{Optical response of partially embedded nanospheres}
 		\programa{Posgrado en Ciencias Físicas} 	% Programa de posgrado
 		\degree{Maestro en Ciencias}				% Maestro en / Doctor en
@@ -83,7 +84,7 @@
 		\ctutordos{Dr. Giuseppe Pirrcuccio}
 		\ctutordosdep{Instituto de Física, UNAM}
 
-\keywords{tesis,autor,tutor,etc}            % For metadata 
+\keywords{tesis,autor,tutor,etc}            % For metadata
 \subject{tema_1,tema_2}                     % Subjects for metadata
 
 
@@ -100,20 +101,20 @@
 
 
 %-------------------------------------------------------------------------------
-%                                   COVER                                   
+%                                   COVER
 %-------------------------------------------------------------------------------
 \begin{document}
 %
-\maketitle									
+\maketitle
 %-------------------------------------------------------------------------------
-%                                   FRONT MATTER                                
+%                                   FRONT MATTER
 %-------------------------------------------------------------------------------
 \frontmatter
 
-%\include{0-1-Acknowledgments/1-Acknowledgments}          
+%\include{0-1-Acknowledgments/1-Acknowledgments}
 %\include{0-2-Declaration/1-Declaration}
-%\include{0-3-Quote/1-Quote}                  
-\include{0-4-Resumen/1-Resumen}       
+%\include{0-3-Quote/1-Quote}
+\include{0-4-Resumen/1-Resumen}
 
 %-------------------------------------------------------------------------------
 %                                INDICES                                    |
@@ -136,27 +137,31 @@
 
 \def\baselinestretch{1}                   % Line spacing
 
-\input{0-5-Introduccion/1-Motivation-Structure}            
+\input{0-5-Introduccion/1-Motivation-Structure}
 
 \chapter{Optical properties of single plasmonic nanoparticles}
 \label{chapter:OpticalProperties}
 
 The problem studied in this thesis corresponds to the theoretical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those present on plasmonic biosensors, where the NPs are partially embedded into a substrate \cite{moirangthem_enhanced_2012}. The theoretical analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP employing the Finite Element Method (FEM) \index{Finite Element Method}, nevertheless, to verify the validity of the obtained results, the problem of the absorption and scattering of light by an isolated particle must be addressed. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and by a spherical particle, given by the Mie Theory \cite{bohren_absorption_1983}.
 
-	\section{Amplitude Matrix and Cross Sections}
+	\section{The Optical Theorem: Amplitude Matrix and Cross Sections}
 	\label{section:AmpMatCrossSect}
-	\input{1-Theory/1-Basics}
+	\input{1-Theory/1-OpticalTheorem}
 
-	\section{Mie Theory: Spherical Symmetry}
-%	\section{Depolarization Factors}
+	\section{Scattering of spherical particles}
+	\label{section:Mie}
+
+In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be detrminated through the amplitude of the scattered field in the forward direction. The past is stated in the Optical Theorem and it is an exact result but unaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calclated is when the scatterer has spherical symmery. In order to adress this special case it will be introduced a vectorial base with spherial symmetry, known as the Vectorial Spherical Harmonics (SVH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vectorial Harmonics}.
+
+	\input{1-Theory/2-VSH}
 
 \chapter{Results and discussion}
 	\section{Finite Element Method and Analytical Solutions}
 	\section{Incrustation Degree of a Spherical Particle}
-	
+
 \chapter{Conclusions}
     \section{Future Work: Application on Metasurfaces}
-        
+
 \appendix
 \chapter{The Finite Element Method}
 %
@@ -164,14 +169,14 @@ The problem studied in this thesis corresponds to the theoretical analysis of th
 %\input{1-Theory/1-Basics}
 %	\input{1-Theory/2-Something_more_specific}
 %\input{2-Results/1-Something}
-%\input{3-Conclusions/1-Conclusions}        
+%\input{3-Conclusions/1-Conclusions}
 %
 %%-------------------------------------------------------------------------------
 %%                               References                                   |
 %%-------------------------------------------------------------------------------
 %
 %\appendix
-%\input{5-Apendices/1-Something_extra.tex}  
+%\input{5-Apendices/1-Something_extra.tex}
 
 \setlength\bibitemsep{.1\itemsep}
 \printbibliography
@@ -185,5 +190,5 @@ The problem studied in this thesis corresponds to the theoretical analysis of th
 %-------------------------------------------------------------------------------
 
 
-           
+
 \end{document}

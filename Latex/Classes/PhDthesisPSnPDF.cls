@@ -78,8 +78,8 @@
 			\colorlet{myurlcolor}{Aquamarine}
 		\usepackage{empheq}
 		\usepackage[most]{tcolorbox}
-			\tcbset{colback=lgreen,   colbacktitle = dgreen, frame hidden , % colframe= lgray,
-			fonttitle=\bfseries , boxrule = 0pt, standard jigsaw,  opacityback=.85, opacitybacktitle =1}% sharp corners = downhill, boxrule = .75mm }
+			\tcbset{colback=orange,   colbacktitle = lgray, frame hidden , % colframe= lgray,
+			fonttitle=\bfseries , boxrule = 0pt, standard jigsaw,  opacityback=.5, opacitybacktitle =1}% sharp corners = downhill, boxrule = .75mm }
 		
 
 	%----------------------- Language and references ------------------------------

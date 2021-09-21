@@ -210,7 +210,7 @@ In a similar manner, an absorption cross section $C_\text{abs}$ can be defined a
  \begin{tcolorbox}[title = Ohmic Particle - Absorption Cross Section,	ams align, breakable]
  	C_\text{abs} =	 \frac12\int \frac{\Re(\vb{j}\cdot \vb{E}^\text{int*})}
  									{\norm{\vb{E}_0^\text{i}}^2/2Z_\text{m}}\dd{V}
-				= \int\omega Z_\text{m}\Im{n_p^2} \frac{\norm{\vb{E}^\text{int}}^2}{\norm{\vb{E}^\text{i}_0}^2} \dd{V},
+				= \int\omega Z_\text{m}\Im(n_p^2) \frac{\norm{\vb{E}^\text{int}}^2}{\norm{\vb{E}^\text{i}_0}^2} \dd{V},
  \label{eq:Cabs}
  \end{tcolorbox}%
 % ------------------- Si
@@ -254,7 +254,7 @@ where the relations $\vu{k}^\text{sca}\cdot\vu{e}_r = 1$, $\vu{k}^\text{i}\cdot\
 \end{tcolorbox}
 % ------------------------------
 %
-\noindent From Eqs. \eqref{eq:Stot} and  \eqref{eq:Cext} it can be seen that the extinction of light, the combined result of scattering and absorption as energy loss mechanisms, is also a manifistation of the interference beteen the incident and the scattered fields and that the over all effect of the light extinction can be fully understood by analizing the  amplitude of the scattering field in the forward direction.  It is woth noting that Eq. \eqref{eq:Cext} is an exact relation but its usefullness is bond to the correct evaluation of the scattereing amplitude matrix $\mathbb{F}$ \cite{tsang_scattering_2000}. Thus, in the following sections a scattering problem with spherical symmery will be assumed, so that the exact solution to the scatterng amplitude matrix can be developed; this solution is known as Mie Theory. 
+\noindent From Eqs. \eqref{eq:Stot} and  \eqref{eq:Cext} it can be seen that the extinction of light, the combined result of scattering and absorption as energy loss mechanisms, is also a manifistation of the interference beteen the incident and the scattered fields and that the over all effect of the light extinction can be fully understood by analizing the  amplitude of the scattering field in the forward direction.  It is woth noting that Eq. \eqref{eq:Cext} is an exact relation but its usefullness is bond to the correct evaluation of the scattereing amplitude matrix $\mathbb{F}$ \cite{tsang_scattering_2000}. Thus, in the following sections a scattering problem with spherical symmery will be assumed, so that the exact solution to the scatterng amplitude matrix can be developed; this solution is known as Mie Theory.
 
  %The Optical Theorem is a general result no only applicable to  for general scattering phenomena, both quantum and classical  \cite{bohren_absorption_1983,newton_optical_1976}, its derivation rely in the incident field being a plane wave [see Eq. \eqref{eq:CextFull}] and more precisely, in the lack of longitudinal components of the incident field \cite{krasavin_generalization_2018,born_max_principle_1999}.
 
@@ -331,3 +331,4 @@ where the relations $\vu{k}^\text{sca}\cdot\vu{e}_r = 1$, $\vu{k}^\text{i}\cdot\
 \caption[Example of Figure title]{The explanation of your figures. \blindtext}
 \label{fig:Main}
 \end{figure}
+\clearpage

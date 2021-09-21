@@ -332,5 +332,29 @@
     }
     \field{year}{2013}
   \endentry
+
+  \entry{stratton_electromagnetic_2012}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJA}{%
+         family={Stratton},
+         familyi={S\bibinitperiod},
+         given={Julius\bibnamedelima Adams},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \strng{namehash}{SJA1}
+    \strng{fullhash}{SJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{978-1-4437-3054-9}
+    \field{title}{Electromagnetic theory}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{2012}
+  \endentry
 \enddatalist
 \endinput

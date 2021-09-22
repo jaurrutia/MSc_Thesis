@@ -5,14 +5,14 @@ The electric and magnetic field, denoted as $\vb{E}$ and $\vb{B}$, respectively,
 % -----------------------------
 \begin{subequations}
 \begin{tcolorbox}[title = Vectorial Helmholtz Equation,	ams align, breakable]
-	\grad^2 \vb{E}(\vb{r},\omega) + k_\text{m}^2 \vb{E}(\vb{r},\omega) &= \vb{0},\\
-  \grad^2 \vb{B}(\vb{r},\omega) + k_\text{m}^2 \vb{B}(\vb{r},\omega) &= \vb{0}.
+	\grad^2 \vb{E}(\vb{r},\omega) + k^2 \vb{E}(\vb{r},\omega) &= \vb{0},\\
+  \grad^2 \vb{B}(\vb{r},\omega) + k^2 \vb{B}(\vb{r},\omega) &= \vb{0}.
 \end{tcolorbox}
 \label{eq:Helmholtz}
 \end{subequations}
 % ------------------------------
 %
-\noindent where the vectorial operator $\grad^2$ must be understood as $\grad^2 = \nabla(\nabla\cdot) - \nabla\times\nabla\times $, and $k_\text{m}$ is the wave number in the matrix. It is possible to build a basis set for the electric and magnetic fields as long as the elements of this basis are also solution to Eq. \eqref{eq:Helmholtz}. One alternative is to employ the following set of vector functions
+\noindent where the vectorial operator $\grad^2$ must be understood as $\grad^2 = \nabla(\nabla\cdot) - \nabla\times\nabla\times $, and $k$ is the wave number in the matrix. It is possible to build a basis set for the electric and magnetic fields as long as the elements of this basis are also solution to Eq. \eqref{eq:Helmholtz}. One alternative is to employ the following set of vector functions
 %
 % -----------------------------
 \begin{subequations}
@@ -21,10 +21,10 @@ The electric and magnetic field, denoted as $\vb{E}$ and $\vb{B}$, respectively,
 	\label{eq:L}\\
 	\vb{M} =& \nabla\times(\vb{r}\psi),
 	\label{eq:M}\\
-	\vb{N} =&  \frac{1}{k_\text{m}}\nabla\times\vb{M},
+	\vb{N} =&  \frac{1}{k}\nabla\times\vb{M},
 	\label{eq:N}
-\end{align}
-\label{eq:VSH}
+\end{align}%
+\label{eq:VSH}%
 \end{subequations}
 % ------------------------------
 %
@@ -33,7 +33,7 @@ that are solution to the homogeneous vectorial Helmholtz equation as long as the
 %
 % -----------------------------
 \begin{align}
-	\nabla^2 \psi + k_\text{m}^2 \psi = 0.
+	\nabla^2 \psi + k^2 \psi = 0.
 \label{eq:HelmoltzScalar}
 \end{align}
 % ------------------------------
@@ -49,7 +49,7 @@ The triad $\left\{\vb{L},\vb{M},\vb{N}\right\}$ is a set of orthogonal vectors\f
 	 therefore $\vb{M}$ is orthogonal to $\vb{L}$ and $\vb{r}$. From Eq. \eqref{eq:N} $\vb{M}\cdot\vb{N}=0$.
 	 \textcolor{red}{Falta probar $\vb{L}\cdot\vb{N} = 0$.}
 	}%
-that obey Helmholtz equation \textit{i.e.}, they can be directly identify as electric or magnetic fields. The the elements of the vector basis from Eq. \eqref{eq:VSH}   are known as the Vectorial Spherical Harmonics (VSH) as defined by  \citeauthor{stratton_electromagnetic_2012} \cite{stratton_electromagnetic_2012}, and \citeauthor{bohren_absorption_1983} \cite{bohren_absorption_1983}. The scalar function $\psi$ is known as the generating function of the VSH.
+that obey Helmholtz equation \textit{i.e.}, they can be directly identify as electric or magnetic fields. The elements of the vector basis from Eq. \eqref{eq:VSH}   are known as the Vectorial Spherical Harmonics (VSH) as defined by  \citeauthor{stratton_electromagnetic_2012} \cite{stratton_electromagnetic_2012}, and \citeauthor{bohren_absorption_1983} \cite{bohren_absorption_1983}. The scalar function $\psi$ is known as the generating function of the VSH.
 
 
 If spherical coordinates are chosen, and it is assume that $\psi(r,\theta,\varphi) = R(r)\Theta(\theta)\Phi(\varphi)$, then Eq. \eqref{eq:HelmoltzScalar} can be decouple into three ordinary differential equations:
@@ -60,36 +60,124 @@ If spherical coordinates are chosen, and it is assume that $\psi(r,\theta,\varph
  \label{eq:Phi}\\
 	\frac{1}{\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta}) &+ \qty[\ell(\ell+1)- \frac{m^2}{\sin^2\theta}]\Theta =0,
 	\label{eq:Theta}\\
-	\dv{r}\qty(r^2\dv{R}{r}) &+ \qty[ (k_\text{m} r)^2 - \ell (\ell +1)] R =0,
+	\dv{r}\qty(r^2\dv{R}{r}) &+ \qty[ (k r)^2 - \ell (\ell +1)] R =0,
  \label{eq:Req}
 \end{align}	
 % ------------------------------
 %
-where $\ell$ can takes natural values and zero, and $\abs{m}\leq \ell$ so $\Phi$ and $\Theta$ are univaluated and finite on a sphere. Eqs. \eqref{eq:Theta} and \eqref{eq:Req} can be rewritten as
+where $\ell$ can takes natural values and zero, and $\abs{m}\leq \ell$ so $\Phi$ and $\Theta$ are univalued and finite on a sphere. Eqs. \eqref{eq:Theta} and \eqref{eq:Req} can be rewritten as
 %
 % ------------------------------
  \begin{align}
 (1-\mu^2)\dv[2]{\Theta}{\mu} - 2\mu\dv{\Theta}{\mu} + \qty[\ell(\ell+1)-\frac{m^2}{1-\mu^2}]\Theta &= 0, \qqtext{ with $\mu = \cos\theta$,}
 	\label{eq:ThetaMu}\\
-	\rho\dv{\rho}\qty(\rho\dv{Z}{\rho}) +  \qty[\rho^2 - \qty(\ell + \frac12)^2]Z  &= 0,  \qqtext{ with $Z = R\sqrt{\rho}$ and $\rho = k_\text{m}r$.}
+	\rho\dv{\rho}\qty(\rho\dv{Z}{\rho}) +  \qty[\rho^2 - \qty(\ell + \frac12)^2]Z  &= 0,  \qqtext{ with $Z = R\sqrt{\rho}$ and $\rho = kr$.}
 \label{eq:Reqkr}
 \end{align}	
 % ------------------------------
 %
-The solution to Eq. \eqref{eq:ThetaMu} are the Legendre Associated Functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the solution is given by the Spherical Bessel Functions $z_\ell = j_\ell, y_\ell$. Following the convention from most literature on Mie Scattering \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} will be decompose in an odd ($o$) and an even ($e$) solution, that is, as sine and cosine functions. After this procedure, it is determined that the generating function of the VSH is given by
+The solution to Eq. \eqref{eq:ThetaMu} are the Legendre Associated Functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the solution is given by the Spherical Bessel Functions of the first ($j_\ell$)  and second ($y_\ell$) kind, and the Spherical Hankel functions $j_\ell \pm iy_\ell$. Following the convention from most literature on Mie Scattering \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} will be decompose in an odd ($o$) and an even ($e$) solution, that is, as sine and cosine functions, thus restricting the values of $m$ to non-negative integers. After this procedure, it is determined that the generating function of the VSH is given by
 %
 % -----------------------------
 \begin{subequations}
 \begin{tcolorbox}[title = $\psi$: Generating function of the vectorial spherical harmonics,	ams align, breakable]
-	\psi_{e\ell m}(r,\theta,\varphi) =& \cos(m\varphi)P_\ell^m(\cos\theta)z_\ell(k_\text{m}r), 
-	\\ 	
-	\psi_{o\ell m}(r,\theta,\varphi) =& \sin(m\varphi)P_\ell^m(\cos\theta)z_\ell(k_\text{m}r).
+	\psi_{e\ell m}(r,\theta,\varphi) =& \cos(m\varphi)P_\ell^m(\cos\theta)z_\ell(kr), 
+	\label{eq:psiE}\\ 	
+	\psi_{o\ell m}(r,\theta,\varphi) =& \sin(m\varphi)P_\ell^m(\cos\theta)z_\ell(kr).
+	\label{eq:psiO}
 \end{tcolorbox}
-\label{eq:Helmholtz}
+\label{eq:psi}
 \end{subequations}
 % ------------------------------
 %
-\noindent
+\noindent Substituting Eq. \eqref{eq:psiE} in Eqs. \eqref{eq:L}--\eqref{eq:N} one finds the even SVH
+%
+% -----------------------------
+\begin{subequations}
+\begin{tcolorbox}[title = Even vectorial spherical harmonics,	ams align, breakable]
+	\vb{L}_{em\ell} =& k \cos(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)} {(kr)}\,\vu{e}_r 
+					 +  k\cos(m\varphi) \frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta \notag \\
+					& - km \sin(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi 
+	\label{eq:Leml}\\
+	\vb{M}_{em\ell} = &-m\sin(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
+					-\cos(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,
+	\label{eq:Meml} \\
+	\vb{N}_{em\ell} = &\cos(m\varphi) \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r 
+						+ \cos(m\varphi)  \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}
+						\dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\theta \notag\\
+						&- m \sin(m\varphi) \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}\frac{P_\ell^m(\cos\theta)}{\sin\theta}
+		 \,\vu{e}_\varphi, 
+	\label{eq:Neml}	
+\end{tcolorbox}
+\label{eq:SVHEven}
+\end{subequations}
+% ------------------------------
+%
+\noindent where the term $\ell( \ell+1)P_\ell^m$ arises since the Assosiated Legendre Functions obeys Eq. \eqref{eq:ThetaMu}. Likewise, the odd SVH are given by
+%
+% -----------------------------
+\begin{subequations}
+\begin{tcolorbox}[title = Odd vectorial spherical harmonics,	ams align, breakable]
+	\vb{L}_{om\ell} =& k \sin(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)} {(kr)}\,\vu{e}_r 
+					 +  k\sin(m\varphi) \frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta \notag \\
+					& +  km\cos(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi 
+	\label{eq:Loml}\\
+	\vb{M}_{om\ell} = & m\cos(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
+					-\sin(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,	
+	\label{seq:Moml} \\
+	\vb{N}_{om\ell} =&\sin(m\varphi)\frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r +
+					 \sin(m\varphi)  \frac{1}{kr} \dv{[kr\, z_\ell(kr)]}{(kr)} \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta) \,\vu{e}_\theta \notag\\
+					 & + m \cos(m\varphi) \frac{1}{kr} \dv{[kr\, z_\ell(kr)]}{(kr)} \frac{P_\ell^m(\cos\theta)}{\sin\theta}¸\, \vu{e}_\varphi.
+	 \label{seq:Noml} 
+\end{tcolorbox}
+\label{eq:SVHOdd}
+\end{subequations}
+% ------------------------------
+%
+
+The SVH follow orthogonality relations inherited from the orthogonality of sine, cosine and the associated Legendre functions. Let us define the inner product as the integral in the solid angle between two vectorial functins as 
+%
+\begin{align}
+\ev{\vb{A},\vb{A}'}_\Omega = \int_0^{2\pi}\int_0^{\pi} \vb{A}\cdot\vb{A}'\sin\theta\dd{\theta}\dd{\varphi}.
+\label{eq:inner}
+\end{align}
+%
+Under this inner product, all even SVH are orthogonal to the odd SVH due to the ortogonallity from the $\sin(m\varphi)$ and $\cos(m'\varphi)$, as well as all SVH  with $m\neq m'$. The remaining orthogonality relations aer summarizes in the followin experssiones \cite{stratton_electromagnetic_2012}
+%
+\begin{align}
+\ev{\vb{L}_{em\ell},\vb{L}_{em\ell'}}_\Omega = \ev{\vb{L}_{om\ell},\vb{L}_{om\ell'}}_\Omega = \delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}k^2\qty[ \ell z_{\ell-1}^2(kr) + (\ell+1)z_{\ell+1}^2(kr) ],\\
+%
+\ev{\vb{M}_{em\ell},\vb{M}_{em\ell'}}_\Omega = \ev{\vb{M}_{om\ell},\vb{M}_{om\ell'}}_\Omega = \delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}\ell(\ell+1)z_{\ell}^2(kr),\\
+%
+\ev{\vb{N}_{em\ell},\vb{N}_{em\ell'}}_\Omega = \ev{\vb{N}_{om\ell},\vb{N}_{om\ell'}}_\Omega = \delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{(2\ell+1)^2}\frac{(\ell+m)!}{(\ell-m)!}\ell(\ell+1)\qty[ (\ell+1) z_{\ell-1}^2(kr) + \ell z_{\ell+1}^2(kr) ]. \\
+%%
+\ev{\vb{L}_{em\ell},\vb{N}_{em\ell'}}_\Omega = \ev{\vb{L}_{om\ell},\vb{N}_{om\ell'}}_\Omega = \delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{(2\ell+1)^2}\frac{(\ell+m)!}{(\ell-m)!}\ell(\ell+1)k\qty[ z_{\ell-1}^2(kr) - z_{\ell+1}^2(kr) ]. 
+\end{align}
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  21 SEP 2021 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  22 SEP 2021 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1773,9 +1773,6 @@ LaTeX Warning: Label `sub@sfig:secondaty2' multiply defined.
 
 LaTeX Warning: Label `fig:Main' multiply defined.
 
-
-LaTeX Warning: Label `eq:Helmholtz' multiply defined.
-
 )
 \openout1 = `tesis.aux'.
 
@@ -2133,12 +2130,23 @@ File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 ) [10
 
 
-]) [11]
-[12
-
 ]
+
+LaTeX Warning: Command \c invalid in math mode on input line 132.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 132.
+
+[11]
+Overfull \hbox (19.15623pt too wide) detected at line 155
+[]
+ []
+
+) [12]
 Chapter 2.
-[13] [14
+[13
+
+] [14
 
 ]
 Chapter 3.
@@ -2186,11 +2194,11 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53551 strings out of 481239
- 1215263 string characters out of 5920378
- 2092195 words of memory out of 5000000
- 67570 multiletter control sequences out of 15000+600000
- 563856 words of font info for 174 fonts, out of 8000000 for 9000
+ 53581 strings out of 481239
+ 1215625 string characters out of 5920378
+ 2095008 words of memory out of 5000000
+ 67585 multiletter control sequences out of 15000+600000
+ 563895 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,20n,107p,1111b,1377s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -2226,10 +2234,10 @@ blic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm14
 40.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sftt1095.pfb>
-Output written on tesis.pdf (27 pages, 1927224 bytes).
+Output written on tesis.pdf (27 pages, 1934936 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 95 named destinations out of 1000 (max. 500000)
  27990 words of extra memory for PDF output out of 29859 (max. 10000000)
 

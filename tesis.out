@@ -2,12 +2,14 @@
 \BOOKMARK [0][]{chapter*.2}{ Introduction}{}% 2
 \BOOKMARK [0][]{chapter.1}{1 Optical properties of single plasmonic nanoparticles}{}% 3
 \BOOKMARK [1][]{section.1.1}{1.1 The Optical Theorem: Amplitude Matrix and Cross Sections}{chapter.1}% 4
-\BOOKMARK [1][]{section.1.2}{1.2 Scattering of spherical particles}{chapter.1}% 5
-\BOOKMARK [0][]{chapter.2}{2 Results and discussion}{}% 6
-\BOOKMARK [1][]{section.2.1}{2.1 Finite Element Method and Analytical Solutions}{chapter.2}% 7
-\BOOKMARK [1][]{section.2.2}{2.2 Incrustation Degree of a Spherical Particle}{chapter.2}% 8
-\BOOKMARK [0][]{chapter.3}{3 Conclusions}{}% 9
-\BOOKMARK [1][]{section.3.1}{3.1 Future Work: Application on Metasurfaces}{chapter.3}% 10
-\BOOKMARK [0][]{appendix.A}{A The Finite Element Method}{}% 11
-\BOOKMARK [0][]{section*.9}{List of Figures}{}% 12
-\BOOKMARK [0][]{section*.10}{Index}{}% 13
+\BOOKMARK [1][]{section.1.2}{1.2 Mie Scattering}{chapter.1}% 5
+\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Vectorial Spherical Harmonics}{section.1.2}% 6
+\BOOKMARK [2][]{subsection.1.2.2}{1.2.2 Incident, Scattered and Internal Electric Field}{section.1.2}% 7
+\BOOKMARK [0][]{chapter.2}{2 Results and discussion}{}% 8
+\BOOKMARK [1][]{section.2.1}{2.1 Finite Element Method and Analytical Solutions}{chapter.2}% 9
+\BOOKMARK [1][]{section.2.2}{2.2 Incrustation Degree of a Spherical Particle}{chapter.2}% 10
+\BOOKMARK [0][]{chapter.3}{3 Conclusions}{}% 11
+\BOOKMARK [1][]{section.3.1}{3.1 Future Work: Application on Metasurfaces}{chapter.3}% 12
+\BOOKMARK [0][]{appendix.A}{A The Finite Element Method}{}% 13
+\BOOKMARK [0][]{section*.5}{List of Figures}{}% 14
+\BOOKMARK [0][]{section*.6}{Index}{}% 15

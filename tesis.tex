@@ -148,12 +148,17 @@ The problem studied in this thesis corresponds to the theoretical analysis of th
 	\label{section:AmpMatCrossSect}
 	\input{1-Theory/1-OpticalTheorem}
 
-	\section{Scattering of spherical particles}
+	\section{Mie Scattering}
 	\label{section:Mie}
 
-In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vectorial Spherical Harmonics (SVH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vectorial Harmonics}.
+In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vectorial Spherical Harmonics (SVH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vectorial Harmonics}. Once the SVH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field.
 
-	\input{1-Theory/2-VSH}
+	\subsection{Vectorial Spherical Harmonics}
+		\label{ssection:SVH}		
+		\input{1-Theory/2-VSH}
+	\subsection{Incident, Scattered and Internal Electric Field}
+		\label{ssection:Fields}
+		\input{1-Theory/3-Fields}
 
 \chapter{Results and discussion}
 	\section{Finite Element Method and Analytical Solutions}

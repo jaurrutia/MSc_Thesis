@@ -1,0 +1,211 @@
+% !TeX root = ../tesis.tex
+
+The Vector Spherical Harmonics (VSH) where defined in Sec. \ref{ssection:VSH} in terms of their generating function $\psi(r,\theta,\varphi)$ which must satisfy the scalar Helmholtz equation [Eq.  \eqref{eq:HelmoltzScalar}]. By employing the separation of variables method,  it was determined that $\psi$ is the product of either $\sin(m\varphi)$ or $\cos(m\varphi)$, of the associated Legendre functions $P_\ell^m(\cos\theta)$ and the spherical Bessel/Hankel functions $z_\ell(kr)$, all of which are solutions to Eqs. \eqref{eq:Phi}-\eqref{eq:Reqkr}. In this section, it is discussed the chosen definitions for $P_\ell^m$, $z_\ell$ and related functions, as well as how to calculate them. It is also detailed how to code the Mie Theory results employing the Wolfram Language.
+
+\section*{Radial Dependency:\\ Spherical Bessel/Hankel Functions}
+
+Te radial dependency of the VSH is given by the solutions to Eq. \eqref{eq:Reqkr} which are the spherical Bessel function of first and second kind $j_\ell(kr)$ and $y_\ell(kr)$, respectively, related by the regular Bessel function of fractional order $J_{\ell+1/2}(kr)$ and  $Y_{\ell+1/2}(kr)$ by
+%
+\begin{align}
+j_\ell(kr) = \sqrt{\frac{\pi}{2(kr)}}J_{\ell+1/2}(kr),\qqtext{ and} 
+y_\ell(kr) = \sqrt{\frac{\pi}{2(kr)}}JY{\ell+1/2}(kr),
+\end{align}
+%
+
+\section*{Angular Dependency on $\theta$ and $\varphi$:\\ Sine, Cosine, Associated Legendre Functions and the Angular Functions $\pi_\ell$ and $\tau_\ell$}
+
+Within this text, it was chosen the azimuthal solution to the scalar Helmholtz equation to be sines and cosines, so $m$ can only take non negative integer values. This functions obey the orthogonality relations
+%
+\begin{align}
+\int_0^{2\pi} \sin(m\varphi)\sin(m'\varphi) \dd{\varphi} &=
+\int_0^{2\pi} \cos(m\varphi)\cos(m'\varphi) \dd{\varphi} =\delta_{m,m'}( 1+ \delta_{0,m}) \pi,
+\label{eq:SinCos}
+\\
+\int_0^{2\pi} \cos(m\varphi)\sin(m'\varphi) \dd{\varphi} &=0,
+\end{align}
+%
+with $\delta_{m,m'}$ the Kroneker delta.
+
+The solution to the polar angle equation are the associated Legendre functions and in this work they are defined as by \citeauthor{arfken_mathematical_2001} \cite{arfken_mathematical_2001}, that is,
+%
+\begin{equation}
+P_\ell^m(\mu) = (1-\mu^2)^{m/2}\dv[m]{P_\ell(\mu)}{\mu},
+\qqtext{ with}
+P_\ell(\mu) = \frac{1}{2^\ell \ell!}\qty(\dv{\mu})^\ell(\mu^2-1)^\ell,
+\label{eq:Plm}
+\end{equation}
+%
+where $\mu = \cos\theta$ and $P_\ell(\mu)$ are the Legendre polynomials with $\ell$ also a non negative integer. With such definition, the  associated Legendre functions follows the orthogonality relation
+%
+\begin{align}
+\int_{-1}^1 P_\ell^m(\mu)P_{\ell'}^m(\mu)\dd{\mu} = \frac{2\delta_{\ell,\ell'}}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!},
+\label{eq:PlmOrtho}
+\end{align}
+%
+To prove the orthogonality of $\pi_\ell(\mu)\pm\tau_\ell(\mu)$, with $\pi_\ell$  and $\tau_\ell$ the angular functions defined in Eq. \eqref{eq:PiTau}, let us apply the Legendre equation [Eq. \eqref{eq:Theta}] to $P_\ell^m$ and multiply it by $P_{\ell'}^m$; repeating this procedure inverting $\ell$ and $\ell'$ and adding both equations it is obtained that
+%
+\begin{align}
+\dv{\theta}&\qty(\sin\theta P_{\ell'}^m(\mu)\dv{P_\ell^m(\mu)}{\theta}) +
+\dv{\theta}\qty(\sin\theta P_{\ell}^m(\mu)\dv{P_{\ell'}^m(\mu)}{\theta}) +  
+\label{eq:PlPl'}
+\\
+&\qty[\ell(\ell+1)+\ell'(\ell'+1)]P_{\ell'}^m(\mu)P_{\ell}^m(\mu) \sin\theta
+=
+ 2\qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\frac{mP_{\ell'}^m(\mu)}{\sin\theta}+ \dv{P_\ell^m(\mu)}{\theta}\dv{P_{\ell'}^m(\mu)}{\theta})\sin\theta,\notag
+\end{align}
+%
+where  it was added $2\dv*{P_\ell^m}{\theta}\dv*{P_{\ell'}^m}{\theta}$ on both sides to complete the derivatives. Integrating Eq. \eqref{eq:PlPl'} in th interval $\theta \in (0,\pi)$, or $\mu \in(-1,1)$, and employing Eqs. \eqref{eq:Plm} and \eqref{eq:PlmOrtho}, one obtains that
+%
+\begin{align}
+\int_{-1}^1 \qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\frac{mP_{\ell'}^m(\mu)}{\sin\theta}+ \dv{P_\ell^m(\mu)}{\theta}\dv{P_{\ell'}^m(\mu)}{\theta})\dd{\mu} = 
+\delta_{\ell,\ell'}\frac{2\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}.
+\label{eq:PimlTauml}
+\end{align}
+%
+Additionally 
+%
+\begin{align}
+\int_{-1}^1\frac{mP_\ell^m(\mu)}{\sin\theta}\dv{P_{\ell'}^m(\mu)}{\theta}\dd{\mu}
+ = \int_0^{\pi} mP_\ell^m(\mu)\dv{P_{\ell'}^m(\mu)}{\theta}\dd{\theta} = 
+ -\int_{-1}^1\frac{mP_{\ell'}^m(\mu)}{\sin\theta}\dv{P_{\ell}^m(\mu)}{\theta}\dd{\mu}.
+ \label{eq:taupiCross}
+\end{align}
+%
+where Eq. \eqref{eq:Plm} was employed along integration by parts. Thus, combining Eqs. \eqref{eq:PimlTauml} and \eqref{eq:taupiCross}, it leads to
+%
+\begin{align}
+\int_{-1}^{1}\qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\pm\dv{P_\ell^m(\mu)}{\theta})\qty(\frac{mP_{\ell'}^m(\mu)}{\sin\theta}\pm\dv{P_{\ell'}^m(\mu)}{\theta})\dd{\mu}  
+ =  \delta_{\ell,\ell'}\frac{2\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}.
+ \label{eq:(pipmtau)}
+\end{align}
+%
+The Eq. \eqref{eq:(pipmtau)}  is the orthogonality of $\pi_\ell(\mu)\pm\tau_\ell(\mu)$ when $m = 1$, which also simplifies the right hand side to $\delta_{\ell,\ell'} 2\ell^2(l+1)^2/(2\ell+1)$.
+
+The angular functions $\pi_\ell(\tau)$ and $\tau_\ell(\mu)$ can be calculated recursively by taking advantage of the  recurrence relations of the Legendre polynomials \cite{arfken_mathematical_2001}
+%
+\begin{align}
+(2\ell-1)\mu P_{\ell-1}(\mu) =& (\ell-1) P_{\ell}(\mu) + \ell P_{\ell-2}(\mu),\\
+(1-\mu)^2\dv{P_\ell(\mu)}{\mu} =& \ell P_{\ell-1}(\mu) - \ell\mu P_\ell(\mu),
+\end{align}
+%
+and Eq. \eqref{eq:Plm} with $m=1$, which also implies that  $\pi_1(\mu) = 1$. By defining $\pi_0(\mu)=0$, then
+%
+\begin{align}
+\pi_\ell(\mu) =& \frac{2\ell-1}{\ell-1}\mu \pi_{\ell-1}(\mu) - \frac{\ell}{\ell-1}\pi_{\ell-2},\\
+\tau_ \ell (\mu) =& \ell\mu\pi_\ell(\mu) - (\ell+1)\pi_{\ell-2}(\mu).
+\end{align}
+%
+
+\begin{mmaCell}[
+	pattern = {n, th,n_,th_},
+	local = {pi}
+	]{Code}
+  (*Angular functions pi and tau - n-> order - th -> polar angle theta*)
+  MiePi[n_, th_] := Module[{pi}, 
+     pi[0] = 0; pi[1]= 1;  
+     pi[\mmaPat{i_}]:= pi[i] = ((2i-1)/(i-1))*Cos[th]*pi[i-1]-(i/(i-1))*pi[i-2]; 
+    pi[n]]
+     
+  MieTau[n_, th_] := Module[{pi}, 
+     pi[0] = 0; pi[1]= 1;  
+     pi[\mmaPat{i_}]:= pi[i] = ((2i-1)/(i-1))*Cos[th]*pi[i-1]-(i/(i-1))*pi[i-2]; 
+    n*Cos[th]*pi[n]-(n+1)*pi[n - 1]]
+
+		SetAttributes[MiePi, Listable]
+		SetAttributes[MieTau, Listable]
+\end{mmaCell}
+
+Another notable result from Eq. \eqref{eq:Plm} is that the angular functions $\pi_\ell(\mu)$ and $\tau_\ell(\mu)$ when evaluated at $\theta =0$ ($\mu = 1$)  follows 
+%
+\begin{align}
+\pi_\ell(\mu=1) & =  \dv{P_\ell(\mu)}{\mu}\eval_{\mu=1},\\
+\tau_\ell (\mu = 1) & = \qty[\dv{P_\ell^1(\mu)}{\mu} + (1-\mu^2)^{1/2}\dv[2]{P_\ell(\mu)}{\mu}]\eval_{\mu=1} = \dv{P_\ell(\mu)}{\mu}\eval_{\mu=1},
+\end{align}
+%
+which can be obtained from the Legendre equation  by setting $m = 1$ and $\mu = 1$ in Eq. \eqref{eq:ThetaMu}, leading to
+%
+\begin{align}
+\pi_\ell(\mu=1) = \tau_\ell(\mu=1) = \frac{\ell(\ell+1)}{2} P_\ell(\mu = 1) = \frac{\ell(\ell+1)}{2},
+\end{align}
+%
+where the last equality arises from the chosen definition of the Legendre polynomial [Eq. \eqref{eq:Plm}].
+
+	\section*{Radial functions and Mie Coefficients}
+
+
+
+
+
+
+
+
+
+
+\section*{Vector Spherical Harmonics Orthogonality Relations}
+
+The VSH follow orthogonality relations inherited from the orthogonality of sine, cosine and the associated Legendre functions. Let us define the inner product as the integral in the solid angle between two vector functions as 
+%
+\begin{align}
+\ev{\vb{A},\vb{A}'}_\Omega = \int_0^{2\pi}\int_0^{\pi} \vb{A}\cdot\vb{A}'\sin\theta\dd{\theta}\dd{\varphi}.
+\label{eq:inner}
+\end{align}
+%
+Under this inner product, all even VSH are orthogonal to the odd VSH due to the orthogonality of $\sin(m\varphi)$ and $\cos(m'\varphi)$, as well as all VSH  with $m\neq m'$ [Eq. \eqref{eq:SinCos}]. The remaining orthogonality relations  can be obtained by considering Eq. \eqref{eq:PimlTauml}, leading to 
+%
+\begin{align}
+\ev{\vb{L}_{em'\ell},\vb{L}_{em'\ell'}}_\Omega &= \ev{\vb{L}_{om\ell},\vb{L}_{om\ell'}}_\Omega \notag\\
+ &=  \delta_{m,m'}\delta_{\ell,\ell'} (1+\delta_{m,0}) 
+ \frac{2\pi}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
+ \qty[\qty(k\dv{z_\ell(kr)}{(kr)})^2 + \ell(\ell+1)\qty(k\frac{z_\ell(kr)}{kr})^2],\\
+\ev{\vb{M}_{em\ell},\vb{M}_{em\ell'}}_\Omega &= \ev{\vb{M}_{om\ell},\vb{M}_{om\ell'}}_\Omega \notag\\
+&= \delta_{m,m'}\delta_{\ell,\ell'} (1+\delta_{m,0}) 
+\pi \frac{2  \ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
+z_{\ell}^2(kr),\\
+%
+\ev{\vb{N}_{em\ell},\vb{N}_{em\ell'}}_\Omega &= \ev{\vb{N}_{om\ell},\vb{N}_{om\ell'}}_\Omega  \notag\\
+&= \delta_{m,m'}\delta_{\ell,\ell'} (1+\delta_{m,0}) 
+\pi \frac{2  \ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
+\qty[\qty(\frac{ z_{\ell}}{kr})^2 + \qty(\frac{1}{kr}\dv{[kr z_\ell(kr)]}{(kr)})^2]. \\
+%%
+\ev{\vb{L}_{em\ell},\vb{N}_{em\ell'}}_\Omega &= \ev{\vb{L}_{om\ell},\vb{N}_{om\ell'}}_\Omega \notag\\
+&= \delta_{m,m'}\delta_{\ell,\ell'} (1+\delta_{m,0}) 
+\pi \frac{2  \ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
+\qty[\frac{ z_{\ell}}{kr}\dv{z_\ell(kr)}{(kr)} + \qty(\frac{1}{kr}\dv{[kr z_\ell(kr)]}{(kr)})^2]
+\end{align}
+%
+
+
+
+%
+\begin{align}
+\ev{\vb{L}_{em\ell},\vb{L}_{em\ell'}}_\Omega = \ev{\vb{L}_{om\ell},\vb{L}_{om\ell'}}_\Omega &= 
+		\delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}k^2\qty[ \ell z_{\ell-1}^2(kr) + (\ell+1)z_{\ell+1}^2(kr) ],\\
+%
+\ev{\vb{N}_{em\ell},\vb{N}_{em\ell'}}_\Omega = \ev{\vb{N}_{om\ell},\vb{N}_{om\ell'}}_\Omega &= \delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{(2\ell+1)^2}\frac{(\ell+m)!}{(\ell-m)!}\ell(\ell+1)\qty[ (\ell+1) z_{\ell-1}^2(kr) + \ell z_{\ell+1}^2(kr) ]. \\
+%%
+\ev{\vb{L}_{em\ell},\vb{N}_{em\ell'}}_\Omega = \ev{\vb{L}_{om\ell},\vb{N}_{om\ell'}}_\Omega &= \delta_{\ell,\ell'}\frac{(1+\delta_{m,0})2\pi}{(2\ell+1)^2}\frac{(\ell+m)!}{(\ell-m)!}\ell(\ell+1)k\qty[ z_{\ell-1}^2(kr) - z_{\ell+1}^2(kr) ]. 
+\end{align}
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -38,6 +38,27 @@
 \usepackage{setspace}
 \usepackage{layouts}
 \svgpath{{1-Theory-Figs}}
+
+\usepackage{lmodern}
+
+\usepackage{Latex/mmacells}
+
+
+\mmaDefineMathReplacement[≤]{<=}{\leq}
+\mmaDefineMathReplacement[≥]{>=}{\geq}
+\mmaDefineMathReplacement[≠]{!=}{\neq}
+\mmaDefineMathReplacement[→]{->}{\to}[2]
+\mmaDefineMathReplacement[⧴]{:>}{:\hspace{-.2em}\to}[2]
+\mmaDefineMathReplacement{∉}{\notin}
+\mmaDefineMathReplacement{∞}{\infty}
+\mmaDefineMathReplacement{𝕕}{\mathbbm{d}}
+
+
+\mmaSet{
+  morefv={gobble=2},
+  linklocaluri=mma/symbol/definition:#1,
+  morecellgraphics={yoffset=1.9ex}
+}
 %%-------------------------------------------------------------------------------
 %                                  Information of the Student
 %-------------------------------------------------------------------------------
@@ -151,10 +172,10 @@ The problem studied in this thesis corresponds to the theoretical analysis of th
 	\section{Mie Scattering}
 	\label{section:Mie}
 
-In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vectorial Spherical Harmonics (SVH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vectorial Harmonics}. Once the SVH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field.
+In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vector Spherical Harmonics}. Once the SVH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field.
 
-	\subsection{Vectorial Spherical Harmonics}
-		\label{ssection:SVH}		
+	\subsection{Vector Spherical Harmonics}
+		\label{ssection:VSH}		
 		\input{1-Theory/2-VSH}
 	\subsection{Incident, Scattered and Internal Electric Field}
 		\label{ssection:Fields}
@@ -163,18 +184,20 @@ In the previous section, it was concluded that the extinction of light due to th
 \chapter{Results and discussion}
 	\section{Finite Element Method and Analytical Solutions}
 	\section{Incrustation Degree of a Spherical Particle}
-
-\chapter{Conclusions}
     \section{Future Work: Application on Metasurfaces}
+    
+\chapter{Conclusions}
+
 
 \appendix
+\chapter{Dielectric Function Size Correction}
+\input{5-Apendices/2-SizeCorrection}
+
+\chapter{Specila Functions, Vector Spherical Harmonics, and Mie Theory Code}
+\input{5-Apendices/1-SpecialFuncCode}
 \chapter{The Finite Element Method}
-%
-%\section{Template}
-%\input{1-Theory/1-Basics}
-%	\input{1-Theory/2-Something_more_specific}
-%\input{2-Results/1-Something}
-%\input{3-Conclusions/1-Conclusions}
+
+
 %
 %%-------------------------------------------------------------------------------
 %%                               References                                   |

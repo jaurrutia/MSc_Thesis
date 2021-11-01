@@ -1,0 +1,111 @@
+%% Creator: Inkscape 1.1.1 (1:1.1+202109281949+c3084ef5ed), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'DrudeFit.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{279bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.55197131)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{DrudeFit.pdf}}%
+    \put(0.05548743,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{DrudeFit.pdf}}%
+    \put(0.16225445,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{DrudeFit.pdf}}%
+    \put(0.41075625,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{DrudeFit.pdf}}%
+    \put(0.51719708,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{DrudeFit.pdf}}%
+    \put(0.76602146,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{DrudeFit.pdf}}%
+    \put(0.87258419,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{DrudeFit.pdf}}%
+    \put(0.02391827,0.09323655){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{DrudeFit.pdf}}%
+    \put(0.02338064,0.16775268){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{DrudeFit.pdf}}%
+    \put(0.02293978,0.24275267){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{DrudeFit.pdf}}%
+    \put(0.02286613,0.31750536){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{DrudeFit.pdf}}%
+    \put(0.02281021,0.39226881){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{DrudeFit.pdf}}%
+    \put(0.02271237,0.46405865){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{DrudeFit.pdf}}%
+    \put(0.97210035,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.64\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{DrudeFit.pdf}}%
+    \put(0.85931897,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.89\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{DrudeFit.pdf}}%
+    \put(0.77168452,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.14\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{DrudeFit.pdf}}%
+    \put(0.7016917,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.39\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{DrudeFit.pdf}}%
+    \put(0.63601787,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.64\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{DrudeFit.pdf}}%
+    \put(0.57614692,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.88\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{DrudeFit.pdf}}%
+    \put(0.5033118,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.13\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{DrudeFit.pdf}}%
+    \put(0.40900354,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.38\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{DrudeFit.pdf}}%
+    \put(0.31574191,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{DrudeFit.pdf}}%
+    \put(0.2159032,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.48\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{DrudeFit.pdf}}%
+    \put(0.12260212,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{DrudeFit.pdf}}%
+    \put(0.52272398,0.56137953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $\hbar\omega$ [eV]}\end{tabular}}}}%
+    \put(-0.04258586,0.27900716){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize\color{orange}$\hbar\omega \Re[\varepsilon(\omega)/\varepsilon_0]$ [eV]} \end{tabular}}}}}%
+    \put(-0.00666697,0.27686739){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $(\hbar\omega)^2 \{\Im[\varepsilon(\omega)/\varepsilon_0]^2+(1-\Re[\varepsilon(\omega)/\varepsilon_0])^2\}$ [eV$^2$]}\end{tabular}}}}}%
+    \put(0.52211105,-0.02260549){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $1-\Re[\varepsilon(\omega)/\varepsilon_0]$}\end{tabular}}}}%
+    \put(0.12112902,0.43474859){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hbar\omega_p =(8.70 \pm 0.08)$ eV\end{tabular}}}}%
+    \put(0.12072043,0.46365639){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\color{orange}$\hbar\gamma =(8.29 \pm 0.14)\times 10^-2$ eV}\end{tabular}}}}%
+    \put(0.60696738,0.30325896){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.76 eV\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

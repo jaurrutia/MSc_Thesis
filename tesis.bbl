@@ -351,10 +351,92 @@
     \field{labeltitlesource}{title}
     \field{isbn}{978-1-4437-3054-9}
     \field{title}{Electromagnetic theory}
+    \verb{url}
+    \verb https://archive.org/details/electromagnetict0000stra
+    \endverb
     \list{location}{1}{%
       {New York}%
     }
     \field{year}{2012}
+  \endentry
+
+  \entry{barrera_vector_1985}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={R\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=EGA}{%
+         family={Estevez},
+         familyi={E\bibinitperiod},
+         given={G\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Giraldo},
+         familyi={G\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BRGEGAGJ1}
+    \strng{fullhash}{BRGEGAGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/0143-0807/6/4/014
+    \endverb
+    \field{issn}{0143-0807, 1361-6404}
+    \field{number}{4}
+    \field{pages}{287\bibrangedash 294}
+    \field{title}{Vector spherical harmonics and their application to
+  magnetostatics}
+    \verb{url}
+    \verb https://iopscience.iop.org/article/10.1088/0143-0807/6/4/014
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{European Journal of Physics}
+    \field{month}{10}
+    \field{year}{1985}
+    \field{urlday}{17}
+    \field{urlmonth}{09}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{arfken_mathematical_2001}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AGB}{%
+         family={Arfken},
+         familyi={A\bibinitperiod},
+         given={George\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=WHJ}{%
+         family={Weber},
+         familyi={W\bibinitperiod},
+         given={Hans-Jurgen},
+         giveni={H\bibinithyphendelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harcourt/Academic Press}%
+    }
+    \strng{namehash}{AGBWHJ1}
+    \strng{fullhash}{AGBWHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{5th ed}
+    \field{isbn}{978-0-12-059825-0}
+    \field{title}{Mathematical methods for physicists}
+    \list{location}{1}{%
+      {San Diego}%
+    }
+    \field{year}{2001}
   \endentry
 \enddatalist
 \endinput

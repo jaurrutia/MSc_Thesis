@@ -24,12 +24,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Conclusions}{17}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Dielectric Function Size Correction}{19}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Size Corrected Dielectric Function}{19}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Specila Functions, Vector Spherical Harmonics, and Mie Theory Code}{21}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Mie Theory (Conventions and Code)}{23}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}The Finite Element Method}{25}{appendix.C}%
+\contentsline {chapter}{\numberline {C}The Finite Element Method}{29}{appendix.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{28}{section*.6}%
+\contentsline {chapter}{List of Figures}{33}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{29}{section*.7}%
+\contentsline {chapter}{Index}{35}{section*.8}%

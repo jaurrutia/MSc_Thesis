@@ -408,6 +408,130 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{noguez_surface_2007}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NC}{%
+         family={Noguez},
+         familyi={N\bibinitperiod},
+         given={Cecilia},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NC1}
+    \strng{fullhash}{NC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1021/jp066539m
+    \endverb
+    \field{issn}{1932-7447, 1932-7455}
+    \field{number}{10}
+    \field{pages}{3806\bibrangedash 3819}
+    \field{shorttitle}{Surface {Plasmons} on {Metal} {Nanoparticles}}
+    \field{title}{Surface {Plasmons} on {Metal} {Nanoparticles}: {The}
+  {Influence} of {Shape} and {Physical} {Environment}}
+    \verb{url}
+    \verb https://pubs.acs.org/doi/10.1021/jp066539m
+    \endverb
+    \field{volume}{111}
+    \field{journaltitle}{The Journal of Physical Chemistry C}
+    \field{year}{2007}
+    \field{urlday}{17}
+    \field{urlmonth}{08}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{mendoza_herrera_determination_2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MHLJ}{%
+         family={Mendoza\bibnamedelima Herrera},
+         familyi={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Luis\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ADM}{%
+         family={Arboleda},
+         familyi={A\bibinitperiod},
+         given={David\bibnamedelima Muñetón},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SDC}{%
+         family={Schinca},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SLB}{%
+         family={Scaffardi},
+         familyi={S\bibinitperiod},
+         given={Lucía\bibnamedelima B.},
+         giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{MHLJADMSDCSLB1}
+    \strng{fullhash}{MHLJADMSDCSLB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.4904349
+    \endverb
+    \field{issn}{0021-8979, 1089-7550}
+    \field{number}{23}
+    \field{pages}{233105}
+    \field{title}{Determination of plasma frequency, damping constant, and size
+  distribution from the complex dielectric function of noble metal
+  nanoparticles}
+    \verb{url}
+    \verb http://aip.scitation.org/doi/10.1063/1.4904349
+    \endverb
+    \field{volume}{116}
+    \field{journaltitle}{Journal of Applied Physics}
+    \field{year}{2014}
+    \field{urlday}{17}
+    \field{urlmonth}{08}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{johnson_optical_1972}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JPB}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={P.\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CRW}{%
+         family={Christy},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JPBCRW1}
+    \strng{fullhash}{JPBCRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.6.4370
+    \endverb
+    \field{issn}{0556-2805}
+    \field{number}{12}
+    \field{pages}{4370\bibrangedash 4379}
+    \field{title}{Optical {Constants} of the {Noble} {Metals}}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.6.4370
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{1972}
+    \field{urlday}{30}
+    \field{urlmonth}{05}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{arfken_mathematical_2001}{book}{}
     \name{author}{2}{}{%
       {{hash=AGB}{%

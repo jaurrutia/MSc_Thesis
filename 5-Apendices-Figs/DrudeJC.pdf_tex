@@ -1,0 +1,153 @@
+%% Creator: Inkscape 1.1.1 (1:1.1+202109281949+c3084ef5ed), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'DrudeJC.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{326.13414001bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.37816718)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{DrudeJC.pdf}}%
+    \put(0.05281091,0.02966341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{DrudeJC.pdf}}%
+    \put(0.10755219,0.02966341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{DrudeJC.pdf}}%
+    \put(0.21895421,0.02966341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{DrudeJC.pdf}}%
+    \put(0.26193039,0.02966341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{DrudeJC.pdf}}%
+    \put(0.37360835,0.02966341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{DrudeJC.pdf}}%
+    \put(0.41668575,0.02966341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{DrudeJC.pdf}}%
+    \put(0.05502626,0.08548766){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{DrudeJC.pdf}}%
+    \put(0.05502626,0.12670381){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{DrudeJC.pdf}}%
+    \put(0.05427196,0.16831246){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{DrudeJC.pdf}}%
+    \put(0.05458472,0.20927107){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{DrudeJC.pdf}}%
+    \put(0.05458472,0.25067734){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{DrudeJC.pdf}}%
+    \put(0.05458472,0.29208361){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{DrudeJC.pdf}}%
+    \put(0.45896281,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.64\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{DrudeJC.pdf}}%
+    \put(0.38681763,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.02\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{DrudeJC.pdf}}%
+    \put(0.33762316,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.39\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{DrudeJC.pdf}}%
+    \put(0.29491374,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.76\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{DrudeJC.pdf}}%
+    \put(0.24889587,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.13\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{DrudeJC.pdf}}%
+    \put(0.1827605,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{DrudeJC.pdf}}%
+    \put(0.12010224,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5.48\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{DrudeJC.pdf}}%
+    \put(0.08283229,0.33132514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{DrudeJC.pdf}}%
+    \put(0.85897846,0.27043258){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bulk\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{DrudeJC.pdf}}%
+    \put(0.85897846,0.25117057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a = 5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{DrudeJC.pdf}}%
+    \put(0.85897846,0.23154981){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a = 12.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{DrudeJC.pdf}}%
+    \put(0.85897846,0.21192906){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a = 80 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{DrudeJC.pdf}}%
+    \put(0.59990394,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{DrudeJC.pdf}}%
+    \put(0.65983228,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{DrudeJC.pdf}}%
+    \put(0.71991693,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{DrudeJC.pdf}}%
+    \put(0.77984522,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{DrudeJC.pdf}}%
+    \put(0.83964476,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{DrudeJC.pdf}}%
+    \put(0.8995731,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{DrudeJC.pdf}}%
+    \put(0.95942779,0.02833457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{DrudeJC.pdf}}%
+    \put(0.54653937,0.07415923){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{DrudeJC.pdf}}%
+    \put(0.54653937,0.145314){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{DrudeJC.pdf}}%
+    \put(0.53681178,0.17588118){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{DrudeJC.pdf}}%
+    \put(0.53681178,0.24428932){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{DrudeJC.pdf}}%
+    \put(0.52708418,0.27739156){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{DrudeJC.pdf}}%
+    \put(0.97352626,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{DrudeJC.pdf}}%
+    \put(0.84993908,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{DrudeJC.pdf}}%
+    \put(0.77550036,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{DrudeJC.pdf}}%
+    \put(0.73069671,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{DrudeJC.pdf}}%
+    \put(0.68602182,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}700\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{DrudeJC.pdf}}%
+    \put(0.63901971,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}900\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{DrudeJC.pdf}}%
+    \put(0.58824306,0.33724116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{DrudeJC.pdf}}%
+    \put(0.27344708,0.36436918){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $\hbar\omega$ [eV]}\end{tabular}}}}%
+    \put(0.77886246,0.00459935){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $\hbar\omega$ [eV]}\end{tabular}}}}%
+    \put(0.77886246,0.36436918){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $\lambda$ [nm]}\end{tabular}}}}%
+    \put(0.2734471,0.00459935){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $1-\Re[\varepsilon(\omega)/\varepsilon_0]$}\end{tabular}}}}%
+    \put(0.15501922,0.07769999){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hbar\omega_p =(8.70 \pm 0.08)$ eV\end{tabular}}}}%
+    \put(0.09132692,0.29053708){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\color{orange}$\hbar\gamma =(8.29 \pm 0.14)\times 10^-2$ eV}\end{tabular}}}}%
+    \put(0.51797226,0.19124909){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize{\color{blue} $\Re[-\varepsilon(\omega)/\varepsilon_0]$}, {\color{red} $\Im[\varepsilon(\omega)/\varepsilon_0]$}}\end{tabular}}}}}%
+    \put(0.01696444,0.1889558){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize{\color{orange} Eq. \eqref{eq:gammaFit}}, {\color{black} Eq. \eqref{eq:wpFit}}}\end{tabular}}}}}%
+    \put(0.69392267,0.29682578){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Visible Spectrum\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

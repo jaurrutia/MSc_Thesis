@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{279bp}%
+    \setlength{\unitlength}{294.59921265bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,62 +50,62 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.55197131)%
+  \begin{picture}(1,0.57852097)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{DrudeFit.pdf}}%
-    \put(0.05548743,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.11126376,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{DrudeFit.pdf}}%
-    \put(0.16225445,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0.2123774,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{DrudeFit.pdf}}%
-    \put(0.41075625,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0.44772087,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{DrudeFit.pdf}}%
-    \put(0.51719708,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.54852559,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{DrudeFit.pdf}}%
-    \put(0.76602146,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50\end{tabular}}}}%
+    \put(0.78417456,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{DrudeFit.pdf}}%
-    \put(0.87258419,0.00740144){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
+    \put(0.88509476,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{DrudeFit.pdf}}%
-    \put(0.02391827,0.09323655){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
+    \put(0.0813662,0.11989148){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{DrudeFit.pdf}}%
-    \put(0.02338064,0.16775268){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0.08085704,0.19046193){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{DrudeFit.pdf}}%
-    \put(0.02293978,0.24275267){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.08043952,0.26149062){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{DrudeFit.pdf}}%
-    \put(0.02286613,0.31750536){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^2$\end{tabular}}}}%
+    \put(0.08036977,0.33228511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^2$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{DrudeFit.pdf}}%
-    \put(0.02281021,0.39226881){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^3$\end{tabular}}}}%
+    \put(0.08031682,0.40308978){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^3$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{DrudeFit.pdf}}%
-    \put(0.02271237,0.46405865){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^4$\end{tabular}}}}%
+    \put(0.08022415,0.47107831){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^4$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{DrudeFit.pdf}}%
-    \put(0.97210035,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.64\end{tabular}}}}%
+    \put(0.97934144,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.64\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{DrudeFit.pdf}}%
-    \put(0.85931897,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.89\end{tabular}}}}%
+    \put(0.87253191,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.89\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{DrudeFit.pdf}}%
-    \put(0.77168452,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.14\end{tabular}}}}%
+    \put(0.78953776,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.14\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{DrudeFit.pdf}}%
-    \put(0.7016917,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.39\end{tabular}}}}%
+    \put(0.7232511,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.39\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{DrudeFit.pdf}}%
-    \put(0.63601787,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.64\end{tabular}}}}%
+    \put(0.66105474,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.64\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{DrudeFit.pdf}}%
-    \put(0.57614692,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.88\end{tabular}}}}%
+    \put(0.604354,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.88\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{DrudeFit.pdf}}%
-    \put(0.5033118,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.13\end{tabular}}}}%
+    \put(0.53537554,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.13\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{DrudeFit.pdf}}%
-    \put(0.40900354,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.38\end{tabular}}}}%
+    \put(0.44606099,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.38\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{DrudeFit.pdf}}%
-    \put(0.31574191,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.0\end{tabular}}}}%
+    \put(0.35773758,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{DrudeFit.pdf}}%
-    \put(0.2159032,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.48\end{tabular}}}}%
+    \put(0.26318542,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.48\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{DrudeFit.pdf}}%
-    \put(0.12260212,0.52530464){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6.6\end{tabular}}}}%
+    \put(0.17482468,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6.6\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=24]{DrudeFit.pdf}}%
-    \put(0.52272398,0.56137953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $\hbar\omega$ [eV]}\end{tabular}}}}%
-    \put(-0.04258586,0.27900716){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize\color{orange}$\hbar\omega \Re[\varepsilon(\omega)/\varepsilon_0]$ [eV]} \end{tabular}}}}}%
-    \put(-0.00666697,0.27686739){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $(\hbar\omega)^2 \{\Im[\varepsilon(\omega)/\varepsilon_0]^2+(1-\Re[\varepsilon(\omega)/\varepsilon_0])^2\}$ [eV$^2$]}\end{tabular}}}}}%
-    \put(0.52211105,-0.02260549){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $1-\Re[\varepsilon(\omega)/\varepsilon_0]$}\end{tabular}}}}%
-    \put(0.12112902,0.43474859){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hbar\omega_p =(8.70 \pm 0.08)$ eV\end{tabular}}}}%
-    \put(0.12072043,0.46365639){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\color{orange}$\hbar\gamma =(8.29 \pm 0.14)\times 10^-2$ eV}\end{tabular}}}}%
-    \put(0.60696738,0.30325896){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.76 eV\end{tabular}}}}%
+    \put(0.55375983,0.56324599){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $\hbar\omega$ [eV]}\end{tabular}}}}%
+    \put(0.0183835,0.29582541){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize\color{orange}$\hbar\omega \Re[\varepsilon(\omega)/\varepsilon_0]$ [eV]} \end{tabular}}}}}%
+    \put(0.05240047,0.29379895){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $(\hbar\omega)^2 \{\Im[\varepsilon(\omega)/\varepsilon_0]^2+(1-\Re[\varepsilon(\omega)/\varepsilon_0])^2\}$ [eV$^2$]}\end{tabular}}}}}%
+    \put(0.55317936,0.00509168){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\normalsize $1-\Re[\varepsilon(\omega)/\varepsilon_0]$}\end{tabular}}}}%
+    \put(0.14722799,0.41898156){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hbar\omega_p =(8.70 \pm 0.08)$ eV\end{tabular}}}}%
+    \put(0.14834822,0.45859194){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\color{orange}$\;\,\hbar\gamma =(8.29 \pm 0.14)\times 10^{-2}$ eV}\end{tabular}}}}%
+    \put(0.63802121,0.12242887){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1.76$ eV > $\hbar\omega$ > 0.64 eV\\Intraband dominated regime\end{tabular}}}}%
   \end{picture}%
 \endgroup%

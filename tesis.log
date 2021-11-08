@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  30 OCT 2021 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.6.1)  4 NOV 2021 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1805,7 +1805,11 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 LaTeX Warning: Unused global option(s):
     [pdftex].
 
-(./tesis.aux (./0-4-Resumen/1-Resumen.aux))
+(./tesis.aux (./0-4-Resumen/1-Resumen.aux)
+
+LaTeX Warning: Label `ssection:Fields' multiply defined.
+
+)
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
@@ -1826,8 +1830,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 127.
 LaTeX Font Info:    ... okay on input line 127.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
 7.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c@lstlisting=\count573
@@ -2077,164 +2080,164 @@ Chapter 3.
 
 ]
 Appendix A.
-(./5-Apendices/2-SizeCorrection.tex
+(./5-Apendices/2-SizeCorrection.tex [19]
 
 Package svg Warning: You should specify the image size with parameters
 (svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 7.
+(svg)                `\svgscale' or `\svgwidth' on input line 63.
 
 Package svg Info: Last page of `5-Apendices-Figs/DrudeFit.pdf' is 24 on input l
-ine 7.
+ine 63.
 (./5-Apendices-Figs/DrudeFit.pdf_tex
-<5-Apendices-Figs/DrudeFit.pdf, id=450, page=1, 280.04625pt x 154.5775pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=466, page=1, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 1>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page1 used on input li
 ne 56.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 57.
-<5-Apendices-Figs/DrudeFit.pdf, id=451, page=2, 280.04625pt x 154.5775pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=467, page=2, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 2>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page2 used on input li
 ne 58.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=452, page=3, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=468, page=3, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 3>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page3 used on input li
 ne 60.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=453, page=4, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=469, page=4, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 4>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page4 used on input li
 ne 62.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=454, page=5, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=470, page=5, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 5>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page5 used on input li
 ne 64.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=455, page=6, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=471, page=6, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 6>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page6 used on input li
 ne 66.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=456, page=7, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=472, page=7, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 7>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page7 used on input li
 ne 68.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=457, page=8, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=473, page=8, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 8>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page8 used on input li
 ne 70.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=458, page=9, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=474, page=9, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 9>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page9 used on input li
 ne 72.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=459, page=10, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=475, page=10, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 10>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page10 used on input l
 ine 74.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=460, page=11, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=476, page=11, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 11>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page11 used on input l
 ine 76.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=461, page=12, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=477, page=12, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 12>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page12 used on input l
 ine 78.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=462, page=13, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=478, page=13, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 13>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page13 used on input l
 ine 80.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=463, page=14, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=479, page=14, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 14>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page14 used on input l
 ine 82.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=464, page=15, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=480, page=15, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 15>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page15 used on input l
 ine 84.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=465, page=16, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=481, page=16, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 16>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page16 used on input l
 ine 86.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=466, page=17, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=482, page=17, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 17>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page17 used on input l
 ine 88.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=467, page=18, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=483, page=18, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 18>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page18 used on input l
 ine 90.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=468, page=19, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=484, page=19, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 19>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page19 used on input l
 ine 92.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=469, page=20, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=485, page=20, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 20>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page20 used on input l
 ine 94.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=470, page=21, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=486, page=21, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 21>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page21 used on input l
 ine 96.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=471, page=22, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=487, page=22, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 22>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page22 used on input l
 ine 98.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=472, page=23, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=488, page=23, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 23>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page23 used on input l
 ine 100.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=473, page=24, 280.04625pt x 154.5775pt>
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=489, page=24, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 24>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page24 used on input l
 ine 102.
-(pdftex.def)             Requested size: 455.24408pt x 251.29393pt.
-)) [19] [20 <./5-Apendices-Figs/DrudeFit.pdf> <./5-Apendices-Figs/DrudeFit.pdf
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+) [20 <./5-Apendices-Figs/DrudeFit.pdf> <./5-Apendices-Figs/DrudeFit.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
@@ -2327,23 +2330,282 @@ nclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
 >]
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 77.
+
+Package svg Info: Last page of `5-Apendices-Figs/JC.pdf' is 26 on input line 77
+.
+(./5-Apendices-Figs/JC.pdf_tex
+<5-Apendices-Figs/JC.pdf, id=530, page=1, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 1>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page1 used on input line 56.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=531, page=2, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 2>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page2 used on input line 58.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=532, page=3, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 3>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page3 used on input line 60.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=533, page=4, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 4>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page4 used on input line 62.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=534, page=5, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 5>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page5 used on input line 64.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=535, page=6, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 6>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page6 used on input line 66.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=536, page=7, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 7>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page7 used on input line 68.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=537, page=8, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 8>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page8 used on input line 70.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=538, page=9, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 9>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page9 used on input line 72.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=539, page=10, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 10>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page10 used on input line 74
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=540, page=11, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 11>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page11 used on input line 76
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=541, page=12, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 12>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page12 used on input line 78
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=542, page=13, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 13>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page13 used on input line 80
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=543, page=14, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 14>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page14 used on input line 82
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=544, page=15, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 15>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page15 used on input line 84
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=545, page=16, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 16>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page16 used on input line 86
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=546, page=17, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 17>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page17 used on input line 88
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=547, page=18, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 18>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page18 used on input line 90
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=548, page=19, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 19>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page19 used on input line 92
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=549, page=20, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 20>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page20 used on input line 94
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=550, page=21, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 21>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page21 used on input line 96
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=551, page=22, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 22>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page22 used on input line 98
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=552, page=23, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 23>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page23 used on input line 10
+0.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=553, page=24, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 24>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page24 used on input line 10
+2.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=554, page=25, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 25>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page25 used on input line 10
+4.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=555, page=26, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 26>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page26 used on input line 10
+9.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+) [21 <./5-Apendices-Figs/JC.pdf> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]) [22]
 Appendix B.
 (./5-Apendices/1-SpecialFuncCode.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 15.
- [21
+(Font)              <14.4> on input line 34.
+ [23
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
-Make it at least 25.2232pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[22]
+] [24] [25]
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-02.
- (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+99.
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -2351,7 +2613,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-02.
+99.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2360,56 +2622,56 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 102.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/sl' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 104.
- [23]
-Overfull \hbox (19.47803pt too wide) detected at line 187
-[]
- []
-
-) [24]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 199.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/sl' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 201.
+ [26] [27]) [28]
 Appendix C.
-[25
+[29
 
-] [26
+] [30
 
 ]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [27] (./tesis.lof)
+ [31] [32] (./tesis.lof)
 \tf@lof=\write11
 \openout11 = `tesis.lof'.
 
- [28]
-runsystem(makeindex tesis.idx)...executed safely (allowed).
-
- (./tesis.ind) [29
-
+ [33] [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+runsystem(makeindex tesis.idx)...executed safely (allowed).
+
+ (./tesis.ind) [35
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./tesis.aux
 (./0-4-Resumen/1-Resumen.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0E67FCCA659557968BEF2CEDF9065699;1253.
+(rerunfilecheck)             Checksum: 672863E73C7D31633B64EAC2AEB8DBAF;1221.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 57251 strings out of 481239
- 1278993 string characters out of 5920378
- 2164447 words of memory out of 5000000
- 71098 multiletter control sequences out of 15000+600000
- 656662 words of font info for 215 fonts, out of 8000000 for 9000
+ 57497 strings out of 481239
+ 1284671 string characters out of 5920378
+ 2190817 words of memory out of 5000000
+ 71296 multiletter control sequences out of 15000+600000
+ 658104 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,20n,156p,1299b,3521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 79i,20n,156p,1437b,4023s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2435,10 +2697,10 @@ ts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
 hare/texmf/fonts/type1/public/lm/lmtko10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on tesis.pdf (35 pages, 1606804 bytes).
+Output written on tesis.pdf (41 pages, 1693009 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 667 compressed objects within 7 object streams
- 155 named destinations out of 1000 (max. 500000)
- 34733 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 965 PDF objects out of 1000 (max. 8388607)
+ 783 compressed objects within 8 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 35380 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -110,15 +110,15 @@ As discussed in Section \ref{section:AmpMatCrossSect}, the optical properties of
 \begin{align}
 \vb{E}^\text{sca}\cdot\vu{e}_r &=  \frac{\cos\varphi}{(kr)^2} 
 								\sum_\ell^\infty E_0i^\ell(2\ell+1)
-								ia_\ell \xi(kr)\pi_\ell(\theta) \sin\theta ,
+								ia_\ell \xi(kr)\pi_\ell(\cos\theta) \sin\theta ,
 \label{eq:EscaR}\\
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\parallel &=  \frac{\cos\varphi}{kr}
 								\sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
-						[i a_\ell\xi_\ell'(kr)\tau_\ell(\theta)-b_\ell\xi_\ell(kr)\pi_\ell(\theta)],
+						[i a_\ell\xi_\ell'(kr)\tau_\ell(\cos\theta)-b_\ell\xi_\ell(kr)\pi_\ell(\cos\theta)],
 \label{eq:EscaTheta}\\
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-kr}
 								\sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
-						[i a_\ell\xi_\ell'(kr)\pi_\ell(\theta)-b_\ell\xi_\ell(kr)\tau_\ell(\theta)].
+						[i a_\ell\xi_\ell'(kr)\pi_\ell(\cos\theta)-b_\ell\xi_\ell(kr)\tau_\ell(\cos\theta)].
 \label{eq:EscaMPhi}					
 \end{align}
 %
@@ -154,6 +154,7 @@ where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel 
 \begin{tcolorbox}[title = Scattering Amplitude Matrix for Spherical Particles, ams align, breakable ]
 \mathbb{F}(\vu{k}^\text{sca},\vu{k}^\text{i}) &= \mqty(\dfrac{i}{k}S_2(\theta) & 0 \\
 													0 & \dfrac{i}{k}S_1(\theta)  ),
+\label{eq:FMie}
 \intertext{with  $\vu{k}^\text{sca} = \vu{e}_r$, $\vu{k}^\text{i} = \vu{e}_z$, $\cos\theta = \vu{k}^\text{sca}\cdot\vu{k}^\text{i}$  and}
 S_1(\theta)  &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 						[a_\ell\tau_\ell(\cos\theta)+b_\ell\pi_\ell(\cos\theta)],
@@ -163,7 +164,16 @@ S_2(\theta) &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 \end{tcolorbox}
 %
 
+The optical properties of a single spherical particle, described by the absorption ($C_\text{abs}$), Scattering ($C_\text{sca}$) and extinction ($C_\text{ext}$) cross section,   can be then calculated by substitution of Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} into Eqs. \eqref{eq:Csca} and  \eqref{eq:Cext}, respectively. Thus, the scattering cross section is given by
+%
+\begin{align}
+C_\text{sca} = \int_0^\pi\int_0^{2\pi}\qty(\abs{S_2(\theta)}^2E_0^2\cos^2\varphi + \abs{S_1(\theta)}^2E_0^2\sin^2\varphi)\frac{r^2\sin\theta\dd{\theta}\dd{\varphi}}{k^2r^2E_0^2},
+\end{align}
+%
 
+
+\eqref{eq:PimlTauml}
+\eqref{eq:PiTau0}
 
 
 

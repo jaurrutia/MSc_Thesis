@@ -28,8 +28,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Mie Theory (Conventions and Code)}{23}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}The Finite Element Method}{29}{appendix.C}%
+\contentsline {chapter}{\numberline {C}The Finite Element Method}{27}{appendix.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{33}{section*.7}%
+\contentsline {chapter}{List of Figures}{31}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Index}{35}{section*.8}%
+\contentsline {chapter}{Index}{33}{section*.8}%

@@ -55,9 +55,9 @@
       <file>blx-compat.def</file>
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>standard.bbx</file>
-      <file>trad-standard.bbx</file>
       <file>trad-abbrv.bbx</file>
+      <file>trad-standard.bbx</file>
+      <file>standard.bbx</file>
       <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>

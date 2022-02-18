@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -35,19 +35,19 @@
          family={Wei},
          familyi={W\bibinitperiod},
          given={Pei-Kuen},
-         giveni={P\bibinithyphendelim K\bibinitperiod},
+         giveni={P\bibinitperiod-K\bibinitperiod},
       }}%
       {{hash=CJY}{%
          family={Cheng},
          familyi={C\bibinitperiod},
          given={Ji-Yen},
-         giveni={J\bibinithyphendelim Y\bibinitperiod},
+         giveni={J\bibinitperiod-Y\bibinitperiod},
       }}%
       {{hash=CYC}{%
          family={Chang},
          familyi={C\bibinitperiod},
          given={Yia-Chung},
-         giveni={Y\bibinithyphendelim C\bibinitperiod},
+         giveni={Y\bibinitperiod-C\bibinitperiod},
       }}%
     }
     \strng{namehash}{MRSYMTWPKCJYCYC1}
@@ -125,7 +125,7 @@
          family={Ding},
          familyi={D\bibinitperiod},
          given={Kung-Hau},
-         giveni={K\bibinithyphendelim H\bibinitperiod},
+         giveni={K\bibinitperiod-H\bibinitperiod},
       }}%
     }
     \list{language}{1}{%
@@ -220,7 +220,7 @@
          family={Lebeault},
          familyi={L\bibinitperiod},
          given={Marie-Ange},
-         giveni={M\bibinithyphendelim A\bibinitperiod},
+         giveni={M\bibinitperiod-A\bibinitperiod},
       }}%
       {{hash=HS}{%
          family={Hermelin},
@@ -408,6 +408,43 @@
     \field{urlyear}{2021}
   \endentry
 
+  \entry{johnson_optical_1972}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JPB}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={P.\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CRW}{%
+         family={Christy},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JPBCRW1}
+    \strng{fullhash}{JPBCRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.6.4370
+    \endverb
+    \field{issn}{0556-2805}
+    \field{number}{12}
+    \field{pages}{4370\bibrangedash 4379}
+    \field{title}{Optical {Constants} of the {Noble} {Metals}}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.6.4370
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{1972}
+    \field{urlday}{30}
+    \field{urlmonth}{05}
+    \field{urlyear}{2020}
+  \endentry
+
   \entry{noguez_surface_2007}{article}{}
     \name{author}{1}{}{%
       {{hash=NC}{%
@@ -495,43 +532,6 @@
     \field{urlyear}{2020}
   \endentry
 
-  \entry{johnson_optical_1972}{article}{}
-    \name{author}{2}{}{%
-      {{hash=JPB}{%
-         family={Johnson},
-         familyi={J\bibinitperiod},
-         given={P.\bibnamedelima B.},
-         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=CRW}{%
-         family={Christy},
-         familyi={C\bibinitperiod},
-         given={R.\bibnamedelima W.},
-         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{JPBCRW1}
-    \strng{fullhash}{JPBCRW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevB.6.4370
-    \endverb
-    \field{issn}{0556-2805}
-    \field{number}{12}
-    \field{pages}{4370\bibrangedash 4379}
-    \field{title}{Optical {Constants} of the {Noble} {Metals}}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRevB.6.4370
-    \endverb
-    \field{volume}{6}
-    \field{journaltitle}{Physical Review B}
-    \field{year}{1972}
-    \field{urlday}{30}
-    \field{urlmonth}{05}
-    \field{urlyear}{2020}
-  \endentry
-
   \entry{arfken_mathematical_2001}{book}{}
     \name{author}{2}{}{%
       {{hash=AGB}{%
@@ -544,7 +544,7 @@
          family={Weber},
          familyi={W\bibinitperiod},
          given={Hans-Jurgen},
-         giveni={H\bibinithyphendelim J\bibinitperiod},
+         giveni={H\bibinitperiod-J\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%

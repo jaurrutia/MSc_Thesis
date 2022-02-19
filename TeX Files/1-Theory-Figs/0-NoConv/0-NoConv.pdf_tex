@@ -1,0 +1,92 @@
+%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '0-NoConv.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{289.30008055bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.50852607)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{0-NoConv.pdf}}%
+    \put(0.79596935,0.35488318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mie\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{0-NoConv.pdf}}%
+    \put(0.91817809,0.35488318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{0-NoConv.pdf}}%
+    \put(0.11155616,0.03321023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{0-NoConv.pdf}}%
+    \put(0.32273353,0.03321023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{0-NoConv.pdf}}%
+    \put(0.53391075,0.03321023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{0-NoConv.pdf}}%
+    \put(0.74508812,0.03321023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}700\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{0-NoConv.pdf}}%
+    \put(0.95626549,0.03321023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}800\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{0-NoConv.pdf}}%
+    \put(0.0895613,0.20228087){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{0-NoConv.pdf}}%
+    \put(0.0895613,0.27901072){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{0-NoConv.pdf}}%
+    \put(0.0895613,0.35574068){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{0-NoConv.pdf}}%
+    \put(0.0895613,0.43247064){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.15\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{0-NoConv.pdf}}%
+    \put(0.54224698,0.00163327){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.02959642,0.34806005){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Efficiencies\end{tabular}}}}}%
+    \put(0.02959642,0.1215406){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q^\text{Mie}-Q^\text{FEM}}$\end{tabular}}}}}%
+    \put(0.08946292,0.14619398){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-3}$\end{tabular}}}}%
+    \put(0.08946292,0.11489637){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-4}$\end{tabular}}}}%
+    \put(0.08946292,0.0863283){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-5}$\end{tabular}}}}%
+    \put(0.08946292,0.05639198){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-6}$\end{tabular}}}}%
+    \put(0.97471443,0.46318504){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm AuNP$@$Air\\NP Max Mesh Size: $a/2$\\Matrix Max Mesh Size: $\lambda/4$\\PML Thickness: $\lambda/4$\end{tabular}}}}%
+    \put(0.66509234,0.32577596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}\times 100$\end{tabular}}}}%
+    \put(0.81674005,0.32577596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
+    \put(0.91851077,0.32577596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{0-NoConv.pdf}}%
+  \end{picture}%
+\endgroup%

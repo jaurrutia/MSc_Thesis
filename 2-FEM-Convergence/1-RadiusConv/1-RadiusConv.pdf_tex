@@ -1,0 +1,92 @@
+%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '1-RadiusConv.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{261.92967693bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.40313197)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{1-RadiusConv.pdf}}%
+    \put(0.53405302,0.05071174){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{1-RadiusConv.pdf}}%
+    \put(0.72526337,0.05071174){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{1-RadiusConv.pdf}}%
+    \put(0.83682193,0.05071174){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{1-RadiusConv.pdf}}%
+    \put(0.91632262,0.05071174){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{1-RadiusConv.pdf}}%
+    \put(0.97738578,0.05071174){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{1-RadiusConv.pdf}}%
+    \put(0.97841448,0.20232488){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm AuNP$@$Air\\$\lambda = 510$ nm\\Matrix Max Mesh Size: $\lambda/6$\\PML Thickness: $\lambda/4$\end{tabular}}}}%
+    \put(0.02998357,0.23676583){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q_\text{ext}^\text{Mie}-Q_\text{ext}^\text{FEM}}$\end{tabular}}}}}%
+    \put(0.97750146,0.36775346){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.78674399,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{2}$\end{tabular}}}}%
+    \put(0.67516075,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{3}$\end{tabular}}}}%
+    \put(0.59598669,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{4}$\end{tabular}}}}%
+    \put(0.53457336,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{5}$\end{tabular}}}}%
+    \put(0.48440344,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{6}$\end{tabular}}}}%
+    \put(0.44197596,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{7}$\end{tabular}}}}%
+    \put(0.40522955,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{8}$\end{tabular}}}}%
+    \put(0.37282383,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{9}$\end{tabular}}}}%
+    \put(0.34381606,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{10}$\end{tabular}}}}%
+    \put(0.31758384,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{11}$\end{tabular}}}}%
+    \put(0.29364614,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{12}$\end{tabular}}}}%
+    \put(0.27162102,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{13}$\end{tabular}}}}%
+    \put(0.25121866,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{14}$\end{tabular}}}}%
+    \put(0.23223661,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{15}$\end{tabular}}}}%
+    \put(0.17620809,0.14038041){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-4}$\end{tabular}}}}%
+    \put(0.17620809,0.11133065){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$0.5\times 10^{-5}$\end{tabular}}}}%
+    \put(0.41691437,0.01573139){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP Max Mesh Size  [nm]\end{tabular}}}}%
+    \put(0.17620809,0.23688339){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-3}$\end{tabular}}}}%
+    \put(0.17620809,0.2078336){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$0.5\times 10^{-4}$\end{tabular}}}}%
+    \put(0.17620809,0.32897684){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-2}$\end{tabular}}}}%
+    \put(0.17620809,0.30433659){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$0.5\times 10^{-3}$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

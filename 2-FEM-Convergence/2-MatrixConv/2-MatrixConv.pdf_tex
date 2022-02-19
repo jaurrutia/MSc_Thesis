@@ -1,0 +1,90 @@
+%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2-MatrixConv.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{261.92967693bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.41395414)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.97501241,0.20429977){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm AuNP$@$Air\\$\lambda = 510$ nm\\NP Max Mesh Size: $a/10$\\PML Thickness: $\lambda/4$\end{tabular}}}}%
+    \put(0.02998357,0.21519463){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q_\text{ext}^\text{Mie}-Q_\text{ext}^\text{FEM}}$\end{tabular}}}}}%
+    \put(0.97716525,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{3}$\end{tabular}}}}%
+    \put(0.79942803,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{4}$\end{tabular}}}}%
+    \put(0.18890782,0.23070248){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$6.0\times 10^{-5}$\end{tabular}}}}%
+    \put(0.18890782,0.16629214){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$4.0\times 10^{-5}$\end{tabular}}}}%
+    \put(0.39863562,0.01587293){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Matrix Max Mesh Size  [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2-MatrixConv.pdf}}%
+    \put(0.34213715,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}61\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2-MatrixConv.pdf}}%
+    \put(0.47819626,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}76\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2-MatrixConv.pdf}}%
+    \put(0.58936469,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}91\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2-MatrixConv.pdf}}%
+    \put(0.67730021,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}107\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2-MatrixConv.pdf}}%
+    \put(0.75871942,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}122\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{2-MatrixConv.pdf}}%
+    \put(0.8305363,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}137\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{2-MatrixConv.pdf}}%
+    \put(0.89477853,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}153\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{2-MatrixConv.pdf}}%
+    \put(0.95289283,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}168\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{2-MatrixConv.pdf}}%
+    \put(0.18890782,0.27639406){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$8.0\times 10^{-5}$\end{tabular}}}}%
+    \put(0.18890782,0.31184634){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-4}$\end{tabular}}}}%
+    \put(0.18890782,0.34080836){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.2\times 10^{-4}$\end{tabular}}}}%
+    \put(0.66569994,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{5}$\end{tabular}}}}%
+    \put(0.55453647,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{6}$\end{tabular}}}}%
+    \put(0.46155563,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{7}$\end{tabular}}}}%
+    \put(0.38138252,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{8}$\end{tabular}}}}%
+    \put(0.30693606,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{9}$\end{tabular}}}}%
+    \put(0.2439429,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{10}$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex tesis"] 1645156029 "tesis.aux" "tesis.bbl" "tesis" 1645156085
+["bibtex tesis"] 1645156029 "tesis.aux" "tesis.bbl" "tesis" 1645218680
   "/home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux" 1645156031 4830 b57b7ab9343ab0d783b575639a3428b0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1510525977 63137 1eef042be76fa9262fed2413ad573404 ""
   "4-References/references.bib" 1635814760 9511 219972b646d5cc0e5bd1d1dc56b7ea6a ""
@@ -7,14 +7,14 @@
   "tesis.aux" 1645156084 26103 6c5b22c7c8c9bafab0b3878f9113c67f ""
   "tesis.bcf" 0 -1 0 ""
   (generated)
-  "tesis.bbl"
   "tesis.blg"
-["makeindex tesis.idx"] 1645156029 "tesis.idx" "tesis.ind" "tesis" 1645156085
+  "tesis.bbl"
+["makeindex tesis.idx"] 1645156029 "tesis.idx" "tesis.ind" "tesis" 1645218680
   "tesis.idx" 1645156084 965 f3a3dba78e603cced4972a9839534b20 ""
   (generated)
   "tesis.ilg"
   "tesis.ind"
-["pdflatex"] 1645156029 "tesis.tex" "/home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.pdf" "tesis" 1645156085
+["pdflatex"] 1645156029 "tesis.tex" "/home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.pdf" "tesis" 1645218680
   "/etc/texmf/web2c/texmf.cnf" 1616019324 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.aux" 1645156084 26103 6c5b22c7c8c9bafab0b3878f9113c67f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -473,16 +473,18 @@
   "tesis.tex" 1645040942 10214 aed6c7a07f3e0d519b7e16e2265238f0 ""
   "tesis.toc" 1645156084 2533 2858022aa61aa70c225751cd4d749764 ""
   (generated)
-  "tesis.lof"
+  "/home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.pdf"
+  "tesis.run.xml"
+  "Latex/Comands.aux"
+  "tesis.idx"
   "/home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.pdf"
   "tesis.pdf"
-  "tesis.toc"
-  "tesis.out"
-  "tesis-blx.bib"
-  "/home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.log"
-  "Latex/Comands.aux"
-  "tesis.aux"
-  "tesis.run.xml"
   "0-4-Resumen/1-Resumen.aux"
-  "tesis.idx"
+  "tesis.aux"
+  "tesis.toc"
+  "/home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.log"
+  "tesis-blx.bib"
+  "tesis.out"
+  "tesis.lof"
   "tesis.log"
+  "/home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.log"

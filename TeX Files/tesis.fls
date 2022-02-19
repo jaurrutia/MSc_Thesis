@@ -1,12 +1,12 @@
-PWD /home/juanathan/Documents/Git/MSc_Thesis/TeX Files
+PWD /home/juanathan/Documents/MSc_Thesis/TeX Files
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.tex
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.log
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Classes/PhDthesisPSnPDF.cls
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Classes/PhDthesisPSnPDF.cls
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.tex
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.log
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Classes/PhDthesisPSnPDF.cls
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Classes/PhDthesisPSnPDF.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
@@ -51,7 +51,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.idx
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.idx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -265,7 +265,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.pdf
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.pdf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -477,9 +477,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Comands.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Comands.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Comands.tex
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Comands.aux
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Comands.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Comands.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
@@ -496,8 +496,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/layouts/layouts.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/layouts/layouts.sty
 INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
 INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/mmacells.sty
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/mmacells.sty
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/mmacells.sty
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/mmacells.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/bbm-macros/bbm.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
@@ -512,11 +512,11 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.aux
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.aux
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.aux
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.aux
 INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/t1lmr.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr10.tfm
@@ -530,34 +530,34 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis-blx.bib
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.bbl
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.bbl
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.bbl
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis-blx.bib
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.bbl
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.bbl
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.out
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Classes/Escudos/UNAM_crest_blue.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Classes/Escudos/UNAM_crest_blue.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/Latex/Classes/Escudos/UNAM_crest_blue.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Classes/Escudos/UNAM_crest_blue.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Classes/Escudos/UNAM_crest_blue.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/Latex/Classes/Escudos/UNAM_crest_blue.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.tex
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.toc
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.toc
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.toc
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.toc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
@@ -596,13 +596,13 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.toc
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-5-Introduccion/1-Motivation-Structure.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-5-Introduccion/1-Motivation-Structure.tex
+OUTPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.toc
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-5-Introduccion/1-Motivation-Structure.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/0-5-Introduccion/1-Motivation-Structure.tex
 INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
 INPUT /usr/share/texmf/tex/latex/lm/omslmr.fd
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/1-OpticalTheorem.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/1-OpticalTheorem.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/1-OpticalTheorem.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/1-OpticalTheorem.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx6.tfm
@@ -627,8 +627,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr5.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/2-VSH.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/2-VSH.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/2-VSH.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/2-VSH.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmib10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmib10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmib7.tfm
@@ -649,43 +649,33 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/lmbsy5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/3-Fields.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/3-Fields.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/3-5-AuMie.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/3-5-AuMie.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/3-Fields.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/3-Fields.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/3-5-AuMie.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/3-5-AuMie.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx9.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/4-FEM.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory/4-FEM.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/drawingCOMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/drawingCOMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/drawingCOMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-FEM_Air.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-FEM_Air.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-FEM_Air.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results/0-Intro.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results/0-Intro.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/4-FEM.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory/4-FEM.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
@@ -702,270 +692,105 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results/1-Something.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results/1-Something.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Supported-FEM.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Supported-FEM.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Supported-FEM.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/normal_internal.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/normal_internal.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/normal_internal.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_s.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_s.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_s.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_p.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_p.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_p.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/QnormIntExt-inc.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/QnormIntExt-inc.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/2-Results-Figs/QnormIntExt-inc.png
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices/2-SizeCorrection.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices/2-SizeCorrection.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf_tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices/1-SpecialFuncCode.tex
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/5-Apendices/1-SpecialFuncCode.tex
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi12.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
-INPUT /usr/share/texmf/tex/latex/lm/t1lmss.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss9.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss8.tfm
-INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt9.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtk10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtko10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmtt10.tfm
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.lof
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.lof
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.lof
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.ind
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.ind
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/0-4-Resumen/1-Resumen.aux
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.out
-INPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.run.xml
-OUTPUT /home/juanathan/Documents/Git/MSc_Thesis/TeX Files/tesis.run.xml
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmex10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr6.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr7.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmr9.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmss8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmtko10.pfb
-INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv/0-NoConv.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/drawingCOMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/drawingCOMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/drawingCOMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-FEM_Air.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-FEM_Air.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-FEM_Air.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results/0-Intro.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results/0-Intro.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results/1-Something.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results/1-Something.tex
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Supported-FEM.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Supported-FEM.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Supported-FEM.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/normal_internal.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/normal_internal.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/normal_internal.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_s.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_s.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_s.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_p.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_p.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/incidencia-iterna/angle_internal_p.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/QnormIntExt-inc.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/QnormIntExt-inc.png
+INPUT /home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/QnormIntExt-inc.png

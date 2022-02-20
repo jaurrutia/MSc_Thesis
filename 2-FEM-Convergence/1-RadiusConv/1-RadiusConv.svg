@@ -27,9 +27,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.99674498"
-     inkscape:cx="219.71518"
-     inkscape:cy="209.68252"
+     inkscape:zoom="2.8192205"
+     inkscape:cx="284.12109"
+     inkscape:cy="78.035754"
      inkscape:window-width="1883"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -1050,7 +1050,7 @@
          style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
          x="230.70773"
          y="0.2503044"
-         id="tspan14682-3">PML Thickness: $\lambda/4$</tspan></text>
+         id="tspan14682-3">PML and Matrix Thickness: $\lambda/4$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -1250,15 +1250,15 @@
          y="0.72092921">$0.5\times 10^{-5}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
-       x="178.82346"
+       style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="194.8586"
        y="9.5545855"
        id="text47710"><tspan
          sodipodi:role="line"
          id="tspan47708"
-         style="stroke-width:0.264583"
-         x="178.82346"
-         y="9.5545855">NP Max Mesh Size  [nm]</tspan></text>
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="194.8586"
+         y="9.5545855">NP Maximum Mesh Size  [nm]</tspan></text>
     <text
        style="font-variant:normal;font-size:2.286px;font-family:CairoFont-0;-inkscape-font-specification:CairoFont-0-0;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
        id="text50250"

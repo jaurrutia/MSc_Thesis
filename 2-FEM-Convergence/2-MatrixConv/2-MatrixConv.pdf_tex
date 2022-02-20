@@ -59,7 +59,7 @@
     \put(0.79942803,0.36593656){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{\lambda}{4}$\end{tabular}}}}%
     \put(0.18890782,0.23070248){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$6.0\times 10^{-5}$\end{tabular}}}}%
     \put(0.18890782,0.16629214){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$4.0\times 10^{-5}$\end{tabular}}}}%
-    \put(0.39863562,0.01587293){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Matrix Max Mesh Size  [nm]\end{tabular}}}}%
+    \put(0.59593121,0.01587293){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Matrix Maximum Mesh Size  [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-MatrixConv.pdf}}%
     \put(0.34213715,0.05147285){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}61\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2-MatrixConv.pdf}}%

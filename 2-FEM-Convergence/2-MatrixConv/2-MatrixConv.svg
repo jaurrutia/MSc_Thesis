@@ -27,9 +27,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="6.4312301"
-     inkscape:cx="235.56924"
-     inkscape:cy="129.83519"
+     inkscape:zoom="3.2156151"
+     inkscape:cx="200.58371"
+     inkscape:cy="141.49704"
      inkscape:window-width="1883"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -261,15 +261,15 @@
          y="-3.3576753">$4.0\times 10^{-5}$</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
-       x="177.13445"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="195.36514"
        y="10.541507"
        id="text47710"><tspan
          sodipodi:role="line"
          id="tspan47708"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
-         x="177.13445"
-         y="10.541507">Matrix Max Mesh Size  [nm]</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="195.36514"
+         y="10.541507">Matrix Maximum Mesh Size  [nm]</tspan></text>
     <path
        d="m 214.38551,-18.923657 v 4.24709"
        style="fill:none;stroke:#e65c0e;stroke-width:0.127;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none;stroke-opacity:0.3"

@@ -28,8 +28,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="2.363591"
-     inkscape:cx="208.58092"
-     inkscape:cy="108.30977"
+     inkscape:cx="200.54231"
+     inkscape:cy="118.8869"
      inkscape:window-width="1883"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -2122,7 +2122,7 @@
     </g>
     <g
        id="g7912"
-       transform="matrix(0.35277777,0,0,0.35277777,155.30411,31.374038)">
+       transform="matrix(0.35277777,0,0,0.35277777,155.30411,32.432372)">
       <g
          id="g7914"
          clip-path="url(#clipPath7918)">
@@ -2134,7 +2134,7 @@
     </g>
     <g
        id="g7922"
-       transform="matrix(0.35277777,0,0,0.35277777,155.30411,31.374038)">
+       transform="matrix(0.35277777,0,0,0.35277777,155.30411,32.432372)">
       <text
          transform="translate(168.82577,63.737905)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.2px;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2146,7 +2146,7 @@
     </g>
     <g
        id="g7928"
-       transform="matrix(0.35277777,0,0,0.35277777,155.30411,31.374038)">
+       transform="matrix(0.35277777,0,0,0.35277777,155.30411,32.432372)">
       <g
          id="g7930"
          clip-path="url(#clipPath7934)">
@@ -2158,7 +2158,7 @@
     </g>
     <g
        id="g7938"
-       transform="matrix(0.35277777,0,0,0.35277777,155.50129,31.519415)">
+       transform="matrix(0.29450518,0,0,0.29450518,166.76486,36.135203)">
       <g
          id="g7940"
          clip-path="url(#clipPath7944)">
@@ -2174,7 +2174,7 @@
     </g>
     <g
        id="g7950"
-       transform="matrix(0.35277777,0,0,0.35277777,155.30411,31.374038)">
+       transform="matrix(0.35277777,0,0,0.35277777,155.30411,32.432372)">
       <text
          transform="translate(204.18077,63.737905)"
          style="font-variant:normal;font-size:7.2px;font-family:CairoFont-0;-inkscape-font-specification:CairoFont-0-0;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -2187,7 +2187,7 @@
     </g>
     <g
        id="g7956"
-       transform="matrix(0,-0.35277777,0.35277777,0,172.28796,89.102635)"
+       transform="matrix(0,-0.35277777,0.35277777,0,172.28796,90.690136)"
        inkscape:transform-center-x="1.991264"
        inkscape:transform-center-y="2.013699">
       <g
@@ -2205,7 +2205,7 @@
     </g>
     <g
        id="g7998"
-       transform="matrix(0,-0.35277777,0.35277777,0,187.79341,120.42929)"
+       transform="matrix(0,-0.35277777,0.35277777,0,187.79341,122.0168)"
        inkscape:transform-center-x="-2.2502823"
        inkscape:transform-center-y="2.0412153">
       <g
@@ -2226,7 +2226,7 @@
        transform="matrix(0.35277777,0,0,0.35277777,151.43975,51.587001)" />
     <g
        id="g8036"
-       transform="matrix(0,-0.35277777,0.35277777,0,197.83188,140.07196)"
+       transform="matrix(0,-0.35277777,0.35277777,0,197.83188,141.65947)"
        inkscape:transform-center-x="-6.4918331"
        inkscape:transform-center-y="1.9667813">
       <g
@@ -2625,15 +2625,15 @@
        style="fill:none;stroke:#000000;stroke-width:0.0508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none;stroke-opacity:1"
        id="path8254" />
     <path
-       d="M 234.73393,59.063344 H 234.2545"
+       d="M 234.73393,59.592511 H 234.2545"
        style="fill:none;stroke:#000000;stroke-width:0.0508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none;stroke-opacity:1"
        id="path8256" />
     <path
-       d="M 234.73393,57.496305 H 234.2545"
+       d="M 234.73393,58.025472 H 234.2545"
        style="fill:none;stroke:#000000;stroke-width:0.0508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none;stroke-opacity:1"
        id="path8258" />
     <path
-       d="M 234.73393,55.93103 H 234.2545"
+       d="M 234.73393,56.460197 H 234.2545"
        style="fill:none;stroke:#000000;stroke-width:0.0508;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none;stroke-opacity:1"
        id="path8260" />
     <path
@@ -2800,7 +2800,7 @@
          id="tspan14542"
          style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
          x="233.10457"
-         y="42.806213">5 nm AuNP$@$Air</tspan><tspan
+         y="42.806213">5 nm-AuNP$@$Air</tspan><tspan
          sodipodi:role="line"
          style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
          x="233.10457"
@@ -2810,45 +2810,45 @@
          style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
          x="233.10457"
          y="48.097889"
-         id="tspan14680">Matrix Max Mesh Size: $\lambda/4$</tspan><tspan
+         id="tspan14680">Matrix Max Mesh Size: $\lambda/6$</tspan><tspan
          sodipodi:role="line"
          style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
          x="233.10457"
          y="50.743725"
-         id="tspan14682">PML Thickness: $\lambda/4$</tspan></text>
+         id="tspan14682">PML &amp; Matrix Thickness: $\lambda/4$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
        x="201.50496"
-       y="56.829998"
+       y="58.4175"
        id="text21976"><tspan
          sodipodi:role="line"
          id="tspan21974"
          style="font-size:2.11667px;stroke-width:0.264583"
          x="201.50496"
-         y="56.829998">$Q_\text{sca}\times 100$</tspan></text>
+         y="58.4175">$Q_\text{sca}\times 100$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
        x="216.98192"
-       y="56.829998"
+       y="58.4175"
        id="text22060"><tspan
          sodipodi:role="line"
          id="tspan22058"
          style="font-size:2.11667px;stroke-width:0.264583"
          x="216.98192"
-         y="56.829998">$Q_\text{abs}$</tspan></text>
+         y="58.4175">$Q_\text{abs}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
        x="227.3685"
-       y="56.829998"
+       y="58.4175"
        id="text22460"><tspan
          sodipodi:role="line"
          id="tspan22458"
          style="font-size:2.11667px;stroke-width:0.264583"
          x="227.3685"
-         y="56.829998">$Q_\text{ext}$</tspan></text>
+         y="58.4175">$Q_\text{ext}$</tspan></text>
     <path
        d="m 146.67797,77.958485 2.15369,0.0619 2.15513,0.487676 2.1555,0.05758 2.15513,0.358829 2.15513,-0.0943 2.15549,0.19543 2.15513,0.915247 2.15513,-1.837692 2.15513,0.178515 2.15549,2.083509 2.15513,2.570106 2.15514,-4.410317 2.15513,3.232337 2.15549,-4.86884 2.15513,1.595833 2.15513,0.178515 2.15549,4.411756 2.15513,-5.057072 2.15513,3.464118 2.15513,-1.726481 2.1555,0.823831 2.15513,-1.623547 2.15513,3.244574 2.15549,-3.388177 2.15513,2.200119 2.15513,-0.697142 2.15513,-1.329861 2.15549,1.25392 2.15513,0.241859 2.15514,0.70434 2.15549,-1.202094 2.15513,-1.53105 2.15513,-0.358468 2.15513,1.744835 2.15549,-1.525651 2.15513,1.831933 2.15513,0.608965 2.15549,-1.012422 2.15514,1.680052 2.15513,-2.167728"
        style="fill:none;stroke:#000000;stroke-width:0.414614;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-dasharray:none;stroke-opacity:1"

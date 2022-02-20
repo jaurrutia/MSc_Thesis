@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.17)  18 FEB 2022 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.17)  20 FEB 2022 03:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3736,547 +3736,1865 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6])
+[6]) (./1-Theory/2-VSH.tex
+
+LaTeX Warning: Reference `eq:Helmholtz' on page 7 undefined on input line 15.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] [8
+[7]
+LaTeX Font Info:    Try loading font information for U+eus on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eus.cfg
+File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
+)
+
+LaTeX Warning: Reference `eq:M' on page 8 undefined on input line 50.
+
+
+LaTeX Warning: Reference `eq:N' on page 8 undefined on input line 50.
+
+
+LaTeX Warning: Reference `eq:VSH' on page 8 undefined on input line 51.
+
+
+LaTeX Warning: Reference `eq:VSH' on page 8 undefined on input line 51.
+
+
+LaTeX Warning: Reference `eq:HelmoltzScalar' on page 8 undefined on input line 
+54.
+
+
+LaTeX Warning: Reference `eq:Theta' on page 8 undefined on input line 67.
+
+
+LaTeX Warning: Reference `eq:Req' on page 8 undefined on input line 67.
+
+
+LaTeX Warning: Reference `eq:ThetaMu' on page 8 undefined on input line 78.
+
+
+LaTeX Warning: Reference `eq:Reqkr' on page 8 undefined on input line 78.
+
+
+LaTeX Warning: Reference `eq:Phi' on page 8 undefined on input line 78.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+LaTeX Warning: Reference `eq:Reqkr' on page 9 undefined on input line 93.
+
+
+LaTeX Warning: Reference `eq:psiE' on page 9 undefined on input line 93.
+
+
+LaTeX Warning: Reference `eq:L' on page 9 undefined on input line 93.
+
+
+LaTeX Warning: Reference `eq:N' on page 9 undefined on input line 93.
+
+
+LaTeX Warning: Reference `eq:ThetaMu' on page 9 undefined on input line 116.
+
+
+LaTeX Warning: Reference `eq:VSHEven' on page 9 undefined on input line 138.
+
+
+LaTeX Warning: Reference `eq:VSHOdd' on page 9 undefined on input line 138.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+LaTeX Warning: Reference `eq:VSH' on page 10 undefined on input line 146.
+
+) (./1-Theory/3-Fields.tex
+
+LaTeX Warning: Reference `eq:ExPlane' on page 10 undefined on input line 12.
+
+
+LaTeX Warning: Reference `eq:ExPlane' on page 10 undefined on input line 32.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+LaTeX Warning: Reference `eq:PlaneWaveMultipole' on page 11 undefined on input 
+line 62.
+
+
+LaTeX Warning: Reference `eq:EscaInt' on page 11 undefined on input line 62.
+
+
+LaTeX Warning: Reference `eq:HscaInt' on page 11 undefined on input line 62.
+
+
+LaTeX Warning: Reference `eq:contuinity' on page 11 undefined on input line 62.
+
+
+
+LaTeX Warning: Reference `eq:syst1' on page 11 undefined on input line 77.
+
+
+LaTeX Warning: Reference `eq:syst2' on page 11 undefined on input line 77.
+
+
+LaTeX Warning: Reference `eq:syst1' on page 11 undefined on input line 79.
+
+
+LaTeX Warning: Reference `eq:syst2' on page 11 undefined on input line 79.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+LaTeX Warning: Reference `eq:MieCoef' on page 12 undefined on input line 106.
+
+
+LaTeX Warning: Reference `eq:coeffInt' on page 12 undefined on input line 106.
+
+
+LaTeX Warning: Reference `eq:EscaLC' on page 12 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:MieCoef' on page 12 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:EscaLC' on page 12 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:Moml' on page 12 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:Neml' on page 12 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eq:EscaR' on page 12 undefined on input line 125.
+
+
+LaTeX Warning: Reference `eq:EscaMPhi' on page 12 undefined on input line 125.
+
+
+LaTeX Warning: Reference `eq:RBXiAssym' on page 12 undefined on input line 137.
+
+
+
+LaTeX Warning: Reference `eq:EscaR' on page 12 undefined on input line 137.
+
+
+LaTeX Warning: Reference `eq:EscaMPhi' on page 12 undefined on input line 137.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+LaTeX Warning: Reference `eq:EthetaSca' on page 13 undefined on input line 152.
+
+
+
+LaTeX Warning: Reference `eq:EphiSca' on page 13 undefined on input line 152.
+
+) (./1-Theory/3-5-AuMie.tex
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+
+LaTeX Warning: Reference `fig:Mieefficiencies' on page 14 undefined on input li
+ne 7.
+
+
+LaTeX Warning: Reference `fig:Mieefficiencies' on page 14 undefined on input li
+ne 7.
+
+
+LaTeX Warning: Reference `app:SizeCorrection' on page 14 undefined on input lin
+e 7.
+
+<1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf, id=326, 155.58125pt x 6
+4.24pt>
+File: 1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf Graphic file (type 
+pdf)
+<use 1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf 
+ used on input line 11.
+(pdftex.def)             Requested size: 217.81224pt x 89.93538pt.
+<1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf, id=327, 155.58125pt x 6
+4.24pt>
+File: 1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf Graphic file (type 
+pdf)
+<use 1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-H2O.pdf 
+ used on input line 12.
+(pdftex.def)             Requested size: 217.81224pt x 89.93538pt.
+
+LaTeX Warning: Reference `fig:Mieefficiencies' on page 14 undefined on input li
+ne 17.
+
+<1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf, id=331, 155.58125pt x 155.58125p
+t>
+File: 1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf  used on 
+input line 26.
+(pdftex.def)             Requested size: 155.58086pt x 155.58086pt.
+<1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf, id=332, 155.58125pt x 155.58125p
+t>
+File: 1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf  used on 
+input line 27.
+(pdftex.def)             Requested size: 155.58086pt x 155.58086pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14
+
+ <./1-Theory-Figs/Mie-Au/extinction-12--5nm-Au-in-H2O.pdf> <./1-Theory-Figs/Mie
+-Au/scattering-12--5nm-Au-in-H2O.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/Mie-Au/scattering-12--5nm-Au-in-
+H2O.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-Air.pdf> <./1-Theory-Figs/Mie-Au/S-
+12--5nm-Au-in-H2O.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/Mie-Au/S-12--5nm-Au-in-H2O.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] [16
 
 ]
 Chapter 2.
 (./1-Theory/4-FEM.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
-
 
 Package svg Warning: You should specify the image size with parameters
 (svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 15.
+(svg)                `\svgscale' or `\svgwidth' on input line 6.
 
-Package svg Info: Last page of `1-Theory-Figs/0-NoConv/0-NoConv.pdf' is 13 on i
-nput line 15.
-(./1-Theory-Figs/0-NoConv/0-NoConv.pdf_tex
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=226, page=1, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 1>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page1 used on in
-put line 56.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=227, page=2, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 2>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page2 used on in
-put line 58.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=228, page=3, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 3>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page3 used on in
-put line 60.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=229, page=4, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 4>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page4 used on in
-put line 62.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=230, page=5, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 5>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page5 used on in
-put line 64.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=231, page=6, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 6>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page6 used on in
-put line 66.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=232, page=7, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 7>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page7 used on in
-put line 68.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=233, page=8, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 8>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page8 used on in
-put line 70.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=234, page=9, 290.38495pt x 147.66832pt
->
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 9>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page9 used on in
-put line 72.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=235, page=10, 290.38495pt x 147.66832p
-t>
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 10>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page10 used on i
-nput line 74.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=236, page=11, 290.38495pt x 147.66832p
-t>
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 11>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page11 used on i
-nput line 76.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=237, page=12, 290.38495pt x 147.66832p
-t>
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 12>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page12 used on i
-nput line 78.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv/0-NoConv.pdf, id=238, page=13, 290.38495pt x 147.66832p
-t>
-File: 1-Theory-Figs/0-NoConv/0-NoConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/0-NoConv/0-NoConv.pdf, page 13>
-Package pdftex.def Info: 1-Theory-Figs/0-NoConv/0-NoConv.pdf , page13 used on i
-nput line 90.
-(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+Package svg Info: Last page of `1-Theory-Figs/SistemaMie.pdf' is 3 on input lin
+e 6.
+(./1-Theory-Figs/SistemaMie.pdf_tex
+<1-Theory-Figs/SistemaMie.pdf, id=406, page=1, 213.47296pt x 66.57442pt>
+File: 1-Theory-Figs/SistemaMie.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/SistemaMie.pdf, page 1>
+Package pdftex.def Info: 1-Theory-Figs/SistemaMie.pdf , page1 used on input lin
+e 56.
+(pdftex.def)             Requested size: 364.19664pt x 113.58133pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 57.
+<1-Theory-Figs/SistemaMie.pdf, id=407, page=2, 213.47296pt x 66.57442pt>
+File: 1-Theory-Figs/SistemaMie.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/SistemaMie.pdf, page 2>
+Package pdftex.def Info: 1-Theory-Figs/SistemaMie.pdf , page2 used on input lin
+e 58.
+(pdftex.def)             Requested size: 364.19664pt x 113.58133pt.
+<1-Theory-Figs/SistemaMie.pdf, id=408, page=3, 213.47296pt x 66.57442pt>
+File: 1-Theory-Figs/SistemaMie.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/SistemaMie.pdf, page 3>
+Package pdftex.def Info: 1-Theory-Figs/SistemaMie.pdf , page3 used on input lin
+e 61.
+(pdftex.def)             Requested size: 364.19664pt x 113.58133pt.
 )
-
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 17.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 17.
-
-
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 17.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 17.
-
 
 Package svg Warning: You should specify the image size with parameters
 (svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 24.
+(svg)                `\svgscale' or `\svgwidth' on input line 23.
 
-Package svg Info: Last page of `1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf' is
- 6 on input line 24.
-(./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf_tex
-<1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, id=244, page=1, 262.91193pt x 105
-.98819pt>
-File: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, page 1>
-Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf , page1 us
-ed on input line 56.
-(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, id=245, page=2, 262.91193pt x 105
-.98819pt>
-File: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, page 2>
-Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf , page2 us
-ed on input line 58.
-(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, id=246, page=3, 262.91193pt x 105
-.98819pt>
-File: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, page 3>
-Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf , page3 us
-ed on input line 60.
-(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, id=247, page=4, 262.91193pt x 105
-.98819pt>
-File: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, page 4>
-Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf , page4 us
-ed on input line 62.
-(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, id=248, page=5, 262.91193pt x 105
-.98819pt>
-File: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, page 5>
-Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf , page5 us
-ed on input line 64.
-(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, id=249, page=6, 262.91193pt x 105
-.98819pt>
-File: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf, page 6>
-Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf , page6 us
-ed on input line 66.
-(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
+Package svg Info: Last page of `1-Theory-Figs/0-NoConv.pdf' is 13 on input line
+ 23.
+(./1-Theory-Figs/0-NoConv.pdf_tex
+<1-Theory-Figs/0-NoConv.pdf, id=410, page=1, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 1>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page1 used on input line 
+56.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=411, page=2, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 2>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page2 used on input line 
+58.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=412, page=3, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 3>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page3 used on input line 
+60.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=413, page=4, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 4>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page4 used on input line 
+62.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=414, page=5, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 5>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page5 used on input line 
+64.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=415, page=6, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 6>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page6 used on input line 
+66.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=416, page=7, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 7>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page7 used on input line 
+68.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=417, page=8, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 8>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page8 used on input line 
+70.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=418, page=9, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 9>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page9 used on input line 
+72.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=419, page=10, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 10>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page10 used on input line
+ 74.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=420, page=11, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 11>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page11 used on input line
+ 76.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=421, page=12, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 12>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page12 used on input line
+ 78.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
+<1-Theory-Figs/0-NoConv.pdf, id=422, page=13, 290.38495pt x 147.66832pt>
+File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/0-NoConv.pdf, page 13>
+Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page13 used on input line
+ 90.
+(pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
 )
-
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 26.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 26.
-
-
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 26.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 26.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package svg Warning: You should specify the image size with parameters
 (svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 32.
+(svg)                `\svgscale' or `\svgwidth' on input line 33.
 
-Package svg Info: Last page of `1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf' is
- 9 on input line 32.
-(./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf_tex
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=255, page=1, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 1>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page1 us
-ed on input line 63.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=256, page=2, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 2>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page2 us
-ed on input line 65.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=257, page=3, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 3>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page3 us
-ed on input line 67.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=258, page=4, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 4>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page4 us
-ed on input line 69.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=259, page=5, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 5>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page5 us
-ed on input line 71.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=260, page=6, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 6>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page6 us
-ed on input line 73.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=261, page=7, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 7>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page7 us
-ed on input line 75.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=262, page=8, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 8>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page8 us
-ed on input line 77.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, id=263, page=9, 262.91193pt x 108
-.83347pt>
-File: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf, page 9>
-Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf , page9 us
-ed on input line 79.
-(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+Package svg Info: Last page of `1-Theory-Figs/1-RadiusConv.pdf' is 6 on input l
+ine 33.
+(./1-Theory-Figs/1-RadiusConv.pdf_tex
+<1-Theory-Figs/1-RadiusConv.pdf, id=424, page=1, 262.91193pt x 105.98819pt>
+File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/1-RadiusConv.pdf, page 1>
+Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page1 used on input l
+ine 56.
+(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
+<1-Theory-Figs/1-RadiusConv.pdf, id=425, page=2, 262.91193pt x 105.98819pt>
+File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/1-RadiusConv.pdf, page 2>
+Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page2 used on input l
+ine 58.
+(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
+<1-Theory-Figs/1-RadiusConv.pdf, id=426, page=3, 262.91193pt x 105.98819pt>
+File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/1-RadiusConv.pdf, page 3>
+Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page3 used on input l
+ine 60.
+(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
+<1-Theory-Figs/1-RadiusConv.pdf, id=427, page=4, 262.91193pt x 105.98819pt>
+File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/1-RadiusConv.pdf, page 4>
+Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page4 used on input l
+ine 62.
+(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
+<1-Theory-Figs/1-RadiusConv.pdf, id=428, page=5, 262.91193pt x 105.98819pt>
+File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/1-RadiusConv.pdf, page 5>
+Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page5 used on input l
+ine 64.
+(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
+<1-Theory-Figs/1-RadiusConv.pdf, id=429, page=6, 262.91193pt x 105.98819pt>
+File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/1-RadiusConv.pdf, page 6>
+Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page6 used on input l
+ine 66.
+(pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
 )
-
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 34.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<1-Theory-Figs/drawingCOMSOL.pdf, id=268, 547.08388pt x 240.4182pt>
-File: 1-Theory-Figs/drawingCOMSOL.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/drawingCOMSOL.pdf>
-Package pdftex.def Info: 1-Theory-Figs/drawingCOMSOL.pdf  used on input line 57
-.
-(pdftex.def)             Requested size: 437.6677pt x 192.33481pt.
 
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 58.
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 42.
+
+Package svg Info: Last page of `1-Theory-Figs/2-MatrixConv.pdf' is 9 on input l
+ine 42.
+(./1-Theory-Figs/2-MatrixConv.pdf_tex
+<1-Theory-Figs/2-MatrixConv.pdf, id=431, page=1, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 1>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page1 used on input l
+ine 63.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=432, page=2, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 2>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page2 used on input l
+ine 65.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=433, page=3, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 3>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page3 used on input l
+ine 67.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=434, page=4, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 4>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page4 used on input l
+ine 69.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=435, page=5, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 5>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page5 used on input l
+ine 71.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=436, page=6, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 6>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page6 used on input l
+ine 73.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=437, page=7, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 7>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page7 used on input l
+ine 75.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=438, page=8, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 8>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page8 used on input l
+ine 77.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+<1-Theory-Figs/2-MatrixConv.pdf, id=439, page=9, 262.91193pt x 108.83347pt>
+File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/2-MatrixConv.pdf, page 9>
+Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page9 used on input l
+ine 79.
+(pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 58.
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 51.
 
+Package svg Info: Last page of `1-Theory-Figs/3-MatrixPMLThickness.pdf' is 1 on
+ input line 51.
+(./1-Theory-Figs/3-MatrixPMLThickness.pdf_tex
+<1-Theory-Figs/3-MatrixPMLThickness.pdf, id=441, page=1, 265.75717pt x 108.8334
+7pt>
+File: 1-Theory-Figs/3-MatrixPMLThickness.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/3-MatrixPMLThickness.pdf, page 1>
+Package pdftex.def Info: 1-Theory-Figs/3-MatrixPMLThickness.pdf , page1 used on
+ input line 65.
+(pdftex.def)             Requested size: 364.19664pt x 149.14908pt.
+)
 
-LaTeX Warning: Reference `sfig:red:3' on page 9 undefined on input line 58.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `sfig:red:4' on page 9 undefined on input line 58.
-
-[9 <./1-Theory-Figs/0-NoConv/0-NoConv.pdf> <./1-Theory-Figs/0-NoConv/0-NoConv.p
-df
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/0-NoConv/0-NoConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv/0-NoConv.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->]
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf> <./1-Theory-Figs/1-RadiusCo
-nv/1-RadiusConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv/1-RadiusConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv/2-MatrixConv.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <./1-Theory-Figs/drawingCOMSOL.pdf
-
-pdfTeX warning: pdflatex (file ./1-Theory-Figs/drawingCOMSOL.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->]
-<1-Theory-Figs/Mie-FEM_Air.pdf, id=321, 260.975pt x 121.45375pt>
+<1-Theory-Figs/Mie-FEM_Air.pdf, id=442, 260.975pt x 121.45375pt>
 File: 1-Theory-Figs/Mie-FEM_Air.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-FEM_Air.pdf>
-Package pdftex.def Info: 1-Theory-Figs/Mie-FEM_Air.pdf  used on input line 66.
+Package pdftex.def Info: 1-Theory-Figs/Mie-FEM_Air.pdf  used on input line 70.
 (pdftex.def)             Requested size: 364.19664pt x 169.49477pt.
-<1-Theory-Figs/Isolated-COMSOL.pdf, id=322, 193.72375pt x 165.61874pt>
+<1-Theory-Figs/Isolated-COMSOL.pdf, id=443, 193.72375pt x 165.61874pt>
 File: 1-Theory-Figs/Isolated-COMSOL.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Isolated-COMSOL.pdf>
 Package pdftex.def Info: 1-Theory-Figs/Isolated-COMSOL.pdf  used on input line 
-67.
+71.
 (pdftex.def)             Requested size: 182.09485pt x 155.67911pt.
 File: 1-Theory-Figs/Isolated-COMSOL.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Isolated-COMSOL.pdf>
 Package pdftex.def Info: 1-Theory-Figs/Isolated-COMSOL.pdf  used on input line 
-68.
+72.
 (pdftex.def)             Requested size: 182.09485pt x 155.67911pt.
 
-
-LaTeX Warning: Reference `sfig:red:3' on page 11 undefined on input line 69.
-
-
-LaTeX Warning: Reference `sfig:red:4' on page 11 undefined on input line 69.
+LaTeX Warning: Reference `sfig:red:1' on page 17 undefined on input line 73.
 
 
-LaTeX Warning: Reference `sfig:red:3' on page 11 undefined on input line 69.
+LaTeX Warning: Reference `sfig:red:2' on page 17 undefined on input line 73.
 
 
-LaTeX Warning: Reference `sfig:red:4' on page 11 undefined on input line 69.
+LaTeX Warning: Reference `sfig:red:3' on page 17 undefined on input line 73.
 
-)
+
+LaTeX Warning: Reference `sfig:red:4' on page 17 undefined on input line 73.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 17 undefined on input line 73.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 17 undefined on input line 73.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 17 undefined on input line 73.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 17 undefined on input line 73.
+
+) [17 <./1-Theory-Figs/SistemaMie.pdf> <./1-Theory-Figs/SistemaMie.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/SistemaMie.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/SistemaMie.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/SistemaMie.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <./1-Theory-Figs/Mie-FEM_Air.pdf> <./1-Theory-Figs/Isolated-COMSOL.pdf
+[18 <./1-Theory-Figs/0-NoConv.pdf> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/0-NoConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/0-NoConv.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./1-Theory-Figs/1-RadiusConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/1-RadiusConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/1-RadiusConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/1-RadiusConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/1-RadiusConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/1-RadiusConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/1-RadiusConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <./1-Theory-Figs/2-MatrixConv.pdf> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/2-MatrixConv.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/2-MatrixConv.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./1-Theory-Figs/3-MatrixPMLThickness.pdf
+
+pdfTeX warning: pdflatex (file ./1-Theory-Figs/3-MatrixPMLThickness.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./1-Theory-Figs/Mie-FEM_Air.pdf> <./1-Theory-Figs/Isolated-COMSOL.pdf
 
 pdfTeX warning: pdflatex (file ./1-Theory-Figs/Isolated-COMSOL.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] [12
+>]
+Chapter 3.
+(./2-Results/0-Intro.tex
 
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 12.
+
+Package svg Info: Last page of `2-Results-Figs/redshift/redshift.pdf' is 5 on i
+nput line 12.
+(./2-Results-Figs/redshift/redshift.pdf_tex
+<2-Results-Figs/redshift/redshift.pdf, id=23658, page=1, 504.48056pt x 266.0695
+pt>
+File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
+<use 2-Results-Figs/redshift/redshift.pdf, page 1>
+Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page1 used on i
+nput line 83.
+(pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
+<2-Results-Figs/redshift/redshift.pdf, id=23659, page=2, 504.48056pt x 266.0695
+pt>
+File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
+<use 2-Results-Figs/redshift/redshift.pdf, page 2>
+Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page2 used on i
+nput line 109.
+(pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
+<2-Results-Figs/redshift/redshift.pdf, id=23660, page=3, 504.48056pt x 266.0695
+pt>
+File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
+<use 2-Results-Figs/redshift/redshift.pdf, page 3>
+Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page3 used on i
+nput line 111.
+(pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
+<2-Results-Figs/redshift/redshift.pdf, id=23661, page=4, 504.48056pt x 266.0695
+pt>
+File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
+<use 2-Results-Figs/redshift/redshift.pdf, page 4>
+Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page4 used on i
+nput line 113.
+(pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
+<2-Results-Figs/redshift/redshift.pdf, id=23662, page=5, 504.48056pt x 266.0695
+pt>
+File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
+<use 2-Results-Figs/redshift/redshift.pdf, page 5>
+Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page5 used on i
+nput line 115.
+(pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
+)
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 20.
+
+) (./2-Results/1-Something.tex
+<2-Results-Figs/incidencia-externa/Supported-FEM.pdf, id=23663, 289.08pt x 192.
+72pt>
+File: 2-Results-Figs/incidencia-externa/Supported-FEM.pdf Graphic file (type pd
+f)
+<use 2-Results-Figs/incidencia-externa/Supported-FEM.pdf>
+Package pdftex.def Info: 2-Results-Figs/incidencia-externa/Supported-FEM.pdf  u
+sed on input line 9.
+(pdftex.def)             Requested size: 250.38562pt x 166.92398pt.
+<2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf, id=23664, 188.705pt x 1
+65.61874pt>
+File: 2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf Graphic file (type 
+pdf)
+<use 2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf>
+Package pdftex.def Info: 2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 182.09485pt x 159.81602pt.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 11.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 11.
+
+<2-Results-Figs/incidencia-iterna/normal_internal.png, id=23665, 401.0985pt x 2
+15.1237pt>
+File: 2-Results-Figs/incidencia-iterna/normal_internal.png Graphic file (type p
+ng)
+<use 2-Results-Figs/incidencia-iterna/normal_internal.png>
+Package pdftex.def Info: 2-Results-Figs/incidencia-iterna/normal_internal.png  
+used on input line 20.
+(pdftex.def)             Requested size: 409.71689pt x 219.74495pt.
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 21.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 21.
+
+<2-Results-Figs/incidencia-iterna/angle_internal_s.png, id=23667, 430.2474pt x 
+244.5135pt>
+File: 2-Results-Figs/incidencia-iterna/angle_internal_s.png Graphic file (type 
+png)
+<use 2-Results-Figs/incidencia-iterna/angle_internal_s.png>
+Package pdftex.def Info: 2-Results-Figs/incidencia-iterna/angle_internal_s.png 
+ used on input line 30.
+(pdftex.def)             Requested size: 409.71689pt x 232.85733pt.
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 31.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 31.
+
+<2-Results-Figs/incidencia-iterna/angle_internal_p.png, id=23668, 432.1746pt x 
+245.718pt>
+File: 2-Results-Figs/incidencia-iterna/angle_internal_p.png Graphic file (type 
+png)
+<use 2-Results-Figs/incidencia-iterna/angle_internal_p.png>
+Package pdftex.def Info: 2-Results-Figs/incidencia-iterna/angle_internal_p.png 
+ used on input line 42.
+(pdftex.def)             Requested size: 409.71689pt x 232.95834pt.
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 43.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 43.
+
+<2-Results-Figs/QnormIntExt-inc.png, id=23669, 450.2421pt x 208.8603pt>
+File: 2-Results-Figs/QnormIntExt-inc.png Graphic file (type png)
+<use 2-Results-Figs/QnormIntExt-inc.png>
+Package pdftex.def Info: 2-Results-Figs/QnormIntExt-inc.png  used on input line
+ 55.
+(pdftex.def)             Requested size: 409.71689pt x 190.06953pt.
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:1' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:2' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:3' on page 21 undefined on input line 56.
+
+
+LaTeX Warning: Reference `sfig:red:4' on page 21 undefined on input line 56.
+
+) [21
 
 ]
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10.95'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 230.
 
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./2-Results-Figs/redshift/redshift.pdf> <./2-Results-Figs/redshift/redshif
+t.pdf
+
+pdfTeX warning: pdflatex (file ./2-Results-Figs/redshift/redshift.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./2-Results-Figs/redshift/redshift.pdf
+
+pdfTeX warning: pdflatex (file ./2-Results-Figs/redshift/redshift.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./2-Results-Figs/redshift/redshift.pdf
+
+pdfTeX warning: pdflatex (file ./2-Results-Figs/redshift/redshift.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./2-Results-Figs/redshift/redshift.pdf
+
+pdfTeX warning: pdflatex (file ./2-Results-Figs/redshift/redshift.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <./2-Results-Figs/incidencia-externa/Supported-FEM.pdf
+
+pdfTeX warning: pdflatex (file ./2-Results-Figs/incidencia-externa/Supported-FE
+M.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf
+
+pdfTeX warning: pdflatex (file ./2-Results-Figs/incidencia-externa/Isolated-COM
+SOL.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./2-Results-Figs/incidencia-iterna/normal_internal.png> <./2-Results-Figs/
+incidencia-iterna/angle_internal_s.png>]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24 <./2-Results-Figs/incidencia-iterna/angle_internal_p.png> <./2-Results-Figs
+/QnormIntExt-inc.png>]
+Chapter 4.
+[25
+
+] [26
+
+]
+Appendix A.
+(./5-Apendices/2-SizeCorrection.tex
+
+LaTeX Warning: Reference `eq:SC' on page 27 undefined on input line 21.
+
+
+LaTeX Warning: Reference `eq:EpsSC' on page 27 undefined on input line 35.
+
+[27]
+
+LaTeX Warning: Reference `eq:EpsSC' on page 28 undefined on input line 37.
+
+
+LaTeX Warning: Reference `eq:Drude' on page 28 undefined on input line 45.
+
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 63.
+
+Package svg Info: Last page of `5-Apendices-Figs/DrudeFit.pdf' is 24 on input l
+ine 63.
+(./5-Apendices-Figs/DrudeFit.pdf_tex
+<5-Apendices-Figs/DrudeFit.pdf, id=111141, page=1, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 1>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page1 used on input li
+ne 56.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111142, page=2, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 2>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page2 used on input li
+ne 58.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111143, page=3, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 3>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page3 used on input li
+ne 60.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111144, page=4, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 4>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page4 used on input li
+ne 62.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111145, page=5, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 5>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page5 used on input li
+ne 64.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111146, page=6, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 6>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page6 used on input li
+ne 66.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111147, page=7, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 7>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page7 used on input li
+ne 68.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111148, page=8, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 8>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page8 used on input li
+ne 70.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111149, page=9, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 9>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page9 used on input li
+ne 72.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111150, page=10, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 10>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page10 used on input l
+ine 74.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111151, page=11, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 11>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page11 used on input l
+ine 76.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111152, page=12, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 12>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page12 used on input l
+ine 78.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111153, page=13, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 13>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page13 used on input l
+ine 80.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111154, page=14, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 14>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page14 used on input l
+ine 82.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111155, page=15, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 15>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page15 used on input l
+ine 84.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111156, page=16, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 16>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page16 used on input l
+ine 86.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111157, page=17, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 17>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page17 used on input l
+ine 88.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111158, page=18, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 18>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page18 used on input l
+ine 90.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111159, page=19, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 19>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page19 used on input l
+ine 92.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111160, page=20, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 20>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page20 used on input l
+ine 94.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111161, page=21, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 21>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page21 used on input l
+ine 96.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111162, page=22, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 22>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page22 used on input l
+ine 98.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111163, page=23, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 23>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page23 used on input l
+ine 100.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+<5-Apendices-Figs/DrudeFit.pdf, id=111164, page=24, 295.70396pt x 171.07094pt>
+File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/DrudeFit.pdf, page 24>
+Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page24 used on input l
+ine 102.
+(pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
+)
+
+LaTeX Warning: Reference `eq:gammaFit' on page 28 undefined on input line 64.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 28 undefined on input line 64.
+
+
+LaTeX Warning: Reference `eq:gammaFit' on page 28 undefined on input line 64.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 28 undefined on input line 64.
+
+
+LaTeX Warning: Reference `eq:gammaFit' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:gammaFit' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:gammaFit' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 28 undefined on input line 69.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./5-Apendices-Figs/DrudeFit.pdf> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./5-Apendices-Figs/DrudeFit.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/DrudeFit.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `fig:DrudeFit' on page 29 undefined on input line 73.
+
+
+LaTeX Warning: Reference `eq:gammaFit' on page 29 undefined on input line 73.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 29 undefined on input line 73.
+
+
+LaTeX Warning: Reference `fig:DrudeFit' on page 29 undefined on input line 73.
+
+
+LaTeX Warning: Reference `fig:DrudeFit' on page 29 undefined on input line 73.
+
+
+LaTeX Warning: Reference `eq:gammaFit' on page 29 undefined on input line 73.
+
+
+LaTeX Warning: Reference `eq:wpFit' on page 29 undefined on input line 73.
+
+
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 77.
+
+Package svg Info: Last page of `5-Apendices-Figs/JC.pdf' is 26 on input line 77
+.
+(./5-Apendices-Figs/JC.pdf_tex
+<5-Apendices-Figs/JC.pdf, id=111183, page=1, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 1>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page1 used on input line 56.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111184, page=2, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 2>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page2 used on input line 58.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111185, page=3, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 3>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page3 used on input line 60.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111186, page=4, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 4>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page4 used on input line 62.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111187, page=5, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 5>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page5 used on input line 64.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111188, page=6, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 6>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page6 used on input line 66.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111189, page=7, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 7>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page7 used on input line 68.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111190, page=8, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 8>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page8 used on input line 70.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111191, page=9, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 9>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page9 used on input line 72.
+
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111192, page=10, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 10>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page10 used on input line 74
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111193, page=11, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 11>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page11 used on input line 76
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111194, page=12, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 12>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page12 used on input line 78
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111195, page=13, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 13>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page13 used on input line 80
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111196, page=14, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 14>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page14 used on input line 82
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111197, page=15, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 15>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page15 used on input line 84
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111198, page=16, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 16>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page16 used on input line 86
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111199, page=17, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 17>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page17 used on input line 88
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111200, page=18, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 18>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page18 used on input line 90
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111201, page=19, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 19>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page19 used on input line 92
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111202, page=20, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 20>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page20 used on input line 94
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111203, page=21, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 21>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page21 used on input line 96
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111204, page=22, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 22>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page22 used on input line 98
+.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111205, page=23, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 23>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page23 used on input line 10
+0.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111206, page=24, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 24>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page24 used on input line 10
+2.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111207, page=25, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 25>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page25 used on input line 10
+4.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+<5-Apendices-Figs/JC.pdf, id=111208, page=26, 286.87376pt x 172.06242pt>
+File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
+<use 5-Apendices-Figs/JC.pdf, page 26>
+Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page26 used on input line 10
+9.
+(pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
+)
+
+LaTeX Warning: Reference `fig:EpsSize' on page 29 undefined on input line 83.
+
+
+LaTeX Warning: Reference `fig:EpsSize' on page 29 undefined on input line 83.
+
+
+LaTeX Warning: Reference `fig:EpsSize' on page 29 undefined on input line 83.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./5-Apendices-Figs/JC.pdf> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <./5-Apendices-Figs/JC.pdf
+
+pdfTeX warning: pdflatex (file ./5-Apendices-Figs/JC.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>])
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+Appendix B.
+(./5-Apendices/1-SpecialFuncCode.tex
+
+LaTeX Warning: Reference `ssection:VSH' on page 31 undefined on input line 3.
+
+
+LaTeX Warning: Reference `eq:HelmoltzScalar' on page 31 undefined on input line
+ 3.
+
+
+LaTeX Warning: Reference `eq:Phi' on page 31 undefined on input line 3.
+
+
+LaTeX Warning: Reference `eq:Reqkr' on page 31 undefined on input line 3.
+
+
+LaTeX Warning: Reference `eq:Reqkr' on page 31 undefined on input line 7.
+
+
+LaTeX Warning: Reference `eq:Reqkr' on page 31 undefined on input line 15.
+
+
+LaTeX Warning: Reference `eq:bessel' on page 31 undefined on input line 31.
+
+
+LaTeX Warning: Reference `eq:Hankel' on page 31 undefined on input line 31.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 34.
+[31
+
+]
+
+LaTeX Warning: Reference `ssection:Fields' on page 32 undefined on input line 6
+6.
+
+
+LaTeX Warning: Reference `eq:Plm' on page 32 undefined on input line 73.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+LaTeX Warning: Reference `eq:Plm' on page 33 undefined on input line 87.
+
+
+LaTeX Warning: Reference `eq:Plm' on page 33 undefined on input line 87.
+
+
+LaTeX Warning: Reference `eq:ThetaMu' on page 33 undefined on input line 94.
+
+
+LaTeX Warning: Reference `eq:Plm' on page 33 undefined on input line 100.
+
+
+LaTeX Warning: Reference `eq:Theta' on page 33 undefined on input line 102.
+
+
+LaTeX Warning: Reference `eq:PlPl'' on page 33 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:Plm' on page 33 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:PlmOrtho' on page 33 undefined on input line 114.
+
+
+LaTeX Warning: Reference `eq:Plm' on page 33 undefined on input line 131.
+
+
+LaTeX Warning: Reference `eq:PimlTauml' on page 33 undefined on input line 131.
+
+
+
+LaTeX Warning: Reference `eq:taupiCross' on page 33 undefined on input line 131
+.
+
+
+LaTeX Warning: Reference `eq:(pipmtau)' on page 33 undefined on input line 139.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+LaTeX Warning: Reference `eq:PimlTauml' on page 34 undefined on input line 151.
+
+
+
+LaTeX Warning: Reference `eq:recBessel1' on page 34 undefined on input line 179
+.
+
+
+LaTeX Warning: Reference `eq:recBessel2' on page 34 undefined on input line 179
+.
+
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 199.
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 199.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [13]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 199.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/sl' in size <9> not available
+(Font)              Font shape `T1/lmtt/b/sl' tried instead on input line 201.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14] (./tesis.lof)
+[34]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35])
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+ [37
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38] (./tesis.lof)
 \tf@lof=\write12
 \openout12 = `tesis.lof'.
 
- [15] [16
+ [39] [40
 
 ]
 runsystem(makeindex tesis.idx)...executed safely (allowed).
 
- (./tesis.ind) [17
+ (./tesis.ind) [41
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./tesis.aux
+*************************************************
+* pdfbase warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
 (./0-4-Resumen/1-Resumen.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: EE284D7003B016A6E213331309CA832F;609.
 
+
+Package rerunfilecheck Warning: File `tesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis.out':
+(rerunfilecheck)             Before: FD2EC04FC9AC83A1B3A095875CD50EB5;609
+(rerunfilecheck)             After:  794AE4514D08CC6C4293628550004DF4;1459.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                tesis
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60686 strings out of 492982
- 1356402 string characters out of 6134896
- 2024583 words of memory out of 5000000
- 63016 multiletter control sequences out of 15000+600000
- 634314 words of font info for 162 fonts, out of 8000000 for 9000
+ 63886 strings out of 492982
+ 1411472 string characters out of 6134896
+ 2077915 words of memory out of 5000000
+ 65916 multiletter control sequences out of 15000+600000
+ 662643 words of font info for 238 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,22n,153p,10549b,1336s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msbm10.pfb>
-Output written on tesis.pdf (23 pages, 6620947 bytes).
+ 79i,22n,153p,10549b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.11} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/t
+exmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
+athex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtko10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tesis.pdf (47 pages, 26862907 bytes).
 PDF statistics:
- 23668 PDF objects out of 26593 (max. 8388607)
- 11914 compressed objects within 120 object streams
- 64 named destinations out of 1000 (max. 500000)
- 28058 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 111567 PDF objects out of 114338 (max. 8388607)
+ 55759 compressed objects within 558 object streams
+ 200 named destinations out of 1000 (max. 500000)
+ 36103 words of extra memory for PDF output out of 42996 (max. 10000000)
 

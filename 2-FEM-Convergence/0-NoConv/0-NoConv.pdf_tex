@@ -54,9 +54,9 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{0-NoConv.pdf}}%
-    \put(0.79596935,0.35488318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mie\end{tabular}}}}%
+    \put(0.79596935,0.34451332){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mie\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{0-NoConv.pdf}}%
-    \put(0.91817809,0.35488318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM\end{tabular}}}}%
+    \put(0.91817809,0.34451332){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{0-NoConv.pdf}}%
     \put(0.11155616,0.03321023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{0-NoConv.pdf}}%
@@ -83,10 +83,10 @@
     \put(0.08946292,0.11489637){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-4}$\end{tabular}}}}%
     \put(0.08946292,0.0863283){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-5}$\end{tabular}}}}%
     \put(0.08946292,0.05639198){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10$^{-6}$\end{tabular}}}}%
-    \put(0.97471443,0.46318504){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm AuNP$@$Air\\NP Max Mesh Size: $a/2$\\Matrix Max Mesh Size: $\lambda/4$\\PML Thickness: $\lambda/4$\end{tabular}}}}%
-    \put(0.66509234,0.32577596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}\times 100$\end{tabular}}}}%
-    \put(0.81674005,0.32577596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
-    \put(0.91851077,0.32577596){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
+    \put(0.97471443,0.46318504){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm-AuNP$@$Air\\NP Max Mesh Size: $a/2$\\Matrix Max Mesh Size: $\lambda/6$\\PML \& Matrix Thickness: $\lambda/4$\end{tabular}}}}%
+    \put(0.66509234,0.31022116){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}\times 100$\end{tabular}}}}%
+    \put(0.81674005,0.31022116){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
+    \put(0.91851077,0.31022116){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{0-NoConv.pdf}}%
   \end{picture}%
 \endgroup%

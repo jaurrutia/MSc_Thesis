@@ -64,7 +64,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=5]{1-RadiusConv.pdf}}%
     \put(0.97738578,0.05071174){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{1-RadiusConv.pdf}}%
-    \put(0.97841448,0.20232488){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm AuNP$@$Air\\$\lambda = 510$ nm\\Matrix Max Mesh Size: $\lambda/6$\\PML Thickness: $\lambda/4$\end{tabular}}}}%
+    \put(0.97841448,0.20232488){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5 nm AuNP$@$Air\\$\lambda = 510$ nm\\Matrix Max Mesh Size: $\lambda/6$\\PML and Matrix Thickness: $\lambda/4$\end{tabular}}}}%
     \put(0.02998357,0.23676583){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q_\text{ext}^\text{Mie}-Q_\text{ext}^\text{FEM}}$\end{tabular}}}}}%
     \put(0.97750146,0.36775346){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
     \put(0.78674399,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{2}$\end{tabular}}}}%
@@ -83,7 +83,7 @@
     \put(0.23223661,0.36936837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{a}{15}$\end{tabular}}}}%
     \put(0.17620809,0.14038041){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-4}$\end{tabular}}}}%
     \put(0.17620809,0.11133065){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$0.5\times 10^{-5}$\end{tabular}}}}%
-    \put(0.41691437,0.01573139){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP Max Mesh Size  [nm]\end{tabular}}}}%
+    \put(0.59044928,0.01573139){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}NP Maximum Mesh Size  [nm]\end{tabular}}}}%
     \put(0.17620809,0.23688339){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-3}$\end{tabular}}}}%
     \put(0.17620809,0.2078336){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$0.5\times 10^{-4}$\end{tabular}}}}%
     \put(0.17620809,0.32897684){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1.0\times 10^{-2}$\end{tabular}}}}%

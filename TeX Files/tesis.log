@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.17)  22 FEB 2022 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.17)  24 FEB 2022 14:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3446,279 +3446,202 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 
 [13]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 15.
+(Font)              <10> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 16.
 
 
 Package svg Warning: You should specify the image size with parameters
 (svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 18.
+(svg)                `\svgscale' or `\svgwidth' on input line 19.
 
-Package svg Info: Last page of `1-Theory-Figs/Mie-Au/1-Efficiencies.pdf' is 37 on input line 18.
+Package svg Info: Last page of `1-Theory-Figs/Mie-Au/1-Efficiencies.pdf' is 37 on input line 19.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/1-Efficiencies.pdf_tex
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=424, page=1, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 1>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page1 used on input line 56.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page1 used on input line 60.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=425, page=2, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 2>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page2 used on input line 58.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page2 used on input line 63.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=426, page=3, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 3>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page3 used on input line 60.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page3 used on input line 65.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=427, page=4, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 4>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page4 used on input line 62.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page4 used on input line 67.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=428, page=5, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 5>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page5 used on input line 64.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page5 used on input line 69.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=429, page=6, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 6>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page6 used on input line 66.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page6 used on input line 71.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=430, page=7, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 7>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page7 used on input line 68.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page7 used on input line 74.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=431, page=8, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 8>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page8 used on input line 70.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page8 used on input line 77.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=432, page=9, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 9>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page9 used on input line 72.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page9 used on input line 79.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=433, page=10, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 10>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page10 used on input line 74.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page10 used on input line 81.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=434, page=11, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 11>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page11 used on input line 76.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page11 used on input line 83.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=435, page=12, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 12>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page12 used on input line 78.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page12 used on input line 85.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=436, page=13, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 13>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page13 used on input line 80.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page13 used on input line 87.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=437, page=14, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 14>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page14 used on input line 82.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page14 used on input line 89.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=438, page=15, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 15>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page15 used on input line 84.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page15 used on input line 91.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=439, page=16, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 16>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page16 used on input line 86.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page16 used on input line 93.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=440, page=17, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 17>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page17 used on input line 88.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page17 used on input line 95.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=441, page=18, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 18>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page18 used on input line 90.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page18 used on input line 97.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=442, page=19, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 19>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page19 used on input line 93.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page19 used on input line 99.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=443, page=20, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 20>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page20 used on input line 95.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page20 used on input line 101.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=444, page=21, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 21>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page21 used on input line 97.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page21 used on input line 103.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=445, page=22, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 22>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page22 used on input line 99.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page22 used on input line 108.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=446, page=23, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 23>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page23 used on input line 101.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page23 used on input line 110.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=447, page=24, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 24>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page24 used on input line 103.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page24 used on input line 112.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=448, page=25, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 25>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page25 used on input line 105.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page25 used on input line 114.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=449, page=26, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 26>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page26 used on input line 107.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page26 used on input line 116.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=450, page=27, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 27>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page27 used on input line 109.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page27 used on input line 118.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=451, page=28, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 28>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page28 used on input line 111.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page28 used on input line 120.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=452, page=29, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 29>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page29 used on input line 113.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page29 used on input line 122.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=453, page=30, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 30>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page30 used on input line 115.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page30 used on input line 124.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=454, page=31, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 31>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page31 used on input line 117.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page31 used on input line 126.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=455, page=32, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 32>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page32 used on input line 119.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page32 used on input line 128.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=456, page=33, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 33>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page33 used on input line 126.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page33 used on input line 130.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=457, page=34, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 34>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page34 used on input line 129.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page34 used on input line 132.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=458, page=35, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 35>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page35 used on input line 131.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page35 used on input line 134.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=459, page=36, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 36>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page36 used on input line 133.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page36 used on input line 136.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
 <1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, id=460, page=37, 282.88124pt x 96.84053pt>
 File: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf, page 37>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page37 used on input line 135.
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/1-Efficiencies.pdf , page37 used on input line 138.
 (pdftex.def)             Requested size: 455.24408pt x 155.84937pt.
-)
-
-Package svg Warning: You should specify the image size with parameters
-(svg)                `width' and `height' or `scale' instead of using
-(svg)                `\svgscale' or `\svgwidth' on input line 41.
-
-Package svg Info: Last page of `1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf' is 13 on input line 41.
-(/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf_tex
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=466, page=1, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 1>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page1 used on input line 61.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=467, page=2, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 2>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page2 used on input line 79.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=468, page=3, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 3>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page3 used on input line 81.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=469, page=4, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 4>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page4 used on input line 83.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=470, page=5, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 5>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page5 used on input line 99.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=471, page=6, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 6>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page6 used on input line 107.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=472, page=7, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 7>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page7 used on input line 110.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=473, page=8, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 8>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page8 used on input line 112.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=474, page=9, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 9>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page9 used on input line 114.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=475, page=10, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 10>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page10 used on input line 116.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=476, page=11, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 11>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page11 used on input line 118.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=477, page=12, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 12>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page12 used on input line 120.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=478, page=13, 279.62984pt x 150.8099pt>
-File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
-<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 13>
-Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page13 used on input line 122.
-(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
-)
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 )
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3838,6 +3761,79 @@ pdfTeX warning: pdflatex (file /home/juanathan/Documents/MSc_Thesis/TeX Files/1-
 pdfTeX warning: pdflatex (file /home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/1-Efficiencies.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
+Package svg Warning: You should specify the image size with parameters
+(svg)                `width' and `height' or `scale' instead of using
+(svg)                `\svgscale' or `\svgwidth' on input line 45.
+
+Package svg Info: Last page of `1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf' is 13 on input line 45.
+(/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf_tex
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=482, page=1, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 1>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page1 used on input line 61.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=483, page=2, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 2>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page2 used on input line 79.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=484, page=3, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 3>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page3 used on input line 81.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=485, page=4, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 4>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page4 used on input line 83.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=486, page=5, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 5>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page5 used on input line 99.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=487, page=6, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 6>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page6 used on input line 107.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=488, page=7, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 7>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page7 used on input line 110.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=489, page=8, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 8>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page8 used on input line 112.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=490, page=9, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 9>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page9 used on input line 114.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=491, page=10, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 10>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page10 used on input line 116.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=492, page=11, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 11>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page11 used on input line 118.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=493, page=12, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 12>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page12 used on input line 120.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+<1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, id=494, page=13, 279.62984pt x 150.8099pt>
+File: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf Graphic file (type pdf)
+<use 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf, page 13>
+Package pdftex.def Info: 1-Theory-Figs/Mie-Au/2-ScatteringMaps.pdf , page13 used on input line 122.
+(pdftex.def)             Requested size: 455.24408pt x 245.52571pt.
+))
+
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -3891,17 +3887,17 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/SistemaMie.pdf' is 3 on input line 6.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/SistemaMie.pdf_tex
-<1-Theory-Figs/SistemaMie.pdf, id=508, page=1, 213.47296pt x 66.57442pt>
+<1-Theory-Figs/SistemaMie.pdf, id=511, page=1, 213.47296pt x 66.57442pt>
 File: 1-Theory-Figs/SistemaMie.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/SistemaMie.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/SistemaMie.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 364.19664pt x 113.58133pt.
-<1-Theory-Figs/SistemaMie.pdf, id=509, page=2, 213.47296pt x 66.57442pt>
+<1-Theory-Figs/SistemaMie.pdf, id=512, page=2, 213.47296pt x 66.57442pt>
 File: 1-Theory-Figs/SistemaMie.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/SistemaMie.pdf, page 2>
 Package pdftex.def Info: 1-Theory-Figs/SistemaMie.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 364.19664pt x 113.58133pt.
-<1-Theory-Figs/SistemaMie.pdf, id=510, page=3, 213.47296pt x 66.57442pt>
+<1-Theory-Figs/SistemaMie.pdf, id=513, page=3, 213.47296pt x 66.57442pt>
 File: 1-Theory-Figs/SistemaMie.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/SistemaMie.pdf, page 3>
 Package pdftex.def Info: 1-Theory-Figs/SistemaMie.pdf , page3 used on input line 61.
@@ -3914,67 +3910,67 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/0-NoConv.pdf' is 13 on input line 23.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/0-NoConv.pdf_tex
-<1-Theory-Figs/0-NoConv.pdf, id=512, page=1, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=515, page=1, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=513, page=2, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=516, page=2, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 2>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=514, page=3, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=517, page=3, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 3>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=515, page=4, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=518, page=4, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 4>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=516, page=5, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=519, page=5, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 5>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page5 used on input line 64.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=517, page=6, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=520, page=6, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 6>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=518, page=7, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=521, page=7, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 7>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page7 used on input line 68.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=519, page=8, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=522, page=8, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 8>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page8 used on input line 70.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=520, page=9, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=523, page=9, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 9>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page9 used on input line 72.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=521, page=10, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=524, page=10, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 10>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page10 used on input line 74.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=522, page=11, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=525, page=11, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 11>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page11 used on input line 76.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=523, page=12, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=526, page=12, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 12>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page12 used on input line 78.
 (pdftex.def)             Requested size: 455.24408pt x 231.51079pt.
-<1-Theory-Figs/0-NoConv.pdf, id=524, page=13, 290.38495pt x 147.66832pt>
+<1-Theory-Figs/0-NoConv.pdf, id=527, page=13, 290.38495pt x 147.66832pt>
 File: 1-Theory-Figs/0-NoConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/0-NoConv.pdf, page 13>
 Package pdftex.def Info: 1-Theory-Figs/0-NoConv.pdf , page13 used on input line 90.
@@ -3990,32 +3986,32 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/1-RadiusConv.pdf' is 6 on input line 33.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/1-RadiusConv.pdf_tex
-<1-Theory-Figs/1-RadiusConv.pdf, id=526, page=1, 262.91193pt x 105.98819pt>
+<1-Theory-Figs/1-RadiusConv.pdf, id=529, page=1, 262.91193pt x 105.98819pt>
 File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/1-RadiusConv.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv.pdf, id=527, page=2, 262.91193pt x 105.98819pt>
+<1-Theory-Figs/1-RadiusConv.pdf, id=530, page=2, 262.91193pt x 105.98819pt>
 File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/1-RadiusConv.pdf, page 2>
 Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv.pdf, id=528, page=3, 262.91193pt x 105.98819pt>
+<1-Theory-Figs/1-RadiusConv.pdf, id=531, page=3, 262.91193pt x 105.98819pt>
 File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/1-RadiusConv.pdf, page 3>
 Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv.pdf, id=529, page=4, 262.91193pt x 105.98819pt>
+<1-Theory-Figs/1-RadiusConv.pdf, id=532, page=4, 262.91193pt x 105.98819pt>
 File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/1-RadiusConv.pdf, page 4>
 Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv.pdf, id=530, page=5, 262.91193pt x 105.98819pt>
+<1-Theory-Figs/1-RadiusConv.pdf, id=533, page=5, 262.91193pt x 105.98819pt>
 File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/1-RadiusConv.pdf, page 5>
 Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page5 used on input line 64.
 (pdftex.def)             Requested size: 364.19664pt x 146.82178pt.
-<1-Theory-Figs/1-RadiusConv.pdf, id=531, page=6, 262.91193pt x 105.98819pt>
+<1-Theory-Figs/1-RadiusConv.pdf, id=534, page=6, 262.91193pt x 105.98819pt>
 File: 1-Theory-Figs/1-RadiusConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/1-RadiusConv.pdf, page 6>
 Package pdftex.def Info: 1-Theory-Figs/1-RadiusConv.pdf , page6 used on input line 66.
@@ -4031,47 +4027,47 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/2-MatrixConv.pdf' is 9 on input line 42.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/2-MatrixConv.pdf_tex
-<1-Theory-Figs/2-MatrixConv.pdf, id=533, page=1, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=536, page=1, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page1 used on input line 63.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=534, page=2, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=537, page=2, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 2>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page2 used on input line 65.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=535, page=3, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=538, page=3, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 3>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page3 used on input line 67.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=536, page=4, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=539, page=4, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 4>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page4 used on input line 69.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=537, page=5, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=540, page=5, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 5>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page5 used on input line 71.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=538, page=6, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=541, page=6, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 6>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page6 used on input line 73.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=539, page=7, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=542, page=7, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 7>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page7 used on input line 75.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=540, page=8, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=543, page=8, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 8>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page8 used on input line 77.
 (pdftex.def)             Requested size: 364.19664pt x 150.76323pt.
-<1-Theory-Figs/2-MatrixConv.pdf, id=541, page=9, 262.91193pt x 108.83347pt>
+<1-Theory-Figs/2-MatrixConv.pdf, id=544, page=9, 262.91193pt x 108.83347pt>
 File: 1-Theory-Figs/2-MatrixConv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/2-MatrixConv.pdf, page 9>
 Package pdftex.def Info: 1-Theory-Figs/2-MatrixConv.pdf , page9 used on input line 79.
@@ -4087,7 +4083,7 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/3-MatrixPMLThickness.pdf' is 1 on input line 51.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/3-MatrixPMLThickness.pdf_tex
-<1-Theory-Figs/3-MatrixPMLThickness.pdf, id=543, page=1, 265.75717pt x 108.83347pt>
+<1-Theory-Figs/3-MatrixPMLThickness.pdf, id=546, page=1, 265.75717pt x 108.83347pt>
 File: 1-Theory-Figs/3-MatrixPMLThickness.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/3-MatrixPMLThickness.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/3-MatrixPMLThickness.pdf , page1 used on input line 65.
@@ -4103,12 +4099,12 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/SistemaBox.pdf' is 2 on input line 81.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/SistemaBox.pdf_tex
-<1-Theory-Figs/SistemaBox.pdf, id=545, page=1, 206.45378pt x 80.577pt>
+<1-Theory-Figs/SistemaBox.pdf, id=548, page=1, 206.45378pt x 80.577pt>
 File: 1-Theory-Figs/SistemaBox.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/SistemaBox.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/SistemaBox.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 364.19664pt x 142.1528pt.
-<1-Theory-Figs/SistemaBox.pdf, id=546, page=2, 206.45378pt x 80.577pt>
+<1-Theory-Figs/SistemaBox.pdf, id=549, page=2, 206.45378pt x 80.577pt>
 File: 1-Theory-Figs/SistemaBox.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/SistemaBox.pdf, page 2>
 Package pdftex.def Info: 1-Theory-Figs/SistemaBox.pdf , page2 used on input line 58.
@@ -4124,92 +4120,92 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `1-Theory-Figs/4-Conv.pdf' is 18 on input line 96.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/1-Theory-Figs/4-Conv.pdf_tex
-<1-Theory-Figs/4-Conv.pdf, id=548, page=1, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=551, page=1, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 1>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=549, page=2, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=552, page=2, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 2>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page2 used on input line 59.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=550, page=3, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=553, page=3, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 3>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page3 used on input line 61.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=551, page=4, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=554, page=4, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 4>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page4 used on input line 63.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=552, page=5, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=555, page=5, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 5>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page5 used on input line 65.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=553, page=6, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=556, page=6, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 6>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page6 used on input line 67.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=554, page=7, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=557, page=7, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 7>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page7 used on input line 69.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=555, page=8, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=558, page=8, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 8>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page8 used on input line 71.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=556, page=9, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=559, page=9, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 9>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page9 used on input line 73.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=557, page=10, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=560, page=10, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 10>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page10 used on input line 75.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=558, page=11, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=561, page=11, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 11>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page11 used on input line 77.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=559, page=12, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=562, page=12, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 12>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page12 used on input line 79.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=560, page=13, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=563, page=13, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 13>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page13 used on input line 81.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=561, page=14, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=564, page=14, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 14>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page14 used on input line 83.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=562, page=15, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=565, page=15, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 15>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page15 used on input line 85.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=563, page=16, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=566, page=16, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 16>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page16 used on input line 87.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=564, page=17, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=567, page=17, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 17>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page17 used on input line 89.
 (pdftex.def)             Requested size: 455.24408pt x 229.26431pt.
-<1-Theory-Figs/4-Conv.pdf, id=565, page=18, 293.23024pt x 147.66832pt>
+<1-Theory-Figs/4-Conv.pdf, id=568, page=18, 293.23024pt x 147.66832pt>
 File: 1-Theory-Figs/4-Conv.pdf Graphic file (type pdf)
 <use 1-Theory-Figs/4-Conv.pdf, page 18>
 Package pdftex.def Info: 1-Theory-Figs/4-Conv.pdf , page18 used on input line 91.
@@ -4393,58 +4389,58 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `2-Results-Figs/redshift/redshift.pdf' is 5 on input line 12.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results-Figs/redshift/redshift.pdf_tex
-<2-Results-Figs/redshift/redshift.pdf, id=1295, page=1, 504.48056pt x 266.0695pt>
+<2-Results-Figs/redshift/redshift.pdf, id=1298, page=1, 504.48056pt x 266.0695pt>
 File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
 <use 2-Results-Figs/redshift/redshift.pdf, page 1>
 Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page1 used on input line 83.
 (pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
-<2-Results-Figs/redshift/redshift.pdf, id=1296, page=2, 504.48056pt x 266.0695pt>
+<2-Results-Figs/redshift/redshift.pdf, id=1299, page=2, 504.48056pt x 266.0695pt>
 File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
 <use 2-Results-Figs/redshift/redshift.pdf, page 2>
 Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page2 used on input line 109.
 (pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
-<2-Results-Figs/redshift/redshift.pdf, id=1297, page=3, 504.48056pt x 266.0695pt>
+<2-Results-Figs/redshift/redshift.pdf, id=1300, page=3, 504.48056pt x 266.0695pt>
 File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
 <use 2-Results-Figs/redshift/redshift.pdf, page 3>
 Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page3 used on input line 111.
 (pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
-<2-Results-Figs/redshift/redshift.pdf, id=1298, page=4, 504.48056pt x 266.0695pt>
+<2-Results-Figs/redshift/redshift.pdf, id=1301, page=4, 504.48056pt x 266.0695pt>
 File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
 <use 2-Results-Figs/redshift/redshift.pdf, page 4>
 Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page4 used on input line 113.
 (pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
-<2-Results-Figs/redshift/redshift.pdf, id=1299, page=5, 504.48056pt x 266.0695pt>
+<2-Results-Figs/redshift/redshift.pdf, id=1302, page=5, 504.48056pt x 266.0695pt>
 File: 2-Results-Figs/redshift/redshift.pdf Graphic file (type pdf)
 <use 2-Results-Figs/redshift/redshift.pdf, page 5>
 Package pdftex.def Info: 2-Results-Figs/redshift/redshift.pdf , page5 used on input line 115.
 (pdftex.def)             Requested size: 455.24408pt x 240.10583pt.
 )) (/home/juanathan/Documents/MSc_Thesis/TeX Files/2-Results/1-Something.tex
-<2-Results-Figs/incidencia-externa/Supported-FEM.pdf, id=1308, 289.08pt x 192.72pt>
+<2-Results-Figs/incidencia-externa/Supported-FEM.pdf, id=1311, 289.08pt x 192.72pt>
 File: 2-Results-Figs/incidencia-externa/Supported-FEM.pdf Graphic file (type pdf)
 <use 2-Results-Figs/incidencia-externa/Supported-FEM.pdf>
 Package pdftex.def Info: 2-Results-Figs/incidencia-externa/Supported-FEM.pdf  used on input line 9.
 (pdftex.def)             Requested size: 250.38562pt x 166.92398pt.
-<2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf, id=1309, 188.705pt x 165.61874pt>
+<2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf, id=1312, 188.705pt x 165.61874pt>
 File: 2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf Graphic file (type pdf)
 <use 2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf>
 Package pdftex.def Info: 2-Results-Figs/incidencia-externa/Isolated-COMSOL.pdf  used on input line 10.
 (pdftex.def)             Requested size: 182.09485pt x 159.81602pt.
-<2-Results-Figs/incidencia-iterna/normal_internal.png, id=1318, 401.0985pt x 215.1237pt>
+<2-Results-Figs/incidencia-iterna/normal_internal.png, id=1321, 401.0985pt x 215.1237pt>
 File: 2-Results-Figs/incidencia-iterna/normal_internal.png Graphic file (type png)
 <use 2-Results-Figs/incidencia-iterna/normal_internal.png>
 Package pdftex.def Info: 2-Results-Figs/incidencia-iterna/normal_internal.png  used on input line 20.
 (pdftex.def)             Requested size: 409.71689pt x 219.74495pt.
-<2-Results-Figs/incidencia-iterna/angle_internal_s.png, id=1328, 430.2474pt x 244.5135pt>
+<2-Results-Figs/incidencia-iterna/angle_internal_s.png, id=1331, 430.2474pt x 244.5135pt>
 File: 2-Results-Figs/incidencia-iterna/angle_internal_s.png Graphic file (type png)
 <use 2-Results-Figs/incidencia-iterna/angle_internal_s.png>
 Package pdftex.def Info: 2-Results-Figs/incidencia-iterna/angle_internal_s.png  used on input line 30.
 (pdftex.def)             Requested size: 409.71689pt x 232.85733pt.
-<2-Results-Figs/incidencia-iterna/angle_internal_p.png, id=1337, 432.1746pt x 245.718pt>
+<2-Results-Figs/incidencia-iterna/angle_internal_p.png, id=1340, 432.1746pt x 245.718pt>
 File: 2-Results-Figs/incidencia-iterna/angle_internal_p.png Graphic file (type png)
 <use 2-Results-Figs/incidencia-iterna/angle_internal_p.png>
 Package pdftex.def Info: 2-Results-Figs/incidencia-iterna/angle_internal_p.png  used on input line 42.
 (pdftex.def)             Requested size: 409.71689pt x 232.95834pt.
-<2-Results-Figs/QnormIntExt-inc.png, id=1346, 450.2421pt x 208.8603pt>
+<2-Results-Figs/QnormIntExt-inc.png, id=1349, 450.2421pt x 208.8603pt>
 File: 2-Results-Figs/QnormIntExt-inc.png Graphic file (type png)
 <use 2-Results-Figs/QnormIntExt-inc.png>
 Package pdftex.def Info: 2-Results-Figs/QnormIntExt-inc.png  used on input line 55.
@@ -4506,122 +4502,122 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `5-Apendices-Figs/DrudeFit.pdf' is 24 on input line 63.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/5-Apendices-Figs/DrudeFit.pdf_tex
-<5-Apendices-Figs/DrudeFit.pdf, id=88823, page=1, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88826, page=1, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 1>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88824, page=2, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88827, page=2, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 2>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88825, page=3, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88828, page=3, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 3>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88826, page=4, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88829, page=4, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 4>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88827, page=5, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88830, page=5, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 5>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page5 used on input line 64.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88828, page=6, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88831, page=6, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 6>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88829, page=7, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88832, page=7, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 7>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page7 used on input line 68.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88830, page=8, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88833, page=8, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 8>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page8 used on input line 70.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88831, page=9, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88834, page=9, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 9>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page9 used on input line 72.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88832, page=10, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88835, page=10, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 10>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page10 used on input line 74.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88833, page=11, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88836, page=11, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 11>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page11 used on input line 76.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88834, page=12, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88837, page=12, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 12>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page12 used on input line 78.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88835, page=13, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88838, page=13, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 13>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page13 used on input line 80.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88836, page=14, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88839, page=14, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 14>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page14 used on input line 82.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88837, page=15, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88840, page=15, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 15>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page15 used on input line 84.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88838, page=16, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88841, page=16, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 16>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page16 used on input line 86.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88839, page=17, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88842, page=17, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 17>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page17 used on input line 88.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88840, page=18, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88843, page=18, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 18>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page18 used on input line 90.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88841, page=19, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88844, page=19, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 19>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page19 used on input line 92.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88842, page=20, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88845, page=20, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 20>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page20 used on input line 94.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88843, page=21, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88846, page=21, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 21>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page21 used on input line 96.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88844, page=22, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88847, page=22, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 22>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page22 used on input line 98.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88845, page=23, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88848, page=23, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 23>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page23 used on input line 100.
 (pdftex.def)             Requested size: 386.96024pt x 223.87485pt.
-<5-Apendices-Figs/DrudeFit.pdf, id=88846, page=24, 295.70396pt x 171.07094pt>
+<5-Apendices-Figs/DrudeFit.pdf, id=88849, page=24, 295.70396pt x 171.07094pt>
 File: 5-Apendices-Figs/DrudeFit.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/DrudeFit.pdf, page 24>
 Package pdftex.def Info: 5-Apendices-Figs/DrudeFit.pdf , page24 used on input line 102.
@@ -4710,132 +4706,132 @@ Package svg Warning: You should specify the image size with parameters
 
 Package svg Info: Last page of `5-Apendices-Figs/JC.pdf' is 26 on input line 77.
 (/home/juanathan/Documents/MSc_Thesis/TeX Files/5-Apendices-Figs/JC.pdf_tex
-<5-Apendices-Figs/JC.pdf, id=88882, page=1, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88885, page=1, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 1>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88883, page=2, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88886, page=2, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 2>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88884, page=3, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88887, page=3, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 3>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page3 used on input line 60.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88885, page=4, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88888, page=4, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 4>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page4 used on input line 62.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88886, page=5, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88889, page=5, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 5>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page5 used on input line 64.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88887, page=6, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88890, page=6, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 6>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page6 used on input line 66.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88888, page=7, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88891, page=7, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 7>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page7 used on input line 68.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88889, page=8, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88892, page=8, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 8>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page8 used on input line 70.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88890, page=9, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88893, page=9, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 9>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page9 used on input line 72.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88891, page=10, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88894, page=10, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 10>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page10 used on input line 74.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88892, page=11, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88895, page=11, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 11>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page11 used on input line 76.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88893, page=12, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88896, page=12, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 12>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page12 used on input line 78.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88894, page=13, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88897, page=13, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 13>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page13 used on input line 80.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88895, page=14, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88898, page=14, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 14>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page14 used on input line 82.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88896, page=15, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88899, page=15, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 15>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page15 used on input line 84.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88897, page=16, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88900, page=16, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 16>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page16 used on input line 86.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88898, page=17, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88901, page=17, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 17>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page17 used on input line 88.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88899, page=18, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88902, page=18, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 18>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page18 used on input line 90.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88900, page=19, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88903, page=19, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 19>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page19 used on input line 92.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88901, page=20, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88904, page=20, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 20>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page20 used on input line 94.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88902, page=21, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88905, page=21, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 21>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page21 used on input line 96.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88903, page=22, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88906, page=22, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 22>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page22 used on input line 98.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88904, page=23, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88907, page=23, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 23>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page23 used on input line 100.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88905, page=24, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88908, page=24, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 24>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page24 used on input line 102.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88906, page=25, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88909, page=25, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 25>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page25 used on input line 104.
 (pdftex.def)             Requested size: 386.96024pt x 232.11406pt.
-<5-Apendices-Figs/JC.pdf, id=88907, page=26, 286.87376pt x 172.06242pt>
+<5-Apendices-Figs/JC.pdf, id=88910, page=26, 286.87376pt x 172.06242pt>
 File: 5-Apendices-Figs/JC.pdf Graphic file (type pdf)
 <use 5-Apendices-Figs/JC.pdf, page 26>
 Package pdftex.def Info: 5-Apendices-Figs/JC.pdf , page26 used on input line 109.
@@ -5034,7 +5030,7 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  64135 strings out of 492982
- 1427032 string characters out of 6134896
+ 1427030 string characters out of 6134896
  2093533 words of memory out of 5000000
  66139 multiletter control sequences out of 15000+600000
  662975 words of font info for 242 fonts, out of 8000000 for 9000
@@ -5042,10 +5038,10 @@ Here is how much of TeX's memory you used:
  79i,22n,153p,10549b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtko10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.pdf" (47 pages, 22930688 bytes).
+Output written on "/home/juanathan/Documents/MSc_Thesis/TeX Files/tesis.pdf" (47 pages, 22932235 bytes).
 PDF statistics:
- 89318 PDF objects out of 95282 (max. 8388607)
- 44826 compressed objects within 449 object streams
+ 89321 PDF objects out of 95282 (max. 8388607)
+ 44829 compressed objects within 449 object streams
  199 named destinations out of 1000 (max. 500000)
  36531 words of extra memory for PDF output out of 42996 (max. 10000000)
 

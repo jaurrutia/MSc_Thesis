@@ -11,14 +11,14 @@ In Fig. \ref{fig:Mieefficiencies} the extinction  $Q_\text{ext}$ and the scatter
 % --------------------------------------               fig:Mieefficiencies         -------------------------------
 \begin{figure}[h!]
 	\def\svgwidth{1\textwidth} \small
-  \vspace*{3.25em}
-  \hspace*{-10.75em}
-    \begin{subfigure}{.49\textwidth}\caption{ }\label{fig:Mieefficiencies:a}\end{subfigure}
+  \vspace*{3.0em}
+  \hspace*{-9.em}
+    \begin{subfigure}{.46\textwidth}\caption{ }\label{fig:Mieefficiencies:a}\end{subfigure}
     \begin{subfigure}{.49\textwidth}\caption{ }\label{fig:Mieefficiencies:b}\end{subfigure}
-  \vspace*{-6.25em}\\
+  \vspace*{-6.em}\\
   \includeinkscape{1-Theory-Figs/Mie-Au/1-Efficiencies}
   \vspace*{-2em}
-  \caption[Extinction and Scattering Corss Section of a 12.5 nm Au Spherical NP embeded into Air and Glass]{ \textbf{a)} Extinction $Q_\text{ext}$ and \textbf{b)} scattering $Q_\text{sca}$ efficiencies of a 12.5 nm Au spherical NP embeded into air (black, $n_\text{mat} = 1$)  and into galss (orange, $n_\text{mat} = 1.33$), as function of the wavelength $\lambda$ of the incident planewave.  The solid curves were calculated by considering no size effects on the dielectric function of the AuNP, while the dashed curves consider a size correction to it; the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} was employed.}
+  \caption[Extinction and Scattering Efficency of a 12.5 nm Au Spherical NP embeded into Air and Glass]{ \textbf{a)} Extinction $Q_\text{ext}$ and \textbf{b)} scattering $Q_\text{sca}$ efficiencies of a 12.5 nm Au spherical NP embeded into air (black, $n_\text{mat} = 1$)  and into galss (orange, $n_\text{mat} = 1.33$), as function of the wavelength $\lambda$ of the incident planewave.  The solid curves were calculated by considering no size effects on the dielectric function of the AuNP, while the dashed curves consider a size correction to it; the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} was employed.}
 \label{fig:Mieefficiencies}
 \end{figure}
 % --------------------------------------               fig:Mieefficiencies         -------------------------------
@@ -29,23 +29,57 @@ Both the scattering and the absorption efficiencies of a 12.5 nm AuNP present an
 
 The extinction [Fig. \ref{fig:Mieefficiencies:a}] and the scattering [Fig. \ref{fig:Mieefficiencies:b}] efficiencies of the same system, a 12.5 nm AuNP embedded into a matrix of either air or glass, are different whether a size correction to the dielectric function of the AuNP is considered (dashed lines) or not (solid lines). On the one hand, there is a spectral shift of LSPR excitation wavelength for both matrices of $\sim 2$ nm: the AuNP embedded into air redifts from $\sim 507$ nm (no size correction) to $\sim 509$ nm (size correction) and the AuNP embedded into glass blueshifts from $\sim 506$ nm to $\sim 535$ nm. The maximum value of $Q_\text{sca}$ redifts $\sim 1$ nm when considering the size correction of the dielectric function when the AuNP is embeded into air nevertheless, the wavelength of maximum scattering does not present a red nor blueshift larger than $1$ nm. On the other hand, the value of the efficiencies around the wavelength where the absorption and the scattering is maximized decreases in all cases shown if Fig. \ref{fig:Mieefficiencies}. The descrease in the efficiencies due to a size corrected dielectric function is more evident for a matrix out of glass than out of air. This behavior can be explained once again by the size paramter $x$ since two different dielectric functions are amployed into a AuNP which has the opical properties of a larger NP when it is embedded into glass rather than into air. From this analysis it can be concluded that the most notable effect of a size correction to the dielectric function of a NP is the decrease in the extinction and scattering efficiencies, while there is still a spectral shift of the LSPR, whose effect is less relevant the larger the size parameter is.
 
+While the scattering efficiency $Q_\text{sca}$ is an integral quantity, that is, it describes the scattering in all directions of a planewave traveling in the  direction $\vb{k}^\text{i}$ due to the interaction with a NP, the scattering amplitude matrix element $S_1(\theta)$,  given  for a spherical NP by Eq. \eqref{eq:S1}, depict the scattering of an incident electric field $\vb{E}^\text{i}$ polarized perpendicularly to the scattering plane for a particular observation angle $\theta$; in a similar manner, $S_2(\theta)$ [Eq. \eqref{eq:S2}] corresponds to the scattering of a parallel polarized $\vb{E}^\text{i}$ relative to the scattering plane at $\theta$. A scattering map Fig. \ref{fig:ScatteringMaps} the squared modulus of the scattering matrix elements $\abs{S_{1}(\theta)}^2$ (solid lines) and $\abs{S_2(\theta)}^2$ (dashed lines) are shown as function of the observation angle  $\theta$ for a AuNP with a radius equal to 12.5 nm embedded into air [Fig. \ref{fig:ScatteringMaps:a}] illuminated by a planewave at a wavelength $\lambda = 522$ nm and a 12.5 nm AuNP embedded into glass  [Fig. \ref{fig:ScatteringMaps:b}]  illuminated at $\lambda = 543$ nm; the illuminating wavelength corresponds to the vaud of $\lambda$ where $Q_\text{sca}$ is maximized for each matrix as seen in Fig. \ref{fig:Mieefficiencies}.
 
-
-
-
-
-
-
-
-
+% --------------------------------------				 Scaattering Maps 	   ------------------------------
+% --------------------------------------   12.5 nm AuNP @ Air and @ glass    ------------------------------
+% --------------------------------------         fig:ScatteringMaps         -------------------------------
 \begin{figure}[h!]
-	\def\svgwidth{1\textwidth} \small
-\vspace*{3.25em}
-\hspace*{-6.5em}
-\begin{subfigure}{.49\textwidth}\caption{$\norm{S_{1,2}(\theta)}^2\times 10^5$}\label{fig:Mieefficiencies:a}\end{subfigure}
-\begin{subfigure}{.49\textwidth}\caption{$\norm{S_{1,2}(\theta)}^2\times 10^4$}\label{fig:Mieefficiencies:b}\end{subfigure}
-\vspace*{-6.25em}\\
-\includeinkscape{1-Theory-Figs/Mie-Au/2-ScatteringMaps}
-\vspace*{-2em}
-\caption[Extinction and Scattering Corss Section of a 12.5 nm Au spherical NP embeded into a vacuum- and into a waterlike environment]{ \textbf{a)} Extinction $Q_\text{ext}$ and \textbf{b)} Scattering $Q_\text{sca}$ a Efficiencies of a 12.5 nm Au spherical NP embeded into a vacuum-like matrix (black, $n_\text{mat} = 1$)  and into a water-like matrix (orange, $n_\text{mat} = 1.33$), as function of  the wavelength $\lambda$ of the incident plane wave.  The solid curves were calculated by considering no size effects on the dielectric function of the AuNP, while the dashed curves considers a size correction to it; the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} was employed.}
+	\def\svgwidth{.9\textwidth} \small\centering
+		\vspace*{3.25em}
+		\hspace*{-8.5em}
+	\begin{subfigure}{.45\textwidth}%
+		\caption{$\abs{S_{1,2}(\theta)}^2\times 10^4$} \label{fig:ScatteringMaps:a}%
+		\end{subfigure}%
+	\begin{subfigure}{.45\textwidth}%
+		\caption{$\abs{S_{1,2}(\theta)}^2\times 10^3$}\label{fig:ScatteringMaps:b}%
+		\end{subfigure}%
+	\vspace*{-6.25em}\\
+	\includeinkscape{1-Theory-Figs/Mie-Au/2-ScatteringMaps}
+	\vspace*{-.5em}
+	\caption[Scattering Map of a 12.5 nm Au Spherical NP embeded into Air and Glass]{Scattering map of a 12.5 nm Au spherical NP embeded into \textbf{a)} air illuminatated by a planewave at a wavelength of $\lambda = 522$ nm and \textbf{b)} glass illuminated at $\lambda = 543$ nm; the wavlength in each case corresponds to the wavelength of maximum scattering (see Fig. \ref{fig:Mieefficiencies}). The solid (dashed) lines corresponds to the scattering matrix element $S_1$ ($S_2$) related to an incident electric field $\vb{E}^\text{i}$ travelling in the $\vb{k}^\text{i}$ direction  and polarized perpendicularly (prallel) to the page. It was considered for both matrices a size corretion to the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} for the electromagnetic response of the AuNP.}
+	\label{fig:ScatteringMaps}
  \end{figure}
+ % --------------------------------------         fig:ScatteringMaps         -------------------------------
+
+The quantities $\abs{S_{1,2}(\theta)}^2$ for a 12.5 nm AuNP embedded into air ($n_\text{mat} = 1$, black curves) are one order of magnitude smaller  than into glass ($n_\text{mat} = 1.5$, orange curves), meaning that the AuNP into air scatters light less efficiently than the same particle embedded into glass. This result is consistent with the obtained values for the scattering efficiency $Q_\text{sca}$ in Fig. \ref{fig:Mieefficiencies}. On the angular dependency of the scattering, it can be seen that the 
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

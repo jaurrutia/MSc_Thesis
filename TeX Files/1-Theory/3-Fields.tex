@@ -4,7 +4,7 @@
  %
  \begin{align}
  \vb{E}^{\text{i}} (\vb{r})= E_0\qty(\sin\theta\cos\varphi \vu{e}_r +
-					\cos\theta\cos\varphi \vu{e}_\theta 
+					\cos\theta\cos\varphi \vu{e}_\theta
 					- \sin\varphi \vu{e}_\varphi) \exp(ikr\cos\theta).
 	\label{eq:ExPlane}
  \end{align}
@@ -24,7 +24,7 @@ The monochromatic plane wave is a transversal wave, thus it can be written in te
 In the problem of scattering due to a spherical particle of radius $a$, the continuity conditions on the parallel components on the electric and magnetic fields are written as
   %
  \begin{align}
- \qty(\vb{E}^\text{i} + \vb{E}^\text{sca}- \vb{E}^\text{int})\eval_{r=a}\times \vu{e}_r  = 
+ \qty(\vb{E}^\text{i} + \vb{E}^\text{sca}- \vb{E}^\text{int})\eval_{r=a}\times \vu{e}_r  =
   \qty(\vb{H}^\text{i} + \vb{H}^\text{sca} - \vb{H}^\text{int})\eval_{r=a} \times\vu{e}_r = 0,
   \label{eq:contuinity}
  \end{align}
@@ -51,7 +51,7 @@ with the respective magnetic fields
 \label{eq:HscaInt}%
  \end{subequations}%
  %
-Since only the term $m=1$ is taken into account, it is convenient to define the angular functions 
+Since only the term $m=1$ is taken into account, it is convenient to define the angular functions
 %
 \begin{align}
  \pi_\ell(\cos\theta )  = \frac{P_\ell^1(\cos\theta)}{\sin\theta},\qqtext{and}
@@ -76,7 +76,7 @@ which are not orthogonal but their addition and substraction are, that is $\pi_\
 %
 where $m = k_p / k = n_p / n_\text{m}$ is the contrast between the sphere and the matrix, $x= ka = 2\pi n_\text{m} (a/\lambda)$ is the size parameter and  ($'$) denotes the derivative respect to the argument of the spherical Bessel or Hankel functions. The Eqs. \eqref{eq:syst1} and \eqref{eq:syst2} are simplified when the Riccati-Bessel functions $\psi_\ell( \rho) = \rho j_\ell(\rho)$ and $\xi(\rho) = \rho h_\ell^{(1)}(\rho)$ are introduced.
 
-When a no magnetic particle nor matrix are assumed  ($\mu_p = \mu = \mu_0$), the coefficients $a_\ell$ and $b_\ell$ are known as the Mie Coefficients whose expression is calculated by inverting  Eqs. \eqref{eq:syst1} and \eqref{eq:syst2}, leading to 
+When a no magnetic particle nor matrix are assumed  ($\mu_p = \mu = \mu_0$), the coefficients $a_\ell$ and $b_\ell$ are known as the Mie Coefficients whose expression is calculated by inverting  Eqs. \eqref{eq:syst1} and \eqref{eq:syst2}, leading to
 % -----------------------------
 \begin{subequations}
 	\begin{tcolorbox}[title = Mie Coefficients, ams align, breakable ]
@@ -85,8 +85,8 @@ When a no magnetic particle nor matrix are assumed  ($\mu_p = \mu = \mu_0$), the
 				\label{eqs:a_ell}\\[.5em]
 	b_\ell &= \frac{m\psi_\ell(x)\psi_\ell' (mx)-\psi_\ell(mx)\psi_\ell'(x)}
 			{m\xi_\ell(x)\psi_\ell'(mx)-\psi_\ell(mx)\xi_\ell'(x)}.
-			 \label{eqs:b_ell}	 
-	\end{tcolorbox}\label{eq:MieCoef}	
+			 \label{eqs:b_ell}
+	\end{tcolorbox}\label{eq:MieCoef}
 \end{subequations}
 % ------------------------------
 \noindent
@@ -97,7 +97,7 @@ Likewise, the coefficients $c_\ell$ and $d_\ell$ are
 	c_\ell &= \frac{-m\xi_\ell'(x)\psi_\ell(x)+m\xi_\ell(x)\psi_\ell'(x)}
 			{m\xi_\ell(x)\psi_\ell'(mx)-\psi_\ell(mx)\xi_\ell'(x)},\\[.5em]
 	d_\ell &= \frac{-m\xi'_\ell(x)\psi_\ell(x)+m\psi_\ell'(mx)\psi_\ell'(x)}
-				{\xi_\ell(x)\psi_\ell'(mx)-m\psi_\ell(mx)\xi_\ell'(x)}.			
+				{\xi_\ell(x)\psi_\ell'(mx)-m\psi_\ell(mx)\xi_\ell'(x)}.
 \end{align}%
 \label{eq:coeffInt}%
 \end{subequations}\noindent%
@@ -108,7 +108,7 @@ Even though the coefficients of the linear combination for the scattered and int
 As discussed in Section \ref{section:AmpMatCrossSect}, the optical properties of a particle are codified into the scattering, absorption and extinction cross sections, quantities that can be calculated by means of the scattering amplitude matrix [Eq. \eqref{eq:ScatAmpMat}] and the Optical Theorem [Eq. \eqref{eq:Cext}]. Since the particle is spherical, it is convinient to exploit the symmetry of the problem  by decomposing the scattered electric field [Eq. \eqref{eq:EscaLC}] into components parallel and perpendicular to the scattering plane. To obtain the scattering amplitude matrix  expressed in an orthogonal base relative to the scattering plane ($\vu{e}_\parallel^s =\vu{e}_\theta$ and $\vu{e}_\perp^s=-\vu{e}_\varphi$) let us substitute the Mie Coefficients [Eq. \eqref{eq:MieCoef}] into Eq. \eqref{eq:EscaLC}  while rewriting the VSH $\vb{M}^{(3)}_{o1\ell}$  [Eq. \eqref{eq:Moml}] and $\vb{N}^{(3)}_{e1\ell}$ [Eq. \eqref{eq:Neml}] in terms of the Riccati-Bessel function  $\xi$ and its derivative:
 %
 \begin{align}
-\vb{E}^\text{sca}\cdot\vu{e}_r &=  \frac{\cos\varphi}{(kr)^2} 
+\vb{E}^\text{sca}\cdot\vu{e}_r &=  \frac{\cos\varphi}{(kr)^2}
 								\sum_\ell^\infty E_0i^\ell(2\ell+1)
 								ia_\ell \xi(kr)\pi_\ell(\theta) \sin\theta ,
 \label{eq:EscaR}\\
@@ -119,7 +119,7 @@ As discussed in Section \ref{section:AmpMatCrossSect}, the optical properties of
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-kr}
 								\sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
 						[i a_\ell\xi_\ell'(kr)\pi_\ell(\theta)-b_\ell\xi_\ell(kr)\tau_\ell(\theta)].
-\label{eq:EscaMPhi}					
+\label{eq:EscaMPhi}
 \end{align}
 %
 The scattering amplitude matrix relates the incident electric field to the scattered electric field in the far field regime, that its when $kr\gg 1$. Considering that the series of Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} converge uniformly, so all contributions after the sufficiently large  term $\ell_c$ of the sum can be neglected for all values of $kr$, the asymptotic  expressions for the $\xi$ Riccati-Bessel function and its derivative can be employed, which are \cite{bohren_absorption_1983}
@@ -134,7 +134,7 @@ The scattering amplitude matrix relates the incident electric field to the scatt
 \end{align}
 %
 
-Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} and depreciating all terms proportional to $(kr)^{-2}$ it leads to a zero radial electric field while 
+Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} and depreciating all terms proportional to $(kr)^{-2}$ it leads to a zero radial electric field while
 %
 \begin{align}
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\parallel & \approx \frac{\exp(ikr)}{r}
@@ -146,7 +146,7 @@ Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:Esca
 \left\{\frac{i}{k}\sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 						[a_\ell\pi_\ell(\cos\theta)+b_\ell\tau_\ell(\cos\theta)]
 				\right\}E_0(-\sin\varphi),
-\label{eq:EphiSca}	
+\label{eq:EphiSca}
 \end{align}
 %
 where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel = E_0\cos\varphi$ and $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\perp = -E_0\sin\varphi$ for $\vb{E}^\text{i}$ a plane wave traveling along the $z$ direction with an arbitrary polarization. Finally, the Scattering Amplitude Matrix for a spherical particle can be obtained by comparing Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} with Eq. \eqref{eq:ScatAmpMat}, leading to
@@ -157,86 +157,10 @@ where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel 
 \intertext{with  $\vu{k}^\text{sca} = \vu{e}_r$, $\vu{k}^\text{i} = \vu{e}_z$, $\cos\theta = \vu{k}^\text{sca}\cdot\vu{k}^\text{i}$  and}
 S_1(\theta)  &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 						[a_\ell\tau_\ell(\cos\theta)+b_\ell\pi_\ell(\cos\theta)],
+            \label{eq:S1}
 \\
 S_2(\theta) &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 						[a_\ell\pi_\ell(\cos\theta)+b_\ell\tau_\ell(\cos\theta)].
+            \label{eq:S2}
 \end{tcolorbox}
 %
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

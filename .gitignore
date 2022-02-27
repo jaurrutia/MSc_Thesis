@@ -36,6 +36,8 @@ TeX\ Files/tesis.out
 # .toc Table of contents
 TeX\ Files/tesis.toc
 
+##### Syncronizatino bteween pdfviewer and thte .tex files
+TeX\ Files/tesis.synctex.gz
 
 ###### .ipynb_chckpoints
 .ipynb_checkpoints

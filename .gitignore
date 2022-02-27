@@ -1,0 +1,42 @@
+####### phd-thesis latex template ignorable files
+# .aux can be deleted with no problem
+*.aux  
+
+##### Bibliography environment created by BibTeX.
+# .bbl are auxiliray files for BibTeX
+TeX\ Files/tesis.bbl
+# .blg  BibTeX log file
+TeX\ Files/tesis.blg
+# -blx.bib  Control file
+TeX\ Files/tesis-blx.bib
+# .brf Back reference
+TeX\ Files/tesis.brf
+
+##### latexmk 
+# Compile tool for latexmk
+TeX\ Files/tesis.fdb_latexmk
+# Running latex with latex-recorder
+TeX\ Files/tesis.fls
+
+#### Index 
+# .idx Analytical index entries
+TeX\ Files/tesis.idx
+# .ild Analytical index log file
+TeX\ Files/tesis.ilg
+#  .ind Analytical index TeX file
+TeX\ Files/tesis.ind
+
+##### Lists or tables 
+# .lof Log of List of figures
+TeX\ Files/tesis.lof
+# Log file of the document
+TeX\ Files/tesis.log
+# .out Information about the Aoutline if the document
+TeX\ Files/tesis.out
+# .toc Table of contents
+TeX\ Files/tesis.toc
+
+
+###### .ipynb_chckpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*

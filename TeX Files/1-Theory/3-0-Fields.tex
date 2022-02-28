@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
- Let $\vb{E}^{\text{i}}$ be a $x$ polarized planewave traveling in the vertical direction $\vb{e}_z$; its representation in the canonical spherical basis is
+ Let $\vb{E}^{\text{i}}$ be a $x$ polarized plane wave traveling in the vertical direction $\vb{e}_z$; its representation in the canonical spherical basis is
  %
  \begin{align}
  \vb{E}^{\text{i}} (\vb{r})= E_0\qty(\sin\theta\cos\varphi \vu{e}_r +
@@ -9,7 +9,7 @@
 	\label{eq:ExPlane}
  \end{align}
  %
-The monochromatic planewave is a transversal wave, thus it can be written in terms of only the VSH $\vb{M}^{(1)}$ and $\vb{N}^{(1)}$, where the radial dependency is given by $j_\ell$ since the monochromatic planewave is finite everywhere. Even more, due to the dependency on $\varphi$, it is only restricted to values of $m = 1$. By inspection on the radial component of $\vb{E}^\text{i}$, proportional to $\cos\varphi$ it depends only on $\vb{N}_{e1\ell}^{(1)}$, and on the azimuthal component, proportional to $\sin\varphi$, it can depend only on $\vb{M}_{o1\ell}^{(1)}$. Thus, Eq. \eqref{eq:ExPlane} can be written as the linear combination of  $\vb{N}_{e1\ell}^{(1)}$ and $\vb{M}_{o1\ell}^{(1)}$. Through the orthogonality relations of the VSH, the $x$ polarized planewave can be written as \cite{stratton_electromagnetic_2012}
+The monochromatic plane wave is a transversal wave, thus it can be written in terms of only the VSH $\vb{M}^{(1)}$ and $\vb{N}^{(1)}$, where the radial dependency is given by $j_\ell$ since the monochromatic plane wave is finite everywhere. Even more, due to the dependency on $\varphi$, it is only restricted to values of $m = 1$. By inspection on the radial component of $\vb{E}^\text{i}$, proportional to $\cos\varphi$ it depends only on $\vb{N}_{e1\ell}^{(1)}$, and on the azimuthal component, proportional to $\sin\varphi$, it can depend only on $\vb{M}_{o1\ell}^{(1)}$. Thus, Eq. \eqref{eq:ExPlane} can be written as the linear combination of  $\vb{N}_{e1\ell}^{(1)}$ and $\vb{M}_{o1\ell}^{(1)}$. Through the orthogonality relations of the VSH, the $x$ polarized plane wave can be written as \cite{stratton_electromagnetic_2012}
   %
   \begin{subequations}
  \begin{align}
@@ -17,7 +17,7 @@ The monochromatic planewave is a transversal wave, thus it can be written in ter
 \\
  \vb{H}^\text{i} (\vb{r})=& \frac{-kE_0}{\mu\omega} \sum_\ell\frac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty( \vb{M}_{e1\ell}^{(1)} +i \vb{N}_{o1\ell}^{(1)}).
  \end{align}%
- \label{eq:PlaneWaveMultipole}%
+ \label{eq:plane waveMultipole}%
    \end{subequations}%
 %
 
@@ -29,7 +29,7 @@ In the problem of scattering due to a spherical particle of radius $a$, the cont
   \label{eq:contuinity}
  \end{align}
  %
-with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electric field and  $\vb{H}^\text{sca}$ ( $\vb{H}^\text{sca}$) the scattered (internal) magnetic field. If the incident field $\vb{E}^\text{i}$ is given by a $x$ polarized planewave [Eq. \eqref{eq:ExPlane}] then the scattered and internal fields can be written also as a linear combination of $\vb{M}_{o1\ell}$ and $\vb{N}_{e1\ell}$. The internal field is finite inside the particle, thus the radial dependency is given by the function $j_\ell(k_p a)$ with $k_p$ the wave number inside the particle, while it is chosen the spherical Hankel function of first kind $h^{(1)}(ka)$  for the scattered fields due to its asymptotic behavior of a spherical outgoing wave, such election for the radial dependency is denoted by the superscript $(3)$ over the VSH. To simplify the following steps, the scattered and the internal electric files are proposed as
+with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electric field and  $\vb{H}^\text{sca}$ ( $\vb{H}^\text{int}$) the scattered (internal) magnetic field. If the incident field $\vb{E}^\text{i}$ is given by a $x$ polarized plane wave [Eq. \eqref{eq:ExPlane}] then the scattered and internal fields can be written also as a linear combination of $\vb{M}_{o1\ell}$ and $\vb{N}_{e1\ell}$. The internal field is finite inside the particle, thus the radial dependency is given by the function $j_\ell(k_p a)$ with $k_p$ the wave number inside the particle, while it is chosen the spherical Hankel function of first kind $h^{(1)}(ka)$  for the scattered fields due to its asymptotic behavior of a spherical outgoing wave, such election for the radial dependency is denoted by the superscript $(3)$ over the VSH. To simplify the following steps, the scattered and the internal electric files are proposed as
   %
   \begin{subequations}
  \begin{align}
@@ -59,7 +59,7 @@ Since only the term $m=1$ is taken into account, it is convenient to define the 
  \label{eq:PiTau}
 \end{align}
 %
-which are not orthogonal but their addition and substraction are, that is $\pi_\ell \pm \tau_\ell$ are orthogonal functions \cite{bohren_absorption_1983}. After substitution  of Eqs. \eqref{eq:PlaneWaveMultipole}, \eqref{eq:EscaInt} and \eqref{eq:HscaInt} into Eq. \eqref{eq:contuinity} and considering the orthogonality of the odd and even VSH, of the vectors $\vb{M}$ and $\vb{N}$, and of $\pi_\ell \pm \tau_\ell$, it is shown that the coefficients $a_\ell$, $b_\ell$, $c_\ell$ and $d_\ell$ are given by two decoupled equation systems
+which are not orthogonal but their addition and substraction are, that is $\pi_\ell \pm \tau_\ell$ are orthogonal functions \cite{bohren_absorption_1983}. After substitution  of Eqs. \eqref{eq:plane waveMultipole}, \eqref{eq:EscaInt} and \eqref{eq:HscaInt} into Eq. \eqref{eq:contuinity} and considering the orthogonality of the odd and even VSH, of the vectors $\vb{M}$ and $\vb{N}$, and of $\pi_\ell \pm \tau_\ell$, it is shown that the coefficients $a_\ell$, $b_\ell$, $c_\ell$ and $d_\ell$ are given by two decoupled equation systems
 %
 \begin{align}
 \mqty([x h_\ell^{(1)}(x)]  & (\mu/\mu_p) [(mx) j_\ell(mx)] \\
@@ -107,21 +107,43 @@ Even though the coefficients of the linear combination for the scattered and int
 
 As discussed in Section \ref{section:AmpMatCrossSect}, the optical properties of a particle are codified into the scattering, absorption and extinction cross sections, quantities that can be calculated by means of the scattering amplitude matrix [Eq. \eqref{eq:ScatAmpMat}] and the Optical Theorem [Eq. \eqref{eq:Cext}]. Since the particle is spherical, it is convinient to exploit the symmetry of the problem  by decomposing the scattered electric field [Eq. \eqref{eq:EscaLC}] into components parallel and perpendicular to the scattering plane. To obtain the scattering amplitude matrix  expressed in an orthogonal base relative to the scattering plane ($\vu{e}_\parallel^s =\vu{e}_\theta$ and $\vu{e}_\perp^s=-\vu{e}_\varphi$) let us substitute the Mie Coefficients [Eq. \eqref{eq:MieCoef}] into Eq. \eqref{eq:EscaLC}  while rewriting the VSH $\vb{M}^{(3)}_{o1\ell}$  [Eq. \eqref{eq:Moml}] and $\vb{N}^{(3)}_{e1\ell}$ [Eq. \eqref{eq:Neml}] in terms of the Riccati-Bessel function  $\xi$ and its derivative:
 %
+\begin{subequations}\label{eq:Esca}%
 \begin{align}
 \vb{E}^\text{sca}\cdot\vu{e}_r &=  \frac{\cos\varphi}{(kr)^2}
 								\sum_\ell^\infty E_0i^\ell(2\ell+1)
-								ia_\ell \xi(kr)\pi_\ell(\theta) \sin\theta ,
+								ia_\ell \xi(kr)\pi_\ell(\cos\theta) \sin\theta ,
 \label{eq:EscaR}\\
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\parallel &=  \frac{\cos\varphi}{kr}
 								\sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
-						[i a_\ell\xi_\ell'(kr)\tau_\ell(\theta)-b_\ell\xi_\ell(kr)\pi_\ell(\theta)],
+						[i a_\ell\xi_\ell'(kr)\tau_\ell(\cos\theta)-b_\ell\xi_\ell(kr)\pi_\ell(\cos\theta)],
 \label{eq:EscaTheta}\\
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-kr}
 								\sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
-						[i a_\ell\xi_\ell'(kr)\pi_\ell(\theta)-b_\ell\xi_\ell(kr)\tau_\ell(\theta)].
+						[i a_\ell\xi_\ell'(kr)\pi_\ell(\cos\theta)-b_\ell\xi_\ell(kr)\tau_\ell(\cos\theta)].
 \label{eq:EscaMPhi}
-\end{align}
+\end{align}%
+\end{subequations}
 %
+Following a similar procedure but substituting Eq. \eqref{eq:coeffInt} into Eq. \eqref{eq:EscaInt}, the internal electric field $\vb{E}^\text{int}$ can be rewritten also in terms of the Riccati-Bessel functions as
+
+\begin{subequations}\label{eq:Eint}%
+\begin{align}
+\vb{E}^\text{int}\cdot\vu{e}_r &=  -\frac{\cos\varphi}{(kr)^2}
+               \sum_\ell^\infty E_0i^\ell(2\ell+1)
+               id_\ell \psi(kr)\pi_\ell(\cos\theta) \sin\theta ,
+\label{eq:EintR}\\
+\vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\parallel &=  \frac{\cos\varphi}{kr}
+               \sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
+           [-i d_\ell\psi_\ell'(kr)\tau_\ell(\cos\theta)+c_\ell\psi_\ell(kr)\pi_\ell(\cos\theta)],
+\label{eq:EscaTheta}\\
+\vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-kr}
+               \sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
+           [-i d_\ell\psi_\ell'(kr)\pi_\ell(\cos\theta)+c_\ell\psi_\ell(kr)\tau_\ell(\cos\theta)].
+\label{eq:EintMPhi}
+\end{align}%
+\end{subequations}
+
+
 The scattering amplitude matrix relates the incident electric field to the scattered electric field in the far field regime, that its when $kr\gg 1$. Considering that the series of Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} converge uniformly, so all contributions after the sufficiently large  term $\ell_c$ of the sum can be neglected for all values of $kr$, the asymptotic  expressions for the $\xi$ Riccati-Bessel function and its derivative can be employed, which are \cite{bohren_absorption_1983}
 %
 \begin{align}
@@ -149,7 +171,7 @@ Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:Esca
 \label{eq:EphiSca}
 \end{align}
 %
-where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel = E_0\cos\varphi$ and $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\perp = -E_0\sin\varphi$ for $\vb{E}^\text{i}$ a planewave traveling along the $z$ direction with an arbitrary polarization. Finally, the Scattering Amplitude Matrix for a spherical particle can be obtained by comparing Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} with Eq. \eqref{eq:ScatAmpMat}, leading to
+where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel = E_0\cos\varphi$ and $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\perp = -E_0\sin\varphi$ for $\vb{E}^\text{i}$ a plane wave traveling along the $z$ direction with an arbitrary polarization. Finally, the Scattering Amplitude Matrix for a spherical particle can be obtained by comparing Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} with Eq. \eqref{eq:ScatAmpMat}, leading to
 %
 \begin{tcolorbox}[title = Scattering Amplitude Matrix for Spherical Particles, ams align, breakable ]
 \mathbb{F}(\vu{k}^\text{sca},\vu{k}^\text{i}) &= \mqty(\dfrac{i}{k}S_2(\theta) & 0 \\
@@ -164,4 +186,4 @@ S_2(\theta) &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
             \label{eq:S2}
 \end{tcolorbox}
 %
-The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when written in the a base relative to the scattering plane direction, as it was stated in Sec. \ref{section:AmpMatCrossSec}. Since the scatterer is a spherical istropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ mantains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.
+The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when written in the a base relative to the scattering plane direction, as it was stated in Sec. \ref{section:AmpMatCrossSect}. Since the scatterer is a spherical istropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ mantains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.

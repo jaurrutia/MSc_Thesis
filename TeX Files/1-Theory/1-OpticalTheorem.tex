@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
-Let $\vb{E}^\text{i} = \vb{E}^\text{i}_0 \exp(i\vb{k}^\text{i}\cdot\vb{r})$ be the electric field of an incident monochromatic planewave with constant amplitude $\vb{E}_0^\text{i}$ \index{Wave!Plane!Monochromatic} traveling through a non-dispersive medium with refractive index $n_\text{m}$, denominated matrix, in the direction $\vb{k}^\text{i} = k\vu{k}^\text{i}$, with $k = (\omega/c)n_\text{m}$ the wave number of the planewave into the matrix, and let $\vb{E}^\text{sca}$ be the scattered electric field due to a particle with arbitrary shape embedded into the matrix. In general, the scattered electric field propagates in all directions but for a given point $\vb{r} = r\vu{e}_r$ the traveling direction is defined by the vector $\vb{k}^\text{sca} = k\vu{k}^\text{sca} = k\vu{e}_r$.  Due to the linearity of the Maxwell's equations,   the incident and scattered electric fields  in the far field regime are related by the linear relation \cite{tsang_scattering_2000},
+Let $\vb{E}^\text{i} = \vb{E}^\text{i}_0 \exp(i\vb{k}^\text{i}\cdot\vb{r})$ be the electric field of an incident monochromatic plane wave with constant amplitude $\vb{E}_0^\text{i}$ \index{Wave!Plane!Monochromatic} traveling through a non-dispersive medium with refractive index $n_\text{m}$, denominated matrix, in the direction $\vb{k}^\text{i} = k\vu{k}^\text{i}$, with $k = (\omega/c)n_\text{m}$ the wave number of the plane wave into the matrix, and let $\vb{E}^\text{sca}$ be the scattered electric field due to a particle with arbitrary shape embedded into the matrix. In general, the scattered electric field propagates in all directions but for a given point $\vb{r} = r\vu{e}_r$ the traveling direction is defined by the vector $\vb{k}^\text{sca} = k\vu{k}^\text{sca} = k\vu{e}_r$.  Due to the linearity of the Maxwell's equations,   the incident and scattered electric fields  in the far field regime are related by the linear relation \cite{tsang_scattering_2000},
 %
 % ---------------------------------- eq: ScatAmpMat ----------------------------------
  \begin{equation}
@@ -20,7 +20,7 @@ where $\mathbb{F}(\vu{k}^\text{sca}, \vu{k}^\text{i})$ is the scattering  amplit
  \end{align}
 % ---------------------------------- eq:Ei // eq:Es ------------------------------
 %
-where an harmonic time dependence $\exp(-i\omega t)$ has been suppressed, and where it has been assumed that the scattered field is described by a spherical wave; the superindex `$\text{i}$' (`$\text{sca}$') denotes the orthonormal system defined by the incident planewave (scattered fields).  Since $\{\vu{e}_\perp^\text{i}, \vu{e}_\parallel^\text{i},\vu{k}^\text{i} \}$ and $\{\vu{e}_\perp^\text{sca}, \vu{e}_\parallel^\text{sca},\vu{k}^\text{sca} \}$ are right-hand orthonormal systems, they are related as follows
+where an harmonic time dependence $\exp(-i\omega t)$ has been suppressed, and where it has been assumed that the scattered field is described by a spherical wave; the superindex `$\text{i}$' (`$\text{sca}$') denotes the orthonormal system defined by the incident plane wave (scattered fields).  Since $\{\vu{e}_\perp^\text{i}, \vu{e}_\parallel^\text{i},\vu{k}^\text{i} \}$ and $\{\vu{e}_\perp^\text{sca}, \vu{e}_\parallel^\text{sca},\vu{k}^\text{sca} \}$ are right-hand orthonormal systems, they are related as follows
 %
 % ---------------------------------- eq:eParaPerpPerp ------------------------------
  \begin{align}
@@ -34,7 +34,7 @@ where an harmonic time dependence $\exp(-i\omega t)$ has been suppressed, and wh
 % ---------------------------------- eq:eParaPerpPerp ------------------------------
 %
 
-As the Eqs. \eqref{eq:eParaPerp} suggest, the unit vector bases of the orthonormal systems relative to the scattering plane depend on the scattering direction. For example, if the incident planewave travels along the $z$ axis, then $\vu{k}^\text{i} = \vu{e}_z$ and $\vu{k}^\text{sca} = \vu{e}_r$. Thus, according to Eqs. \eqref{eq:eParaPerp}, the unit vector bases of the systems relative to the scatterig plane are   $\vu{e}_\parallel^\text{i} = \cos\varphi \vu{e}_x +\sin\varphi \vu{e}_y$, $\vu{e}_\parallel^\text{sca} = \vu{e}_\theta$ and $\vu{e}_\perp^\text{i} = \vu{e}_\perp^\text{sca}  = - \vu{e}_\varphi$, with $\theta$ the polar angle and $\varphi$ azimuthal angle. In Fig. \ref{fig:ScatPlane} the unit vector systems (purple) based on the  scattering plane  (green) defined by the vectors $\vu{k}^\text{i}=\vu{e}_z$ and $\vu{k}^\text{sca} = \vu{e}_r$ are shown, along with the Cartesian (blue) and spherical (black) unit vector bases.
+As the Eqs. \eqref{eq:eParaPerp} suggest, the unit vector bases of the orthonormal systems relative to the scattering plane depend on the scattering direction. For example, if the incident plane wave travels along the $z$ axis, then $\vu{k}^\text{i} = \vu{e}_z$ and $\vu{k}^\text{sca} = \vu{e}_r$. Thus, according to Eqs. \eqref{eq:eParaPerp}, the unit vector bases of the systems relative to the scatterig plane are   $\vu{e}_\parallel^\text{i} = \cos\varphi \vu{e}_x +\sin\varphi \vu{e}_y$, $\vu{e}_\parallel^\text{sca} = \vu{e}_\theta$ and $\vu{e}_\perp^\text{i} = \vu{e}_\perp^\text{sca}  = - \vu{e}_\varphi$, with $\theta$ the polar angle and $\varphi$ azimuthal angle. In Fig. \ref{fig:ScatPlane} the unit vector systems (purple) based on the  scattering plane  (green) defined by the vectors $\vu{k}^\text{i}=\vu{e}_z$ and $\vu{k}^\text{sca} = \vu{e}_r$ are shown, along with the Cartesian (blue) and spherical (black) unit vector bases.
 
 \begin{figure}[h!]\centering
 	\tdplotsetmaincoords{60}{110}
@@ -138,18 +138,18 @@ As the Eqs. \eqref{eq:eParaPerp} suggest, the unit vector bases of the orthonorm
 
 
 
-% planewave
+% plane wave
 	\foreach \i in {-7,...,-2}{
 		\draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
 	\node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}_i$};
-	\node[tdplot_screen_coords] at (-4.5/10,-.15,0){\begin{minipage}{2.cm}\centering\small \color{red}Incident planewave\end{minipage}};
+	\node[tdplot_screen_coords] at (-4.5/10,-.15,0){\begin{minipage}{2.cm}\centering\small \color{red}Incident plane wave\end{minipage}};
 \end{tikzpicture}
 %
-\caption[Scattering plane unit vector systems]{The scattering plane (green) is defined by the vectors $\vu{k}^\text{i}$, direction of the incident planewave (red), and $\vu{k}^\text{sca}$, direction of the scattered field in a given point $\vec{r}$. If the direction of the incident planewave is chose to be $\vu{e}_z$, the parallel and perpendicular components of the incident field relative to the scattering plane are $\vu{e}_\parallel^\text{i} = \cos\varphi\vu{e}_x +\sin\varphi\vu{e}_y$ and  $\vu{e}_\perp^\text{i} = -\vu{e}_\varphi$, while the components of the scattering field relative to the scattering plane are $\vu{e}_\parallel^\text{sca} = \vu{e}_\theta$, $\vu{e}_\perp^\text{sca} = - \vu{e}_\varphi$. The cartesian unit vector basis is shown in blue, the spherical unit vector basis in black, while the basis of the orthonormal systems relative to the scattering plane are shown in purple. }
+\caption[Scattering plane unit vector systems]{The scattering plane (green) is defined by the vectors $\vu{k}^\text{i}$, direction of the incident plane wave (red), and $\vu{k}^\text{sca}$, direction of the scattered field in a given point $\vec{r}$. If the direction of the incident plane wave is chose to be $\vu{e}_z$, the parallel and perpendicular components of the incident field relative to the scattering plane are $\vu{e}_\parallel^\text{i} = \cos\varphi\vu{e}_x +\sin\varphi\vu{e}_y$ and  $\vu{e}_\perp^\text{i} = -\vu{e}_\varphi$, while the components of the scattering field relative to the scattering plane are $\vu{e}_\parallel^\text{sca} = \vu{e}_\theta$, $\vu{e}_\perp^\text{sca} = - \vu{e}_\varphi$. The cartesian unit vector basis is shown in blue, the spherical unit vector basis in black, while the basis of the orthonormal systems relative to the scattering plane are shown in purple. }
 \label{fig:ScatPlane}
 	\end{figure}
 
-After an incident planewave interacts with a particle with a possible complex refractive index $n_p(\omega)$, the total electric field outside the particle is given by the sum of the incident and the scattered fields. Therefore, the time averaged Poynting vector $\ev{\vb{S}}_t$, denoting the power flow per unit area, of the total field is given by
+After an incident plane wave interacts with a particle with a possible complex refractive index $n_p(\omega)$, the total electric field outside the particle is given by the sum of the incident and the scattered fields. Therefore, the time averaged Poynting vector $\ev{\vb{S}}_t$, denoting the power flow per unit area, of the total field is given by
 %
 % ---------------------------------------------------------
  \begin{align}
@@ -192,7 +192,7 @@ with $Z_\text{m} = \sqrt{\mu_\text{m}/\varepsilon_\text{m}}$, the impedance of t
 %
 where the scattering amplitude matrix is evaluated as $\mathbb{F}(\vu{k}^\text{sca},\vu{k}^\text{i})$.
 
-The power scattered by the particle can be calculated by integrating $\ev{\vb{S}^\text{sca}}_t$ in a closed surface surrounding the particle; if the scattered power is normalized by the irradiance\index{planewave!Irradiance}\index{Irradiance} of the incident field $\norm{\ev{\vb{S}^\text{i}}_t}$, it is obtained a quantity with units of area known as the scattering cross section $C_\text{sca}$, given by
+The power scattered by the particle can be calculated by integrating $\ev{\vb{S}^\text{sca}}_t$ in a closed surface surrounding the particle; if the scattered power is normalized by the irradiance\index{plane wave!Irradiance}\index{Irradiance} of the incident field $\norm{\ev{\vb{S}^\text{i}}_t}$, it is obtained a quantity with units of area known as the scattering cross section $C_\text{sca}$, given by
 %
 % ------------------ Si
  \begin{tcolorbox}[title = Scattering Cross Section,	ams align, breakable]
@@ -256,7 +256,7 @@ where the relations $\vu{k}^\text{sca}\cdot\vu{e}_r = 1$, $\vu{k}^\text{i}\cdot\
 %
 \noindent From Eqs. \eqref{eq:Stot} and  \eqref{eq:Cext} it can be seen that the extinction of light, the combined result of scattering and absorption as energy loss mechanisms, is also a manifestation of the interference between the incident and the scattered fields and that the overall effect of the light extinction can be fully understood by analyzing the  amplitude of the scattering field in the forward direction.  It is worth noting that Eq. \eqref{eq:Cext} is an exact relation but its usefulness is bond to the correct evaluation of the scattering amplitude matrix $\mathbb{F}$ \cite{tsang_scattering_2000}. Thus, in the following sections a scattering problem with spherical symmetry will be assumed, so that the exact solution to the scattering amplitude matrix can be developed; this solution is known as Mie Theory.
 
- %The Optical Theorem is a general result no only applicable to  for general scattering phenomena, both quantum and classical  \cite{bohren_absorption_1983,newton_optical_1976}, its derivation rely in the incident field being a planewave [see Eq. \eqref{eq:CextFull}] and more precisely, in the lack of longitudinal components of the incident field \cite{krasavin_generalization_2018,born_max_principle_1999}.
+ %The Optical Theorem is a general result no only applicable to  for general scattering phenomena, both quantum and classical  \cite{bohren_absorption_1983,newton_optical_1976}, its derivation rely in the incident field being a plane wave [see Eq. \eqref{eq:CextFull}] and more precisely, in the lack of longitudinal components of the incident field \cite{krasavin_generalization_2018,born_max_principle_1999}.
 
 
 %

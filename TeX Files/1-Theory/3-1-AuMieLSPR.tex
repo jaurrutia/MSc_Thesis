@@ -1,0 +1,30 @@
+% !TeX root = ../tesis.tex
+
+The optical properties of a particle, either in the near or the far field regime,  are determined by the Mie coefficients   $a_\ell$ and $b_\ell$ [Eq. \eqref{eq:MieCoef}] since the exact solution to the scattered electric field $\vb{E}^\text{sca}$ is a linear combination of the vector spherical harmonics (VSH) $\vb{N}_{\text{e}1\ell}$ and $\vb{M}_{\text{o}1\ell}$ moduled by  $a_\ell$ and $b_\ell$, respectively. To study the optical response of the scatterer in the near field regime, an interpretation of the proposed VSH as electric and magnetic fields is needed. In Fig. {\color{red}{\textbf{poner figura}}} the VSH $\vb{N}_{\text{e}1\ell}$ and $\vb{M}_{\text{o}1\ell}$ are shown for $\ell = 1$ and $\ell = 2$ for a fixed value of the radius,  {\color{red}{\textbf{descripción del afigura que deviene en la interpretación de que N es el vector asociado al respuestas eléctricas y M al de magnéticas  por tanto a y b tienen la misma iinterpretación}}}.
+
+On the other hand, the optical properties of  a spherical particle in the far field regime are  the scattering and extinction cross sections, which are obtained by substituting the amplitude scattering matrix for a spherical particl [Eq. \eqref{eq:FscaS}]  into Eqs. \eqref{eq:Csca} and \eqref{eq:Cext}, respectively; the absorption cross section can be calculated by subtraction of the past two. Thus, assuming an incident plane wave with an $x$ polarized electric field $\vb{E}^\text{i}$, and evaluating the scattering amplitude matrix in the forward direction $\theta = 0$, equivalent to $\cos\theta = 1$ , the extinction cross section $C_\text{ext}$ is given by
+%
+\begin{align}
+	C_\text{ext} = \frac{4\pi}{k \norm{\vb{E}^\text{i}}^2}\Im[\frac{i}{k}S_2(\theta = 0)\vb{E}^\text{i}\cdot\vb{E}^\text{i*}]
+	  			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) \Re(a_\ell + b_\ell),
+	\label{eq:CextSphere}
+\end{align}
+where the Eq. \eqref{eq:PiTau1} in Appendix \ref{app:MieCode} was employed to tevaluate the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ . In a similar manner, the scattering cross section $C_\text{sca}$  can be written as
+%
+\begin{align}
+C_\text{sca} = \int_0^{2\pi}\int_0^\pi  \frac{(iS_2(\theta)\vb{E}^\text{i})^*(iS_2(\theta)\vb{E}^\text{i})}{k^2\vb{E}^\text{i}} \sin\theta\dd{\varphi}\dd{\theta}
+			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) (\abs{a_\ell}^2 + \abs{b_\ell}^2).
+	\label{eq:CscaSphere}
+\end{align}
+%
+where the orthogonality relations of $\pi_\ell(\cos\theta)\pm\tau_\ell(\cos\theta)$ [Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}] were used. In order to compair the absorption, scattering or extinction of light of a spherical particle, independently of its radius or embedding media (matrix) efficiencies of  absorption $Q_\text{abs}$, scattering $Q_\text{sca}$ and extinction $Q_\text{ext}$ are defined by normalizing the   absorption $C_\text{abs}$, scattering $C_\text{sca}$ and extinction $C_\text{ext}$ cross sections by the geometrical cross section of the spherical particle of radius $a$ yielding the dimensionless expressions
+%
+\begin{align}
+ 	\frac{C_\text{ext}}{\pi a^2} =   \frac{C_\text{abs}}{\pi a^2}  + \frac{C_\text{sca}}{\pi a^2}
+ 		\qquad \longrightarrow \qquad
+	Q_\text{ext} =    Q_\text{abs}  +  Q_\text{sca}.
+	\label{eq:Efficiencies}
+\end{align}
+%
+
+The Eq. \eqref{eq:Efficiencies}, states that the extinction of light considers  the light extinction to be a combination of both absorption and scattering mechanism. According Eq. \eqref{eq:CextSphere}, the spectral response of the extinction of light is coded into the real part of Mie Coefficients $a_\ell$ and $b_\ell$ {\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}}

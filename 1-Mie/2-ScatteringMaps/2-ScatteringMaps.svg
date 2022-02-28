@@ -7,7 +7,7 @@
    viewBox="0 0 98.27865 53.003618"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
    sodipodi:docname="2-ScatteringMaps.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -27,15 +27,15 @@
      fit-margin-left="0.2"
      fit-margin-right="0.2"
      fit-margin-bottom="0.3"
-     inkscape:zoom="11.934204"
-     inkscape:cx="122.92399"
-     inkscape:cy="119.99125"
+     inkscape:zoom="21.770296"
+     inkscape:cx="73.035294"
+     inkscape:cy="147.12707"
      inkscape:window-width="1883"
      inkscape:window-height="1052"
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g18782"
+     inkscape:current-layer="g41560"
      width="102.05864mm" />
   <defs
      id="defs2">
@@ -643,7 +643,7 @@
            id="tspan18778"
            style="font-size:1.8031px;text-align:start;text-anchor:start;stroke-width:0.225387"
            x="133.78783"
-           y="104.27701">\color{red}{$\vb{E}^\text{i}$}</tspan></text>
+           y="104.27701">\color{red}{$\vb{E}_\perp^\text{i}$}</tspan></text>
     </g>
     <g
        id="g41560"
@@ -824,13 +824,13 @@
              xml:space="preserve"
              style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:end;text-anchor:end;stroke-width:0.264583"
              x="226.98351"
-             y="173.32845"
+             y="174.56194"
              id="text5841"><tspan
                sodipodi:role="line"
                id="tspan5839"
                style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
                x="226.98351"
-               y="173.32845">\color{red}{$\vb{k}^\text{i}$}</tspan></text>
+               y="174.56194">\color{red}{$\vb{k}^\text{i}$}</tspan></text>
           <text
              xml:space="preserve"
              style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -1216,7 +1216,7 @@
       </g>
       <g
          id="g18790"
-         transform="translate(-12.481318,-24.347318)">
+         transform="translate(-12.481318,-23.818151)">
         <path
            style="fill:none;stroke:#ff0000;stroke-width:0.436184;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send-7-2)"
            d="m 162.54523,107.98899 h 5.83085"
@@ -1232,7 +1232,7 @@
              id="tspan18786"
              style="font-size:1.8031px;text-align:start;text-anchor:start;stroke-width:0.225387"
              x="169.8058"
-             y="108.48124">\color{red}{$\vb{E}^\text{i}$}</tspan></text>
+             y="108.48124">\color{red}{$\vb{E}_\parallel^\text{i}$}</tspan></text>
       </g>
       <path
          style="fill:none;stroke:#aca2a2;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1241,20 +1241,20 @@
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#aca2a2;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 154.00855,83.004076 c 0.0571,-2.228267 1.15996,-2.950819 3.52199,-3.707842 0.28555,-0.09152 0.75989,-0.264521 0.96759,-0.684261"
+         d="m 154.00855,83.794839 c 0.0571,-2.228267 1.15996,-3.741582 3.52199,-4.498605 0.28555,-0.09152 0.75989,-0.264521 0.96759,-0.684261"
          id="path18825-2"
          sodipodi:nodetypes="csc" />
       <text
          xml:space="preserve"
          style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
-         x="148.32498"
-         y="68.179649"
+         x="147.26666"
+         y="69.237984"
          id="text29501"><tspan
            sodipodi:role="line"
            id="tspan29499"
            style="font-size:2.11667px;stroke-width:0.264583"
-           x="148.32498"
-           y="68.179649">$\lambda = 522$ nm</tspan></text>
+           x="147.26666"
+           y="69.237984">$\lambda = 522$ nm</tspan></text>
     </g>
     <g
        id="g41700"
@@ -1457,13 +1457,13 @@
                xml:space="preserve"
                style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:end;text-anchor:end;stroke-width:0.264583"
                x="226.98351"
-               y="173.32845"
+               y="174.56194"
                id="text13426"><tspan
                  sodipodi:role="line"
                  id="tspan13424"
                  style="font-size:2.11667px;text-align:end;text-anchor:end;stroke-width:0.264583"
                  x="226.98351"
-                 y="173.32845">\color{red}{$\vb{k}^\text{i}$}</tspan></text>
+                 y="174.56194">\color{red}{$\vb{k}^\text{i}$}</tspan></text>
             <text
                xml:space="preserve"
                style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
@@ -1864,7 +1864,7 @@
                id="tspan11105-5-5"
                style="font-size:1.8031px;text-align:start;text-anchor:start;stroke-width:0.225387"
                x="132.20035"
-               y="104.27701">\color{red}{$\vb{E}^\text{i}$}</tspan></text>
+               y="104.27701">\color{red}{$\vb{E}_\perp^\text{i}$}</tspan></text>
         </g>
         <g
            id="g85460"
@@ -1884,7 +1884,7 @@
                id="tspan11105-5-5-1"
                style="font-size:1.8031px;text-align:start;text-anchor:start;stroke-width:0.225387"
                x="169.8058"
-               y="108.48124">\color{red}{$\vb{E}^\text{i}$}</tspan></text>
+               y="108.48124">\color{red}{$\vb{E}_\parallel^\text{i}$}</tspan></text>
         </g>
         <path
            style="fill:none;stroke:#aca2a2;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1899,14 +1899,14 @@
         <text
            xml:space="preserve"
            style="font-size:2.11667px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"
-           x="198.06258"
-           y="68.041008"
+           x="197.00426"
+           y="68.570175"
            id="text29501-9"><tspan
              sodipodi:role="line"
              id="tspan29499-0"
              style="font-size:2.11667px;stroke-width:0.264583"
-             x="198.06258"
-             y="68.041008">\color{orange}{$\lambda = 543$ nm}</tspan></text>
+             x="197.00426"
+             y="68.570175">\color{orange}{$\lambda = 543$ nm}</tspan></text>
       </g>
     </g>
   </g>

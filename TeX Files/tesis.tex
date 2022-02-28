@@ -37,7 +37,7 @@
 
 \usepackage{setspace}
 \usepackage{layouts}
-\svgpath{{1-Theory-Figs}}
+\svgpath{{1-Theory/figs},{5-Apendices/figs}}
 
 \usepackage{lmodern}
 
@@ -86,17 +86,17 @@
 % --- Default information for Grad degree
 
 \posgradotrue
-		\author{Jonathan Alexis Urrutia Anguiano}
-		\title{Optical response of partially embedded nanospheres}
-		\programa{Posgrado en Ciencias Físicas} 	% Programa de posgrado
-		\degree{Maestro en Ciencias}				% Maestro en / Doctor en
+	 \author{Jonathan Alexis Urrutia Anguiano}
+		 \title{Optical response of partially embedded nanospheres}
+		 \programa{Posgrado en Ciencias Físicas} 	% Programa de posgrado
+		  \degree{Maestro en Ciencias}				% Maestro en / Doctor en
 
-		\director{Dr. Alejandro Reyes Coronado}		% Thesis director
-		\directordep{Facultad de Ciencias, UNAM}
+	\director{Dr. Alejandro Reyes Coronado}		% Thesis director
+	\directordep{Facultad de Ciencias, UNAM}
 
-		\lugar{Ciudad de México, México}			% Place of the dissertation
-		\degreedate{ 2021} 							% Year of the dissertation  - Arreglar espacio inicial
-		\campo{Física}								% Area del posgrado
+	\lugar{Ciudad de México, México}			% Place of the dissertation
+	\degreedate{2022} 							% Year of the dissertation  - Arreglar espacio inicial
+	\campo{Física}								% Area del posgrado
 
 	\comitetrue									% Comité académico en la portada
 											% Falta ver si se ponen extra dentro del documento
@@ -146,13 +146,10 @@
 
 \tableofcontents            % Print main index
 
-%: ----------------------- list of figures/tables ------------------------
-%\listoffigures              % Genera el ínidce de figuras, comentar línea si no se usa
-%\listoftables               % Genera índice de tablas, comentar línea si no se usa
-
 
 %-------------------------------------------------------------------------------
-%                                MAIN MATTER                                   %-------------------------------------------------------------------------------
+%                                MAIN MATTER
+%-------------------------------------------------------------------------------
 % the main text starts here with the introduction, 1st chapter,...
 \mainmatter
 
@@ -160,32 +157,32 @@
 
 \input{0-5-Introduccion/1-Motivation-Structure}
 
-
 %\part{Theoretical Framework}
 \chapter{Optical Properties of Single Plasmonic Nanoparticles}
-\label{chapter:OpticalProperties}
+  \label{chapter:OpticalProperties}
 
-The problem studied in this thesis corresponds to the theoretical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those present on plasmonic biosensors, where the NPs are partially embedded into a substrate \cite{moirangthem_enhanced_2012}. The theoretical analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP employing the Finite Element Method (FEM) \index{Finite Element Method}, nevertheless, to verify the validity of the obtained results, the problem of the absorption and scattering of light by an isolated particle must be addressed. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and by a spherical particle, given by the Mie Theory \cite{bohren_absorption_1983}.
+  The problem studied in this thesis corresponds to the theoretical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those present on plasmonic biosensors, where the NPs are partially embedded into a substrate \cite{moirangthem_enhanced_2012}. The theoretical analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP employing the Finite Element Method (FEM) \index{Finite Element Method}, nevertheless, to verify the validity of the obtained results, the problem of the absorption and scattering of light by an isolated particle must be addressed. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and by a spherical particle, given by the Mie Theory \cite{bohren_absorption_1983}.
 
 	\section{The Optical Theorem: Amplitude Matrix and Cross Sections}
-	\label{section:AmpMatCrossSect}
-	\input{1-Theory/1-OpticalTheorem}
+	 \label{section:AmpMatCrossSect}
+	 \input{1-Theory/1-OpticalTheorem}
 
 	\section{Mie Scattering}
-	\label{section:Mie}
+	  \label{section:Mie}
 
-In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vector Spherical Harmonics}. Once the SVH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field.
+    In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic planewave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vector Spherical Harmonics}. Once the SVH are defined, they will be used to write a monochromatic planewave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field.
 
-	\subsection{Vector Spherical Harmonics}
-		\label{ssection:VSH}		
-		\input{1-Theory/2-VSH}
-	\subsection{Incident, Scattered and Internal Electric Field}
-	\label{ssection:Fields}
-		\label{ssection:Fields}
-		\input{1-Theory/3-Fields}
-	\subsection{Au Spherical NPs }
-		 \label{ssection:AuMie}
-		 \input{1-Theory/3-5-AuMie}
+	  \subsection{Vector Spherical Harmonics}
+		  \label{ssection:VSH}
+		  \input{1-Theory/2-VSH}
+
+    \subsection{Incident, Scattered and Internal Electric Field}
+	    \label{ssection:Fields}
+      \input{1-Theory/3-0-Fields}
+
+    \subsection{Au Spherical NPs }
+		  \label{ssection:AuMie}
+		  \input{1-Theory/3-1-AuMie}
 
 
 \chapter{The Finite Element Method}
@@ -195,30 +192,30 @@ In the previous section, it was concluded that the extinction of light due to th
 
 	\section{Finite Element Method and Analytical Solutions}
 		\label{sec:FEM-Mie}
-		\input{1-Theory/4-FEM}
-		
+%		\input{1-Theory/4-FEM}
+
 %
 
 \chapter{Results and Discussion}
-	\input{2-Results/0-Intro}
+%	\input{2-Results/0-Intro}
 	\section{Incrustation Degree of a Spherical Particle}
-	\input{2-Results/1-Something}
+%	\input{2-Results/1-Something}
     \section{Future Work: Application on Metasurfaces}
-    
+
 \chapter{Conclusions}
 
 
 \appendix
-\chapter{Size Corrected Dielectric Function}
-\label{app:SizeCorrection}
-\input{5-Apendices/2-SizeCorrection}
 
 \chapter{Mie Theory (Conventions and Code)}
-\input{5-Apendices/1-SpecialFuncCode}
+  \label{app:MieCode}
+  \input{5-Apendices/1-SpecialFuncCode}
+
+\chapter{Size Corrected Dielectric Function}
+  \label{app:SizeCorrection}
+  \input{5-Apendices/2-SizeCorrection}
 
 
-
-%
 %%-------------------------------------------------------------------------------
 %%                               References                                   |
 %%-------------------------------------------------------------------------------
@@ -230,8 +227,9 @@ In the previous section, it was concluded that the extinction of light due to th
 \printbibliography
 
 \newpage
-\listoffigures
-
+%: ----------------------- list of figures/tables ------------------------
+\listoffigures              % Genera el ínidce de figuras, comentar línea si no se usa
+%\listoftables               % Genera índice de tablas, comentar línea si no se usa
 \printindex
 %-------------------------------------------------------------------------------
 %                              Appendix                                   |

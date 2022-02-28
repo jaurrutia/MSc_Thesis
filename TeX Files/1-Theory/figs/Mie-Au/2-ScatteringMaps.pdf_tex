@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% Creator: Inkscape 1.1.2 (76b9e6a115, 2022-02-25), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2-ScatteringMaps.pdf' (pdf, eps, ps)
 %%
@@ -65,13 +65,13 @@
     \put(0,0){\includegraphics[width=\unitlength,page=4]{2-ScatteringMaps.pdf}}%
     \put(0.78742575,0.47878082){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S_2(\theta)$\\\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{2-ScatteringMaps.pdf}}%
-    \put(0.35537169,0.17459297){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}^\text{i}$}\end{tabular}}}}%
+    \put(0.35537169,0.17459297){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{2-ScatteringMaps.pdf}}%
     \put(0.47771624,0.21311087){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{2-ScatteringMaps.pdf}}%
     \put(0.26420353,0.41776548){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
     \put(0.15800821,0.38474585){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.2594266,0.36735775){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.2594266,0.35658895){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.11470149,0.3587742){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
     \put(0.0822668,0.31620576){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
     \put(0.07842969,0.1100321){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$120^\circ$\end{tabular}}}}%
@@ -93,15 +93,15 @@
     \put(0.27658984,0.35334396){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.8\end{tabular}}}}%
     \put(0.27417826,0.3881456){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{2-ScatteringMaps.pdf}}%
-    \put(0.22249872,0.13995339){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}^\text{i}$}\end{tabular}}}}%
+    \put(0.22249872,0.13456904){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{2-ScatteringMaps.pdf}}%
-    \put(0.13092744,0.3022905){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda = 522$ nm\end{tabular}}}}%
+    \put(0.12015888,0.29152179){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda = 522$ nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{2-ScatteringMaps.pdf}}%
     \put(0.94548191,0.21311087){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{2-ScatteringMaps.pdf}}%
     \put(0.7319692,0.41776548){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
     \put(0.62577387,0.38474585){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.72719226,0.36735775){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.72719226,0.35658895){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.58246715,0.3587742){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
     \put(0.55003247,0.31620576){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
     \put(0.54619536,0.1100321){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$120^\circ$\end{tabular}}}}%
@@ -123,10 +123,10 @@
     \put(0.74435551,0.35334396){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.8\end{tabular}}}}%
     \put(0.74194393,0.3881456){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{2-ScatteringMaps.pdf}}%
-    \put(0.69922894,0.06809478){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}^\text{i}$}\end{tabular}}}}%
+    \put(0.69922894,0.06809478){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{2-ScatteringMaps.pdf}}%
-    \put(0.75417268,0.12893709){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}^\text{i}$}\end{tabular}}}}%
+    \put(0.75417268,0.12893709){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{2-ScatteringMaps.pdf}}%
-    \put(0.60470883,0.3037012){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{orange}{$\lambda = 543$ nm}\end{tabular}}}}%
+    \put(0.59394027,0.29831684){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{orange}{$\lambda = 543$ nm}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

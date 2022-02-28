@@ -61,7 +61,7 @@ If spherical coordinates are chosen, and it is assumed that $\psi(r,\theta,\varp
 	\label{eq:Theta}\\
 	\dv{r}\qty(r^2\dv{R}{r}) &+ \qty[ (k r)^2 - \ell (\ell +1)] R =0,
  \label{eq:Req}
-\end{align}	
+\end{align}
 % ------------------------------
 %
 where $\ell$ can take natural values and zero, and $\abs{m}\leq \ell$ so $\Phi$ and $\Theta$ are univalued and finite on a sphere. Eqs. \eqref{eq:Theta} and \eqref{eq:Req} can be rewritten as
@@ -72,7 +72,7 @@ where $\ell$ can take natural values and zero, and $\abs{m}\leq \ell$ so $\Phi$ 
 	\label{eq:ThetaMu}\\
 	\rho\dv{\rho}\qty(\rho\dv{Z}{\rho}) +  \qty[\rho^2 - \qty(\ell + \frac12)^2]Z  &= 0,  \qqtext{ with $Z = R\sqrt{\rho}$ and $\rho = kr$.}
 \label{eq:Reqkr}
-\end{align}	
+\end{align}
 % ------------------------------
 %
 The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the solution is given by the spherical Bessel functions of the first ($j_\ell$)  and second ($y_\ell$) kind, and the spherical Hankel functions of first ($h_\ell^{(1)} = j_\ell + iy_\ell$) and second ( $h_\ell^{(2)} = j_\ell - iy_\ell$)  kind. Following the convention from most literature on Mie Scattering \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} will be decompose into an odd ($o$) and an even ($e$) solution, that is, as sine and cosine functions, thus restricting the values of $m$ to non-negative integers. After this procedure, it is determined that the generating function of the VSH is given by
@@ -80,8 +80,8 @@ The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P
 % -----------------------------
 \begin{subequations}
 \begin{tcolorbox}[title = $\psi$: Generating function of the vectorial spherical harmonics,	ams align, breakable]
-	\psi_{e\ell m}(r,\theta,\varphi) =& \cos(m\varphi)P_\ell^m(\cos\theta)z_\ell(kr), 
-	\label{eq:psiE}\\ 	
+	\psi_{e\ell m}(r,\theta,\varphi) =& \cos(m\varphi)P_\ell^m(\cos\theta)z_\ell(kr),
+	\label{eq:psiE}\\
 	\psi_{o\ell m}(r,\theta,\varphi) =& \sin(m\varphi)P_\ell^m(\cos\theta)z_\ell(kr).
 	\label{eq:psiO}
 \end{tcolorbox}
@@ -95,19 +95,19 @@ where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. 
 % -----------------------------
 \begin{subequations}
 \begin{tcolorbox}[title = Even vectorial spherical harmonics,	ams align, breakable]
-	\vb{L}_{em\ell} =& k \cos(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)} {(kr)}\,\vu{e}_r 
+	\vb{L}_{em\ell} =& k \cos(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)}{(kr)}\,\vu{e}_r
 					 +  k\cos(m\varphi) \frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta \notag \\
-					& - km \sin(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi 
+					& - km \sin(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi
 	\label{eq:Leml}\\
 	\vb{M}_{em\ell} = &-m\sin(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
 					-\cos(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,
 	\label{eq:Meml} \\
-	\vb{N}_{em\ell} = &\cos(m\varphi) \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r 
+	\vb{N}_{em\ell} = &\cos(m\varphi) \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r
 						+ \cos(m\varphi)  \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}
 						\dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\theta \notag\\
 						&- m \sin(m\varphi) \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}\frac{P_\ell^m(\cos\theta)}{\sin\theta}
-		 \,\vu{e}_\varphi, 
-	\label{eq:Neml}	
+		 \,\vu{e}_\varphi,
+	\label{eq:Neml}
 \end{tcolorbox}
 \label{eq:VSHEven}
 \end{subequations}
@@ -118,17 +118,17 @@ where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. 
 % -----------------------------
 \begin{subequations}
 \begin{tcolorbox}[title = Odd vectorial spherical harmonics,	ams align, breakable]
-	\vb{L}_{om\ell} =& k \sin(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)} {(kr)}\,\vu{e}_r 
+	\vb{L}_{om\ell} =& k \sin(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)}{(kr)}\,\vu{e}_r
 					 +  k\sin(m\varphi) \frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta \notag \\
-					& +  km\cos(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi 
+					& +  km\cos(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi
 	\label{eq:Loml}\\
 	\vb{M}_{om\ell} = & m\cos(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
-					-\sin(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,	
+					-\sin(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,
 	\label{eq:Moml} \\
 	\vb{N}_{om\ell} =&\sin(m\varphi)\frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r +
 					 \sin(m\varphi)  \frac{1}{kr} \dv{[kr\, z_\ell(kr)]}{(kr)} \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta) \,\vu{e}_\theta \notag\\
 					 & + m \cos(m\varphi) \frac{1}{kr} \dv{[kr\, z_\ell(kr)]}{(kr)} \frac{P_\ell^m(\cos\theta)}{\sin\theta}\, \vu{e}_\varphi.
-	 \label{eq:Noml} 
+	 \label{eq:Noml}
 \end{tcolorbox}
 \label{eq:VSHOdd}
 \end{subequations}
@@ -144,48 +144,3 @@ h_\ell^{(1)}(\rho)\approx (-i)^\ell \frac{\exp(i\rho)}{i\rho}
 which are suited for the scattered field; the VSH with $z_\ell = h^{(1)}_\ell$ will be then, denoted with the superscript $(3)$.
 
 Within this text, the VSH were define in Eq. \eqref{eq:VSH} under the condition of being a solution to the vectorial Helmholtz equation, which lead to the generating function $\psi$ to be a solution to the scalar Helmholtz equation, nevertheless there are other definitions as discussed by \citeauthor{barrera_vector_1985} \cite{barrera_vector_1985}. The chosen definition of the VSH allows the VSH to be interpreted directly as electric and magnetic fields, specifically identifying $\vb{N}$ with the electric contribution and $\vb{M}$ with the magnetic, as it will be shown in the following sections.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -7,14 +7,14 @@ The Vector Spherical Harmonics (VSH) where defined in Sec. \ref{ssection:VSH} in
 The radial dependency of the VSH is given by the two linearly independent solutions to Eq. \eqref{eq:Reqkr} which are the spherical Bessel function of first and second kind $j_\ell(\rho)$ and $y_\ell(\rho)$, respectively, related by the regular Bessel function of fractional order $J_{\ell+1/2}(\rho)$ and  $Y_{\ell+1/2}(\rho)$ by
 %
 \begin{align}
-j_\ell(\rho) = \sqrt{\frac{\pi}{2 \rho}}J_{\ell+1/2}(\rho),\qqtext{ and} 
+j_\ell(\rho) = \sqrt{\frac{\pi}{2 \rho}}J_{\ell+1/2}(\rho),\qqtext{ and}
 y_\ell(\rho) = \sqrt{\frac{\pi}{2\rho}}Y_{\ell+1/2}(\rho).
 \label{eq:bessel}
 \end{align}
 %
 Another set of two linear independent solutions to  Eq. \eqref{eq:Reqkr} are the spherical Hankel functions  of first ($h^{(1)}_\ell$)  and second kind ($h^{(1)}_\ell$) given by
 \begin{align}
-h^{(1)}_\ell(\rho) = j_\ell(\rho) + i y_\ell(\rho),\qqtext{ and} 
+h^{(1)}_\ell(\rho) = j_\ell(\rho) + i y_\ell(\rho),\qqtext{ and}
 h^{(2)}_\ell(\rho) = j_\ell(\rho) - i y_\ell(\rho).
 \label{eq:Hankel}
 \end{align}
@@ -77,14 +77,14 @@ which can be calculated recursively with Eq. \eqref{eq:Plm}  and the recurrence 
 (1-\mu)^2\dv{P_\ell(\mu)}{\mu} =& \ell P_{\ell-1}(\mu) - \ell\mu P_\ell(\mu).
 \end{align}
 %
-leading to 
+leading to
 %
 \begin{align}
 \pi_\ell(\mu) =& \frac{2\ell-1}{\ell-1}\mu \pi_{\ell-1}(\mu) - \frac{\ell}{\ell-1}\pi_{\ell-2},\\
 \tau_ \ell (\mu) =& \ell\mu\pi_\ell(\mu) - (\ell+1)\pi_{\ell-2}(\mu).
 \end{align}
 %
-where $\pi_1(\mu) = 1$ according to  Eq. \eqref{eq:Plm} and where $\pi_0(\mu)=0$ is defined. Another notable result from Eq. \eqref{eq:Plm} is that the angular functions $\pi_\ell(\mu)$ and $\tau_\ell(\mu)$, when evaluated at $\theta =0$ ($\mu = 1$),  follows 
+where $\pi_1(\mu) = 1$ according to  Eq. \eqref{eq:Plm} and where $\pi_0(\mu)=0$ is defined. Another notable result from Eq. \eqref{eq:Plm} is that the angular functions $\pi_\ell(\mu)$ and $\tau_\ell(\mu)$, when evaluated at $\theta =0$ ($\mu = 1$),  follows
 %
 \begin{align}
 \pi_\ell(\mu=1) & =  \dv{P_\ell(\mu)}{\mu}\eval_{\mu=1},\\
@@ -94,7 +94,8 @@ where $\pi_1(\mu) = 1$ according to  Eq. \eqref{eq:Plm} and where $\pi_0(\mu)=0$
 which can be obtained from the Legendre equation  by setting $m = 1$ and $\mu = 1$ in Eq. \eqref{eq:ThetaMu}, leading to
 %
 \begin{align}
-\pi_\ell(\mu=1) = \tau_\ell(\mu=1) = \frac{\ell(\ell+1)}{2} P_\ell(\mu = 1) = \frac{\ell(\ell+1)}{2},
+    \pi_\ell(\mu=1) = \tau_\ell(\mu=1) = \frac{\ell(\ell+1)}{2} P_\ell(\mu = 1) = \frac{\ell(\ell+1)}{2},
+    \label{eq:PiTau1}
 \end{align}
 %
 where the last equality arises from the chosen definition of the Legendre polynomial [Eq. \eqref{eq:Plm}].
@@ -103,7 +104,7 @@ The angular functions $\pi_\ell$  and $\tau_\ell$ are not orthogonal in general,
 %
 \begin{align}
 \dv{\theta}&\qty(\sin\theta P_{\ell'}^m(\mu)\dv{P_\ell^m(\mu)}{\theta}) +
-\dv{\theta}\qty(\sin\theta P_{\ell}^m(\mu)\dv{P_{\ell'}^m(\mu)}{\theta}) +  
+\dv{\theta}\qty(\sin\theta P_{\ell}^m(\mu)\dv{P_{\ell'}^m(\mu)}{\theta}) +
 \label{eq:PlPl'}
 \\
 &\qty[\ell(\ell+1)+\ell'(\ell'+1)]P_{\ell'}^m(\mu)P_{\ell}^m(\mu) \sin\theta
@@ -114,16 +115,16 @@ The angular functions $\pi_\ell$  and $\tau_\ell$ are not orthogonal in general,
 where  it was added $2\dv*{P_\ell^m}{\theta}\dv*{P_{\ell'}^m}{\theta}$ on both sides to complete the derivatives. Integrating Eq. \eqref{eq:PlPl'} in th interval $\theta \in (0,\pi)$, or $\mu \in(-1,1)$, and employing Eqs. \eqref{eq:Plm} and \eqref{eq:PlmOrtho}, one obtains that
 %
 \begin{align}
-\int_{-1}^1 \qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\frac{mP_{\ell'}^m(\mu)}{\sin\theta}+ \dv{P_\ell^m(\mu)}{\theta}\dv{P_{\ell'}^m(\mu)}{\theta})\dd{\mu} = 
+\int_{-1}^1 \qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\frac{mP_{\ell'}^m(\mu)}{\sin\theta}+ \dv{P_\ell^m(\mu)}{\theta}\dv{P_{\ell'}^m(\mu)}{\theta})\dd{\mu} =
 \delta_{\ell,\ell'}\frac{2\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}.
 \label{eq:PimlTauml}
 \end{align}
 %
-Additionally 
+Additionally
 %
 \begin{align}
 \int_{-1}^1\frac{mP_\ell^m(\mu)}{\sin\theta}\dv{P_{\ell'}^m(\mu)}{\theta}\dd{\mu}
- = \int_0^{\pi} mP_\ell^m(\mu)\dv{P_{\ell'}^m(\mu)}{\theta}\dd{\theta} = 
+ = \int_0^{\pi} mP_\ell^m(\mu)\dv{P_{\ell'}^m(\mu)}{\theta}\dd{\theta} =
  -\int_{-1}^1\frac{mP_{\ell'}^m(\mu)}{\sin\theta}\dv{P_{\ell}^m(\mu)}{\theta}\dd{\mu}.
  \label{eq:taupiCross}
 \end{align}
@@ -131,7 +132,7 @@ Additionally
 where Eq. \eqref{eq:Plm} was employed along integration by parts. Thus, combining Eqs. \eqref{eq:PimlTauml} and \eqref{eq:taupiCross}, it leads to
 %
 \begin{align}
-\int_{-1}^{1}\qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\pm\dv{P_\ell^m(\mu)}{\theta})\qty(\frac{mP_{\ell'}^m(\mu)}{\sin\theta}\pm\dv{P_{\ell'}^m(\mu)}{\theta})\dd{\mu}  
+\int_{-1}^{1}\qty(\frac{mP_\ell^m(\mu)}{\sin\theta}\pm\dv{P_\ell^m(\mu)}{\theta})\qty(\frac{mP_{\ell'}^m(\mu)}{\sin\theta}\pm\dv{P_{\ell'}^m(\mu)}{\theta})\dd{\mu}
  =  \delta_{\ell,\ell'}\frac{2\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}.
  \label{eq:(pipmtau)}
 \end{align}
@@ -141,37 +142,37 @@ The Eq. \eqref{eq:(pipmtau)}  is the orthogonality of $\pi_\ell(\mu)\pm\tau_\ell
 
 \section*{Vector Spherical Harmonics Orthogonality Relations}
 
-The VSH follow orthogonality relations inherited from the orthogonality of sine, cosine and the associated Legendre functions. Let us define the inner product as the integral in the solid angle between two vector functions as 
+The VSH follow orthogonality relations inherited from the orthogonality of sine, cosine and the associated Legendre functions. Let us define the inner product as the integral in the solid angle between two vector functions as
 %
 \begin{align}
 \ev{\vb{A},\vb{A}'}_\Omega = \int_0^{2\pi}\int_0^{\pi} \vb{A}\cdot\vb{A}'\sin\theta\dd{\theta}\dd{\varphi}.
 \label{eq:inner}
 \end{align}
 %
-Under this inner product, all even VSH are orthogonal to the odd VSH, as well as all VSH  with $m\neq m', $due to the orthogonality of $\sin(m\varphi)$ and $\cos(m'\varphi)$. The remaining orthogonality relations  can be obtained by employing Eq. \eqref{eq:PimlTauml}, leading to 
+Under this inner product, all even VSH are orthogonal to the odd VSH, as well as all VSH  with $m\neq m', $due to the orthogonality of $\sin(m\varphi)$ and $\cos(m'\varphi)$. The remaining orthogonality relations  can be obtained by employing Eq. \eqref{eq:PimlTauml}, leading to
 %
 \begin{align}
 &\ev{\vb{L}_{em'\ell},\vb{L}_{em'\ell'}}_\Omega = \ev{\vb{L}_{om\ell},\vb{L}_{om\ell'}}_\Omega \notag\\
-	 &\hspace*{2em} =  
- 	\delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0}) 
+	 &\hspace*{2em} =
+ 	\delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0})
  	\frac{2\pi}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
  	\qty[\qty(k\dv{z_\ell(kr)}{(kr)})^2 + \ell(\ell+1)\qty(k\frac{z_\ell(kr)}{kr})^2],\\
 %
 &\ev{\vb{M}_{em\ell},\vb{M}_{em\ell'}}_\Omega = \ev{\vb{M}_{om\ell},\vb{M}_{om\ell'}}_\Omega \notag\\
-		 &\hspace*{2em} =  
-	\delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0}) 
+		 &\hspace*{2em} =
+	\delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0})
 	\pi \frac{2  \ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
 	z_{\ell}^2(kr),\\
 %
 &\ev{\vb{N}_{em\ell},\vb{N}_{em\ell'}}_\Omega = \ev{\vb{N}_{om\ell},\vb{N}_{om\ell'}}_\Omega  \notag\\
-	 &\hspace*{2em} =  
-	 \delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0}) 
+	 &\hspace*{2em} =
+	 \delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0})
 	\pi \frac{2  \ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
 	\qty[\qty(\frac{ z_{\ell}}{kr})^2 + \qty(\frac{1}{kr}\dv{[kr z_\ell(kr)]}{(kr)})^2]. \\
 %%
 &\ev{\vb{L}_{em\ell},\vb{N}_{em\ell'}}_\Omega = \ev{\vb{L}_{om\ell},\vb{N}_{om\ell'}}_\Omega \notag\\
 	 &\hspace*{2em} =
-	 \delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0}) 
+	 \delta_{m,m'}\delta_{\ell,\ell'} (1\pm\delta_{m,0})
 	\pi \frac{2  \ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
 	\qty[\frac{ z_{\ell}}{kr}\dv{z_\ell(kr)}{(kr)} + \qty(\frac{1}{kr}\dv{[kr z_\ell(kr)]}{(kr)})^2]
 \end{align}
@@ -179,12 +180,12 @@ Under this inner product, all even VSH are orthogonal to the odd VSH, as well as
 where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. The orthogonality relations of the VSH can be further simplify by means of the recurrence relations of the spherical Bessel/Hankel functions [Eqs. \eqref{eq:recBessel1} and \eqref{eq:recBessel2}], which imply that
 %
 \begin{align}
-\qty[\qty(k\dv{z_\ell(kr)}{(kr)})^2 + \ell(\ell+1)\qty(k\frac{z_\ell(kr)}{kr})^2] =& k^2 
+\qty[\qty(k\dv{z_\ell(kr)}{(kr)})^2 + \ell(\ell+1)\qty(k\frac{z_\ell(kr)}{kr})^2] =& k^2
 		\qty[\ell z_{\ell-1}^2(kr) + \ell(\ell+1)z_{\ell+1}^2(kr)],\\
 \qty[\qty(\frac{ z_{\ell}}{kr})^2 + \qty(\frac{1}{kr}\dv{[kr z_\ell(kr)]}{(kr)})^2] =&
- 	\ell(\ell+1)\qty[(\ell+1) z_{\ell-1}^2(kr)+ \ell z_{\ell+1}^2(kr)],  \\	
+ 	\ell(\ell+1)\qty[(\ell+1) z_{\ell-1}^2(kr)+ \ell z_{\ell+1}^2(kr)],  \\
 \qty[\frac{ z_{\ell}}{kr}\dv{z_\ell(kr)}{(kr)} + \qty(\frac{1}{kr}\dv{[kr z_\ell(kr)]}{(kr)})^2] =&
-	 	\ell(\ell+1)\qty[z_{\ell-1}^2(kr)- z_{\ell+1}^2(kr)].	
+	 	\ell(\ell+1)\qty[z_{\ell-1}^2(kr)- z_{\ell+1}^2(kr)].
 \end{align}
 %
 
@@ -198,14 +199,14 @@ where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. T
 	local = {pi}
 	]{Code}
   (*Angular functions pi and tau - n-> order - th -> polar angle theta*)
-  MiePi[n_, th_] := Module[{pi}, 
-     pi[0] = 0; pi[1] =  1;  
-     pi[\mmaPat{i_}] := pi[i] = ((2i-1)/(i-1)) * Cos[th] * pi[i-1] - (i/(i-1)) * pi[i-2]; 
+  MiePi[n_, th_] := Module[{pi},
+     pi[0] = 0; pi[1] =  1;
+     pi[\mmaPat{i_}] := pi[i] = ((2i-1)/(i-1)) * Cos[th] * pi[i-1] - (i/(i-1)) * pi[i-2];
     pi[n]]
-     
-  MieTau[n_, th_] := Module[{pi}, 
-     pi[0] = 0; pi[1] = 1;  
-     pi[\mmaPat{i_}] := pi[i] = ((2i-1)/(i-1)) * Cos[th] * pi[i-1] - (i/(i-1)) * pi[i-2]; 
+
+  MieTau[n_, th_] := Module[{pi},
+     pi[0] = 0; pi[1] = 1;
+     pi[\mmaPat{i_}] := pi[i] = ((2i-1)/(i-1)) * Cos[th] * pi[i-1] - (i/(i-1)) * pi[i-2];
     n * Cos[th] * pi[n] - (n+1) * pi[n-1]]
 
 		SetAttributes[MiePi, Listable]
@@ -216,22 +217,22 @@ where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. T
 \begin{mmaCell}[
 	pattern = {n_, x_, m_, n, x, m, \#},
 	local = {an, bn, psiMX, dpsiMX, psiX, dpsiX, xiX, dxiX}
-	]{Code}	
-  MieCoefficient[n_, x_, m_] := 
+	]{Code}
+  MieCoefficient[n_, x_, m_] :=
    Module[{an, bn, psiMX, dpsiMX, psiX, dpsiX, xiX, dxiX},
-    If[! Apply[Equal, Length /@ {x, m, 0}], 
+    If[! Apply[Equal, Length /@ {x, m, 0}],
     Return[Message[MieCoefficient::list, x, m]]];
-  
-   {psiMX, dpsiMX} = 
+
+   {psiMX, dpsiMX} =
      {m*x*#, -n*# + m*x*SphericalBesselJ[n-1, m*x]} &@ SphericalBesselJ[n, m*x];
-   {psiX, dpsiX} = 
+   {psiX, dpsiX} =
      {x*#, -n*# + x*SphericalBesselJ[n - 1, x]} &@ SphericalBesselJ[n, x];
-   {xiX, dxiX} = {psiX, dpsiX} + 
+   {xiX, dxiX} = {psiX, dpsiX} +
       I*{x*#, -n*# + x*SphericalBesselY[n-1, x]} &@ SphericalBesselY[n, x];
-  
+
   an = (m*psiMX*dpsiX - psiX*dpsiMX)/(m*psiMX*dxiX - xiX*dpsiMX);
   bn = (psiMX*dpsiX - m*psiX*dpsiMX)/(psiMX*dxiX - m*xiX*dpsiMX);
-  
+
   {an, bn}]
 \end{mmaCell}
 }
@@ -240,20 +241,20 @@ where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. T
 \begin{mmaCell}[
 	pattern = {x_, m_, x, m, angle_, angle, \#},
 	local = {ab, poles, pitau, coeff,  s1, s2}
-	]{Code}	
-  MieScatteringAmplitude12[x_, m_, angle_] :=  
+	]{Code}
+  MieScatteringAmplitude12[x_, m_, angle_] :=
    Module[{ab, poles, pitau, coeff,  s1, s2},
-   
+
    (*Wacombe criteria for convergence*)
    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
-  
+
    ab = MieCoefficient[poles, x, m];
    pitau = Through[{MiePi, MieTau}[poles, angle]];
    coeff = ((2.*# + 1.)/((# + 1.)*#)) & /@ poles;
-  
+
    s1 = Plus @@ (coeff * Plus @@ (ab*pitau));
    s2 = Plus @@ (coeff * Plus @@ (ab* Reverse[pitau]));
-  
+
   {s1, s2}]
 \end{mmaCell}
 }
@@ -262,14 +263,14 @@ where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. T
 \begin{mmaCell}[
 	pattern = {indices_, wlength_, radius_, indices, wlength, radius, \#},
 	local = {ab, sum, x, poles}
-	]{Code}	
-  MieScatteringQ[indices_, wlength_, radius_] := 
+	]{Code}
+  MieScatteringQ[indices_, wlength_, radius_] :=
    Module[{ab, sum, x, poles},
     x = (2.*Pi*radius)*indices[[1]]/wlength; (*Size parameter*)
     (*Wacombe criteria for convergence*)
-    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]]; 
-    
-    ab = Plus @@ ( Chop[#*Conjugate[#]] &@ 
+    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
+    ab = Plus @@ ( Chop[#*Conjugate[#]] &@
     		 MieCoefficient[poles, x, Divide @@ Reverse[indices]]);
     sum = Plus @@ ((2.*# + 1 & /@ poles) * ab);
    sum *= 2./(x^2)]
@@ -280,13 +281,13 @@ where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. T
 \begin{mmaCell}[
 	pattern = {indices_, wlength_, radius_, indices, wlength, radius, \#},
 	local = {ab, sum, x, poles}
-	]{Code}	
-  MieExtinctionQ[indices_, wlength_, radius_] := 
+	]{Code}
+  MieExtinctionQ[indices_, wlength_, radius_] :=
    Module[{ab, sum, x, poles},
     x = (2.*Pi*radius)*indices[[1]]/wlength; (*Size parameter*)
     (*Wacombe criteria for convergence*)
-    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]]; 
-    
+    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
     ab = Plus @@ (Re[MieCoefficient[poles, x, Divide @@ Reverse[indices]]]);
     sum = Plus @@ ((2.*# + 1 & /@ poles) * ab);
    sum *= 2./(x^2)]
@@ -297,35 +298,16 @@ where $(1+\delta_{m,0}) $ is for odd VSH and $(1-\delta_{m,0}) $ for even VSH. T
 \begin{mmaCell}[
 	pattern = {indices_, wlength_, radius_, indices, wlength, radius, \#},
 	local = {ab, sum, x, poles}
-	]{Code}	
-  MieAbsorptionQ[indices_, wlength_, radius_] := 
+	]{Code}
+  MieAbsorptionQ[indices_, wlength_, radius_] :=
    Module[{ab, sum, x, poles},
     x = (2.*Pi*radius)*indices[[1]]/wlength; (*Size parameter*)
     (*Wacombe criteria for convergence*)
-    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]]; 
-    
-    ab = Plus @@ ( (Re[#] - Chop[#*Conjugate[#]]) &@ 
+    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
+    ab = Plus @@ ( (Re[#] - Chop[#*Conjugate[#]]) &@
     		  MieCoefficient[poles, x, Divide @@ Reverse[indices]]);
     sum = Plus @@ ((2.*# + 1 & /@ poles) * ab);
    sum *= 2./(x^2)]
 \end{mmaCell}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

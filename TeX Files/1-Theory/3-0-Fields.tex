@@ -158,6 +158,7 @@ The scattering amplitude matrix relates the incident electric field to the scatt
 
 Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} and depreciating all terms proportional to $(kr)^{-2}$ it leads to a zero radial electric field while
 %
+\begin{subequations}%
 \begin{align}
 \vb{E}^\text{sca}\cdot\vu{e}^\text{sca}_\parallel & \approx \frac{\exp(ikr)}{r}
 \left\{\frac{i}{k}\sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
@@ -169,7 +170,8 @@ Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:Esca
 						[a_\ell\pi_\ell(\cos\theta)+b_\ell\tau_\ell(\cos\theta)]
 				\right\}E_0(-\sin\varphi),
 \label{eq:EphiSca}
-\end{align}
+\end{align}\label{eq:EFar}
+\end{subequations}
 %
 where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel = E_0\cos\varphi$ and $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\perp = -E_0\sin\varphi$ for $\vb{E}^\text{i}$ a plane wave traveling along the $z$ direction with an arbitrary polarization. Finally, the Scattering Amplitude Matrix for a spherical particle can be obtained by comparing Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} with Eq. \eqref{eq:ScatAmpMat}, leading to
 %
@@ -177,7 +179,7 @@ where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel 
 \mathbb{F}(\vu{k}^\text{sca},\vu{k}^\text{i})
             &= \mqty(\dfrac{i}{k}S_2(\theta) & 0 \\
 			0 & \dfrac{i}{k}S_1(\theta)  ),
-            \label{eq:FscaS}                                    
+            \label{eq:FscaS}
 \intertext{with  $\vu{k}^\text{sca} = \vu{e}_r$, $\vu{k}^\text{i} = \vu{e}_z$, $\cos\theta = \vu{k}^\text{sca}\cdot\vu{k}^\text{i}$  and}
 S_1(\theta)  &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 						[a_\ell\tau_\ell(\cos\theta)+b_\ell\pi_\ell(\cos\theta)],

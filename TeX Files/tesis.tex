@@ -170,7 +170,7 @@
 	\section{Mie Scattering}
 	  \label{s:Mie}
 
-     In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vector Spherical Harmonics}. Once the SVH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field.
+     In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determinated through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or extinction cross section is approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH)\index{Scattering!Thompson}\index{Scattering!Rayleigh}\index{Spherical!Vector Spherical Harmonics}. Once the SVH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field. The optical properties of a gold nanoparticle with a radius of $12.5$ nm are calculated as an example of the developed theoretical framwork in the last section.
 
 	    \subsection{Vector Spherical Harmonics}
 		 \label{ss:VSH}
@@ -180,15 +180,19 @@
 	     \label{ss:Fields}
          \input{1-Theory/3-0-Fields}
 
-        \subsection{Optical Properties of Spherical Particles: Gold Nanoparticles}
+        \subsection{Optical Properties of Isolated Spherical (Gold) Particles:}
 		 \label{ss:AuMie}
 
-         In the previous sections the general theory for the light scattering was developed, introuducing the amplitude scattering matrix $\mathbb{F}$ [Eq. \eqref{eq:ScatAmpMat}] in order to calculate the optical properties of a particle illuminated by a plane wave. Then, the particular problem of a spherical symmetric scatterer was addressed and the explicit form of $\mathbb{F}$ was obtained [Eq: \eqref{eq:FscaS}] in terms of the Mie Coefficients $a\ell$ and  $b\ell$ [Ec. \eqref{eq:MieCoef}]. In this last section the scattering, absorption and extinction cross sections are calculated for a spherical gold nanoparticle (AuNP) embedded into air and into glass by employing the obtained results.
+         In the previous sections the general theory for the light scattering was developed, introuducing the amplitude scattering matrix $\mathbb{F}$ [Eq. \eqref{eq:ScatAmpMat}]. Then, the particular problem of a spherical symmetric scatterer was addressed and the explicit form of $\mathbb{F}$ was obtained [Eq: \eqref{eq:FscaS}] in terms of the Mie Coefficients $a_\ell$ and  $b_\ell$ [Eq. \eqref{eq:MieCoef}], as well as the internal electric field inside the scatterer [Eq. \eqref{eq:EFar}] in terms of the coefficients $c_\ell$ and $d_\ell$ [Eq. \eqref{eq:coeffInt}]. Such optical properties can be studied within two different spacial regions: the near field and the far field regimes. The near field regime consists in the complete analytical solution of the scattered and internal electric fields [Eqs. \eqref{eq:EscaLC} and \eqref{eq:EscaInt}], while the far field regime considers only the contributions to the scattered electric field proportional to $r^{-1}$, with $r$ the distance between the center of the scatterer and the measurement point, which can be determinated by the amplitude scattering matrix $\mathbb{F}$ alone.  In this last section, the past results are employed to calculate the optical properties for a spherical gold nanoparticle (AuNP) with a radius of $12.5$ nm embedded into a matrix of air and into a matrix of glass when it is illuminated by an incident plane wave with a wavelength $\lambda$.
+
 
             \subsubsection{Far Field Optical Propterties}
              \label{sss:FarField}
-             \input{1-Theory/3-1-AuMie}
+             \input{1-Theory/3-1-AuMieFar}
 
+             %\subsubsection{Near Field Optical Propterties}
+              %\label{sss:FarField}
+              %\input{1-Theory/3-2-AuMieNear}
 
 \chapter{The Finite Element Method}
 \label{chapter:FEM}

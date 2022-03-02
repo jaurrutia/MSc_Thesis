@@ -1,6 +1,39 @@
 % !TeX root = ../tesis.tex
 
 
+
+
+
+
+
+On the other hand, the optical properties of  a spherical particle in the far field regime are  the scattering and extinction cross sections, which are obtained by substituting the amplitude scattering matrix for a spherical particl [Eq. \eqref{eq:FscaS}]  into Eqs. \eqref{eq:Csca} and \eqref{eq:Cext}, respectively; the absorption cross section can be calculated by subtraction of the past two. Thus, assuming an incident plane wave with an $x$ polarized electric field $\vb{E}^\text{i}$, and evaluating the scattering amplitude matrix in the forward direction $\theta = 0$, equivalent to $\cos\theta = 1$ , the extinction cross section $C_\text{ext}$ is given by
+%\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}
+\begin{align}
+	C_\text{ext} = \frac{4\pi}{k \norm{\vb{E}^\text{i}}^2}\Im[\frac{i}{k}S_2(\theta = 0)\vb{E}^\text{i}\cdot\vb{E}^\text{i*}]
+	  			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) \Re(a_\ell + b_\ell),
+	\label{eq:CextSphere}
+\end{align}
+where the Eq. \eqref{eq:PiTau1} in Appendix \ref{app:MieCode} was employed to tevaluate the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ . In a similar manner, the scattering cross section $C_\text{sca}$  can be written as
+%
+\begin{align}
+C_\text{sca} = \int_0^{2\pi}\int_0^\pi  \frac{(iS_2(\theta)\vb{E}^\text{i})^*(iS_2(\theta)\vb{E}^\text{i})}{k^2\vb{E}^\text{i}} \sin\theta\dd{\varphi}\dd{\theta}
+			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) (\abs{a_\ell}^2 + \abs{b_\ell}^2).
+	\label{eq:CscaSphere}
+\end{align}
+%
+where the orthogonality relations of $\pi_\ell(\cos\theta)\pm\tau_\ell(\cos\theta)$ [Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}] were used. In order to compair the absorption, scattering or extinction of light of a spherical particle, independently of its radius or embedding media (matrix) efficiencies of  absorption $Q_\text{abs}$, scattering $Q_\text{sca}$ and extinction $Q_\text{ext}$ are defined by normalizing the   absorption $C_\text{abs}$, scattering $C_\text{sca}$ and extinction $C_\text{ext}$ cross sections by the geometrical cross section of the spherical particle of radius $a$ yielding the dimensionless expressions
+%
+\begin{align}
+ 	\frac{C_\text{ext}}{\pi a^2} =   \frac{C_\text{abs}}{\pi a^2}  + \frac{C_\text{sca}}{\pi a^2}
+ 		\qquad \longrightarrow \qquad
+	Q_\text{ext} =    Q_\text{abs}  +  Q_\text{sca}.
+	\label{eq:Efficiencies}
+\end{align}
+%
+
+The Eq. \eqref{eq:Efficiencies}, states that the extinction of light considers  the light extinction to be a combination of both absorption and scattering mechanism. According Eq. \eqref{eq:CextSphere}, the spectral response of the extinction of light is coded into the real part of Mie Coefficients $a_\ell$ and $b_\ell$ {\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}}
+
+
 In Fig. \ref{fig:Mieefficiencies} the extinction  $Q_\text{ext}$ and the scattering  $Q_\text{sca}$ efficiencies of a gold NP (AuNP) with a radius of $a = 12.5$ nm (12.5 nm AuNP) are shown as function of the wavelength $\lambda$ of the incident plane wave illuminating the NP. Two matrices were considered in Fig. \ref{fig:Mieefficiencies}: a matrix of air with a refractive index of $n_\text{mat} = 1$ (black lines) and a matrix of glass with $n_\text{mat} = 1.5$ (orange lines).  The experimental dielectric function for Au reported by \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972}  was employed to model the electromagnetic response of the spherical AuNP nevertheless, this data corresponds to a bulk sample, meaning that it may not reproduce the optical behavior of a NP since surface effects cease to be neglectable  due to their spacial dimensions \cite{noguez_surface_2007}.   In order to study  the optical properties of AuNP while considering  surface effects,  a size correction to the dielectric function of the AuNP was performed as described in Appendix \ref{app:SizeCorrection}. The efficiencies of the $12.5$ nm AuNP  taking into account a dielectric function with (dashed lines) and without (solid lines) a size correction were compared for both considered matrices; on each curve the wavelength of their maximum value is indicated. The value of $\lambda$ at which the extinction efficiency is maximum corresponds to the excitation wavelength of the Localized Surface Pasmon Resonance (LSPR), that is, the wavelength where the extinction of light occurs the most.
 
 % -------------------------------------- Extinctintion and scattering efficiencies -------------------------------

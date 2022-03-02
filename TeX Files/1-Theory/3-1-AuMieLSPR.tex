@@ -1,46 +1,25 @@
 % !TeX root = ../tesis.tex
 
-The optical properties of a particle, either in the near or the far field regime,  are determined by the Mie coefficients   $a_\ell$ and $b_\ell$ [Eq. \eqref{eq:MieCoef}] since the exact solution to the scattered electric field $\vb{E}^\text{sca}$ is a linear combination of the vector spherical harmonics (VSH) $\vb{N}_{\text{e}1\ell}$ and $\vb{M}_{\text{o}1\ell}$ moduled by  $a_\ell$ and $b_\ell$, respectively. To study the optical response of the scatterer in the near field regime, an interpretation of the proposed VSH as electric and magnetic fields is needed. In Fig. {\color{red}{\textbf{poner figura}}} the VSH $\vb{N}_{\text{e}1\ell}$ and $\vb{M}_{\text{o}1\ell}$ are shown for $\ell = 1$ and $\ell = 2$ for a fixed value of the radius,  {\color{red}{\textbf{descripción del afigura que deviene en la interpretación de que N es el vector asociado al respuestas eléctricas y M al de magnéticas  por tanto a y b tienen la misma iinterpretación}}}.
+The optical properties of a particle, either in the near or the far field regime,  are determined by the Mie coefficients   $a_\ell$ and $b_\ell$ [Eq. \eqref{eq:MieCoef}] since the exact solution to the scattered electric field $\vb{E}^\text{sca}$ is a linear combination of the vector spherical harmonics (VSH) $\vb{N}^{(3)}_{\text{e}1\ell}$ and $\vb{M}^{(3)}_{\text{o}1\ell}$ [Eq. \eqref{eq:EscaLC}] modulated by  $a_\ell$ and $b_\ell$, respectively. Thus, the physical interpretation of each term $\ell$ in the linear combination, as well as of $\vb{N}^{(3)}_{\text{e}1\ell}$ and $\vb{M}^{(3)}_{\text{o}1\ell}$ can be determined by visualizing each one of them independently. By understanding the contribution of each term, the optical response of a particle illuminated by a plane wave can be studied in the near and far regime.
+
+The Fig. \ref{fig:Multipoles} shows the decomposition of the the scatttered electric field  $\vb{E}^\text{sca}$ of a particle into its contributions proportional to $a_1$ [Fig. \ref{fig:VSH:a1}], $b_1$ [Fig. \ref{fig:VSH:b1}], $a_2$ [Fig. \ref{fig:VSH:a2}] and $b_2$ [Fig. \ref{fig:VSH:b2}], when the particle is illuminated by a $x$ polarized plane wave traveling in the $z$ direction. The vectorial behavior of the $a_\ell$ contributions to $\vb{E}^\text{sca}$ are given by the VSH $\vb{N}^{(3)}_{\text{e}\ell 1}$ and by $\vb{M}^{(3)}_{\text{o}\ell 1}$ for the $b_\ell$ contributions. The  scattered electric field  is evaluated at a spherical surface (gray sphere) larger than the scatter: the arrow stream on the spherical surface corresponds to the pointing direction of each contribution to $\vb{E}^\text{sca}$ parallel to the evaluation sphere, while the color code corresponds to the magnitude of the scattered electric field at each point; the solid shape at the center of each axis is a contour surface $\norm{\vb{E}^\text{sca}}$.
+%
 
 \begin{figure}[h!]
 	\def\svgwidth{1\textwidth} \small
   \vspace*{3.0em}
   \hspace*{0.em}
-  	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  i a_1 \vb{N}_{\text{e}11}$}\label{fig:VSH:a1}\end{subfigure}
-  	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  - b_1 \vb{M}_{\text{o}11}$}\label{fig:VSH:b1}\end{subfigure}
-	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  i a_2 \vb{N}_{\text{e}12}$}\label{fig:VSH:a2}\end{subfigure}
-	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  - b_2 \vb{N}_{\text{o}12}$}\label{fig:VSH:b2}\end{subfigure}
+    \begin{subfigure}{.24\textwidth}\caption{\centering $\vb{E}^\text{sca} \sim  i a_1 \vb{N}^{(3)}_{\text{e}11}$}\label{fig:VSH:a1}\end{subfigure}
+  	\begin{subfigure}{.24\textwidth}\caption{\centering $\vb{E}^\text{sca} \sim  - b_1 \vb{M}^{(3)}_{\text{o}11}$}\label{fig:VSH:b1}\end{subfigure}
+	\begin{subfigure}{.24\textwidth}\caption{\centering $\vb{E}^\text{sca} \sim  i a_2 \vb{N}^{(3)}_{\text{e}12}$}\label{fig:VSH:a2}\end{subfigure}
+	\begin{subfigure}{.24\textwidth}\caption{\centering $\vb{E}^\text{sca} \sim  - b_2 \vb{M}^{(3)}_{\text{o}12}$}\label{fig:VSH:b2}\end{subfigure}
   \vspace*{-6.em}\\
   \includeinkscape{VSH/3-VSH}
   \vspace*{-2em}
-  \caption[Extinction and Scattering Efficency of a 12.5 nm Au Spherical NP embeded into Air and Glass]{ \textbf{a)} Extinction $Q_\text{ext}$ and \textbf{b)} scattering $Q_\text{sca}$ efficiencies of a 12.5 nm Au spherical NP embeded into air (black, $n_\text{mat} = 1$)  and into galss (orange, $n_\text{mat} = 1.33$), as function of the wavelength $\lambda$ of the incident plane wave.  The solid curves were calculated by considering no size effects on the dielectric function of the AuNP, while the dashed curves consider a size correction to it; the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} was employed.}
-\label{fig:VSH}
+  \caption[Multipolar Contributions to the Scattered Electric Field]{ Decomposition of the  scattered electric field $\vb{E}^\text{sca}$ into its contributions  proportional to \textbf{a)} $a_1$,  \textbf{b)}  $b_1$, \textbf{c)} $a_2$ and \textbf{d)} $b_2$ [see Eq. \eqref{eq:EscaLC}] when a particle (not shown) is illuminated by an $x$ polarized plane wave traveling in the $z$ direction. The scattered electric field $\vb{E}^\text{sca}$ is evaluated at a sphere larger than the particle: the arrow stream corresponds to the projection parallel to the evaluation sphere of $\vb{E}^\text{sca}$  and the color code corresponds to the magnitude of  $\vb{E}^\text{sca}$. A contour surface of the magnitude of $\vb{E}^\text{sca}$ is located at the center of each axis. }
+\label{fig:Multipoles}
 \end{figure}
 
+The general effect of each contribution to the scattered electric field  $\vb{E}^\text{sca}$  can be understood by analyzing their the behavior around the points where the scattered electric field drops to  zero; such points are called nodes and are shown in dark bluish colors in  Fig. \ref{fig:Multipoles}. The number of nodes over the evaluation sphere (gray surface) is proportional to the chosen value of $\ell$, for example, if $\ell = 1$ [Figs. \ref{fig:VSH:a1} and \ref{fig:VSH:b1}] there is a pair of such nodes and if $\ell = 2$ [Figs. \ref{fig:VSH:a2} and \ref{fig:VSH:b2}] there are two pairs, where each pair consists of two nodes at opposite sides of the evaluation sphere. When comparing the contributions proportional to $a_\ell$ [Figs. \ref{fig:VSH:a1} and \ref{fig:VSH:a2}] and  to $b_\ell$ [Figs. \ref{fig:VSH:b1} and \ref{fig:VSH:b2}], one difference is the location of the pairs of nodes for a fixed value of $\ell$, which differ spatially by a rotation around the $z$ axis of an angle $\varphi = \pi/2$.  Another difference between the $a_\ell$ and the $b_\ell$ contribution to  $\vb{E}^\text{sca}$ are the trajectories they performed around each pair of nodes: the $a_\ell$ contributions the scattered electric field flows from one node to its pair, thus following an open path, while the scattered electric field for the $b_\ell$ contributions circulates around the nodes forming a closed path. Taking into account such behaviors of the scattered electric field, it can be seen that the $a_\ell$ ($b_\ell$) contribution describes the electric field of an electric (magnetic) dipole when $\ell = 1$ and of an electric (magnetic) quadrupole when $\ell = 2$. Extrapolating such behavior for an arbitrary $\ell$,  it can be concluded that the $a_\ell$ contributions to the scattered electric field, described by the VSH $\vb{N}^{(3)}_{\text{e}\ell 1}$ corresponds to the electric field of an electric multipole of order $\ell$, while the $b_\ell$ contribution, described by the VSH $\vb{M}^{(3)}_{\text{o}\ell 1}$, corresponds to the electric field of a magnetic multipole of order $\ell$.
 
-On the other hand, the optical properties of  a spherical particle in the far field regime are  the scattering and extinction cross sections, which are obtained by substituting the amplitude scattering matrix for a spherical particl [Eq. \eqref{eq:FscaS}]  into Eqs. \eqref{eq:Csca} and \eqref{eq:Cext}, respectively; the absorption cross section can be calculated by subtraction of the past two. Thus, assuming an incident plane wave with an $x$ polarized electric field $\vb{E}^\text{i}$, and evaluating the scattering amplitude matrix in the forward direction $\theta = 0$, equivalent to $\cos\theta = 1$ , the extinction cross section $C_\text{ext}$ is given by
-%\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}
-\begin{align}
-	C_\text{ext} = \frac{4\pi}{k \norm{\vb{E}^\text{i}}^2}\Im[\frac{i}{k}S_2(\theta = 0)\vb{E}^\text{i}\cdot\vb{E}^\text{i*}]
-	  			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) \Re(a_\ell + b_\ell),
-	\label{eq:CextSphere}
-\end{align}
-where the Eq. \eqref{eq:PiTau1} in Appendix \ref{app:MieCode} was employed to tevaluate the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ . In a similar manner, the scattering cross section $C_\text{sca}$  can be written as
-%
-\begin{align}
-C_\text{sca} = \int_0^{2\pi}\int_0^\pi  \frac{(iS_2(\theta)\vb{E}^\text{i})^*(iS_2(\theta)\vb{E}^\text{i})}{k^2\vb{E}^\text{i}} \sin\theta\dd{\varphi}\dd{\theta}
-			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) (\abs{a_\ell}^2 + \abs{b_\ell}^2).
-	\label{eq:CscaSphere}
-\end{align}
-%
-where the orthogonality relations of $\pi_\ell(\cos\theta)\pm\tau_\ell(\cos\theta)$ [Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}] were used. In order to compair the absorption, scattering or extinction of light of a spherical particle, independently of its radius or embedding media (matrix) efficiencies of  absorption $Q_\text{abs}$, scattering $Q_\text{sca}$ and extinction $Q_\text{ext}$ are defined by normalizing the   absorption $C_\text{abs}$, scattering $C_\text{sca}$ and extinction $C_\text{ext}$ cross sections by the geometrical cross section of the spherical particle of radius $a$ yielding the dimensionless expressions
-%
-\begin{align}
- 	\frac{C_\text{ext}}{\pi a^2} =   \frac{C_\text{abs}}{\pi a^2}  + \frac{C_\text{sca}}{\pi a^2}
- 		\qquad \longrightarrow \qquad
-	Q_\text{ext} =    Q_\text{abs}  +  Q_\text{sca}.
-	\label{eq:Efficiencies}
-\end{align}
-%
-
-The Eq. \eqref{eq:Efficiencies}, states that the extinction of light considers  the light extinction to be a combination of both absorption and scattering mechanism. According Eq. \eqref{eq:CextSphere}, the spectral response of the extinction of light is coded into the real part of Mie Coefficients $a_\ell$ and $b_\ell$ {\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}}
+The scattered electric field of a spherical particle can be written, according to Eq. \eqref{eq:EscaLC}, as a linear contribution of electric fields associated to electric and magnetic mulutipoles as shown in Fig. \ref{fig:Multipoles}, modulated by the Mie coefficients $a_\ell$ and $b_\ell$, respectively. The Mie coefficients [Eq. \eqref{eq:MieCoef}] have a dependency on the radius $a$ of the spherical particle, on the wavelength $\lambda$ of the incident plane wave, the matrix embedding the particle through its  refractive index $n_\text{mat} = \sqrt{\varepsilon_\text{m}/\varepsilon_0}$, with $\varepsilon_\text{m}$ its dielectric function, and on the material of the particle itself, also through its refractive index $n_\text{p} = \sqrt{\varepsilon_\text{p}/\varepsilon_0}$, where $\varepsilon_p$ is the dielectric function of the particle, which in general depends on the wavelength of the incident plane wave.

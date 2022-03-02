@@ -2,6 +2,22 @@
 
 The optical properties of a particle, either in the near or the far field regime,  are determined by the Mie coefficients   $a_\ell$ and $b_\ell$ [Eq. \eqref{eq:MieCoef}] since the exact solution to the scattered electric field $\vb{E}^\text{sca}$ is a linear combination of the vector spherical harmonics (VSH) $\vb{N}_{\text{e}1\ell}$ and $\vb{M}_{\text{o}1\ell}$ moduled by  $a_\ell$ and $b_\ell$, respectively. To study the optical response of the scatterer in the near field regime, an interpretation of the proposed VSH as electric and magnetic fields is needed. In Fig. {\color{red}{\textbf{poner figura}}} the VSH $\vb{N}_{\text{e}1\ell}$ and $\vb{M}_{\text{o}1\ell}$ are shown for $\ell = 1$ and $\ell = 2$ for a fixed value of the radius,  {\color{red}{\textbf{descripción del afigura que deviene en la interpretación de que N es el vector asociado al respuestas eléctricas y M al de magnéticas  por tanto a y b tienen la misma iinterpretación}}}.
 
+\begin{figure}[h!]
+	\def\svgwidth{1\textwidth} \small
+  \vspace*{3.0em}
+  \hspace*{0.em}
+  	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  i a_1 \vb{N}_{\text{e}11}$}\label{fig:VSH:a1}\end{subfigure}
+  	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  - b_1 \vb{M}_{\text{o}11}$}\label{fig:VSH:b1}\end{subfigure}
+	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  i a_2 \vb{N}_{\text{e}12}$}\label{fig:VSH:a2}\end{subfigure}
+	\begin{subfigure}{.24\textwidth}\caption{ $\vb{E}^\text{sca} \sim  - b_2 \vb{N}_{\text{o}12}$}\label{fig:VSH:b2}\end{subfigure}
+  \vspace*{-6.em}\\
+  \includeinkscape{VSH/3-VSH}
+  \vspace*{-2em}
+  \caption[Extinction and Scattering Efficency of a 12.5 nm Au Spherical NP embeded into Air and Glass]{ \textbf{a)} Extinction $Q_\text{ext}$ and \textbf{b)} scattering $Q_\text{sca}$ efficiencies of a 12.5 nm Au spherical NP embeded into air (black, $n_\text{mat} = 1$)  and into galss (orange, $n_\text{mat} = 1.33$), as function of the wavelength $\lambda$ of the incident plane wave.  The solid curves were calculated by considering no size effects on the dielectric function of the AuNP, while the dashed curves consider a size correction to it; the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} was employed.}
+\label{fig:VSH}
+\end{figure}
+
+
 On the other hand, the optical properties of  a spherical particle in the far field regime are  the scattering and extinction cross sections, which are obtained by substituting the amplitude scattering matrix for a spherical particl [Eq. \eqref{eq:FscaS}]  into Eqs. \eqref{eq:Csca} and \eqref{eq:Cext}, respectively; the absorption cross section can be calculated by subtraction of the past two. Thus, assuming an incident plane wave with an $x$ polarized electric field $\vb{E}^\text{i}$, and evaluating the scattering amplitude matrix in the forward direction $\theta = 0$, equivalent to $\cos\theta = 1$ , the extinction cross section $C_\text{ext}$ is given by
 %\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}
 \begin{align}

@@ -14,7 +14,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
 \ifx\pdfoutput\undefined
-   \LoadClass[dvips, letterpaper]{book}  % 
+   \LoadClass[dvips, letterpaper]{book}  %
 \else
    \LoadClass[pdftex, letterpaper]{book}
 \fi
@@ -23,11 +23,11 @@
 %                                   PACKAGES 		                                    |
 %-------------------------------------------------------------------------------
 
-%\usepackage{pslatex}						%Times New Roman font 
+%\usepackage{pslatex}						%Times New Roman font
 \usepackage{multicol}						% for pages with multiple text columns, e.g. References
 	\setlength{\columnsep}{20pt} 				% space between columns; default 10pt quite narrow
 \usepackage{multirow}
-\usepackage{listings}                    				% Allows to add coding lines 
+\usepackage{listings}                    				% Allows to add coding lines
 \usepackage{emptypage}						% Eliminates headers and footnotes in empty pages
 \usepackage{makeidx}						% Add glosaries
 %\usepackage[style=list,toc,number=none]{glossary}
@@ -42,7 +42,7 @@
 \usepackage{imakeidx}%for indexes
 \makeindex[intoc]
 \usepackage{tocloft}
- 
+
 \setlength\cftparskip{.6em}
 \setlength\cftbeforechapskip{0pt}
 	%---------------------- Figurbackref change legend latex bibtexes ----------------------------
@@ -50,7 +50,7 @@
 		\usepackage[labelformat=simple, labelfont ={normal,bf}]{subcaption} % labelformat=simple   O brace
 %		\usepackage{subcaption}
 %			\captionsetup[subfigure]{labelformat=simple}
-		%\usepackage[bf,SL,BF]{subfigure}         
+		%\usepackage[bf,SL,BF]{subfigure}
                 \usepackage{float}
 		%	\floatsetup[subfigure]{style=plain,heightadjust=object,
 		%					capbesideposition={left,top},
@@ -59,10 +59,10 @@
 			%\captionsetup[subfigure]{labelformat=brace,justification=centerlast}
 		\usepackage[export]{adjustbox}
 		\usepackage{wrapfig}                    			% to include figure with text wrapping around it
-		
+
 	%--------------------- Color/equations -related stuff
 		\usepackage[dvipsnames]{xcolor}
-			% TLOZ: BOW color palette 
+			% TLOZ: BOW color palette
 			\definecolor{bone}{RGB}{253,255,224}  	% bone
 			\definecolor{lgreen}{RGB}{146,197,130} 	% light green,
 			\definecolor{lblue}{RGB}{134,165,169}	% light blue
@@ -80,17 +80,17 @@
 		\usepackage[most]{tcolorbox}
 			\tcbset{colback=orange,   colbacktitle = lgray, frame hidden , % colframe= lgray,
 			fonttitle=\bfseries , boxrule = 0pt, standard jigsaw,  opacityback=.5, opacitybacktitle =1}% sharp corners = downhill, boxrule = .75mm }
-		
+
 
 	%----------------------- Language and references ------------------------------
 %		\usepackage[spanish,mexico]{babel}			% Comment for english
-%			\addto\captionsspanish{\renewcommand{\figurename}{Fig.}}		
+%			\addto\captionsspanish{\renewcommand{\figurename}{Fig.}}
         \renewcommand{\figurename}{Fig.}
 		\usepackage[T1]{fontenc}			 		% 8-bits fonts
 		\usepackage[utf8]{inputenc}           			% Complete latin alfabet: Accents and so on
 %		\spanishdecimal{.}
 		\usepackage{microtype}
-		\usepackage[bibstyle = trad-abbrv, 
+		\usepackage[bibstyle = trad-abbrv,
 					citestyle = numeric-comp,
 					backend = bibtex,
 					sorting = none,
@@ -100,34 +100,35 @@
 %		\DefineBibliographyStrings{spanish}{%
 %			  backrefpage = {citado en la pág.},% originally "cited on page"
 %			  backrefpages = {citado en las págs.},% originally "cited on pages"
-%		}	
-	
+%		}
+
 		\addbibresource{4-References/references.bib}
 
 	%------------------------- Maths --------------------------------------
 		\usepackage{amssymb, amsmath, amsbsy, amsfonts}	% Math symbols and so on
-		\usepackage{mathrsfs}						
+		\usepackage{mathrsfs}
 		\usepackage{mathdots}                    			%  \iddots
 		\usepackage{mathtools}
 		\usepackage{physics}
 
 	%------------------------- Tikz --------------------------------------
 		\usepackage{tikz,pgfplots}
-		\usetikzlibrary{hobby} 
+        %    \pgfplots{compat = 1.15}
+		\usetikzlibrary{hobby}
 			\usetikzlibrary{decorations.shapes}
 			\usetikzlibrary{arrows.meta,calc,decorations.markings,math,arrows.meta}
 			\usetikzlibrary{arrows,shapes,positioning}
 			\usetikzlibrary{%
   							decorations.pathreplacing,%
 						    decorations.pathmorphing%
-							}	
+							}
 			\usepackage{tikz-3dplot}
 			%-------Dar dirección de las líneas (PONER FLECHITAS)
 				\tikzstyle arrowstyle=[scale=1]
 				\tikzstyle directed=[postaction={decorate,decoration={markings,
 									 mark=at position .65 with{\arrow[arrowstyle]{stealth}}}}]
 				\tikzstyle reverse directed=[postaction={decorate,decoration={markings,
-									mark=at position .65 with {\arrowreversed[arrowstyle]{stealth};}}}]  		 	
+									mark=at position .65 with {\arrowreversed[arrowstyle]{stealth};}}}]
 
 \usepackage{svg}
 
@@ -140,7 +141,7 @@
 
 \titleformat{\chapter}[display] 		% Changes chapter forms
 {\Huge} 								% Sets the font size (and format if wished e.g. {\Huge\bfseries}
-{  
+{
 \titlerule 								% Horizontal line
 \filleft 								% Fills the left size od the line so the text becomes right aligned
 \Large\chaptertitlename\ 				% Changes to \Large insted of \Huge (but why?)
@@ -150,7 +151,7 @@
 [\vspace{0.5mm} \bigrule] 				% Bold horizontal line beneath the chapter name
 
 
-%:-------------------------- Glossary/Abbrev./Symbols ----------------------- 
+%:-------------------------- Glossary/Abbrev./Symbols -----------------------
 %\usepackage[intoc]{nomencl} % load nomencl extension; include in TOC
 %\nomrefpage % to include page numbers after abbrevations
 %\renewcommand{\nomname}{Glossary} % rename nomenclature
@@ -176,7 +177,7 @@
 
 
 %---------------------------------------------------------------------------------
-%                                  PDF/PS set up 				hyperref package		| 
+%                                  PDF/PS set up 				hyperref package		|
 %---------------------------------------------------------------------------------
 
 %if you use a macTeX 2008 or later, use the ifpdf package
@@ -196,8 +197,8 @@
 
 \ifpdf
 
-    \usepackage[ pdftex, plainpages = false, pdfpagelabels, 
-                 pdfpagelayout = OneColumn, 
+    \usepackage[ pdftex, plainpages = false, pdfpagelabels,
+                 pdfpagelayout = OneColumn,
                  bookmarks,
                  bookmarksopen = true,
                  bookmarksnumbered = true,
@@ -211,15 +212,15 @@
 				hyperfootnotes = false,
                  hyperindex = true,
                  hyperfigures
-                 ]{hyperref} 
+                 ]{hyperref}
 %	\hypersetup{ hidelinks = true, }% Uncomment for a print version, where the hyperlinks have no colors.
-    \usepackage{graphicx}   
+    \usepackage{graphicx}
     \DeclareGraphicsExtensions{.png, .jpg, .pdf}
 
     \pdfcompresslevel=9
     %\graphicspath{{ThesisFigs/PNG/}{ThesisFigs/PDF/}{ThesisFigs/}}
 \else
-    \usepackage[ dvips, 
+    \usepackage[ dvips,
                  bookmarks,
                  bookmarksopen = true,
                  bookmarksnumbered = true,
@@ -258,39 +259,39 @@
 
 %%: Uncomment this secion for two-sided printing
 %% ------------------------------
-%\setlength{\oddsidemargin}{1cm}  
-%\setlength{\evensidemargin}{-.5cm} 
-%\setlength{\topmargin}{-.75cm}  
-%\setlength{\headheight}{0.cm}		
-%\setlength{\headsep}{1cm}			
-%\setlength{\textheight}{22.5cm}   
-%\setlength{\textwidth}{16cm}  		
+%\setlength{\oddsidemargin}{1cm}
+%\setlength{\evensidemargin}{-.5cm}
+%\setlength{\topmargin}{-.75cm}
+%\setlength{\headheight}{0.cm}
+%\setlength{\headsep}{1cm}
+%\setlength{\textheight}{22.5cm}
+%\setlength{\textwidth}{16cm}
 %\setlength{\marginparsep}{1mm}
-%\setlength{\marginparwidth}{3cm}		
+%\setlength{\marginparwidth}{3cm}
 %%\setlength{\footskip}{2.36cm}
 %\setlength{\footskip}{0.7cm}
-%\setlength{\parskip}{1 em}	
-%\setlength{\parindent}{3em}   
+%\setlength{\parskip}{1 em}
+%\setlength{\parindent}{3em}
 
 %%: Uncomment this secion for one-sided printing or digital version
 %% ------------------------------
-\setlength{\oddsidemargin}{.5cm}  
+\setlength{\oddsidemargin}{.5cm}
 \setlength{\evensidemargin}{.5cm}
-\setlength{\topmargin}{-.75cm}  
-\setlength{\headheight}{0.cm}		
-\setlength{\headsep}{1cm}			
-\setlength{\textheight}{22.5cm}   
-\setlength{\textwidth}{16cm}  		
+\setlength{\topmargin}{-.75cm}
+\setlength{\headheight}{0.cm}
+\setlength{\headsep}{1cm}
+\setlength{\textheight}{22.5cm}
+\setlength{\textwidth}{16cm}
 \setlength{\marginparsep}{1mm}
-\setlength{\marginparwidth}{3cm}		
+\setlength{\marginparwidth}{3cm}
 %\setlength{\footskip}{2.36cm}
 \setlength{\footskip}{0.7cm}
-\setlength{\parskip}{1 em}	
-\setlength{\parindent}{3em}   
+\setlength{\parskip}{1 em}
+\setlength{\parindent}{3em}
 
 	%------------------------- Fancy page layout options --------------------------------------
 
-		\pagestyle{fancy}	
+		\pagestyle{fancy}
 		\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
 		\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 
@@ -305,7 +306,7 @@
 		\fancypagestyle{plain}{
 			  \fancyhead{}
 			  \renewcommand{\headrulewidth}{0pt} }
-	
+
 		\setlength{\skip\footins}{.5cm} 			% gap between text and footer
 
 
@@ -322,15 +323,15 @@
 
 		%------------------------- Macro definitions --------------------------------------
 		% These macros are used to declare arguments needed for the construction of the title page and other preamble.
-		
+
 			%------------------------- Personal info --------------------------------------
-		
-				\newcommand{\@degreedate}{}     			% The year and term the degree will be officially conferred		
+
+				\newcommand{\@degreedate}{}     			% The year and term the degree will be officially conferred
 				\newcommand{\degreedate}[1]{\renewcommand{\@degreedate}{#1}}
-	
+
 				\newcommand{\@degree}{}				% The full (unabbreviated) name of the degree
 				\newcommand{\degree}[1]{\renewcommand{\@degree}{#1}}
-		
+
 				\newcommand{\@facultad}{} 					% The name of your department(eg. Engineering, Maths, Physics)
 				\newcommand{\facultad}[1]{\renewcommand{\@facultad}{#1}}
 
@@ -367,28 +368,28 @@
 				\newcommand{\ctutordosdep}[1]{\renewcommand{\@ctutordosdep}{#1}}
 
 				\newcommand{\@presidente}{}
-				\newcommand{\presidente}[1]{\renewcommand{\@presidente}{#1}}														
+				\newcommand{\presidente}[1]{\renewcommand{\@presidente}{#1}}
 
 				\newcommand{\@vocal}{}
 				\newcommand{\vocal}[1]{\renewcommand{\@vocal}{#1}}
 
 				\newcommand{\@secretario}{}
 				\newcommand{\secretario}[1]{\renewcommand{\@secretario}{#1}}
-								
+
 				\newcommand{\@supuno}{}
-				\newcommand{\supuno}[1]{\renewcommand{\@supuno}{#1}}												
+				\newcommand{\supuno}[1]{\renewcommand{\@supuno}{#1}}
 
 				\newcommand{\@supdos}{}
-				\newcommand{\supdos}[1]{\renewcommand{\@supdos}{#1}}										
-	
+				\newcommand{\supdos}[1]{\renewcommand{\@supdos}{#1}}
+
 				\newcommand{\@institucion}{}
 				\newcommand{\institucion}[1]{\renewcommand{\@institucion}{#1}}
-				
+
 				\newcommand{\@pags}{}
 				\newcommand{\pags}[1]{\renewcommand{\@pags}{#1}}
-				
+
 				\newcommand{\@student}{}
-				\newcommand{\student}[1]{\renewcommand{\@student}{#1}}							
+				\newcommand{\student}[1]{\renewcommand{\@student}{#1}}
 
 				\newcommand{\@programa}{}
 				\newcommand{\programa}[1]{\renewcommand{\@programa}{#1}}
@@ -424,7 +425,7 @@
 				{\if@restonecol\twocolumn\else\newpage\fi}
 
 %---------------------------------------------------------------------------------
-%                                  UNAM COVER 						| 
+%                                  UNAM COVER 						|
 %---------------------------------------------------------------------------------
 
 	%------------------- lines commands
@@ -435,7 +436,7 @@
 % --------------------- Graduate School: -----------------------------------------
 \ifposgrado
     \begin{alwayssingle}
-    \thispagestyle{empty}	
+    \thispagestyle{empty}
 	\begin{center}
 	\Large \vspace{-2em}
 	    \includegraphics[height=5cm]{Latex/Classes/Escudos/UNAM_crest_blue}\\[1em]
@@ -475,7 +476,7 @@
 	        {\bf \MakeUppercase {\@lugar}}{,\bf \MakeUppercase {\@degreedate}}
 	    \else
 		    {\bf \MakeUppercase {\@lugar}}{,\bf \MakeUppercase {\@degreedate}}
-	    \fi	
+	    \fi
 	\end{center}
 	\end{alwayssingle}
 
@@ -508,7 +509,7 @@
 %	%\newpage
 %	\vfill
 %	\end{alwayssingle}
-	
+
 \else
 % --------------------- Undergraduate School:------------------------------------
 	\begin{alwayssingle}
@@ -546,11 +547,11 @@
 			\ifportada
 				%\hrule height2.5pt
 %				\colorhrule{UNAMgold}{1pt}
-%				\vspace{.1cm}				
+%				\vspace{.1cm}
 				\colorhrule{UNAMblue}{2.5pt}
 				\vspace{.1cm}
 				%\hrule height1pt
-				\colorhrule{UNAMgold}{1pt}	
+				\colorhrule{UNAMgold}{1pt}
 			\else
 				\hrule height2.5pt
 				\vspace{.1cm}
@@ -559,10 +560,10 @@
 			\vspace{.3cm}
 			{ \scshape  \MakeUppercase{\@facultad}}
 			\vspace{.3cm}
-	
+
 		%------------------------- Work title
 			%\vspace{3cm}
-			\vspace{2.5cm}	
+			\vspace{2.5cm}
 			{\Large \scshape {\@title}}
 			\vspace{3cm}
 
@@ -582,7 +583,7 @@
 
 		%-------------------------Place
 	    		{\@lugar}{, }{\@degreedate}
-		
+
 		\end{center}
 		\end{minipage}
 
@@ -592,7 +593,7 @@
 
 	\newpage
 	\thispagestyle{empty}~
-	
+
 	\newpage
 	\begin{alwayssingle}
 	\thispagestyle{empty}
@@ -603,18 +604,18 @@
 	\noindent 3. Datos del sinodal 1\\ \@presidente \\[1em]
 	\noindent 4. Datos del sinodal 2 \\ \@vocal \\[1em]
 	\noindent 5. Datos del sinodal 3\\ \@supuno \\[1em]
-	\noindent 6. Datos del sinodal 4 \\ \@supdos \\[1em]	
-	\noindent 7. Datos del trabajo escrito \\ \@title \\ \@pags \\ \@degreedate \\[1em]		
-	
+	\noindent 6. Datos del sinodal 4 \\ \@supdos \\[1em]
+	\noindent 7. Datos del trabajo escrito \\ \@title \\ \@pags \\ \@degreedate \\[1em]
+
 	\vfill
 	\end{alwayssingle}
 
 \fi
 }
-	
+
 
 %---------------------------------------------------------------------------------
-%                                 Dedication	 						| 
+%                                 Dedication	 						|
 %---------------------------------------------------------------------------------
 %The dedication environment makes sure the dedication gets its  own page and is set out in verse format.
 
@@ -634,7 +635,7 @@
 }
 
 %---------------------------------------------------------------------------------
-%                                 Acknowledgments 						| 
+%                                 Acknowledgments 						|
 %---------------------------------------------------------------------------------
 
 	%-------------------------acknowledgements
@@ -653,7 +654,7 @@
 			\vspace{0.5cm}
 		}
 		{\end{alwayssingle}}
-	
+
 	%-------------------------acknowledgementslong
 	% The acknowledgementslong environment puts a large, bold, centered
 	% "Acknowledgements" label at the top of the page. The acknowledgement itself
@@ -671,7 +672,7 @@
 		{\end{alwayssingle}}
 
 %---------------------------------------------------------------------------------
-%                                 Abstract 							| 
+%                                 Abstract 							|
 %---------------------------------------------------------------------------------
 
 	%-------------------------abstracts
@@ -696,9 +697,9 @@
 	%the top of the page. The abstract itself does not appears in a quote
 	%environment so you can get more in.
 
-	\newenvironment{abstractslong} 
+	\newenvironment{abstractslong}
 	{
-	\begin{alwayssingle} 
+	\begin{alwayssingle}
 		\pagestyle{empty}
 		\begin{center}
 			\vspace*{1.5cm}
@@ -730,14 +731,14 @@
 
 
 %---------------------------------------------------------------------------------
-%                                 Statement of originality if required			| 
+%                                 Statement of originality if required			|
 %---------------------------------------------------------------------------------
 
 \newenvironment{declaration} {\begin{alwayssingle} \pagestyle{empty}
   \begin{center}
   \vspace*{1.5cm}
 %  {\chapter*{Declaración de autenticidad}}
-  {\chapter*{Statement of originality}} 
+  {\chapter*{Statement of originality}}
   \end{center}
   \vspace{0.5cm}}
 {\vspace{1.5cm}\flushright{\@author. \@lugar, \@degreedate}\end{alwayssingle}}

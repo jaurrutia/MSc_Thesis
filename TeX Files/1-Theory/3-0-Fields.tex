@@ -1,6 +1,9 @@
 % !TeX root = ../tesis.tex
 
- Let $\vb{E}^{\text{i}}$ be a $x$ polarized plane wave traveling in the vertical direction $\vb{e}_z$; its representation in the canonical spherical basis is
+ Let $\vb{E}^{\text{i}}$ be a $x$ polarized plane wave traveling in the vertical direction $\vb{e}_z$; its representation in the spherical unit vector basis is
+ % ---------------- index entries
+ \index{Plane!Wave!$x$ Polarized,!Spherical Unit Vector Basis}%
+ \index{Wave!Plane!$x$ Polarized,!Spherical Unit Vector Basis}%
  %
  \begin{align}
  \vb{E}^{\text{i}} (\vb{r})= E_0\qty(\sin\theta\cos\varphi \vu{e}_r +
@@ -10,7 +13,10 @@
  \end{align}
  %
 The monochromatic plane wave is a transversal wave, thus it can be written in terms of only the VSH $\vb{M}^{(1)}$ and $\vb{N}^{(1)}$, where the radial dependency is given by $j_\ell$ since the monochromatic plane wave is finite everywhere. Even more, due to the dependency on $\varphi$, it is only restricted to values of $m = 1$. By inspection on the radial component of $\vb{E}^\text{i}$, proportional to $\cos\varphi$ it depends only on $\vb{N}_{e1\ell}^{(1)}$, and on the azimuthal component, proportional to $\sin\varphi$, it can depend only on $\vb{M}_{o1\ell}^{(1)}$. Thus, Eq. \eqref{eq:ExPlane} can be written as the linear combination of  $\vb{N}_{e1\ell}^{(1)}$ and $\vb{M}_{o1\ell}^{(1)}$. Through the orthogonality relations of the VSH [see Eqs. \eqref{eq:LL}--\eqref{eq:LM} from Appendix \ref{app:MieCode}], the $x$ polarized plane wave can be written as \cite{stratton_electromagnetic_2012}
-  %
+%
+\index{Plane!Wave!$x$ Polarized,!Vector Spherical Harmonics}%
+\index{Wave!Plane!$x$ Polarized,!Vector Spherical Harmonics}%
+%
   \begin{subequations}
  \begin{align}
  \vb{E}^\text{i} (\vb{r})=& E_0 \sum_\ell\frac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty( \vb{M}_{o1\ell}^{(1)} -i \vb{N}_{e1\ell}^{(1)}),
@@ -126,7 +132,7 @@ As discussed in Section \ref{s:AmpMatCrossSect}, the optical properties of a par
 \end{subequations}
 %
 Following a similar procedure but substituting Eq. \eqref{eq:coeffInt} into Eq. \eqref{eq:EscaInt}, the internal electric field $\vb{E}^\text{int}$ can be rewritten also in terms of the Riccati-Bessel functions as
-
+%
 \begin{subequations}\label{eq:Eint}%
 \begin{align}
 \vb{E}^\text{int}\cdot\vu{e}_r &=  -\frac{\cos\varphi}{(kr)^2}
@@ -136,7 +142,7 @@ Following a similar procedure but substituting Eq. \eqref{eq:coeffInt} into Eq. 
 \vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\parallel &=  \frac{\cos\varphi}{k_\text{p}r}
                \sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
            [-i d_\ell\psi_\ell'(k_\text{p}r)\tau_\ell(\cos\theta)+c_\ell\psi_\ell(k_\text{p}r)\pi_\ell(\cos\theta)],
-\label{eq:EscaTheta}\\
+\label{eq:EintTheta}\\
 \vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-k_\text{p}r}
                \sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
            [-i d_\ell\psi_\ell'(k_\text{p}r)\pi_\ell(\cos\theta)+c_\ell\psi_\ell(k_\text{p}r)\tau_\ell(\cos\theta)].
@@ -191,4 +197,5 @@ S_2(\theta) &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
             \label{eq:S2}
 \end{tcolorbox}
 %
+\noindent
 which depends entirely in the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ modulated by the Mie coefficients $a_\ell$ and $b_\ell$. The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when written in the a base relative to the scattering plane direction, as it was stated in Section \ref{s:AmpMatCrossSect}. Since the scatterer is a spherical istropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ maintains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.

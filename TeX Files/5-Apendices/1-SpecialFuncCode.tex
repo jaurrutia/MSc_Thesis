@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
-The Vector Spherical Harmonics (VSH) where defined in Sec. \ref{ssection:VSH} in terms of their generating function $\psi(r,\theta,\varphi)$ which must satisfy the scalar Helmholtz equation [Eq.  \eqref{eq:HelmoltzScalar}]. By employing the separation of variables method,  it was determined that $\psi$ is the product of either $\sin(m\varphi)$ or $\cos(m\varphi)$, of the associated Legendre functions $P_\ell^m(\cos\theta)$ and the spherical Bessel/Hankel functions $z_\ell(kr)$, all of which are solutions to Eqs. \eqref{eq:Phi}-\eqref{eq:Reqkr}. In this section, it is discussed the chosen definitions for $P_\ell^m$, $z_\ell$ and related functions, as well as how to calculate them. It is also detailed how to code the Mie Theory results employing the Wolfram Language.
+The Vector Spherical Harmonics (VSH) where defined in Sec. \ref{ss:VSH} in terms of their generating function $\psi(r,\theta,\varphi)$ which must satisfy the scalar Helmholtz equation [Eq.  \eqref{eq:HelmoltzScalar}]. By employing the separation of variables method,  it was determined that $\psi$ is the product of either $\sin(m\varphi)$ or $\cos(m\varphi)$, of the associated Legendre functions $P_\ell^m(\cos\theta)$ and the spherical Bessel/Hankel functions $z_\ell(kr)$, all of which are solutions to Eqs. \eqref{eq:Phi}-\eqref{eq:Reqkr}. In this section, it is discussed the chosen definitions for $P_\ell^m$, $z_\ell$ and related functions, as well as how to calculate them. It is also detailed how to code the Mie Theory results employing the Wolfram Language.
 
 \section*{Radial Dependency: Spherical Bessel/Hankel Functions}
 
@@ -63,7 +63,7 @@ where $\mu = \cos\theta$ and $P_\ell(\mu)$ are the Legendre polynomials with $\e
 \label{eq:PlmOrtho}
 \end{align}
 %
-It was shown in Section \ref{ssection:Fields} that the a plane wave can be written as a linear combination of the VSH with only $m = 1$, which lead to the definition of the angular functions $\pi_\ell$ and $\tau_\ell$ given by
+It was shown in Section \ref{ss:Fields} that the a plane wave can be written as a linear combination of the VSH with only $m = 1$, which lead to the definition of the angular functions $\pi_\ell$ and $\tau_\ell$ given by
 %
 \begin{align*}
  \pi_\ell(\cos\theta )  = \frac{P_\ell^1(\cos\theta)}{\sin\theta},\qqtext{and}

@@ -145,11 +145,11 @@
     \put(0.89185588,0.39402844){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
     \put(0.34426074,0.39402844){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0.42173588,0.31564007){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.09343932,0.0783676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 522$ nm}\end{tabular}}}}%
+    \put(0.09343932,0.0783676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 509$ nm}\end{tabular}}}}%
     \put(0.09531394,0.10350063){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{12.5 nm AuNP $@$ Air}\\\\\\\end{tabular}}}}%
     \put(0.2624953,0.00853735){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
     \put(0.7564877,0.00953916){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
-    \put(0.58879302,0.07836763){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 522$ nm}\end{tabular}}}}%
+    \put(0.58879302,0.07836763){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 509$ nm}\end{tabular}}}}%
     \put(0.59066764,0.10350065){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{12.5 nm AuNP $@$ Air}\\\\\\\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=32]{4-NearField.pdf}}%
     \put(0.91194348,0.31564007){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%

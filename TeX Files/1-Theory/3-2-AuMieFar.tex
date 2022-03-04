@@ -1,13 +1,9 @@
 % !TeX root = ../tesis.tex
 
+The Localized Surface Plasmon Resonance (LSPR) occurs when the scattered electric field of a particle illuminated by a plane wave is described by an stationary wave on the surface of a particle when there is a coupling between the particle acting as an scatterer and the incident plane wave illuminating it. For a spherical particle, the LSPR occurs when the conditions in Eqs. \eqref{eq:E-LSPR} and \eqref{eq:M-LSPR} are met, which maximize the Mie coefficients [Eq. \eqref{eq:MieCoef}] $a_\ell$ and $b_\ell$, respectively. Since the optical quantities such as the scattering and extinction cross sections can be derived from the amplitude scattering matrix $\mathbb{F}$, Eq. \eqref{eq:FscaS}, which depends on the Mie coefficients  $a_\ell$ and $b_\ell$, the LSPR can also be observed in this spacial regime, where the only non neglectable contribution of the scattered electric field is proportional to $r^{-1}$, where $r$ is the distance from the center of the scatterer to the evaluation point. Hereby, the explicit expressions for the optical quantities in the far field regime, for a scattering sphere, are obtained.
 
-
-
-
-
-
-On the other hand, the optical properties of  a spherical particle in the far field regime are  the scattering and extinction cross sections, which are obtained by substituting the amplitude scattering matrix for a spherical particl [Eq. \eqref{eq:FscaS}]  into Eqs. \eqref{eq:Csca} and \eqref{eq:Cext}, respectively; the absorption cross section can be calculated by subtraction of the past two. Thus, assuming an incident plane wave with an $x$ polarized electric field $\vb{E}^\text{i}$, and evaluating the scattering amplitude matrix in the forward direction $\theta = 0$, equivalent to $\cos\theta = 1$ , the extinction cross section $C_\text{ext}$ is given by
-%\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}
+The optical properties of  a spherical particle in the far field regime are  the scattering $C_\text{sca}$ and extinction $C_\text{ext}$ cross sections, which are obtained by substituting the amplitude scattering matrix for a spherical particle [Eq. \eqref{eq:FscaS}]  into Eqs. \eqref{eq:Csca} and \eqref{eq:Cext}, respectively; the absorption cross $C_\text{abs}$ section can be calculated by subtraction of the past two. Thus, assuming an incident plane wave with an $x$ polarized electric field $\vb{E}^\text{i}$, and evaluating the scattering amplitude matrix in the forward direction $\theta = 0$, equivalent to $\cos\theta = 1$ , the extinction cross section $C_\text{ext}$ is given by
+%
 \begin{align}
 	C_\text{ext} = \frac{4\pi}{k \norm{\vb{E}^\text{i}}^2}\Im[\frac{i}{k}S_2(\theta = 0)\vb{E}^\text{i}\cdot\vb{E}^\text{i*}]
 	  			 = \frac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) \Re(a_\ell + b_\ell),
@@ -21,7 +17,7 @@ C_\text{sca} = \int_0^{2\pi}\int_0^\pi  \frac{(iS_2(\theta)\vb{E}^\text{i})^*(iS
 	\label{eq:CscaSphere}
 \end{align}
 %
-where the orthogonality relations of $\pi_\ell(\cos\theta)\pm\tau_\ell(\cos\theta)$ [Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}] were used. In order to compair the absorption, scattering or extinction of light of a spherical particle, independently of its radius or embedding media (matrix) efficiencies of  absorption $Q_\text{abs}$, scattering $Q_\text{sca}$ and extinction $Q_\text{ext}$ are defined by normalizing the   absorption $C_\text{abs}$, scattering $C_\text{sca}$ and extinction $C_\text{ext}$ cross sections by the geometrical cross section of the spherical particle of radius $a$ yielding the dimensionless expressions
+where the orthogonality relations of $\pi_\ell(\cos\theta)\pm\tau_\ell(\cos\theta)$ [Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}] were used. In order to compare the absorption, scattering or extinction of light of a spherical particle, independently of its radius $a$ or embedding media (matrix), the efficiencies of  absorption $Q_\text{abs}$, scattering $Q_\text{sca}$ and extinction $Q_\text{ext}$ are defined by normalizing the  absorption, scattering and extinction cross sections by the geometrical cross section of the spherical particle yielding the dimensionless expressions
 %
 \begin{align}
  	\frac{C_\text{ext}}{\pi a^2} =   \frac{C_\text{abs}}{\pi a^2}  + \frac{C_\text{sca}}{\pi a^2}
@@ -31,13 +27,10 @@ where the orthogonality relations of $\pi_\ell(\cos\theta)\pm\tau_\ell(\cos\thet
 \end{align}
 %
 
-The Eq. \eqref{eq:Efficiencies}, states that the extinction of light considers  the light extinction to be a combination of both absorption and scattering mechanism. According Eq. \eqref{eq:CextSphere}, the spectral response of the extinction of light is coded into the real part of Mie Coefficients $a_\ell$ and $b_\ell$ {\color{red}{\textbf{Hablar del límite la frecuencia de resonancia}}}
+The Eq. \eqref{eq:Efficiencies}, along with optical theorem [Eq. \eqref{eq:CextFull}] states that the extinction of light considers  the combination of both absorption and scattering mechanism. Since the analytical expression of $C_\text{eq}$ for a spherical particle [Eq. \eqref{eq:CextSphere} is proportional to the real parts of the Mie coefficients $a_\ell$ and $b_\ell$, then it is also maximized at the LSPR. Therefore, the LSPR can be observed in the far field by calculating or measuring the extinction cross section.
 
 
-In Fig. \ref{fig:Mieefficiencies} the extinction  $Q_\text{ext}$ and the scattering  $Q_\text{sca}$ efficiencies of a gold NP (AuNP) with a radius of $a = 12.5$ nm (12.5 nm AuNP) are shown as function of the wavelength $\lambda$ of the incident plane wave illuminating the NP. Two matrices were considered in Fig. \ref{fig:Mieefficiencies}: a matrix of air with a refractive index of $n_\text{mat} = 1$ (black lines) and a matrix of glass with $n_\text{mat} = 1.5$ (orange lines).
-
-
- The efficiencies of the $12.5$ nm AuNP  taking into account a dielectric function with (dashed lines) and without (solid lines) a size correction were compared for both considered matrices; on each curve the wavelength of their maximum value is indicated. The value of $\lambda$ at which the extinction efficiency is maximum corresponds to the excitation wavelength of the Localized Surface Pasmon Resonance (LSPR), that is, the wavelength where the extinction of light occurs the most.
+In order to study the LSPR of a gold nanoparticle (AuNP) of radius $a = 12.5$ nm (12.5 nm AuNP), the extinction  $Q_\text{ext}$ and the scattering  $Q_\text{sca}$ efficiencies are shown in Fig. \ref{fig:Mieefficiencies} as function of the wavelength $\lambda$ of the incident plane wave illuminating the NP. Two different matrices were considered in Fig. \ref{fig:Mieefficiencies}: a matrix of air with a refractive index of $n_\text{mat} = 1$ (black lines) and a matrix of glass with $n_\text{mat} = 1.5$ (orange lines). The optical response of the AuNP was modeled by a dielectric function for the AuNP with (dashed lines) and without (solid lines) a size correction (see Appendix \ref{app:SizeCorrection}) to the experimental data reported by  \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972} and it effect were compared for both considered matrices. On each curve of the scattering and extinction efficiencies, the wavelength of their maximum value is indicated and the value of $\lambda$ at which the $Q_\text{ext}$ is maximum corresponds to the excitation wavelength of the dipolar LSPR ($\ell = 1$).
 
 % -------------------------------------- Extinctintion and scattering efficiencies -------------------------------
 % --------------------------------------          12.5 nm AuNP @ Air and @ glass   -------------------------------
@@ -67,7 +60,7 @@ While the scattering efficiency $Q_\text{sca}$ is an integral quantity, that is,
 % --------------------------------------				 Scaattering Maps 	   ------------------------------
 % --------------------------------------   12.5 nm AuNP @ Air and @ glass    ------------------------------
 % --------------------------------------         fig:ScatteringMaps         -------------------------------
-\begin{figure}[h!]
+\begin{figure}[t!]
 	\def\svgwidth{.9\textwidth} \small\centering
 		\vspace*{3.25em}
 		\hspace*{-.25\textwidth}
@@ -85,4 +78,4 @@ While the scattering efficiency $Q_\text{sca}$ is an integral quantity, that is,
  \end{figure}
  % --------------------------------------         fig:ScatteringMaps         -------------------------------
 
-The quantities $\abs{S_{1,2}(\theta)}^2$ for a 12.5 nm AuNP embedded into air ($n_\text{mat} = 1$, black curves) are one order of magnitude smaller  than into glass ($n_\text{mat} = 1.5$, orange curves), meaning that the AuNP scatters light less efficiently in air than in glass, which is consistent with the obtained values for the scattering efficiency $Q_\text{sca}$ in Fig. \ref{fig:Mieefficiencies}. On the angular dependency, the radiation pattern of the AuNP in both matrices follow the same tendencies: an homogeneous scattered electric field when the AuNP scatters the perpendicularly polarized incident electric field  $\vb{E}^\text{s}_\perp$ (continuous lines), and a two-lobes pattern when illuminated with a parallel polarized $\vb{E}^\text{i}$.
+The quantities $\abs{S_{1,2}(\theta)}^2$ for a 12.5 nm AuNP embedded into air ($n_\text{mat} = 1$, black curves) are one order of magnitude smaller  than into glass ($n_\text{mat} = 1.5$, orange curves), meaning that the AuNP scatters light less efficiently in air than in glass, which is consistent with the obtained values for the scattering efficiency $Q_\text{sca}$ in Fig. \ref{fig:Mieefficiencies}. On the angular dependency, the radiation pattern of the AuNP in both matrices follow the same tendencies: an homogeneous scattered electric field when the AuNP scatters the perpendicularly polarized incident electric field  $\vb{E}^\text{s}_\perp$ (continuous lines), and a two-lobes pattern when illuminated with a parallel polarized $\vb{E}^\text{i}$. The observed radiation pattern can be identify in the near field regime, see Fig. \ref{fig:NearField}, nevertheless within the radiation pattern analysis, the presence of the LSPR is lost, unlike within an analysis of the extinction cross section.

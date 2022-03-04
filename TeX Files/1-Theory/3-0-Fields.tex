@@ -9,7 +9,7 @@
 	\label{eq:ExPlane}
  \end{align}
  %
-The monochromatic plane wave is a transversal wave, thus it can be written in terms of only the VSH $\vb{M}^{(1)}$ and $\vb{N}^{(1)}$, where the radial dependency is given by $j_\ell$ since the monochromatic plane wave is finite everywhere. Even more, due to the dependency on $\varphi$, it is only restricted to values of $m = 1$. By inspection on the radial component of $\vb{E}^\text{i}$, proportional to $\cos\varphi$ it depends only on $\vb{N}_{e1\ell}^{(1)}$, and on the azimuthal component, proportional to $\sin\varphi$, it can depend only on $\vb{M}_{o1\ell}^{(1)}$. Thus, Eq. \eqref{eq:ExPlane} can be written as the linear combination of  $\vb{N}_{e1\ell}^{(1)}$ and $\vb{M}_{o1\ell}^{(1)}$. Through the orthogonality relations of the VSH, the $x$ polarized plane wave can be written as \cite{stratton_electromagnetic_2012}
+The monochromatic plane wave is a transversal wave, thus it can be written in terms of only the VSH $\vb{M}^{(1)}$ and $\vb{N}^{(1)}$, where the radial dependency is given by $j_\ell$ since the monochromatic plane wave is finite everywhere. Even more, due to the dependency on $\varphi$, it is only restricted to values of $m = 1$. By inspection on the radial component of $\vb{E}^\text{i}$, proportional to $\cos\varphi$ it depends only on $\vb{N}_{e1\ell}^{(1)}$, and on the azimuthal component, proportional to $\sin\varphi$, it can depend only on $\vb{M}_{o1\ell}^{(1)}$. Thus, Eq. \eqref{eq:ExPlane} can be written as the linear combination of  $\vb{N}_{e1\ell}^{(1)}$ and $\vb{M}_{o1\ell}^{(1)}$. Through the orthogonality relations of the VSH [see Eqs. \eqref{eq:LL}--\eqref{eq:LM} from Appendix \ref{app:MieCode}], the $x$ polarized plane wave can be written as \cite{stratton_electromagnetic_2012}
   %
   \begin{subequations}
  \begin{align}
@@ -30,7 +30,7 @@ In the problem of scattering due to a spherical particle of radius $a$, the cont
   \label{eq:contuinity}
  \end{align}
  %
-with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electric field and  $\vb{H}^\text{sca}$ ( $\vb{H}^\text{int}$) the scattered (internal) magnetic field. If the incident field $\vb{E}^\text{i}$ is given by a $x$ polarized plane wave [Eq. \eqref{eq:ExPlane}] then the scattered and internal fields can be written also as a linear combination of $\vb{M}_{o1\ell}$ and $\vb{N}_{e1\ell}$. The internal field is finite inside the particle, thus the radial dependency is given by the function $j_\ell(k_p a)$ with $k_p$ the wave number inside the particle, while it is chosen the spherical Hankel function of first kind $h^{(1)}(ka)$  for the scattered fields due to its asymptotic behavior of a spherical outgoing wave, such election for the radial dependency is denoted by the superscript $(3)$ over the VSH. To simplify the following steps, the scattered and the internal electric files are proposed as
+with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electric field and  $\vb{H}^\text{sca}$ ( $\vb{H}^\text{int}$) the scattered (internal) magnetic field. If the incident field $\vb{E}^\text{i}$ is given by a $x$ polarized plane wave [Eq. \eqref{eq:ExPlane}] then the scattered and internal fields can be written also as a linear combination of $\vb{M}_{o1\ell}$ and $\vb{N}_{e1\ell}$. The internal field is finite inside the particle, thus the radial dependency is given by the function $j_\ell(k_\text{p} a)$ with $k_\text{p}$ the wave number inside the particle, while it is chosen the spherical Hankel function of first kind $h^{(1)}(ka)$  for the scattered fields due to its asymptotic behavior of a spherical outgoing wave, such election for the radial dependency is denoted by the superscript $(3)$ over the VSH. To simplify the following steps, the scattered and the internal electric files are proposed as
   %
   \begin{subequations}
  \begin{align}
@@ -47,7 +47,7 @@ with the respective magnetic fields
     \begin{subequations}
  \begin{align}
  \vb{H}^\text{sca} (\vb{r})=& \frac{-kE_0}{\mu\omega} \sum_\ell\frac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty(i b_\ell \vb{N}_{o1\ell}^{(3)} +a_\ell \vb{M}_{e1\ell}^{(3)}),\\
- \vb{H}^\text{int} (\vb{r})=& \frac{-kE_0}{\mu_p\omega} \sum_\ell\frac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty( d_\ell\vb{M}_{e1\ell}^{(1)} + i c_\ell \vb{N}_{o1\ell}^{(1)}).
+ \vb{H}^\text{int} (\vb{r})=& \frac{-kE_0}{\mu_\text{p}\omega} \sum_\ell\frac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty( d_\ell\vb{M}_{e1\ell}^{(1)} + i c_\ell \vb{N}_{o1\ell}^{(1)}).
  \end{align}%
 \label{eq:HscaInt}%
  \end{subequations}%
@@ -60,24 +60,24 @@ Since only the term $m=1$ is taken into account, it is convenient to define the 
  \label{eq:PiTau}
 \end{align}
 %
-which are not orthogonal but their addition and substraction are, that is $\pi_\ell \pm \tau_\ell$ are orthogonal functions \cite{bohren_absorption_1983}. After substitution  of Eqs. \eqref{eq:plane waveMultipole}, \eqref{eq:EscaInt} and \eqref{eq:HscaInt} into Eq. \eqref{eq:contuinity} and considering the orthogonality of the odd and even VSH, of the vectors $\vb{M}$ and $\vb{N}$, and of $\pi_\ell \pm \tau_\ell$, it is shown that the coefficients $a_\ell$, $b_\ell$, $c_\ell$ and $d_\ell$ are given by two decoupled equation systems
+which are not orthogonal but their addition and substraction are, that is $\pi_\ell \pm \tau_\ell$ are orthogonal functions \cite{bohren_absorption_1983}; see \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}. After substitution  of Eqs. \eqref{eq:plane waveMultipole}, \eqref{eq:EscaInt} and \eqref{eq:HscaInt} into Eq. \eqref{eq:contuinity} and considering the orthogonality of the odd and even VSH, of the vectors $\vb{M}$ and $\vb{N}$, and of $\pi_\ell \pm \tau_\ell$, it is shown that the coefficients $a_\ell$, $b_\ell$, $c_\ell$ and $d_\ell$ are given by two decoupled equation systems
 %
 \begin{align}
-\mqty([x h_\ell^{(1)}(x)]  & (\mu/\mu_p) [(mx) j_\ell(mx)] \\
+\mqty([x h_\ell^{(1)}(x)]  & (\mu/\mu_\text{p}) [(mx) j_\ell(mx)] \\
 		m[x h_\ell^{(1)}(x)]' & [(mx) j_\ell(mx)]')
 		\mqty(a_\ell \\ d_\ell) = \mqty([xj_\ell(x)] \\ m[x j_\ell(x)]') ,
 	\label{eq:syst1}
 		\\
 \intertext{and}
 \mqty( m[xh_\ell^{(1)}(x)]  &  [(mx)j_\ell(mx)] \\
-		[x h_\ell^{(1)}(x)]' & (\mu/\mu_p)[(mx) j_\ell(mx)]' )
+		[x h_\ell^{(1)}(x)]' & (\mu/\mu_\text{p})[(mx) j_\ell(mx)]' )
 		\mqty(b_\ell \\ c_\ell) = \mqty(m[xj_\ell(x)] \\ [x j_\ell(x)]'),
 	\label{eq:syst2}
 \end{align}
 %
-where $m = k_p / k = n_p / n_\text{m}$ is the contrast between the sphere and the matrix, $x= ka = 2\pi n_\text{m} (a/\lambda)$ is the size parameter and  ($'$) denotes the derivative respect to the argument of the spherical Bessel or Hankel functions. The Eqs. \eqref{eq:syst1} and \eqref{eq:syst2} are simplified when the Riccati-Bessel functions $\psi_\ell( \rho) = \rho j_\ell(\rho)$ and $\xi(\rho) = \rho h_\ell^{(1)}(\rho)$ are introduced.
+where $m = k_\text{p} / k = n_\text{p} / n_\text{mat}$ is the contrast between the sphere and the matrix, $x= ka = 2\pi n_\text{mat} (a/\lambda)$ is the size parameter and  ($'$) denotes the derivative respect to the argument of the spherical Bessel or Hankel functions. The Eqs. \eqref{eq:syst1} and \eqref{eq:syst2} are simplified when the Riccati-Bessel functions $\psi_\ell( \rho) = \rho j_\ell(\rho)$ and $\xi(\rho) = \rho h_\ell^{(1)}(\rho)$ are introduced.
 
-When a no magnetic particle nor matrix are assumed  ($\mu_p = \mu = \mu_0$), the coefficients $a_\ell$ and $b_\ell$ are known as the Mie coefficients whose expression is calculated by inverting  Eqs. \eqref{eq:syst1} and \eqref{eq:syst2}, leading to
+When a no magnetic particle nor matrix are assumed  ($\mu_\text{p} = \mu = \mu_0$), the coefficients $a_\ell$ and $b_\ell$ are known as the Mie coefficients whose expression is calculated by inverting  Eqs. \eqref{eq:syst1} and \eqref{eq:syst2}, leading to
 % -----------------------------
 \begin{subequations}
 	\begin{tcolorbox}[title = Mie Coefficients, ams align, breakable ]
@@ -131,15 +131,15 @@ Following a similar procedure but substituting Eq. \eqref{eq:coeffInt} into Eq. 
 \begin{align}
 \vb{E}^\text{int}\cdot\vu{e}_r &=  -\frac{\cos\varphi}{(kr)^2}
                \sum_\ell^\infty E_0i^\ell(2\ell+1)
-               id_\ell \psi(k_pr)\pi_\ell(\cos\theta) \sin\theta ,
+               id_\ell \psi(k_\text{p}r)\pi_\ell(\cos\theta) \sin\theta ,
 \label{eq:EintR}\\
-\vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\parallel &=  \frac{\cos\varphi}{k_pr}
+\vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\parallel &=  \frac{\cos\varphi}{k_\text{p}r}
                \sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
-           [-i d_\ell\psi_\ell'(k_pr)\tau_\ell(\cos\theta)+c_\ell\psi_\ell(k_pr)\pi_\ell(\cos\theta)],
+           [-i d_\ell\psi_\ell'(k_\text{p}r)\tau_\ell(\cos\theta)+c_\ell\psi_\ell(k_\text{p}r)\pi_\ell(\cos\theta)],
 \label{eq:EscaTheta}\\
-\vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-k_pr}
+\vb{E}^\text{int}\cdot\vu{e}^\text{sca}_\perp &=  \frac{\sin\varphi}{-k_\text{p}r}
                \sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
-           [-i d_\ell\psi_\ell'(k_pr)\pi_\ell(\cos\theta)+c_\ell\psi_\ell(k_pr)\tau_\ell(\cos\theta)].
+           [-i d_\ell\psi_\ell'(k_\text{p}r)\pi_\ell(\cos\theta)+c_\ell\psi_\ell(k_\text{p}r)\tau_\ell(\cos\theta)].
 \label{eq:EintMPhi}
 \end{align}%
 \end{subequations}
@@ -191,4 +191,4 @@ S_2(\theta) &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
             \label{eq:S2}
 \end{tcolorbox}
 %
-which depends entirely in the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ modulated by the Mie coefficients $a_\ell$ and $b_\ell$. The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when written in the a base relative to the scattering plane direction, as it was stated in Section \ref{s:AmpMatCrossSect}. Since the scatterer is a spherical istropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ mantains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.
+which depends entirely in the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ modulated by the Mie coefficients $a_\ell$ and $b_\ell$. The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when written in the a base relative to the scattering plane direction, as it was stated in Section \ref{s:AmpMatCrossSect}. Since the scatterer is a spherical istropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ maintains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.

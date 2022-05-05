@@ -1,0 +1,121 @@
+
+\section*{Mie Theory Code}
+
+{\footnotesize
+\begin{mmaCell}[
+	pattern = {n, th,n_,th_,i},
+	local = {pi}
+	]{Code}
+  (*Angular functions pi and tau - n-> order - th -> polar angle theta*)
+  MiePi[n_, th_] := Module[{pi},
+     pi[0] = 0; pi[1] =  1;
+     pi[\mmaPat{i_}] := pi[i] = ((2i-1)/(i-1)) * Cos[th] * pi[i-1] - (i/(i-1)) * pi[i-2];
+    pi[n]]
+
+  MieTau[n_, th_] := Module[{pi},
+     pi[0] = 0; pi[1] = 1;
+     pi[\mmaPat{i_}] := pi[i] = ((2i-1)/(i-1)) * Cos[th] * pi[i-1] - (i/(i-1)) * pi[i-2];
+    n * Cos[th] * pi[n] - (n+1) * pi[n-1]]
+
+		SetAttributes[MiePi, Listable]
+		SetAttributes[MieTau, Listable]
+\end{mmaCell}
+}
+{\footnotesize
+\begin{mmaCell}[
+	pattern = {n_, x_, m_, n, x, m, \#},
+	local = {an, bn, psiMX, dpsiMX, psiX, dpsiX, xiX, dxiX}
+	]{Code}
+  MieCoefficient[n_, x_, m_] :=
+   Module[{an, bn, psiMX, dpsiMX, psiX, dpsiX, xiX, dxiX},
+    If[! Apply[Equal, Length /@ {x, m, 0}],
+    Return[Message[MieCoefficient::list, x, m]]];
+
+   {psiMX, dpsiMX} =
+     {m*x*#, -n*# + m*x*SphericalBesselJ[n-1, m*x]} &@ SphericalBesselJ[n, m*x];
+   {psiX, dpsiX} =
+     {x*#, -n*# + x*SphericalBesselJ[n - 1, x]} &@ SphericalBesselJ[n, x];
+   {xiX, dxiX} = {psiX, dpsiX} +
+      I*{x*#, -n*# + x*SphericalBesselY[n-1, x]} &@ SphericalBesselY[n, x];
+
+  an = (m*psiMX*dpsiX - psiX*dpsiMX)/(m*psiMX*dxiX - xiX*dpsiMX);
+  bn = (psiMX*dpsiX - m*psiX*dpsiMX)/(psiMX*dxiX - m*xiX*dpsiMX);
+
+  {an, bn}]
+\end{mmaCell}
+}
+
+{\footnotesize
+\begin{mmaCell}[
+	pattern = {x_, m_, x, m, angle_, angle, \#},
+	local = {ab, poles, pitau, coeff,  s1, s2}
+	]{Code}
+  MieScatteringAmplitude12[x_, m_, angle_] :=
+   Module[{ab, poles, pitau, coeff,  s1, s2},
+
+   (*Wacombe criteria for convergence*)
+   poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
+   ab = MieCoefficient[poles, x, m];
+   pitau = Through[{MiePi, MieTau}[poles, angle]];
+   coeff = ((2.*# + 1.)/((# + 1.)*#)) & /@ poles;
+
+   s1 = Plus @@ (coeff * Plus @@ (ab*pitau));
+   s2 = Plus @@ (coeff * Plus @@ (ab* Reverse[pitau]));
+
+  {s1, s2}]
+\end{mmaCell}
+}
+
+{\footnotesize
+\begin{mmaCell}[
+	pattern = {indices_, wlength_, radius_, indices, wlength, radius, \#},
+	local = {ab, sum, x, poles}
+	]{Code}
+  MieScatteringQ[indices_, wlength_, radius_] :=
+   Module[{ab, sum, x, poles},
+    x = (2.*Pi*radius)*indices[[1]]/wlength; (*Size parameter*)
+    (*Wacombe criteria for convergence*)
+    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
+    ab = Plus @@ ( Chop[#*Conjugate[#]] &@
+    		 MieCoefficient[poles, x, Divide @@ Reverse[indices]]);
+    sum = Plus @@ ((2.*# + 1 & /@ poles) * ab);
+   sum *= 2./(x^2)]
+\end{mmaCell}
+}
+
+{\footnotesize
+\begin{mmaCell}[
+	pattern = {indices_, wlength_, radius_, indices, wlength, radius, \#},
+	local = {ab, sum, x, poles}
+	]{Code}
+  MieExtinctionQ[indices_, wlength_, radius_] :=
+   Module[{ab, sum, x, poles},
+    x = (2.*Pi*radius)*indices[[1]]/wlength; (*Size parameter*)
+    (*Wacombe criteria for convergence*)
+    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
+    ab = Plus @@ (Re[MieCoefficient[poles, x, Divide @@ Reverse[indices]]]);
+    sum = Plus @@ ((2.*# + 1 & /@ poles) * ab);
+   sum *= 2./(x^2)]
+\end{mmaCell}
+}
+
+{\footnotesize
+\begin{mmaCell}[
+	pattern = {indices_, wlength_, radius_, indices, wlength, radius, \#},
+	local = {ab, sum, x, poles}
+	]{Code}
+  MieAbsorptionQ[indices_, wlength_, radius_] :=
+   Module[{ab, sum, x, poles},
+    x = (2.*Pi*radius)*indices[[1]]/wlength; (*Size parameter*)
+    (*Wacombe criteria for convergence*)
+    poles = Range[ Ceiling[ x + 4.*x^(1./3) + 2.]];
+
+    ab = Plus @@ ( (Re[#] - Chop[#*Conjugate[#]]) &@
+    		  MieCoefficient[poles, x, Divide @@ Reverse[indices]]);
+    sum = Plus @@ ((2.*# + 1 & /@ poles) * ab);
+   sum *= 2./(x^2)]
+\end{mmaCell}
+}

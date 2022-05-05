@@ -3,7 +3,7 @@
 %
 \begin{figure}[h!]\centering
 	\def\svgwidth{.8\textwidth} \small
-\includeinkscape{SistemaMie}
+\includeinkscape{Geometries/SistemaBox}
 \vspace*{0em}
 \caption[Spherical symmetric COMSOL Setup]{A 3D view (left) and the cross section (right) of a spherical symmetric COMSOL setup to calculate the optical response of a single spherical NP embedded into a matrix. The NP (yellow) is located at the center of the matrix (gray), which is covered by a PML layer (blue). The upper layer of the PML is hidden to allow a better view of the setup.}
 \label{fig:setup:sphere}
@@ -13,14 +13,14 @@
 %
 \begin{figure}[h!]
 \def\svgwidth{\textwidth} \small
-\hspace*{.75em}
+\hspace*{2em}
 \begin{subfigure}{.1\textwidth}\caption{ }\label{fig:Eff:sphere:First:a}\end{subfigure}
 \vspace*{12.5em} % Crece la distancia entre as etiquetas
 \\
 \vspace*{-16.5em} % Crece la distancia entre las etiquetas y el pie de figura
-\hspace*{0.5em}%
+\hspace*{2em}%
 \begin{subfigure}{.1\textwidth}\caption{ }\label{fig:Eff:sphere:First:b}\end{subfigure}\\
-\includeinkscape{1-Theory-Figs/0-NoConv}
+\includeinkscape{FEM/0-NoConv}
 \vspace*{-1.5em} %Crece la ditancia entre la imagen y el pie de figura
 \caption[Scattering, Absorption and Extinction Efficiencies of a 5 nm AuNP$@$Air: Analytical and FEM solutions with no optimizatio]{\textbf{a)} Scattering $Q_\text{sca}$, absorption $Q_\text{abs}$ and extinction $Q_\text{ext}$ efficiencies of a 5 nm AuNP embedded into air calculated by means of the Mie Theory (continuous) and the FEM (disks), and \textbf{b)} their absolute error, as function of the wavelength $\lambda$ of the incident plane wave. The chosen parameters for the FEM calculations were based on the COMSOL Excercises \textbf{CITAR}.}
 \label{fig:Eff:sphere:First}
@@ -29,8 +29,8 @@
 
 %
 \begin{figure}[h!]\centering
-	\def\svgwidth{.8\textwidth} \small
-\includeinkscape{1-Theory-Figs/1-RadiusConv}
+	\def\svgwidth{\textwidth} \small
+\includeinkscape{FEM/1-Mat-Size-Rad-2}
 \vspace*{-1em}
 \caption[Extinction Efficiency Absolute Error: NP Max Mesh Size Analysis]{Absolute error between the Mie Theory and the FEM calculation on the extinction efficiency $Q_\text{ext}$ of a 5nm AuNP$@$Air as function of the maximum mesh size within the NP at the wavelength of the LSPR.}
 \label{fig:Eff:sphere:radius}
@@ -38,8 +38,8 @@
 
 %
 \begin{figure}[h!]\centering
-	\def\svgwidth{.8\textwidth} \small
-\includeinkscape{1-Theory-Figs/2-MatrixConv}
+	\def\svgwidth{\textwidth} \small
+\includeinkscape{FEM/2-PML-Size}
 \vspace*{-1em}
 \caption[Extinction Efficiency Absolute Error: Matrix Max Mesh Size Analysis]{Absolute error between the Mie Theory and the FEM calculation on the extinction efficiency $Q_\text{ext}$ of a 5nm AuNP$@$Air as function of the maximum mesh size within the matrix at the wavelength of the LSPR.}
 \label{fig:Eff:sphere:matrix}
@@ -47,8 +47,8 @@
 
 
 \begin{figure}[h!]\centering
-	\def\svgwidth{.8\textwidth} \small
-\includeinkscape{1-Theory-Figs/3-MatrixPMLThickness}
+	\def\svgwidth{\textwidth} \small
+\includeinkscape{FEM/3-Rad-Mesh}
 \vspace*{-1em}
 \caption[Extinction Efficiency Absolute Error: Matrix and PML Thickness Analysis]{Absolute error between the Mie Theory and the FEM calculation on the extinction efficiency $Q_\text{ext}$ of a 5nm AuNP$@$Air as function of the matrix thickness (black) and the PML thickness (orange) at the wavelength of the LSPR. It wac chosen for both cases a NP maximum mesh size of $a/10$ and a matrix maximum mesh size of $\lambda/6$; the default thickness of the matrix and PML was set to $\lambda/4$.}
 \label{fig:Eff:sphere:thickness}
@@ -93,7 +93,7 @@
 \vspace*{-16.5em} % Crece la distancia entre las etiquetas y el pie de figura
 \hspace*{-.75em}%
 \begin{subfigure}{.1\textwidth}\caption{ }\label{fig:Eff:sphere:First:b}\end{subfigure}\\
-\includeinkscape{1-Theory-Figs/4-Conv}
+\includeinkscape{FEM/4-Conv}
 \vspace*{-1.5em} %Crece la ditancia entre la imagen y el pie de figura
 \caption[Scattering, Absorption and Extinction Efficiencies of a 5 nm AuNP$@$Air: Analytical and FEM solutions with no optimizatio]{\textbf{a)} Scattering $Q_\text{sca}$, absorption $Q_\text{abs}$ and extinction $Q_\text{ext}$ efficiencies of a 5 nm AuNP embedded into air calculated by means of the Mie Theory (continuous) and the FEM (disks), and \textbf{b)} their absolute error, as function of the wavelength $\lambda$ of the incident plane wave. The chosen parameters for the FEM calculations were based on the COMSOL Excercises \textbf{CITAR}.}
 \label{fig:Eff:sphere:First}

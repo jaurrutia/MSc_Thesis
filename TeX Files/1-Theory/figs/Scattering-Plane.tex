@@ -1,0 +1,103 @@
+\tdplotsetmaincoords{60}{110}
+ \pgfmathsetmacro{\rvec}{1. 3}
+ \pgfmathsetmacro{\thetavec}{30}
+ \pgfmathsetmacro{\varphivec}{60}
+\begin{tikzpicture}[scale=3.5,tdplot_main_coords]
+ %draw the NP
+ %\draw[tdplot_screen_coords,ball color=yellow, opacity = 1] (0,0,0) circle (.05);
+ %\draw[tdplot_screen_coords, color=yellow, opacity = 1] (0,0,0) circle (.05);
+
+ \pgfmathsetseed{3}
+     \draw[tdplot_screen_coords, ball color=yellow, opacity = 1,scale =.075]
+     plot [smooth cycle, samples=8,domain={1:8}]
+         (\x*360/8+5*rnd:0.5cm+1cm*rnd) node at (0,0) {};
+ \pgfmathsetseed{3}
+     \draw[tdplot_screen_coords, color=yellow, opacity = 1,scale =.075]
+      plot [smooth cycle, samples=8,domain={1:8}]
+      (\x*360/8+5*rnd:0.5cm+1cm*rnd) node at (0,0) {};
+
+
+ % Set up some coordinates
+  \coordinate (O) at (0,0,0);
+
+ %determine a coordinate (P) using (r,\theta,\varphi) coordinates.   This command
+ %also determines (Pxy), (Pxz), and (Pyz): the xy-, xz-, and yz-projections
+ %of the point (P).
+ %syntax: \tdplotsetcoord{Coordinate name without parentheses}{r}{\theta}{\varphi}
+ \tdplotsetcoord{P}{\rvec}{\thetavec}{\varphivec}
+
+ %draw figure contents
+ %--------------------
+ %draw the main coordinate system axes
+     \draw[thick,- latex] (0,0,0) -- (1. 5,0,0) node[anchor=north east]{$x$};
+     \draw[thick,- latex] (0,0,0) -- (0,1. 5,0) node[anchor=north west]{$y$};
+     \draw[thick,- latex] (0,0,0) -- (0,0,1. 5) node[anchor=south]{$z$};
+
+ %draw the main cartesian vector system
+     \draw[thick,- latex, blue] (0,0,0) -- (1,0,0) node[anchor= south east]{$\vu{e}_x$};
+     \draw[thick,- latex, blue] (0,0,0) -- (0,1,0) node[anchor=north west]{$\vu{e}_y$};
+     \draw[thick,- latex, blue] (0,0,0) -- (0,0,1) node[anchor= east]{$\vu{e}_z$};
+
+ %draw a vector from origin to point (P)
+     \draw[thick,color=green, - latex] (O) -- (P);
+     \node at (1,. 5,1. 1) {\color{green} $\vb{r}$};
+
+ %draw projection on xy plane, and a connecting line
+     \draw[dashed, color=green] (O) -- (Pxy);
+     \draw[dashed, color=green] (P) -- (Pxy);
+     \fill[green, opacity = .3] (O) --(Pxy)-- (P)--(O);
+     \draw[- latex, tdplot_screen_coords,green](.42,.2)--(.8,.2);
+     \node[tdplot_screen_coords] at (1.2,.2) {\color{green}\small Scattering plane};
+
+
+ %draw the angle \varphi, and label it
+     %syntax: \tdplotdrawarc[coordinate frame, draw options]{center point}{r}{angle}{label options}{label}
+     \tdplotdrawarc[- latex]{(O)}{0. 5}{0}{\varphivec}{anchor=south}{$\varphi$}
+
+
+ %set the rotated coordinate system so the x'-y' plane lies within the
+     %"theta plane" of the main coordinate system
+     %syntax: \tdplotsetthetaplanecoords{\varphi}
+     \tdplotsetthetaplanecoords{\varphivec}
+
+ %draw theta arc and label, using rotated coordinate system
+     \tdplotdrawarc[tdplot_rotated_coords, - latex]{(0,0,0)}{0. 45}{0}{\thetavec}{anchor=north}{$\theta$}
+
+ %draw some dashed arcs, demonstrating direct arc drawing
+     \draw[dashed,tdplot_rotated_coords] (\rvec,0,0) arc (0:90:\rvec);
+     \draw[dashed] (\rvec,0,0) arc (0:90:\rvec);
+
+ %set the rotated coordinate definition within display using a translation
+ %coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
+ %syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
+     \tdplotsetrotatedcoords{\varphivec}{\thetavec}{0}
+
+ %translate the rotated coordinate system
+ %syntax: \tdplotsetrotatedcoordsorigin{point}
+     \tdplotsetrotatedcoordsorigin{(P)}
+
+ %use the tdplot_rotated_coords style to work in the rotated, translated coordinate frame
+     \draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor=north west]{{\color{black}$\vu{e}_\theta,$}$\vu{e}_{\parallel}^\text{sca}$};
+     \draw[thick,tdplot_rotated_coords,- latex,black] (0,0,0) -- (0,. 3,0) node[anchor=west]{$\vu{e}_\varphi$};
+     \draw[thick,tdplot_rotated_coords,- latex,purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp}^\text{sca}$};
+     \draw[thick,tdplot_rotated_coords,- latex] (0,0,0) -- (0,0,. 3) node[anchor=south]{$\vu{k}^\text{sca}, \vu{e}_r$ };
+
+ %set the rotated coordinate definition within display using a translation
+ %coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
+ %syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
+     \tdplotsetrotatedcoords{\varphivec}{0}{0}
+
+ %translate the rotated coordinate system
+ %syntax: \tdplotsetrotatedcoordsorigin{point}
+     \tdplotsetrotatedcoordsorigin{(Pxy)}
+
+     \draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor= west]{$\vu{e}_{\parallel}^\text{i}$};
+     \draw[thick,tdplot_rotated_coords,- latex, blue] (0,0,0) -- (0,0,. 3) node[anchor= west]{$\vu{e}_z$};
+     \draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp}^\text{i}$};
+
+ % plane wave
+     \foreach \i in {-7,...,-2}{
+         \draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
+     \node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}^\text{i}$};
+     \node[tdplot_screen_coords] at (-4.5/10,-.15,0){\begin{minipage}{2.cm}\centering\small \color{red}Incident plane wave\end{minipage}};
+\end{tikzpicture}%

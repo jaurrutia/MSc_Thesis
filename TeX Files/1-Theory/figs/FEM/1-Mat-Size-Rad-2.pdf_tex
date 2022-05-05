@@ -1,0 +1,90 @@
+%% Creator: Inkscape 1.1.2 (76b9e6a115, 2022-02-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '1-Mat-Size-Rad-2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{286.89085232bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.45720101)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{1-Mat-Size-Rad-2.pdf}}%
+    \put(0.90597244,0.37698585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}507 nm\end{tabular}}}}%
+    \put(0.90536262,0.34058928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}521 nm\end{tabular}}}}%
+    \put(0.01718053,0.24534555){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q^\text{Mie}-Q^\text{FEM}}$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{1-Mat-Size-Rad-2.pdf}}%
+    \put(0.86848589,0.27964855){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
+    \put(0.86766406,0.23783268){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
+    \put(0.87113966,0.1996446){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{1-Mat-Size-Rad-2.pdf}}%
+    \put(0.45662355,0.00524238){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Minimum NP - PML Distance [nm]\end{tabular}}}}%
+    \put(0.09747616,0.30265854){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.001\end{tabular}}}}%
+    \put(0.0973857,0.28059344){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0005\end{tabular}}}}%
+    \put(0.0973857,0.35655203){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.005\end{tabular}}}}%
+    \put(0.09699718,0.37976269){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.010\end{tabular}}}}%
+    \put(0.11274389,0.03912566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.27775031,0.03912566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0.44275658,0.03912566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0.61229457,0.03912566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}150\end{tabular}}}}%
+    \put(0.78183255,0.03912566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
+    \put(0.09738404,0.08309983){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0005\end{tabular}}}}%
+    \put(0.09699582,0.1045022){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0010\end{tabular}}}}%
+    \put(0.09699582,0.15158757){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0050\end{tabular}}}}%
+    \put(0.09699582,0.16870949){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0100\end{tabular}}}}%
+    \put(0.09699582,0.22007524){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0500\end{tabular}}}}%
+    \put(0.89988087,0.13226442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}533 nm\end{tabular}}}}%
+    \put(0.89927105,0.09586785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{1-Mat-Size-Rad-2.pdf}}%
+    \put(0.12153382,0.26171322){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\end{tabular}}}}%
+    \put(0.12148241,0.08767684){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Glass\end{tabular}}}}%
+    \put(0.33110302,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{10}{2}a  $ \end{tabular}}}}%
+    \put(0.2042148,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2 a $ \end{tabular}}}}%
+    \put(0.43676194,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$ \frac{15}{2}a $ \end{tabular}}}}%
+    \put(0.79755026,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$8 a $ \end{tabular}}}}%
+  \end{picture}%
+\endgroup%

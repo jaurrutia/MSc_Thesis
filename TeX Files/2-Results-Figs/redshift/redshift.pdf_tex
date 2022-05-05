@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1 (1:1.1+202105261517+ce6663b3b7), www.inkscape.org
+%% Creator: Inkscape 1.1.2 (08b2f3d93c, 2022-04-05), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'redshift.pdf' (pdf, eps, ps)
 %%
@@ -101,17 +101,17 @@
     \put(0.88741258,0.02861274){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.4\end{tabular}}}}%
     \put(0.93414536,0.02861857){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.6\end{tabular}}}}%
     \put(0.98086934,0.02861857){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.8\end{tabular}}}}%
-    \put(0.16263799,0.44188281){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$Air\end{tabular}}}}%
-    \put(0.40652347,0.44263491){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$H$_2$O\end{tabular}}}}%
-    \put(0.64957289,0.44188281){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}12.5 nm AuNP\end{tabular}}}}%
-    \put(0.89354784,0.44188281){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50 nm AuNP\end{tabular}}}}%
-    \put(0.63610855,0.49758498){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Scattering\end{tabular}}}}%
+    \put(0.16263798,0.4359138){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$Air\end{tabular}}}}%
+    \put(0.40652347,0.4366659){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$H$_2$O\end{tabular}}}}%
+    \put(0.64957289,0.4359138){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}12.5 nm AuNP\end{tabular}}}}%
+    \put(0.89354784,0.4359138){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50 nm AuNP\end{tabular}}}}%
+    \put(0.62421976,0.4978894){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Scattering\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{redshift.pdf}}%
-    \put(0.95098032,0.49606289){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Extinction\end{tabular}}}}%
+    \put(0.86741417,0.4963673){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Extinction\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{redshift.pdf}}%
     \put(0.09558889,0.49603602){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}No size correction\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{redshift.pdf}}%
-    \put(0.36831441,0.49593753){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Size correction\end{tabular}}}}%
+    \put(0.35180764,0.49624194){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Size correction\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{redshift.pdf}}%
   \end{picture}%
 \endgroup%

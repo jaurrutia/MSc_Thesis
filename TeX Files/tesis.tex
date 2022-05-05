@@ -102,7 +102,7 @@
 											% Falta ver si se ponen extra dentro del documento
 		\ctutoruno{Dra. Citlali Sánchez-Aké}
 		\ctutorunodep{Instituto de Ciencias Aplicadas y Tecnología, UNAM}
-		\ctutordos{Dr. Giuseppe Pirrcuccio}
+		\ctutordos{Dr. Giuseppe Pirruccio}
 		\ctutordosdep{Instituto de Física, UNAM}
 
 \keywords{tesis,autor,tutor,etc}            % For metadata
@@ -158,10 +158,10 @@
 \input{0-5-Introduccion/1-Motivation-Structure}
 
 %\part{Theoretical Framework}
-\chapter{Scattering Theory of Isolated Spherical Particles}
+\chapter{Scattering Theory of a Single Spherical Particle}
   \label{ch:OpticalProperties}
 
-  The problem studied in this thesis corresponds to the theoretical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those present on plasmonic biosensors, where the NPs are partially embedded into a substrate \cite{moirangthem_enhanced_2012}. The theoretical analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP employing the Finite Element Method (FEM) \index{Finite Element Method} nevertheless, to verify the validity of the obtained results, the problem of the absorption and scattering of light by a single spherical particle is addressed. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and by a spherical particle, given by the Mie Theory \cite{bohren_absorption_1983}.
+  The problem addressed in this thesis corresponds to the numerical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those present on plasmonic biosensors, where the NPs are partially embedded into a substrate \cite{moirangthem_enhanced_2012}. The performed analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP, employing the Finite Element Method (FEM) \index{Finite Element Method}. To verify the validity of the obtained results, the problem of the absorption and scattering of light by a single spherical particle is addressed. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and a spherical particle, given by the Mie Theory\footnote{The term \emph{Mie Theory} refers rather to a solution set to Maxwell's equations for the scattering of a electromagnetic plane wave due to a spherical particle, developed by Gustav Mie and published on 1907 \cite{mie_beitrage_1908}. Ludving Lorenz published beforehand an equivalent solution to the same scattering problem nevertheless, Mie's solution consists in an iterative method suited for easier computations, which boosted its spread \cite{horvath_gustav_2009}. } \cite{bohren_absorption_1983}.
 
 	\section{The Optical Theorem: Amplitude Matrix and Cross Sections}
 	 \label{s:AmpMatCrossSect}
@@ -170,7 +170,8 @@
 	\section{Mie Scattering}
 	  \label{s:Mie}
 
-     In the previous section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determined through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies can arise when either the scattering amplitude matrix or the extinction cross section are approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH). Once the VSH are defined, they will be used to write a monochromatic plane wave and, lastly, the scattered field by a spherical particle will be calculated by imposing the continuity of the tangential components of the electric and magnetic field. The optical properties of a gold nanoparticle with a radius of $12.5$ nm are calculated as an example of the developed theoretical framework in the last section.
+     In the previous Section, it was concluded that the extinction of light due to the interaction between a particle and a monochromatic plane wave can be determined through the amplitude of the scattered field in the forward direction. This is stated in the Optical Theorem, which is an exact relation, but inaccuracies may arise when either the scattering amplitude matrix or the extinction cross section are approximated\footnote{See for example Section 2.4 from Ref. \cite{tsang_scattering_2000} on the Rayleigh Scattering and Section 21.7 from Ref. \cite{zangwill_modern_2013} on Thompson scattering.}. A particular case in which the scattering amplitude matrix can be exactly calculated is when the scatterer has spherical symmetry. In order to address this special case, it will be introduced a vectorial basis with spherical symmetry, known as the Vector Spherical Harmonics (VSH). Once the VSH are defined, they will be used to write a monochromatic plane wave in terms of the VSH. By imposing the continuity of the tangential components of the electric and magnetic fields, the scattered field can be also written in terms of the VSH. As a particular example of interest, in the last Section, the optical properties of a gold nanoparticle with radius of $12.5$ nm are calculated.
+
      % ------------------------------- index entries --------
      \index{Scattering!Thompson}%
      \index{Scattering!Rayleigh}%
@@ -180,27 +181,23 @@
 		 \label{ss:VSH}
 		 \input{1-Theory/2-VSH}
 
-        \subsection{Incident, Scattered and Internal Electric Fields}
+        \subsection{Incident, Scattered, and Internal Electric Fields}
 	     \label{ss:Fields}
          \input{1-Theory/3-0-Fields}
 
-        \subsection{Optical Properties of Single Spherical (Gold) Particles}
+        \subsection{Optical Properties of a Single Spherical (Gold) Particle}
 		 \label{ss:AuMie}
 
-         In the previous sections, the general theory for the light scattering was developed, introducing the scattering amplitude matrix $\mathbb{F}$ [Eq. \eqref{eq:ScatAmpMat}]. Then, the particular problem of a spherical symmetric scatterer was addressed and the explicit expression of the scattered electric field and of $\mathbb{F}$ were obtained [Eq. \eqref{eq:FscaS}] in terms of the Mie coefficients $a_\ell$ and  $b_\ell$ [Eqs. \eqref{eq:MieCoef}], as well as the internal electric field inside the scatterer [Eq. \eqref{eq:EFar}] in terms of the coefficients $c_\ell$ and $d_\ell$ [Eqs. \eqref{eq:coeffInt}]. The  optical properties of a particle is related to the the electric field outside the scatterer,  and can be studied within two different spacial regions: the near field and the far field regimes. The near field regime consists in the complete analytical solution of the scattered electric field [Eq. \eqref{eq:EscaLC}], while the far field regime considers only its contributions proportional to $r^{-1}$, with $r$ the distance between the center of the scatterer and the measurement point, which can be determined by the scattering amplitude matrix $\mathbb{F}$ alone.  In this last section,
-                the past results are employed to calculate the optical properties for a spherical gold nanoparticle (AuNP) with a radius of $12.5$ nm embedded into a matrix of air and into a matrix of glass when it is illuminated by an incident plane wave with a wavelength $\lambda$.
+         In previous Sections, the general theory for the light scattering was developed, introducing the scattering amplitude matrix $\mathbb{F}$ [Eq. \eqref{eq:ScatAmpMat}]. Then, the particular problem of a spherical scatterer was addressed and the explicit expression of the scattered electric field and of $\mathbb{F}$ were obtained [Eq. \eqref{eq:FscaS}] in terms of the Mie coefficients $a_\ell$ and  $b_\ell$ [Eqs. \eqref{eq:MieCoef}], as well as the internal electric field inside the scatterer [Eq. \eqref{eq:EFar}] in terms of the coefficients $c_\ell$ and $d_\ell$ [Eqs. \eqref{eq:coeffInt}]. The  optical properties of a particle is related to the electric field outside the scatterer,  and can be studied within two different spatial regions: the near field and the far field regimes. The near field regime consists in the complete analytical solution of the scattered electric field [Eq. \eqref{eq:EscaLC}], while the far field regime considers only its contributions proportional to $r^{-1}$, with $r$ the distance between the center of the scatterer and the measurement poin; the optical propertiesin the fat field regime can be determined by the scattering amplitude matrix $\mathbb{F}$ alone.  In this last Section, the previous results are employed to calculate the optical properties fo  a spherical gold nanoparticle (AuNP) with a radius of $12.5$ nm, embedded into a matrix of air and into a matrix of glass, when it is illuminated by an incident plane wave with a wavelength $\lambda$.
 
-            \subsubsection{Localized Surface Plasmon}
+            \subsubsection{Localized Surface Plasmons}
              \label{sss:LSPR}
              \input{1-Theory/3-1-AuMieLSPR}
 
-            \subsubsection{Far Field Optical Propterties}
+            \subsubsection{Far Field Optical Properties}
              \label{sss:FarField}
              \input{1-Theory/3-2-AuMieFar}
 
-             %\subsubsection{Near Field Optical Propterties}
-              %\label{sss:FarField}
-              %\input{1-Theory/3-2-AuMieNear}
 
 \chapter{The Finite Element Method}
 \label{chapter:FEM}
@@ -209,12 +206,12 @@
 
 	\section{Finite Element Method and Analytical Solutions}
 		\label{sec:FEM-Mie}
-%		\input{1-Theory/4-FEM}
+		\input{1-Theory/4-FEM}
 
 %
 
 \chapter{Results and Discussion}
-%	\input{2-Results/0-Intro}
+	\input{2-Results/0-Intro}
 	\section{Incrustation Degree of a Spherical Particle}
 %	\input{2-Results/1-Something}
     \section{Future Work: Application on Metasurfaces}
@@ -226,7 +223,7 @@
 
 \chapter{Mie Theory (Conventions and Code)}
   \label{app:MieCode}
-  \input{5-Apendices/1-SpecialFuncCode}
+  \input{5-Apendices/1-SpecialFunc}
 
 \chapter{Size Corrected Dielectric Function}
   \label{app:SizeCorrection}
@@ -245,7 +242,7 @@
 
 \newpage
 %: ----------------------- list of figures/tables ------------------------
-\listoffigures              % Genera el ínidce de figuras, comentar línea si no se usa
+%\listoffigures              % Genera el ínidce de figuras, comentar línea si no se usa
 %\listoftables               % Genera índice de tablas, comentar línea si no se usa
 \printindex
 %-------------------------------------------------------------------------------

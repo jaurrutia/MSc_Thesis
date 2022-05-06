@@ -200,8 +200,22 @@
 
 
 \chapter{The Finite Element Method}
-\label{chapter:FEM}
+ \label{chapter:FEM}
 
+    Several physical problems are described by systems of partial differential equations (PDE) alongside boundary or initial conditions, whose analytical solution can be achieved only in some cases. For example, the scattering of light due to an arbitrary spherical particle, described by the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}] with the boundary conditions at the surface of the spherical particle given by Eq. \eqref{eq:contuinity},   is one of the few physical problem with an analytical solution nevertheless, it is set in an ideal scenario where the particle is a perfect sphere, it is isolated and embebed into a non-absorbing matrix and, even more, an harmonic time-dependent incident electric plane wave was assumed. Any of  these conditions on the geometry and physical properties of the described system were to change, the scattering problem may not have an analytical solution or it may be to hard to compute even though the solution have already been found\footnote{\textbf{Poner la solucion analitica de un esferoide pero retomando que es poco estable.}}; for such cases one alternative is to employ a numerical approach to find an approximated solution to the physical problem.
+    Among the numerical methods commonly employed in electrodynamics one can find the Finite Element Method (FEM).
+
+    In this work the FEM was employed to solve the problem of the scattering of a electric plane wave due to a spherical particle when the particle is located in between the planar interface between two media: a matrix ---the incident medium of the plane wave--- and a substrate ---the 
+
+
+
+    \section{Fundamentals}
+
+        \subsection{Weak Formulation and the Galerkin Method}
+
+        \subsection{Elements}
+
+    \section{Formulation of the Light Scattering on the Finite Element Method}
 
 
 	\section{Finite Element Method and Analytical Solutions}

@@ -59,6 +59,9 @@
   linklocaluri=mma/symbol/definition:#1,
   morecellgraphics={yoffset=1.9ex}
 }
+
+\DeclareMathAlphabet\mathbfcal{OMS}{cmsy}{b}{n}
+
 %%-------------------------------------------------------------------------------
 %                                  Information of the Student
 %-------------------------------------------------------------------------------
@@ -202,27 +205,37 @@
 \chapter{The Finite Element Method}
  \label{chapter:FEM}
 
-    Several physical problems are described by systems of partial differential equations (PDE) alongside boundary or initial conditions, whose analytical solution can be achieved only in some cases. For example, the scattering of light due to an arbitrary spherical particle, described by the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}] with the boundary conditions at the surface of the spherical particle given by Eq. \eqref{eq:contuinity},   is one of the few physical problem with an analytical solution. Nevertheless, it is set in an ideal scenario where the particle is a perfect sphere, it is isolated and embebed into a non-absorbing matrix, and, an harmonic time-dependent incident electric plane wave was assumed. Any of  these conditions on the geometry and physical properties of the described system were to change, the scattering problem may not have an analytical solution or it may be to hard to compute even though the solution have already been found\footnote{\textbf{Poner la solucion analitica de un esferoide pero retomando que es poco estable.}}; for such cases one alternative is to employ a numerical approach to find an approximated solution to the physical problem.
-    Among the numerical methods employed in electrodynamics, one can find the Finite Element Method (FEM).
+    Several physical problems are described by systems of partial differential equations (PDE) alongside boundary or initial conditions, whose analytical solution can be achieved only in some cases. For example, the scattering of light due to an arbitrary spherical particle, described by the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}] with the boundary conditions at the surface of the spherical particle given by Eq. \eqref{eq:contuinity},   is one of the few physical problem with an analytical solution. Nevertheless, it is set in an ideal scenario where the particle is a perfect sphere, it is isolated and embebed into a non-absorbing matrix. Any of  these conditions on the geometry and physical properties of the described system were to change, the scattering problem may not have an analytical solution;  for such cases one alternative is to employ a numerical approach to find an approximated solution.  Among the numerical methods employed in electrodynamics, one of them is the Finite Element Method (FEM).
 
-    In this work the FEM was employed to solve the problem of the scattering of a electric plane wave due to a spherical particle when the particle is located in between the planar interface between two media: a matrix ---the incident medium of the plane wave--- and a substrate ---the transmission medium---. In the next sections the fundamentals of the FEM are explained based on the implementation of this numerical method in the commercial software  \textit{COMSOL Multiphysics} Ver. 4.6. That is, the concept of the finite element is explained, as well as the weak formulation of a PDE problem.
-
-
+    In this chapter the theory behind the FEM is presented with its implementation on the light scattering problem. In section \ref{s:FEM-Fund} fundamentals of the FEM are explained: the Galerkin Method and the concept of the finite element. In section \ref{s:Scat-FEM}, the light scattering problem is revisited so it can be approach through an integral formulation, allowing the use of the FEM since a generalization of the concepts seen in section \ref{s:FEM-Fund}  into vectorial quantities is needed, as well as the introduction of boundary conditions in open regions so an infinite medium problem, such as the light scattering, can be approached numerically. In the last section, the scattering problem of an isolated spherical particle, addressed in chapter \ref{ch:OpticalProperties}, is solved analytically and numerically ---employing the commercial software \textit{COMSOL Multiphysics} Ver. 5.4---and their results are contrasted.
 
     \section{Fundamentals}
-     \label{ss:FEM-Fund}
+     \label{s:FEM-Fund}
      \input{1-Theory/4-1-Fundamentals}
 
-        \subsection{The Finite Element Approximation}
+        \subsection{The Finite Element}
          \label{ss:FEM-FE}
          \input{1-Theory/4-2-FE}
 
-        \subsection{The Galerkin Method}
-         \label{ss:FEM-GM}
-         \input{1-Theory/4-3-Galerkin}
+    \section{Numerical Approach to the Light Scattering Problem}
+     \label{s:Scat-FEM}
 
-    \section{Formulation of the Light Scattering on the Finite Element Method}
+    In chapter \ref{ch:OpticalProperties} the general theory of isolated scatterers in a non-absorbing media was developed and the particular case of spherical scatterers was approached analytically. In order to solve the light scattering problem through numerical methods and thus allowing for more complex geometries, the fundamentals of the Finite Element Method (FEM) were introduced in section \ref{s:FEM-Fund}. Hereby, it is discussed the implementation of the FEM into the light scattering problem to find numerical approximations, in the weak sense, to the  electric field $\vb{E}(\vb{r})$ in finite domain $\Omega$. Due to the vectorial nature of the electric field, the interpolating ---and trial--- functions employed in the Galerkin method [Eq. \eqref{eq:GalerkinMat}] are chosen to be vectorial functions instead of scalar, since a family of vectorial finite element can be chosen so the boundary conditions of the electric fields are easily met. In this section, the strong and weak formulation of the scattering of light are developed by employing such vectorial interpolating functions, and the corresponding finite elements are introduced, as well as the matrix representation of the light scattering problem. Lastly, aditional conditions are imposed into the light scattering problem in order to solve it numerically through the FEM.
 
+        \subsection{Strong and Weak Formulation}
+         \label{ss:Scat-Form}
+         \input{1-Theory/5-Strong-Weak}
+
+         \subsection{The Nédelec Finite Element Family}
+          \label{ss:Nedelec}
+         \input{1-Theory/6-0-Vectorial-FEM}
+
+        \subsection{Open Boundary Conditions }
+         \label{ss:Sommerfeld-PML}
+
+        In the past sections the theory behind the FEM and how it is  implemented into the light scattering problem was discussed.  What remains is to introduce a special kind of boundary conditions, known as the absorbing boundary conditions (ABS) since numerical methods, such as the FEM, requiere the domain $\Omega$, where the electromagnetic fields are to be solved, to be of finite size while, in the scattering problem an infinite ---or open--- boundary is considered. The  ABCs are required since they simulate an open domain with a finite domain $\Omega$ by imposing that there are no reflections back into the domain due to the interaction between its boundary $\partial\Omega$ and the scattered electric field. Two of the most common ABC are the Sommerfeld radiation condition ---which describes the behavior of the electric field in the far field at $\partial\Omega$--- and the perfect matching layer (PML) ---which is a thin layer that covers $\Omega$ and acts as a non-reflective material due to its geometry---.  Both of the past ABS are preferred over other kinds of ABC since they do not need the domain $\Omega$ to grow considerably and thus are optimized for the FEM while its implementation faces no extra difficulties.
+
+         \input{1-Theory/7-0-OpenBoundary}
 
 	\section{Finite Element Method and Analytical Solutions}
 		\label{sec:FEM-Mie}
@@ -241,7 +254,7 @@
 
 \appendix
 
-\chapter{Mie Theory (Conventions and Code)}
+\chapter{Mie Theory (Conventions)}
   \label{app:MieCode}
   \input{5-Apendices/1-SpecialFunc}
 

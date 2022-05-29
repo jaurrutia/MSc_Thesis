@@ -1,0 +1,205 @@
+%% Creator: Inkscape 1.1.2 (08b2f3d93c, 2022-04-05), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '3-Example-Nedelec.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{659.76005975bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.96043503)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.12251532,0.33879309){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.24243152,0.37801763){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.06622851,0.41147706){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.03663989,0.46688244){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.08729214,0.57989213){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.26183603,0.35326535){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.03609463,0.39884952){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.14242943,0.6054243){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_3$\end{tabular}}}}%
+    \put(0.3225769,0.40604295){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{3-Example-Nedelec.pdf}}%
+    \put(0.44937036,0.33930149){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.56928656,0.37852602){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.39308355,0.41198545){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.36349493,0.46739084){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.41414718,0.58040052){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.58869107,0.35377374){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.36294967,0.39935791){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.46928447,0.6059327){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_3$\end{tabular}}}}%
+    \put(0.64943194,0.40655135){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{3-Example-Nedelec.pdf}}%
+    \put(0.77551484,0.34064024){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.89543104,0.37986478){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.71922803,0.41332421){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.68963941,0.4687296){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.74029166,0.58173928){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.91483555,0.3551125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.68909415,0.40069667){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.79542895,0.60727146){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_3$\end{tabular}}}}%
+    \put(0.97557642,0.40789011){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.12251532,-0.00882954){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.24243152,0.030395){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.06622851,0.06385443){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.03663989,0.11925981){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.08729214,0.2322695){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.26183603,0.00564272){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.03609463,0.05122689){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.14242943,0.25780167){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_3$\end{tabular}}}}%
+    \put(0.3225769,0.05842032){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.44937035,-0.00940447){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.56928655,0.02982006){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.39308354,0.06327949){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.36349493,0.11868488){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.41414718,0.23169457){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.58869107,0.00506778){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.36294966,0.05065195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.46928446,0.25722674){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_3$\end{tabular}}}}%
+    \put(0.64943194,0.05784539){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.77551484,-0.00940447){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.89543104,0.02982006){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.71922803,0.06327949){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.68963941,0.11868488){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.74029166,0.23169457){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.91483555,0.00506778){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.68909415,0.05065195){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.79542895,0.25722674){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_3$\end{tabular}}}}%
+    \put(0.97557642,0.05784539){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{3-Example-Nedelec.pdf}}%
+    \put(0.11374886,0.93151886){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_1(\boldsymbol{\xi}) = (1-\xi_2,\xi_1)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{3-Example-Nedelec.pdf}}%
+    \put(0.07181244,0.71205511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{3-Example-Nedelec.pdf}}%
+    \put(0.11373022,0.71205511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{3-Example-Nedelec.pdf}}%
+    \put(0.15523475,0.71205511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{3-Example-Nedelec.pdf}}%
+    \put(0.19700959,0.71205511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{3-Example-Nedelec.pdf}}%
+    \put(0.23877662,0.71205511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{3-Example-Nedelec.pdf}}%
+    \put(0.28027078,0.71205511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{3-Example-Nedelec.pdf}}%
+    \put(0.04972159,0.73909021){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{3-Example-Nedelec.pdf}}%
+    \put(0.04972159,0.77822037){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{3-Example-Nedelec.pdf}}%
+    \put(0.04972159,0.81735056){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{3-Example-Nedelec.pdf}}%
+    \put(0.04972159,0.85648075){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{3-Example-Nedelec.pdf}}%
+    \put(0.04972159,0.89561093){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{3-Example-Nedelec.pdf}}%
+    \put(0.04972159,0.93474111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{3-Example-Nedelec.pdf}}%
+    \put(0.01934209,0.84144351){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}}%
+    \put(0.1761494,0.6856589){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{3-Example-Nedelec.pdf}}%
+    \put(0.45816681,0.93152022){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_2(\boldsymbol{\xi}) = \sqrt{2}(-\xi _2, \xi_1)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{3-Example-Nedelec.pdf}}%
+    \put(0.41605487,0.71328111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{3-Example-Nedelec.pdf}}%
+    \put(0.45797265,0.71328111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{3-Example-Nedelec.pdf}}%
+    \put(0.49947719,0.71328111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{3-Example-Nedelec.pdf}}%
+    \put(0.54125202,0.71328111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{3-Example-Nedelec.pdf}}%
+    \put(0.58301906,0.71328111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{3-Example-Nedelec.pdf}}%
+    \put(0.62451322,0.71328111){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{3-Example-Nedelec.pdf}}%
+    \put(0.39396402,0.74031621){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{3-Example-Nedelec.pdf}}%
+    \put(0.39396402,0.77944637){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{3-Example-Nedelec.pdf}}%
+    \put(0.39396402,0.81857656){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{3-Example-Nedelec.pdf}}%
+    \put(0.39396402,0.85770675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{3-Example-Nedelec.pdf}}%
+    \put(0.39396402,0.89683693){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{3-Example-Nedelec.pdf}}%
+    \put(0.39396402,0.93596711){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{3-Example-Nedelec.pdf}}%
+    \put(0.36358453,0.84266951){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}}%
+    \put(0.52039183,0.6868849){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.79768474,0.93152022){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_3(\boldsymbol{\xi}) = (-\xi_2,\xi_1-1)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{3-Example-Nedelec.pdf}}%
+    \put(0.76029725,0.71266811){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{3-Example-Nedelec.pdf}}%
+    \put(0.80221503,0.71266811){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{3-Example-Nedelec.pdf}}%
+    \put(0.84371957,0.71266811){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{3-Example-Nedelec.pdf}}%
+    \put(0.8854944,0.71266811){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{3-Example-Nedelec.pdf}}%
+    \put(0.92726144,0.71266811){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{3-Example-Nedelec.pdf}}%
+    \put(0.9687556,0.71266811){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{3-Example-Nedelec.pdf}}%
+    \put(0.73820641,0.73970321){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{3-Example-Nedelec.pdf}}%
+    \put(0.73820641,0.77883338){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{3-Example-Nedelec.pdf}}%
+    \put(0.73820641,0.81796356){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{3-Example-Nedelec.pdf}}%
+    \put(0.73820641,0.85709375){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{3-Example-Nedelec.pdf}}%
+    \put(0.73820641,0.89622393){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{3-Example-Nedelec.pdf}}%
+    \put(0.73820641,0.93535411){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{3-Example-Nedelec.pdf}}%
+    \put(0.70782691,0.84205651){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}}%
+    \put(0.86463421,0.6862719){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.01525075,0.64259253){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_1(\boldsymbol{\xi}) = (1-\xi_2-\xi_3,\xi_1,\xi_1)$\end{tabular}}}}%
+    \put(0.34210579,0.64259253){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_2(\boldsymbol{\xi}) = \sqrt{2}( \xi _2, \xi _1,0)$\end{tabular}}}}%
+    \put(0.66825027,0.64259253){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_3(\boldsymbol{\xi}) = (-\xi_2,\xi_1+\xi_3-1,-\xi_2)$\end{tabular}}}}%
+    \put(0.03285019,0.28639771){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_4(\boldsymbol{\xi}) = (\xi_3,\xi_3,-\xi_1-\xi _2+1)$\end{tabular}}}}%
+    \put(0.35878687,0.28639771){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_5(\boldsymbol{\xi}) = \sqrt{2} (\xi_3,0,-\xi_1)$\end{tabular}}}}%
+    \put(0.68699708,0.28639771){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\boldsymbol{\eta}_6(\boldsymbol{\xi}) = \sqrt{2} (-\xi_3,\xi_2,0)$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

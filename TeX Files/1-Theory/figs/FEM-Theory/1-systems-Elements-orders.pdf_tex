@@ -59,12 +59,12 @@
     \put(0.15048795,0.48750769){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1D Element\\(Cubic order)\end{tabular}}}}%
     \put(0.40404269,0.48750769){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2D Element\\(Quadratic order)\end{tabular}}}}%
     \put(0.65759746,0.48755862){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3D Element\\(Linear order)\end{tabular}}}}%
-    \put(0.85054215,0.45665529){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Real-space\\Element\\\end{tabular}}}}%
-    \put(0.85054215,0.08572055){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Reference\\Element\\\end{tabular}}}}%
+    \put(0.85054215,0.08572055){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Real-space\\Element\\\end{tabular}}}}%
+    \put(0.85054215,0.45665529){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Reference\\Element\\\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1-systems-Elements-orders.pdf}}%
-    \put(0.80377977,0.15954634){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\boldsymbol{\xi}(\vb{r})$\end{tabular}}}}%
-    \put(0.89715172,0.15954634){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\boldsymbol{\xi}$\end{tabular}}}}%
-    \put(0.89715172,0.36758388){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\vb{r}(\boldsymbol{\xi})$\end{tabular}}}}%
-    \put(0.80377977,0.36769121){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\vb{r}$\end{tabular}}}}%
+    \put(0.89715172,0.36758388){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\boldsymbol{\xi}(\vb{r})$\end{tabular}}}}%
+    \put(0.80377977,0.36816231){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\boldsymbol{\xi}$\end{tabular}}}}%
+    \put(0.80377977,0.15954634){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\vb{r}(\boldsymbol{\xi})$\end{tabular}}}}%
+    \put(0.89715172,0.15907523){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\vb{r}$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

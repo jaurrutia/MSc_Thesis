@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
-Any PDE system describing a physical system in either equilibrium or in a steady-state, with a set of boundary conditions, can be described by \cite{dhatt_finite_2012}
+Any system of PDE describing a physical system in either equilibrium or in a steady-state, with a set of boundary conditions, can be described by \cite{dhatt_finite_2012}
 %
 \begin{align}
     \mathcal{L}[\vb{u}(\vb{r})] - \vb{f}_\Omega = 0,
@@ -9,10 +9,10 @@ Any PDE system describing a physical system in either equilibrium or in a steady
 \label{eq:PDESystem}
 \end{align}
 %
-where $\mathcal{L}$ and $\mathcal{C}$ are differential operators applied on the unknown functions $\vb{u}$ ---with $D$ components--- on a domain $\Omega$ and its boundary $\partial\Omega$, respectively, and  $\vb{f}_\Omega$ and $\vb{f}_{\partial\Omega}$ are known functions related to the sources of $\vb{u}$ and to the boundary conditions each.  The PDE system as described by Eq. \eqref{eq:PDESystem} is known as the strong formulation problem since  the unknown functions $\vb{u}$ must be $m$-times differentiable on $\Omega$ if $\mathcal{L}$ is a differential operator of order $m$ \cite{dhatt_finite_2012,larson_finite_2013}. It is possible to relax such differentiability condition on $\vb{u}$ by employing the weak formulation of the PDE system, which in an integral representation of Eq. \eqref{eq:PDESystem} obtained by multiplying it by a trial function $\psi$ and integrating on $\Omega$ \cite{dhatt_finite_2012,larson_finite_2013,fletcher_computational_1984}
+where $\mathcal{L}$ and $\mathcal{C}$ are differential operators applied on the unknown functions $\vb{u}$---a $D$ dimensional quantity--- evaluated at a point $\vb{r}$ in a domain $\Omega$ and its boundary $\partial\Omega$, respectively;  $\vb{f}_\Omega$ and $\vb{f}_{\partial\Omega}$ are known functions related to the sources of $\vb{u}$ and to its boundary conditions.  The description of the physical system as stated by Eq. \eqref{eq:PDESystem} is known as its strong formulation since $u$ must be $m$-times differentiable on $\Omega$ if $\mathcal{L}$ is a differential operator of order $m$ \cite{dhatt_finite_2012,larson_finite_2013}. It is possible to relax such differentiability condition on $\vb{u}$ by employing the weak formulation of the PDE system, which in an integral representation of Eq. \eqref{eq:PDESystem} obtained by multiplying it by a trial function $\psi$ and integrating on $\Omega$ \cite{dhatt_finite_2012,larson_finite_2013,fletcher_computational_1984}
 %
 \begin{align}
-    W(\vb{u}) = \int_\Omega \psi_j(\vb{r}) \left\{ \mathcal{L}[\vb{u}(\vb{r})] - \vb{f}_\Omega   \right\} \dd{\Omega} = \vb{0}.
+    W(u) = \int_\Omega \psi(\vb{r}) \left\{ \mathcal{L}[\vb{u}(\vb{r})] - \vb{f}_\Omega   \right\} \dd{\Omega} = \vb{0}.
     \label{eq:Weak}
 \end{align}
 %
@@ -23,59 +23,96 @@ The weak formulation of the PDE system yields a weak solution to $\vb{u}$ since 
         & \mbox{(Gauss' Theorem),}
         \label{eq:GT}
     \\
-    \int_\Omega \vb{u}\cdot\nabla\psi_n \dd{\Omega} &=  - \int_\Omega \psi \nabla\cdot\vb{u}\dd{\Omega}  + \int_{\partial \Omega}\psi \vb{u}\cdot\vu{n}\dd{(\partial\Omega)},
+    \int_\Omega \vb{u}\cdot\nabla\psi \dd{\Omega} &=  - \int_\Omega \psi \nabla\cdot \vb{u}\dd{\Omega}  + \int_{\partial \Omega}\psi \vb{u}\cdot\vu{n}\dd{(\partial\Omega)},
         & \mbox{(Green's first identity).}
         \label{eq:G1I}
 \end{align}
 %
-If  Eqs. \eqref{eq:GT} or \eqref{eq:G1I} are used $s$-fold on Eq. \eqref{eq:Weak} then $\vb{u}$ must be differentiable $m-s$ times instead of $m$, while $\psi$ must be $s$ times differentiable. More over, the boundary conditions imposed to $\vb{u}$ must be satisfied only if they contain  derivatives up to the order $m-s-1$ since the conditions with derivatives of order bigger than $m-s$ are taken into account in the integrals of Eqs. \eqref{eq:GT} and \eqref{eq:G1I} ---and on such boundary conditions $\psi$ must equal zero---. Thus, any solution $\vb{u}$ to Eq. \eqref{eq:Weak} is known as a weak solution  since it does not holds the differentiability condition as they are required by the equivalent strong formulation \cite{dhatt_finite_2012}.
+If  Eqs. \eqref{eq:GT} or \eqref{eq:G1I} are used $s$-fold on Eq. \eqref{eq:Weak} then $\vb{u}$ must be differentiable $m-s$ times instead of $m$, while $\psi$ must be $s$ times differentiable. More over, the boundary conditions imposed to $u$ must be satisfied only if they contain  derivatives up to the order $m-s-1$ since the conditions with derivatives of order bigger than $m-s$ are taken into account in the integrals of Eqs. \eqref{eq:GT} and \eqref{eq:G1I} ---and on such boundary conditions $\psi$ must equal zero---. Thus, any solution $\vb{u}$ to Eq. \eqref{eq:Weak} is known as a weak solution  since it does not holds the differentiability condition as they are required by the equivalent strong formulation \cite{dhatt_finite_2012}.
 
-    \subsection{The Nodal Approximation and the Weighted Residual Method}
+Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak}, the Galerkin method is one of the most common and implemented methods alongside the finite element approximation, which together form the finite element method. To ease the key ideas of the Galerkin and the finite element approximation, the unknown function $\vb{u}$ is assumed to be a scalar quantity $u$ in the following subsubsection.
 
-         One way to find an approximated solution to $\vb{u}$ it to employ the weighted residual method, which changes the PDE system to an algebraic equation system by proposing an approximation  $\tilde{\vb{u}}$ as a linear combination of the known functions $\{\phi_i\}_{i\leq N}$, evaluated in $\Omega$, which differs from the exact solution $\vb{u}$ by an error $e_{\vb{u}}$, that is \cite{dhatt_finite_2012,larson_finite_2013,fletcher_computational_1984}
-        %
-        \begin{align}
-            \vb{u}(\vb{r}) = \tilde{\vb{u}}(\vb{r}) + e_{\vb{u}}(\vb{r}),
-                \qquad\qquad
-                \text{with}
-                \qquad\qquad
-                \tilde{\vb{u}}(\vb{r}) = \sum_{i = 1}^{N} \vb{a}_i\phi(\vb{r}),
-            \label{eq:uapprox}
-        \end{align}
-        %
-         where $\tilde{\vb{u}}$ follows the same boundary conditions as $\vb{u}$ at $\partial\Omega$ and $\vb{a}_i$ are $N$ parameters to be determined\footnote{The $N$ parameters $a_i$ are constant for equilibrium and steady-state problems while they may depend on time for transport problems \cite{dhatt_finite_2012}.} with $D$ components. The values of $a_i$ are chosen such that $e_{\vb{u}}\ll  \tilde{\vb{u}} $, which may be achieved by increasing the cardinality $N$ of the known functions set  or choosing values of $\vb{a}_i$ that match the exact value of $\vb{u}$ at determined points.
+    \subsection{The Galerkin Method}
 
-         One particular form to the approximated solution $\tilde{\vb{u}}$ in Eq. \eqref{eq:uapprox} is known as the nodal approximation \cite{dhatt_finite_2012, fletcher_computational_1984}:
-        %
-        \begin{align}
-            \tilde{\vb{u}}(\vb{r}) = \sum_{i = 1}^N \vb{u}_i \phi_i(\vb{r}),
-                \qquad
-                \text{with}
-                \qquad
-            \vb{u}_i = \vb{u}(\vb{r}_i),
-        \label{eq:Nodal}
-        \end{align}
-        %
-        where  $\phi_i$ are the interpolating ---or shape--- functions and $\vb{u}_i$ are coefficients that equals the exact value of the function $\vb{u}$ at some points $\vb{r}_j \in \Omega$, called the nodal points. From Eq. \eqref{eq:Nodal} it can be seen that the error $e_{\vb{u}}$ between the exact and the approximated solutions vanishes at the nodes $\vb{r}_j$ and thus $\phi_i(\vb{r}_j) = \delta_{ij}$, with $\delta_{ij}$ the Kronecker delta.
+    To find an approximated solution to $u$, one option is to employ the weighted residual method, which changes the PDE system to an algebraic equation system by proposing an approximation  $\tilde{u}$ as a linear combination of $N$ known functions  $\phi_i$, which differs from the exact solution $u$ by an error $e_{u}$, that is \cite{dhatt_finite_2012,larson_finite_2013,fletcher_computational_1984}
+     %
+     \begin{align}
+        {u}(\vb{r}) = \tilde{{u}}(\vb{r}) + e_{{u}}(\vb{r}),
+            \qquad\qquad
+            \text{with}
+            \qquad\qquad
+        \tilde{{u}}(\vb{r}) = \sum_{i = 1}^{N} {a}_i\phi(\vb{r}),
+     \label{eq:uapprox}
+     \end{align}
+     %
+     where $\tilde{{u}}$ follows the same boundary conditions as ${u}$ at $\partial\Omega$ and ${a}_i$ are $N$ parameters to be determined\footnote{The $N$ parameters ${a}_i$ are constant for equilibrium and steady-state problems while they may depend on time for transport problems \cite{dhatt_finite_2012}.}. The values of ${a}_i$ are chosen so that $e_{{u}}\ll  \tilde{u} $, which may be achieved by increasing $N$ or by choosing ${a}_i$ that match the exact value of ${u}$ at determined points.
 
-         Since $\tilde{\vb{u}}$ is an approximated solution, the evaluation fo Eq. \eqref{eq:Nodal} into Eq. \eqref{eq:PDESystem} equals to a residual $  R_{\tilde{\vb{u}}}(\vb{r},\{\vb{u}_i\}_{i\leq N}) $ which in general is different to zero \cite{fletcher_computational_1984,larson_finite_2013}, that is,
-        %
-        \begin{align}
-            \mathcal{L}[\tilde{\vb{u}}(\vb{r})] - \vb{f}_\Omega = R_{\tilde{\vb{u}}}(\vb{r},\{\vb{u}_i\}_{i\leq N}) \neq 0.
-        \label{eq:PDESystem-app}
-        \end{align}
-        %
-        To determine the coefficients $\vb{u}_i$, the residual $R_{\tilde{\vb{u}}}$ is multiplied by a weighting ---or trial--- function $\psi_j$ and integrated over $\Omega$ imposing that the integral goes to zero, that is
-        %
-        \begin{align}
-            W(\tilde{\vb{u}}) = \int_\Omega \psi_j(\vb{r}) R_{\tilde{\vb{u}}}(\vb{r},\{\vb{u}_i\}_{i\leq N}) \dd{\Omega} = \vb{0}.
-                \qquad\qquad
-                \text{with}
-                \qquad\qquad
-                \psi_j \in \{\psi_j\}_{j\leq N},
-            \label{eq:WRM}
-        \end{align}
-        %
-        which is a set of $N\times D$ independent algebraic equations with $N\times D$ variables, where $D$ is the dimensionality of $\vb{u}$.
+     One particular form to the approximated solution $\tilde{u}$ in Eq. \eqref{eq:uapprox} is known as the nodal approximation \cite{dhatt_finite_2012, fletcher_computational_1984}:
+     %
+     \begin{align}
+        \tilde{u}(\vb{r}) = \sum_{i = 1}^N u_i \phi_i(\vb{r}),
+            \qquad
+            \text{with}
+            \qquad
+        u_i = u(\vb{r}_i),
+     \label{eq:Nodal}
+     \end{align}
+     %
+     where  $\phi_i$ are the so called interpolating ---or shape--- functions and $u_i$ are coefficients that equals the exact value of the function $u$ at $N$ points $\vb{r}_j \in \Omega$, called the nodal points. From Eq. \eqref{eq:Nodal} it can be seen that the error $e_{u}$ between the exact and the approximated solutions vanishes at the nodes $\vb{r}_j$ and thus $\phi_i(\vb{r}_j) = \delta_{ij}$, with $\delta_{ij}$ the Kronecker delta.
 
-        The weighted residual method is a family of numerical methods defined by the election of the trial functions set $\{\psi_j\}_{j\leq N}$. Some of the most common election for the trial functions set yield the collocation method, the least-squares method, the method of moments\footnote{The collocation method employes Dirac deltas as trial functions $\psi_j(\vb{r}) = \delta(\vb{r} - \vb{r}_j)$, the least-squares method minimizes integral in Eq. \eqref{eq:WRM} by setting $\psi_j = \partial R_{\tilde{u}}/\partial a_j$, which $a_j$ the parameters to determined, and the method of moments  sets $\psi_j(x) = x^j$ \cite{fletcher_computational_1984}. } and the Galerkin method, which sets the trial functions equal to the interpolating functions, that is, $\{\psi_j\}_{j\leq N} = \{\phi_i\}_{i\leq N}$ \cite{fletcher_computational_1984}.  It is worth noting that Eq. \eqref{eq:WRM} equals Eq. \eqref{eq:Weak}, and thus $\vb{u} = \tilde{\vb{u}}$, if the trail functions are elements of an infinite set, that is, $N \to \infty$ \cite{dhatt_finite_2012}.
+      Since $\tilde{u}$ is an approximated solution, the evaluation fo Eq. \eqref{eq:Nodal} into Eq. \eqref{eq:PDESystem} equals to a residual $  R_{\tilde{u}}(\vb{r},\{u_i\}_{i\leq N}) $ which in general is different to zero \cite{fletcher_computational_1984,larson_finite_2013}, that is,
+     %
+     \begin{align}
+         \mathcal{L}[\tilde{u}(\vb{r})] - {f}_\Omega = R_{\tilde{u}}(\vb{r},\{u_i\}_{i\leq N}) \neq 0.
+     \label{eq:PDESystem-app}
+     \end{align}
+     %
+     To determine the coefficients $u_i$, the residual $R_{\tilde{u}}$ is multiplied by a weighting ---or trial--- function $\psi_j$ and integrated over $\Omega$ imposing that the integral goes to zero, that is
+     %
+     \begin{align}
+        W(\tilde{u}) = \int_\Omega \psi_j(\vb{r}) R_{\tilde{u}}(\vb{r},\{u_i\}_{i\leq N}) \dd{\Omega} = \vb{0}.
+            \qquad\qquad
+            \text{with}
+            \qquad\qquad
+        \psi_j \in \{\psi_j\}_{j\leq N},
+     \label{eq:WRM}
+     \end{align}
+     %
+     which is a set of $N$ independent algebraic equations with $N$ variables.  It is worth noting that Eq. \eqref{eq:WRM} equals Eq. \eqref{eq:Weak}, and thus $u = \tilde{u}$, if the trail functions are elements of an infinite set, that is, $N \to \infty$ \cite{dhatt_finite_2012}.
+
+     The weighted residual method is a family of numerical methods defined by the election of the trial functions set $\{\psi_j\}_{j\leq N}$. Some of the most common election for the trial functions set yield the collocation method, the least-squares method ant  the method of moments, and the Galerkin method, all given by \cite{fletcher_computational_1984,dhatt_finite_2012}:
+     %
+     \begin{subequations}
+         \label{eq:WRM-family}%
+     \begin{align}
+         \{\psi_j\}_{j\leq N} &= \{\delta(\vb{r}-\vb{r}_j)\}_{j\leq N},   &\text{(Collocation method)},\\
+         \{\psi_j\}_{j\leq N} &= \{\pdv*{R_{\tilde{u}}}{u_j}\}_{j\leq N},   &\text{(Least-squares method)},\\
+         \{\psi_j\}_{j\leq N} &= \{x^j\}_{j\leq N},   &\text{(Moments method)},\\
+         \{\psi_j\}_{j\leq N} &= \{\phi_j\}_{j\leq N},   &\text{(Galerkin method)},
+         \label{eq:Galerkin}
+     \end{align}%
+ \end{subequations}\noindent%
+    %
+    where the Galerkin method sets the trial functions equal to the interpolating functions. Comparing the methods shown in Eqs. \eqref{eq:WRM-family}, the Galerkin method returns an approximated solution with the highest accuracy while having a moderated ease to implementation \cite{fletcher_computational_1984}. Yet, another advantage of the Galerkin method is that, for a eigenvalue problem, it guarantees real eigenvalues  if the PDE system in Eq. \eqref{eq:PDESystem} describes a self-adjoint operator \cite{dhatt_finite_2012,jin_theory_2010}. By substituting Eq. \eqref{eq:Galerkin} into Eq. \eqref{eq:WRM}, and exploiting the linearity of the differential operator $\mathcal{L}$, the PDE system is transformed into an algebraic problem as follows:
+    %
+    \begin{subequations}%
+        \label{eq:GalerkinMat}%
+    \begin{tcolorbox}[title = The Galerkin Method, ams align, breakable ]
+        \mathbb{A} \vb{u} &= \vb{f}
+            \intertext{where the entries of the matrix $\mathbb{A}$, and vectors $\vb{u}$ and $\vb{f}$ are}
+        A_{ij} = \int \phi_i(\vb{r}) \mathcal{L}[\phi_j(\vb{r})]\dd{\Omega},
+            \qquad
+        u_i =& u(\vb{r}_i),
+            \qquad
+            \text{and}
+            \qquad
+        f_j = \int f_\Omega \phi_j(\vb{r}) \dd{\Omega}.
+        \label{eq:GalerkinInt}
+    \end{tcolorbox}%
+\end{subequations}%
+    \noindent
+    %
+
+    The Galerkin method is defined by the election of trial functions according to Eq. \eqref{eq:Galerkin}, which are assumed to be linear independent so Eq. \eqref{eq:GalerkinMat} is a solvable system of algebraic equations for the nodes $u_j$ \cite{fletcher_computational_1984}. Additionally, due to a  better performance, it is recommended to choose the set of trial functions as the first $N$ elements of a complete set of functions in the domain $\Omega$ and to meet the boundary conditions on Eq. \eqref{eq:PDESystem} as exactly as possible \cite{fletcher_computational_1984}. It is also recommended for the functions $\phi_i$ to increase their polynomial order as the size of $\Omega$ grows since the integral in   Eq. \eqref{eq:GalerkinInt} can be calculated with higher accuracy if methods as quadrature are employed \cite{fletcher_computational_1984}.
+
+    The Galerkin method returns an approximated solution $\tilde{u}$ to $u$, in the weak sense, as a linear combination of the interpolating functions $\{\phi_i\}_{i\leq N}$ so long the error $e_{u}$ can be depreciated for all points in the domain $\Omega$.  Such solution is determined by inverting the matrix $\mathbb{A}$ in Eq. \eqref{eq:GalerkinMat} thus, a crucial step is to find the set $\{\phi_i\}_{i\leq N}$ of functions to solve the problem in $\Omega$ that follows the boundary conditions on $\partial\Omega$.  From a computational approach, the required computing time and resources increase as $\Omega$ does, therefore requiring the cardinality of the sets $\{\psi_j\}_{j\leq N}$ and  $\{\phi_i\}_{i\leq N}$ to increase as well \cite{dhatt_finite_2012}. To overcome such problem, one alternative is to divide $\Omega$ into $M$ smaller subdomains allowing for low cardinality interpolating functions to solve Eq. \eqref{eq:WRM}  in each subdomain.  This method is known as the finite element approximation and it is discussed in the following section.

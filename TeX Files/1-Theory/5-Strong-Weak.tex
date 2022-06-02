@@ -15,15 +15,15 @@ with $ \vb{E}(\vb{r})$ and $ \vb{H}(\vb{r})$ complex valued vectors. For harmoni
 \begin{subequations}
     \label{eq:MaxwellsEq}
 \begin{align}
-    \nabla \cdot \qty(\varepsilon \vb{E})  &= \rho_\text{ext},  &\mbox{(Electric Gauss' law)},\\
-    \nabla \cdot   \vb{B} &= 0, & \mbox{(Magnetic Gauss' law)},
+    \nabla \cdot \qty(\varepsilon \vb{E})  &= \rho_\text{ext},  &\mbox{(Electric Gauss's law)},\\
+    \nabla \cdot   \vb{B} &= 0, & \mbox{(Magnetic Gauss's law)},
             \label{eq:GaussM}\\
     \nabla \times \vb{E}  &= i\omega \mu \vb{H},  &  \mbox{(Faraday-Lenz's law)},\\
-    \nabla \times \vb{H}  &= \vb{J} - i\omega \varepsilon \vb{E}, & \mbox{(Ampère-Maxwell' law)},
+    \nabla \times \qty(\mu \vb{H})  &= \vb{J} - i\omega \varepsilon \vb{E}, & \mbox{(Ampère-Maxwell's law)},
 \end{align}
 \end{subequations}
 %
-where  $\rho_\text{ext}$ is the external volumetric charge density, $\vb{J}$ is the volumetric current density and  $\vb{B} = \mu \vb{H}$. THe volumetric current density is given by \cite{larson_finite_2013}
+where  $\rho_\text{ext}$ is the external volumetric charge density, $\vb{J}$ is the volumetric current density and  $\vb{B} = \mu \vb{H}$. The volumetric current density is given by \cite{larson_finite_2013}
 %
 \begin{align}
     \vb{J}(\vb{r},t) = \vb{J}_\text{ext}(\vb{r})\exp(-i\omega t) + \sigma \vb{E}(\vb{r})\exp(-i\omega t).
@@ -39,11 +39,11 @@ The Maxwell's equations can be decouple to avoid working with two unknown functi
     \label{eq:curlcurlE}
 \end{align}
 %
-which is another formulation of the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}]. The Eq. \eqref{eq:curlcurlE} is obtained by isolating $\vb{H}$ in the Faraday-Lenz's law, calculating its curl and, then, substituting  with the Ampère-Maxwell law and the Eq. \eqref{eq:ohmic}. In the absence of an external current and charge densities, Eq. \eqref{eq:curlcurlE} becomes the Maxwell eigenvalue problem \cite{larson_finite_2013}, which corresponds to the strong formulation of the light scattering problem alongside the  boundary conditions stated by Maxwell's equations [Eqs. \eqref{eq:MaxwellsEq}]. Therefore, the strong formulation of the light scattering problem is given by \cite{larson_finite_2013,jin_theory_2010,bondeson_computational_2005}
+which is another formulation of the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}]. The Eq. \eqref{eq:curlcurlE} is obtained by isolating $\vb{H}$ in the Faraday-Lenz's law, calculating its curl and, then, substituting  with the Ampère-Maxwell's law and the Eq. \eqref{eq:ohmic}. In the absence of an external current and charge densities, Eq. \eqref{eq:curlcurlE} becomes the Maxwell eigenvalue problem \cite{larson_finite_2013}, which corresponds to the strong formulation of the light scattering problem alongside the  boundary conditions stated by Maxwell's equations [Eqs. \eqref{eq:MaxwellsEq}]. Therefore, the strong formulation of the light scattering problem is given by \cite{larson_finite_2013,jin_theory_2010,bondeson_computational_2005}
 %
 \begin{subequations}
     \label{eq:Scatt-Strong-All}
-\begin{tcolorbox}[title = Maxwell eigenvalue problem and boundary conditions (Strong formulation), ams align, breakable ]
+\begin{tcolorbox}[title = Maxwell's Eigenvalue Problem and Boundary Conditions (Strong Formulation), ams align, breakable ]
     \nabla \times \qty[\mu^{-1} \nabla \times \vb{E}] - \kappa^2 \vb{E} &= 0,
         &
         \text{with}
@@ -64,7 +64,7 @@ which is another formulation of the vectorial Helmholtz equation [Eq. \eqref{eq:
 \noindent
 with $\partial\Omega$ the boundary of $\Omega$ and $\vu{n}$ a normal vector to $\partial\Omega$. A Dirichlet type boundary condition is described in Eq. \eqref{eq:Dirichlet} while the Eq. \eqref{eq:Neumann} corresponds to Neumann type boundary condition. Both of such boundary condition are  equivalent to Eq. \eqref{eq:contuinity} in section \ref{ss:Fields} when  $\vb{E}_\text{D} =  \vb{E}_\text{N} = \vb{0}$.
 
-In order to build the  weak formulation of the light scattering problem let us choose a set of $N$ linearily independent vectorial interpolating functions $\{\boldsymbol{\eta}_j\}_{j\leq N}$. If the Eq. \eqref{eq:MaxwellEigenvalue} is projected onto one interpolating function $\boldsymbol{\eta}_j$ and the resulting is integrated in the domain $\Omega$, one obtains
+In order to build the  weak formulation of the light scattering problem let us choose a set of $N$ linearly independent vectorial interpolating functions $\{\boldsymbol{\eta}_j\}_{j\leq N}$. If the Eq. \eqref{eq:MaxwellEigenvalue} is projected onto one interpolating function $\boldsymbol{\eta}_j$ and the resulting is integrated in the domain $\Omega$, one obtains
 %
 \begin{align}
     \int_\Omega \boldsymbol{\eta}_j\cdot \nabla \times \qty[\mu^{-1} \nabla \times \vb{E}] \dd{\Omega}
@@ -82,11 +82,11 @@ The left-hand side of Eq. \eqref{eq:int-Scatt} can be simplified by employing th
     \label{eq:IntParts}
 \end{align}
 %
-where the last term in the right-hand side is obtained by the Gauss's Theorem. Substituting Eq. \eqref{eq:int-Scatt} into Eq. \eqref{eq:IntParts} and applying the boundary condition given by Eq. \eqref{eq:Neumann}, the Maxwell eigenvalue problem in its weak formulation is obtained:
+where the last term in the right-hand side is obtained by the Gauss's Theorem. Substituting Eq. \eqref{eq:int-Scatt} into Eq. \eqref{eq:IntParts} and applying the boundary condition given by Eq. \eqref{eq:Neumann}, the Maxwell's eigenvalue problem in its weak formulation is obtained:
 %
 \begin{subequations}
     \label{eq:Scatt-Weak-All}
-\begin{tcolorbox}[title = Maxwell eigenvalue problem and boundary conditions (Weak formulation), ams align, breakable ]
+\begin{tcolorbox}[title = Maxwell's Eigenvalue Problem and Boundary Conditions (Weak Formulation), ams align, breakable ]
     \int_\Omega \left\{\qty(\mu^{-1}\nabla\times\vb{E})\cdot \qty(\nabla\times\boldsymbol{\eta}_j) -  \kappa^2  \cdot   \vb{E} \cdot \boldsymbol{\eta}_j \right\} \dd{\Omega} & - \oint_{\partial\Omega} \qty(\boldsymbol{\eta}_j\times \vb{E}_\text{N})  \cdot\vu{n}\dd{(\partial\Omega)} = 0,
     \label{eq:MaxwellEigenvalue-weak}
     \\
@@ -111,4 +111,4 @@ with
 \end{subequations}%
 \noindent%
 %
-where $A_{ij}$ are the matrix element of $\mathbb{A}$ and  $\vb{e}$ is the vector containing the $N$ coefficients of the linear combination of the interpolating function $\boldsymbol{\eta}_j$ that results into a approximated solution $\tilde{\vb{E}}(\vb{r}) = \sum_i e_i \boldsymbol{\eta}_j(\vb{r})$ to the electric field. The election of the coefficients $e_i$, its physical interpetation, and the set of the vectorial interpolating functions  is discussed in the next section.
+where $A_{ij}$ are the matrix element of $\mathbb{A}$ and  $\vb{e}$ is the vector containing the $N$ coefficients of the linear combination of the interpolating function $\boldsymbol{\eta}_j$ that results into a approximated solution $\tilde{\vb{E}}(\vb{r}) = \sum_i e_i \boldsymbol{\eta}_j(\vb{r})$ to the electric field. The election of the coefficients $e_i$, its physical interpretation, and the set of the vectorial interpolating functions  is discussed in the next section.

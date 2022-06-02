@@ -46,7 +46,7 @@
 \setlength\cftparskip{.6em}
 \setlength\cftbeforechapskip{0pt}
 	%---------------------- Figurbackref change legend latex bibtexes ----------------------------
-		\usepackage[margin=10pt,font=footnotesize,labelfont={normal,bf} ]{caption}
+		\usepackage[margin=10pt,font=small,labelfont={normal,bf} ]{caption}
 		\usepackage[labelformat=simple, labelfont ={normal,bf}]{subcaption} % labelformat=simple   O brace
 %		\usepackage{subcaption}
 %			\captionsetup[subfigure]{labelformat=simple}

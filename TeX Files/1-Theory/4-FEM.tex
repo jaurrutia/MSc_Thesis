@@ -1,7 +1,14 @@
 % !TeX root = ../tesis.tex
 
-%
-\begin{figure}[h!]\centering
+The scattering problem in its weak formulation assuming harmonic time dependency [Eqs. \eqref{eq:Scatt-Weak-All}] can be solved by means of the so-called FEM in the frequency domain, given by Eqs. $\eqref{eq:Vec-FEM}$. Depending in the chosen boundary conditions, the ABC given by Eqs. \eqref{eq:SommVec} or \eqref{eq:PMLgen} might be used. There are several softwares that allows the user to introduce the desired geometry, physical properties of the system, and the desired boundary conditions to solve the scattering problem by the FEM. Examples of commercial FEM software with the capability to solve Eqs. \eqref{eq:Scatt-Weak-All} are COMSOL Multiphysics, Altair HyperWorks and CTS StudioSuite; there are alse open-source alternatives such as Elmer and OpenFOAM.
+
+In this work the software COMSOL Multiphysics Ver. 5.4 was employed to study the optical properties of partially embedded NPs into a substrate. Nevertheless, in order to determine the size of the domain $\Omega$, where the EM are to be solved, the thickness of the PML, and the meshing of the system ---partitions of $\Omega$ into finite elments $\Omega_k$---.
+
+
+
+
+\begin{figure}
+	\centering
 	\def\svgwidth{.8\textwidth} \small
 \includeinkscape{Geometries/SistemaBox}
 \vspace*{0em}

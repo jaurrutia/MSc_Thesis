@@ -16,11 +16,11 @@ where $\mathcal{L}$ and $\mathcal{C}$ are differential operators applied on the 
     \label{eq:Weak}
 \end{align}
 %
-The weak formulation of the PDE system yields a weak solution to $\vb{u}$ since Eq. \eqref{eq:Weak} can be rewritten by performing $s$-fold integration by parts and then either employing Gauss' Theorem or Green's first identity \cite{larson_finite_2013}:
+The weak formulation of the PDE system yields a weak solution to $\vb{u}$ since Eq. \eqref{eq:Weak} can be rewritten by performing $s$-fold integration by parts and then  employing Gauss's Theorem or by employing Green's first identity \cite{larson_finite_2013}:
 %
 \begin{align}
     \int_\Omega \psi \nabla\cdot \vb{u}\dd{\Omega} &=  - \int_\Omega \nabla\psi \cdot \vb{u} \dd{\Omega} + \oint_{\partial\Omega} \psi \vb{u}\cdot \vu{n}\dd{(\partial\Omega)},
-        & \mbox{(Gauss' Theorem),}
+        & \mbox{(with Gauss's Theorem),}
         \label{eq:GT}
     \\
     \int_\Omega \vb{u}\cdot\nabla\psi \dd{\Omega} &=  - \int_\Omega \psi \nabla\cdot \vb{u}\dd{\Omega}  + \int_{\partial \Omega}\psi \vb{u}\cdot\vu{n}\dd{(\partial\Omega)},
@@ -30,7 +30,7 @@ The weak formulation of the PDE system yields a weak solution to $\vb{u}$ since 
 %
 If  Eqs. \eqref{eq:GT} or \eqref{eq:G1I} are used $s$-fold on Eq. \eqref{eq:Weak} then $\vb{u}$ must be differentiable $m-s$ times instead of $m$, while $\psi$ must be $s$ times differentiable. More over, the boundary conditions imposed to $u$ must be satisfied only if they contain  derivatives up to the order $m-s-1$ since the conditions with derivatives of order bigger than $m-s$ are taken into account in the integrals of Eqs. \eqref{eq:GT} and \eqref{eq:G1I} ---and on such boundary conditions $\psi$ must equal zero---. Thus, any solution $\vb{u}$ to Eq. \eqref{eq:Weak} is known as a weak solution  since it does not holds the differentiability condition as they are required by the equivalent strong formulation \cite{dhatt_finite_2012}.
 
-Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak}, the Galerkin method is one of the most common and implemented methods alongside the finite element approximation, which together form the finite element method. To ease the key ideas of the Galerkin and the finite element approximation, the unknown function $\vb{u}$ is assumed to be a scalar quantity $u$ in the following subsubsection.
+Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak}, the Galerkin method is one of the most common and implemented methods alongside the finite element approximation, which together form the finite element method. To ease the key ideas of the Galerkin and the finite element approximation, the unknown function $\vb{u}$ is assumed to be a scalar quantity $u$ in the following section.
 
     \subsection{The Galerkin Method}
 

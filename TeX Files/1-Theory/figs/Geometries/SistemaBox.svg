@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="117.34168mm"
+   width="109.98041mm"
    height="43.374424mm"
-   viewBox="0 0 117.3417 43.374426"
+   viewBox="0 0 109.98042 43.374426"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
@@ -21,16 +21,16 @@
      borderopacity="1.0"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pagecheckerboard="true"
      inkscape:document-units="mm"
      showgrid="false"
      fit-margin-top="1.3"
      fit-margin-left="1.3"
      fit-margin-right="1.3"
      fit-margin-bottom="1.3"
-     inkscape:zoom="0.80390375"
-     inkscape:cx="212.09007"
-     inkscape:cy="186.5895"
+     inkscape:zoom="50.146784"
+     inkscape:cx="333.21179"
+     inkscape:cy="143.85768"
      inkscape:window-width="1890"
      inkscape:window-height="1042"
      inkscape:window-x="0"
@@ -245,7 +245,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-193.05558,-6.4335241)">
+     transform="translate(-194.64308,-6.4335241)">
     <image
        width="49.569443"
        height="38.02462"
@@ -255,7 +255,7 @@
        x="174.50742"
        y="5.8293633"
        clip-path="url(#clipPath1044)"
-       transform="matrix(1.0723164,0,0,1.0723164,52.474536,1.9081451)" />
+       transform="matrix(1.0723164,0,0,1.0723164,49.360318,1.9081445)" />
     <image
        width="59.968941"
        height="38.02462"
@@ -265,14 +265,14 @@
        x="126.70276"
        y="5.7562571"
        clip-path="url(#clipPath1040)"
-       transform="matrix(1.0723164,0,0,1.0723164,47.792529,1.5609953)" />
+       transform="matrix(1.0723164,0,0,1.0723164,49.38003,1.5609953)" />
     <g
        id="g869"
        transform="translate(45.927923,-31.903996)"
        clip-path="url(#clipPath2066)" />
     <g
        id="g1283"
-       transform="matrix(1.4522541,0,0,1.4522541,78.420138,30.507288)">
+       transform="matrix(1.4522541,0,0,1.4522541,72.64637,39.221604)">
       <text
          xml:space="preserve"
          style="font-size:3.175px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';stroke-width:0.264583"

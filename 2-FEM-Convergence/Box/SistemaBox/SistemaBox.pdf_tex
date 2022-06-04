@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% Creator: Inkscape 1.1.2 (0a00cf5339, 2022-02-04, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'SistemaBox.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{205.68246676bp}%
+    \setlength{\unitlength}{332.62209194bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,13 +50,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.39029075)%
+  \begin{picture}(1,0.36964208)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{SistemaBox.pdf}}%
-    \put(0.86215192,0.24613138){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP\\\\\end{tabular}}}}%
+    \put(0.85746738,0.23060778){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}NP\\\\\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{SistemaBox.pdf}}%
-    \put(0.86111623,0.18042122){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Matrix\end{tabular}}}}%
-    \put(0.8593931,0.11543307){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PML\end{tabular}}}}%
+    \put(0.85653731,0.17159837){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Matrix\end{tabular}}}}%
+    \put(0.8549899,0.11323733){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PML\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -183,6 +183,8 @@ Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:Esca
 \noindent
 where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel = E_0\cos\varphi$ and $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\perp = -E_0\sin\varphi$ for $\vb{E}^\text{i}$ a plane wave traveling along the $z$ direction with an arbitrary polarization. Finally, the scattering amplitude matrix for a spherical particle can be obtained by comparing Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} with Eq. \eqref{eq:ScatAmpMat}, yielding
 %
+ \begin{subequations}
+     \label{eq:FS1S2}
 \begin{tcolorbox}[title = Scattering Amplitude Matrix for Spherical Particles, ams align, breakable ]
 \mathbb{F}(\vu{k}^\text{sca},\vu{k}^\text{i})
             &= \mqty(\dfrac{i}{k}S_2(\theta) & 0 \\
@@ -197,6 +199,7 @@ S_2(\theta) &= \sum_\ell^\infty \frac{2\ell+1}{\ell(\ell+1)}
 						[a_\ell\pi_\ell(\cos\theta)+b_\ell\tau_\ell(\cos\theta)],
             \label{eq:S2}
 \end{tcolorbox}
+\end{subequations}
 %
 \noindent
 which depends entirely on the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ modulated by the Mie coefficients $a_\ell$ and $b_\ell$. The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when it is written in a base relative to the scattering plane, as it was stated in Section \ref{s:AmpMatCrossSect}. Since the scatterer is a spherical isotropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ maintains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.

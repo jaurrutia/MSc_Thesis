@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (76b9e6a115, 2022-02-25), www.inkscape.org
+%% Creator: Inkscape 1.1.2 (0a00cf5339, 2022-02-04, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '1-Mat-Size-Rad-2.pdf' (pdf, eps, ps)
 %%
@@ -53,16 +53,16 @@
   \begin{picture}(1,0.45720101)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.01718053,0.24534555){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q^\text{Mie}-Q^\text{FEM}}$\end{tabular}}}}}%
+    \put(0.01718053,0.24534554){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1-Mat-Size-Rad-2.pdf}}%
     \put(0.86102195,0.27776734){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
     \put(0.86020013,0.23595147){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
     \put(0.86367573,0.19776338){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1-Mat-Size-Rad-2.pdf}}%
-    \put(0.89850851,0.37698585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}507 nm\end{tabular}}}}%
-    \put(0.89789869,0.34058928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}521 nm\end{tabular}}}}%
+    \put(0.89850851,0.37698585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}509 nm\end{tabular}}}}%
+    \put(0.89789869,0.34058928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1-Mat-Size-Rad-2.pdf}}%
-    \put(0.45662355,0.00524238){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Minimum NP - PML Distance [nm]\end{tabular}}}}%
+    \put(0.45662355,0.00524238){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Minimum AuNP - PML Distance [nm]\end{tabular}}}}%
     \put(0.09747616,0.30265854){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.001\end{tabular}}}}%
     \put(0.0973857,0.28059344){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0005\end{tabular}}}}%
     \put(0.0973857,0.35655203){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.005\end{tabular}}}}%
@@ -77,14 +77,14 @@
     \put(0.09699582,0.15158757){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0050\end{tabular}}}}%
     \put(0.09699582,0.16870949){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0100\end{tabular}}}}%
     \put(0.09699582,0.22007524){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0500\end{tabular}}}}%
-    \put(0.88942393,0.13226442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}533 nm\end{tabular}}}}%
-    \put(0.88881411,0.09586785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0.88942393,0.13226442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.88881411,0.09586785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}545 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{1-Mat-Size-Rad-2.pdf}}%
     \put(0.12153382,0.26171322){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\end{tabular}}}}%
     \put(0.12148241,0.08767684){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Glass\end{tabular}}}}%
-    \put(0.33110302,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{10}{2}a  $ \end{tabular}}}}%
-    \put(0.2042148,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2 a $ \end{tabular}}}}%
-    \put(0.43676194,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$ \frac{15}{2}a $ \end{tabular}}}}%
-    \put(0.79755026,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$8 a $ \end{tabular}}}}%
+    \put(0.33180365,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\frac{10}{2}a  $ \end{tabular}}}}%
+    \put(0.20491543,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2 a $ \end{tabular}}}}%
+    \put(0.43746257,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$ \frac{15}{2}a $ \end{tabular}}}}%
+    \put(0.79825089,0.44002048){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$8 a $ \end{tabular}}}}%
   \end{picture}%
 \endgroup%

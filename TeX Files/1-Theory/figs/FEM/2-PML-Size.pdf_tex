@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (08b2f3d93c, 2022-04-05), www.inkscape.org
+%% Creator: Inkscape 1.1.2 (0a00cf5339, 2022-02-04, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2-PML-Size.pdf' (pdf, eps, ps)
 %%
@@ -53,70 +53,60 @@
   \begin{picture}(1,0.45720101)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.03286573,0.24534555){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q^\text{Mie}-Q^\text{FEM}}$\end{tabular}}}}}%
+    \put(0.03286573,0.24534554){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-PML-Size.pdf}}%
     \put(0.86102195,0.27776734){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
     \put(0.86020013,0.23595147){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
     \put(0.86367573,0.19776338){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
+    \put(0.78305716,0.29010139){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\times 10$\end{tabular}}}}%
+    \put(0.21207843,0.07832274){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\times 10$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2-PML-Size.pdf}}%
-    \put(0.89850851,0.37698585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}507 nm\end{tabular}}}}%
-    \put(0.89789869,0.34058928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}521 nm\end{tabular}}}}%
+    \put(0.89850851,0.37698585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}509 nm\end{tabular}}}}%
+    \put(0.89789869,0.34058928){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{2-PML-Size.pdf}}%
     \put(0.45662355,0.00524238){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}PML Thickness [nm]\end{tabular}}}}%
-    \put(0.88942393,0.13226442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}533 nm\end{tabular}}}}%
-    \put(0.88881411,0.09586785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0.88942393,0.13226442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.88881411,0.09586785){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}545 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{2-PML-Size.pdf}}%
-    \put(0.11450463,0.24242306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.09572381,0.26439093){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.000\end{tabular}}}}%
+    \put(0.09572381,0.29423301){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.002\end{tabular}}}}%
+    \put(0.09572381,0.32407513){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.004\end{tabular}}}}%
+    \put(0.09572381,0.35391725){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.006\end{tabular}}}}%
+    \put(0.09572381,0.38375937){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.008\end{tabular}}}}%
+    \put(0.09572381,0.41360149){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.010\end{tabular}}}}%
+    \put(0.0959477,0.05945994){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.00\end{tabular}}}}%
+    \put(0.0959477,0.08733046){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.01\end{tabular}}}}%
+    \put(0.0959477,0.11520106){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.02\end{tabular}}}}%
+    \put(0.0959477,0.14307158){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.03\end{tabular}}}}%
+    \put(0.0959477,0.17094217){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.04\end{tabular}}}}%
+    \put(0.0959477,0.1988127){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0.0959477,0.22668329){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.06\end{tabular}}}}%
+    \put(0.11706793,0.28446978){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\end{tabular}}}}%
+    \put(0.78990439,0.07402525){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}12.5 nm-AuNP$@$Glass\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{2-PML-Size.pdf}}%
-    \put(0.23382986,0.24242306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0.11284537,0.24264422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{2-PML-Size.pdf}}%
-    \put(0.36173454,0.24242306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
+    \put(0.23176146,0.24264422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{2-PML-Size.pdf}}%
-    \put(0.48963909,0.24242306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
+    \put(0.36013536,0.24264422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{2-PML-Size.pdf}}%
-    \put(0.61754377,0.24242306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0.48850928,0.24264422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{2-PML-Size.pdf}}%
-    \put(0.74544833,0.24242306){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0.61688318,0.24264422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{2-PML-Size.pdf}}%
-    \put(0.09572374,0.26439092){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.000\end{tabular}}}}%
+    \put(0.7452571,0.24264422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{2-PML-Size.pdf}}%
-    \put(0.09572374,0.29423303){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.002\end{tabular}}}}%
+    \put(0.11290312,0.03931163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{2-PML-Size.pdf}}%
-    \put(0.09572374,0.32407514){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.004\end{tabular}}}}%
+    \put(0.22674608,0.03931163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{2-PML-Size.pdf}}%
-    \put(0.09572374,0.35391726){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.006\end{tabular}}}}%
+    \put(0.3499203,0.03931163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{2-PML-Size.pdf}}%
-    \put(0.09572374,0.38375937){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.008\end{tabular}}}}%
+    \put(0.47309452,0.03931163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{2-PML-Size.pdf}}%
-    \put(0.09572374,0.41360149){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.010\end{tabular}}}}%
+    \put(0.59626877,0.03931163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{2-PML-Size.pdf}}%
-    \put(0.11461638,0.03771399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.719443,0.03931163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{2-PML-Size.pdf}}%
-    \put(0.22888468,0.03771399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=18]{2-PML-Size.pdf}}%
-    \put(0.351629,0.03771399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}200\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=19]{2-PML-Size.pdf}}%
-    \put(0.47437332,0.03771399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}300\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=20]{2-PML-Size.pdf}}%
-    \put(0.59711764,0.03771399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=21]{2-PML-Size.pdf}}%
-    \put(0.71986196,0.03771399){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=22]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.0594599){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.00\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=23]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.08733047){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.01\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=24]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.11520103){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.02\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=25]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.14307159){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.03\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=26]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.17094217){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.04\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=27]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.19881273){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=28]{2-PML-Size.pdf}}%
-    \put(0.09594769,0.22668329){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.06\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=29]{2-PML-Size.pdf}}%
-    \put(0.11697105,0.29178081){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\end{tabular}}}}%
-    \put(0.11691964,0.09683057){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Glass\end{tabular}}}}%
   \end{picture}%
 \endgroup%

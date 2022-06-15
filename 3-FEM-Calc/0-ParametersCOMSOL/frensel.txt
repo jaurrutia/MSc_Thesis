@@ -1,0 +1,4 @@
+r_s (n_i*cos(theta_i)-n_t*cos(theta_t))/(n_i*cos(theta_i)+n_t*cos(theta_t)) ""
+r_p (n_t*cos(theta_i)-n_i*cos(theta_t))/(n_t*cos(theta_i)+n_i*cos(theta_t)) ""
+t_s 2*n_i*cos(theta_i)/(n_i*cos(theta_i)+n_t*cos(theta_t)) ""
+t_p 2*n_i*cos(theta_i)/(n_t*cos(theta_i)+n_i*cos(theta_t)) ""

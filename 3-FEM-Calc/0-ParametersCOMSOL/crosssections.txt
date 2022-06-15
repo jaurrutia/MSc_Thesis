@@ -1,0 +1,5 @@
+S_in n_i*E0^2/(2*Z0_const) "Incident Irradiance"
+nS nx*ewfd.relPoavx+ny*ewfd.relPoavy+nz*ewfd.relPoavz ""
+Q_sca area_int(nS)/(S_in*pi*radius_NP^2) ""
+Q_abs vol_int(ewfd.Qh)/(S_in*pi*radius_NP^2) ""
+Q_ext Q_abs+Q_sca ""

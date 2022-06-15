@@ -1,0 +1,7 @@
+k_tr -(2*pi/wlength)*n_t*(x*sin(theta_t)*cos(phi)+y*sin(theta_t)*sin(phi)+z*cos(theta_t)) ""
+Eix 0*E0 ""
+Eiy 0*E0 ""
+Eiz 0*E0 ""
+Ertx (-E0s*sin(phi)*t_s+E0p*cos(theta_t)*cos(phi)*t_p)*exp(j*k_tr) ""
+Erty (E0s*cos(phi)*t_s+E0p*cos(theta_t)*sin(phi)*t_p)*exp(j*k_tr) ""
+Ertz E0p*sin(theta_t)*t_p*exp(j*k_tr) ""

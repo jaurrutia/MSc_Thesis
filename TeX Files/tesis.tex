@@ -38,12 +38,14 @@
 \usepackage{setspace}
 \usepackage{layouts}
 \svgpath{{1-Theory/figs},{5-Apendices/figs}}
+\graphicspath{{5-Apendices/figs}}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
 
 \usepackage{lmodern}
 \usepackage{bbold}
 
 \usepackage{Latex/mmacells}
-
+\usepackage{rotating}
 
 \mmaDefineMathReplacement[≤]{<=}{\leq}
 \mmaDefineMathReplacement[≥]{>=}{\geq}
@@ -261,8 +263,12 @@
   \input{5-Apendices/1-SpecialFunc}
 
 \chapter{Size Corrected Dielectric Function}
-  \label{app:SizeCorrection}
-  \input{5-Apendices/2-SizeCorrection}
+    \label{app:SizeCorrection}
+    \input{5-Apendices/2-SizeCorrection}
+
+\chapter{Brief COMSOL Implementation of the Scattering Problem}
+    \label{app:COMSOL}
+    \input{5-Apendices/3-COMSOL_Implementation}
 
 
 %%-------------------------------------------------------------------------------

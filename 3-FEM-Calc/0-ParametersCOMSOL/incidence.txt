@@ -1,8 +1,0 @@
-k_ir -(2*pi/wlength)*n_i*(x*sin(theta_i)*cos(phi)+y*sin(theta_i)*sin(phi)+z*cos(theta_i)) ""
-k_rr -(2*pi/wlength)*n_i*(x*sin(theta_i)*cos(phi)+y*sin(theta_i)*sin(phi)-z*cos(theta_i)) ""
-Eix (-E0s*sin(phi)+E0p*cos(theta_i)*cos(phi))*exp(j*k_ir) ""
-Eiy (E0s*cos(phi)+E0p*cos(theta_i)*sin(phi))*exp(j*k_ir) ""
-Eiz E0p*sin(theta_i)*exp(j*k_ir) ""
-Ertx (-E0s*sin(phi)*r_s-E0p*cos(theta_i)*cos(phi)*r_p)*exp(j*k_rr) ""
-Erty (E0s*cos(phi)*r_s-E0p*cos(theta_i)*sin(phi)*r_p)*exp(j*k_rr) ""
-Ertz E0p*sin(theta_i)*r_p*exp(j*k_rr) ""

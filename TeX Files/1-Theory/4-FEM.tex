@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
-The light scattering problem in its weak formulation, and assuming harmonic time dependency [Eqs. \eqref{eq:Scatt-Weak-All}], can be solved by means of the so-called FEM in the frequency domain, given by Eqs. \eqref{eq:Vec-FEM}. There are several software that allow the user to introduce the desired geometry, physical properties of the system, and boundary conditions in order to calculate the scattered electric field through the FEM. Examples of commercial FEM software with the capability to solve Eqs. \eqref{eq:Scatt-Weak-All} are Altair HyperWorks and CTS StudioSuite as well as open-source alternatives, such as Elmer and OpenFOAM. Nevertheless in this work, the commercial software COMSOL Multiphysics\texttrademark{} Ver. 5.4 (COMSOL) was employed.
+The light scattering problem in its weak formulation, and assuming harmonic time dependency [Eqs. \eqref{eq:Scatt-Weak-All}], can be solved by means of the so-called FEM in the frequency domain, given by Eqs. \eqref{eq:Vec-FEM}. There are several software that allow the user to introduce the desired geometry, physical properties of the system, and boundary conditions in order to calculate the scattered electric field through the FEM. Examples of commercial FEM software with the capability to solve Eqs. \eqref{eq:Scatt-Weak-All} are Altair HyperWorks and CTS StudioSuite as well as open-source alternatives, such as Elmer and OpenFOAM. Nevertheless in this work, the commercial software COMSOL Multiphysics\texttrademark{} Ver. 5.4 (COMSOL) was employed; for a more technical description of the performed COMSOL simulation see Appendix \ref{app:COMSOL}.
 
 The FEM implemented within COMSOL is based on the Galerkin Method [Eq. \eqref{eq:GalerkinMat}] with a variety of finite element families, including, but not limited to, the Lagrange [Ec. \eqref{eq:Lag}], the Hermite [Ec. \eqref{eq:Her}] and the lowest order Nédélec\footnote{Nédélec Elements of higher order are implemented in COMSOL for particular shapes only \cite{comsol_doc}.} families [Ec. \eqref{eq:Nedelec}] \cite{comsol_doc}; such finite element families are built within COMSOL for different shapes in 2D and 3D geometries: triangles, rectangles, pyramids,  prisms, tetrahedrons, and more \cite{comsol_doc}. The core of COMSOL allows the user to set the desired geometry of the PDE problem to be solved, as well as the discretization method and the matrix inversion algorithms to solve Eq. \eqref{eq:GalerkinMat} \cite{comsol_doc}. Additionally, the COMSOL's package Wave Optics implements the Maxwell's eigenvalue problem ---considering harmonic time dependency as in Eqs. \eqref{eq:Scatt-Weak-All} \cite{comsol_doc}--- alongside the physical characteristics of the system: the optical properties, decoded into the electric permittivity and magnetic permeability, of different materials and the several boundary conditions such like the generalized Sommerfeld's radiation condition [Eq. \eqref{eq:SommVec}] or the PML [Eq. \eqref{eq:PMLgen}] \cite{comsol_wave}. The Wave Optics module returns the total electric field and the user can separate it into two contribution: the incident  $\vb{E}^\text{i}$ and the induced  $\vb{E}^\text{ind}$ electric fields; the later corresponds to the scattered (internal) electric field  $\vb{E}^\text{sca}$ ($\vb{E}^\text{int}$) outside (inside) any scatterers \cite{comsol_wave}.
 
@@ -32,7 +32,7 @@ In order to minimize errors that may arise in simulations performed with COMSOL,
     \hspace*{-.95\textwidth}
      \begin{subfigure}{\textwidth}\caption{}\label{fig:Eff:First:b}\end{subfigure}\\[-15em]
      \includeinkscape{FEM/0-NoConv}
-\caption[Scattering, Absorption and Extinction Efficiencies of a 12.5 nm AuNP$@$Air: Analytical and FEM solutions with no optimization]{\textbf{a)} Scattering $Q_\text{sca}$, absorption $Q_\text{abs}$ and extinction $Q_\text{ext}$ efficiencies of a 12.5 nm AuNP embedded into air calculated by means of the Mie Theory (continuous) and the FEM (markers), and \textbf{b)} their absolute error, as function of the wavelength $\lambda$ of the incident plane wave.}
+\caption[Scattering, Absorption and Extinction Efficiencies of a 12.5 nm AuNP$@$Air: Analytical and FEM solutions with no optimization]{\textbf{a)} Scattering $Q_\text{sca}$ (black), absorption $Q_\text{abs}$ (orange) and extinction $Q_\text{ext}$ (yellow) efficiencies of a 12.5 nm AuNP embedded into air calculated by means of the Mie Theory (continuous) and the FEM (markers), and \textbf{b)} their absolute error, as function of the wavelength $\lambda$ of the incident plane wave.}
 \label{fig:Eff:First}
 \end{figure}
 %
@@ -93,24 +93,19 @@ From the analysis of Figs. \ref{fig:Eff:Matrix} and \ref{fig:Eff:PML}, the absol
 
 In Fig. \ref{fig:Eff:rad}, it can be seen that the absolute error of the efficiencies decreases exponentially as the mesh size inside the AuNP becomes finer for all the considered cases: air and glass matrices at two different wavelength each. Such behavior can be explained since the absorption (scattering) efficiency are obtained by integrating the internal (scattered) electric field at the AuNP's volume (surface). Thus, a finer mesh at the scattered allows the induced electric field to be not only better resolve by the FEM, but also to increase the accuracy of the performed numerical integration. Additionally,  the results in Fig. \ref{fig:Eff:rad} show that the decrement of the absolute error on $Q_\text{abs}$ has a higher rate than the decrement on the absolute error of $Q_\text{sca}$ due to the node quantities in the volume and in the surface of the AuNP. Lastly, the refinement of the mesh size inside the AuNP, alongside with the chosen matrix width and PML thickness, guarantees a difference between the analytical Mie Theory solution and the approximated FEM solution up to the fourth digit after the decimal point both on the scattering and absorption efficiencies. If a refinement in the mesh side inside the matrix were to be done, the absolute error on the efficiencies may diminish even further, but such refinement may not be appreciable for the goals of this thesis. Therefore, the recommended mesh side in the matrix ---maximum element sie of $\lambda/(6n_\text{m})$ for first order finite elements \cite{comsol_doc}--- is used as it is smaller than the default mesh size in this region.
 
-
-
-
-
-
-
+Taking into account the results shown of Figs. \ref{fig:Eff:Matrix}--\ref{fig:Eff:rad} and the recommended maximum mesh size in the matrix, a converged result of the scattering, absorption and extinction efficiencies by means of the FEM is obtained. In Fig. \ref{fig:Eff:Conv} the optical efficiencies of a $12.5$ nm AuNP embedded into an air and a glass matrix are shown as function of the incident wavelength $\lambda$ as well as the relative error between the analytical (lines) and FEM (markers) results: the continuous lines and solid markers corresponds to the air matrix case while  the dashed lines and open markers to the glass matrix case.
 
 \begin{figure}[h!]
-\def\svgwidth{\textwidth} \small
-\hspace*{-1.25em}
-\begin{subfigure}{.1\textwidth}\caption{ }\label{fig:Eff:sphere:First:a}\end{subfigure}
-\vspace*{12.5em} % Crece la distancia entre as etiquetas
-\\
-\vspace*{-16.5em} % Crece la distancia entre las etiquetas y el pie de figura
-\hspace*{-.75em}%
-\begin{subfigure}{.1\textwidth}\caption{ }\label{fig:Eff:sphere:First:b}\end{subfigure}\\
-\includeinkscape{FEM/10-Conv}
-\vspace*{-1.5em} %Crece la ditancia entre la imagen y el pie de figura
-\caption[Scattering, Absorption and Extinction Efficiencies of a 5 nm AuNP$@$Air: Analytical and FEM solutions with no optimizatio]{\textbf{a)} Scattering $Q_\text{sca}$, absorption $Q_\text{abs}$ and extinction $Q_\text{ext}$ efficiencies of a 5 nm AuNP embedded into air calculated by means of the Mie Theory (continuous) and the FEM (disks), and \textbf{b)} their absolute error, as function of the wavelength $\lambda$ of the incident plane wave. The chosen parameters for the FEM calculations were based on the COMSOL Excercises \textbf{CITAR}.}
-\label{fig:Eff:sphere:First}
+ \def\svgwidth{.9\textwidth}
+ \small
+ \centering
+    \hspace*{-.95\textwidth}
+     \begin{subfigure}{\textwidth}\caption{}\label{fig:Eff:Conv:a}\end{subfigure}\\[11.5em]
+    \hspace*{-.95\textwidth}
+     \begin{subfigure}{\textwidth}\caption{}\label{fig:Eff:Conv:b}\end{subfigure}\\[-15em]
+     \includeinkscape{FEM/10-Conv}
+\caption[Scattering, Absorption and Extinction Efficiencies of a 12.5 nm AuNP$@$Air: Analytical and FEM solutions with optimized parameters for a FEM simulation]{\textbf{a)} Scattering $Q_\text{sca}$ (black), absorption $Q_\text{abs}$ (orange) and extinction $Q_\text{ext}$ (yellow) efficiencies of a 12.5 nm AuNP embedded into air calculated by means of the Mie Theory (continuous lines) and the FEM (solid markers) and embedded into glass (dashed lines and open markers), and \textbf{b)} their absolute error, as function of the wavelength $\lambda$ of the incident plane wave. The FEM numerical simulation parameters were the recommended mesh side in the matrix ---maximum element size of $\lambda/(6n_\text{m})$--- and a maximum mesh side inside the AuNP of $a/5$, a matrix width of $(15+1) a n_\text{m}$ and a PML thickness of $\lambda/4$.}
+\label{fig:Eff:Conv}
 \end{figure}
+
+By comparing the absolute error employing COMSOL's default values for the FEM simulation [Fig. \ref{fig:Eff:First:b}] with optimized the parameters [Fig. \ref{fig:Eff:Conv:b}] considering an air matrix, it can be seen that the later is an order of magnitud smaller for the absorption and extinction efficiencies in the visible spectrum, while the absolute error of the scattering efficiency between these election of parameters remains the same nevertheless, the FEM simulation with the optimized parameters required less computational resources. Additionally, the absolute errors of the optical efficiencies considering a AuNP embedded into a glass matrix are smaller for all efficiencies in the visible spectrum to those of a AuNP embedded into an air matrix. This behavior is explained by the nominal values of the optical efficiencies [Fig. \ref{fig:Eff:Conv:a}] since the greater they are, the greater the induced electric field, that is, the induced electric fields are better resolved for more optically dense media and thus their absolute error diminish.

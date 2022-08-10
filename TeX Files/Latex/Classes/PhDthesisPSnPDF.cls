@@ -93,7 +93,7 @@
 		\usepackage[bibstyle = trad-abbrv,
 					citestyle = numeric-comp,
 					backend = bibtex,
-					sorting = none,
+					sorting = none, % Sort as they appear
 					backref=true]{biblatex} %style = trad-abbrv
 		\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 
@@ -131,7 +131,10 @@
 									mark=at position .65 with {\arrowreversed[arrowstyle]{stealth};}}}]
 
 \usepackage{svg}
-
+\usepackage{setspace}
+\usepackage{layouts}
+\usepackage{lmodern}
+\usepackage{bbold}
 
 %---------------------------------------------------------------------------------
 %                                   CHAPTERS FORMAT 		                       |
@@ -209,7 +212,7 @@
                  urlcolor  = magenta,
                  citecolor = red,
                  anchorcolor = green,
-				hyperfootnotes = false,
+				hyperfootnotes = true, % false/true
                  hyperindex = true,
                  hyperfigures
                  ]{hyperref}

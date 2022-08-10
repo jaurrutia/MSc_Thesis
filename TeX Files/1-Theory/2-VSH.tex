@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
-The electric and magnetic fields, denoted as $\vb{E}$ and $\vb{B}$, respectively, corresponds to a solution to the homogeneous vectorial Helmholtz when a harmonic time dependence and a spatial domain with no external charge nor current densities is assumed, that is,
+The electric and magnetic fields, denoted as $\vb{E}$ and $\vb{B}$, respectively, corresponds to a solution to the homogeneous vectorial Helmholtz \textcolor{red}{equation} when a harmonic time dependence and a spatial domain with no external charge nor current densities is assumed, that is,
 % ---------------------------- index entries
 \index{Helmholtz!Equation!Vectorial}%
 % ---------------------------eq:Helmholtz-----
@@ -48,8 +48,8 @@ The triad $\left\{\vb{L},\vb{M},\vb{N}\right\}$ is a set of vectors\footnote{%
 	 		= - [\vb{r}\times\nabla\psi]_i
 	 		= [\vb{L}\times\vb{r}]_i$,%
 	 	therefore $\vb{M}$ is orthogonal to $\vb{L}$ and $\vb{r}$. From Eq. \eqref{eq:N} $\vb{M}\cdot\vb{N}=0$, so $\vb{M}$ is orthogonal to $\vb{N}$. As it will be shown in Eq. \eqref{eq:VSHEvenOdd}, not necessarily $\vb{L}$ is orthogonal to $\vb{N}$ in a geometrical sense.
-	}%
- that obey Helmholtz equation \textit{i.e.}, they can be directly identified as electric or magnetic fields. The elements of the vector basis from Eq. \eqref{eq:VSH}   are known as the Vector Spherical Harmonics and are defined as  \citeauthor{stratton_electromagnetic_2012} \cite{stratton_electromagnetic_2012}, or by \citeauthor{bohren_absorption_1983} \cite{bohren_absorption_1983}, and the scalar function $\psi$ is known as the generating function of the VSH. From the definition of the VSH in Eqs. \eqref{eq:VSH} it can be seen that $\vb{L}$ has only a longitudinal component, while $\vb{M}$ has only transversal components ---specifically $\vb{M}$ is tangential to any sphere of radius $\norm{\vb{r}}$---, and $\vb{N}$ have both longitudinal and transversal components.
+	} %
+ that obey Helmholtz equation, \textit{i.e.}, they can be directly identified as electric or magnetic fields. The elements of the vector basis from Eq. \eqref{eq:VSH}   are known as the Vector Spherical Harmonics and are defined as  \citeauthor{stratton_electromagnetic_2012} \cite{stratton_electromagnetic_2012}, or by \citeauthor{bohren_absorption_1983} \cite{bohren_absorption_1983}, and the scalar function $\psi$ is known as the generating function of the VSH. From the definition of the VSH in Eqs. \eqref{eq:VSH} it can be seen that $\vb{L}$ has only a longitudinal component, while $\vb{M}$ has only transversal components ---specifically $\vb{M}$ is tangential to any sphere of radius $\norm{\vb{r}}$---, and $\vb{N}$ have both longitudinal and transversal components.
  % ---------------------------- index entries
  \index{Vector!Spherical Harmonics!Generating Function@{Generating Function $\psi$}}%
  % ---------------------------eq:Helmholtz-----
@@ -78,7 +78,7 @@ where $\ell$ takes natural values and zero, and $\abs{m}\leq \ell$ so that $\Phi
 \end{align}
 % ------------------------------
 %
-The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the solution is given by the spherical Bessel functions of the first ($j_\ell$)  and second ($y_\ell$) kind, or the spherical Hankel functions of first ($h_\ell^{(1)} = j_\ell + iy_\ell$) and second ( $h_\ell^{(2)} = j_\ell - iy_\ell$)  kind. Following the convention from most Mie Scattering literature \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} will be decompose into an odd (`o') and an even (`e') solution, that is, as sine and cosine functions, thus restricting the values of $m$ to non negative integers. After this procedure, it is determined that the generating function of the VSH is given by
+The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the spherical Bessel functions of the first ($j_\ell$)  and second ($y_\ell$) kind, or the spherical Hankel functions of first ($h_\ell^{(1)} = j_\ell + iy_\ell$) and second ( $h_\ell^{(2)} = j_\ell - iy_\ell$)  kind. Following the convention from most Mie Scattering literature \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} will be \textcolor{red}{decomposed} into an odd (`o') and an even (`e') \textcolor{red}{solutions}, that is, as sine and cosine functions, thus restricting the values of $m$ to non negative integers. After this,the generating function of the VSH is given by
 % ---------------------------- index entries
 \index{Legendre!Associated Functions@{Associated Functions $P_\ell^m(\mu)$}}%
 \index{Functions!Legendre Associated}%
@@ -100,15 +100,14 @@ The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P
 %\end{subequations}
 \begin{tcolorbox}[title = $\psi$: Generating function of the vectorial spherical harmonics,	ams align, breakable]
 	\psi_{ { }^{\text{e}}_{\text{o}}\ell m}(r,\theta,\varphi) =&
-				\, {\, }^{\sin(m\varphi)}_{\cos(m\varphi)}	P_\ell^m(\cos\theta)z_\ell(kr).
+				\, {\, }^{\sin(m\varphi)}_{\cos(m\varphi)}	P_\ell^m(\cos\theta)z_\ell(kr),
 	\label{eq:psi}
 \end{tcolorbox}
 
 % ------------------------------
 %
 \noindent%
-%where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. \eqref{eq:Reqkr}]. Substituting Eq. \eqref{eq:psiE} in Eqs. \eqref{eq:L}--\eqref{eq:N} one finds the even VSH
-where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. \eqref{eq:Reqkr}]. Substituting Eq. \eqref{eq:psi} in Eqs. \eqref{eq:L}--\eqref{eq:N} one finds the even VSH
+where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. \eqref{eq:Reqkr}]. Substituting Eq. \eqref{eq:psi} in Eqs. \eqref{eq:L}--\eqref{eq:N} one finds the VSH:
 % ---------------------- index entries -------
 \index{Vector!Spherical Harmonics!Spherical Coordinates}
 % -----------------------------
@@ -136,49 +135,7 @@ where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. 
 \noindent
 where the term $\ell( \ell+1)P_\ell^m$ arises since the associated Legendre functions obeys Eq. \eqref{eq:ThetaMu}.
 
-
-%\begin{subequations}
-%\begin{tcolorbox}[title = Even vectorial spherical harmonics,	ams align, breakable]
-%	\vb{L}_{\text{e}m\ell} =& k \cos(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)}{(kr)}\,\vu{e}_r
-%					 +  k\cos(m\varphi) \frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta \notag \\
-%					& - km \sin(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi
-%	\label{eq:Leml}\\
-%	\vb{M}_{\text{e}m\ell} = &-m\sin(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
-%%	\label{eq:Meml} \\
-%	\vb{N}_{\text{e}m\ell} = &\cos(m\varphi) \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r
-%						+ \cos(m\varphi)  \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}
-%						\dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\theta \notag\\
-%						&- m \sin(m\varphi) \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}\frac{P_\ell^m(\cos\theta)}{\sin\theta}
-%		 \,\vu{e}_\varphi,
-%	\label{eq:Neml}
-%\end{tcolorbox}
-%\label{eq:VSHEven}
-%\end{subequations}
-%% ------------------------------
-%%
-%\noindent where the term $\ell( \ell+1)P_\ell^m$ arises since the associated Legendre functions obeys Eq. \eqref{eq:ThetaMu}. Likewise, the odd VSH are given by
-%%
-%% -----------------------------
-%\begin{subequations}
-%\begin{tcolorbox}[title = Odd vectorial spherical harmonics,	ams align, breakable]
-%	\vb{L}_{\text{o}m\ell} =& k \sin(m\varphi)P_\ell^m(\cos\theta)\dv{z_\ell(kr)}{(kr)}\,\vu{e}_r
-%					 +  k\sin(m\varphi) \frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta \notag \\
-%					& +  km\cos(m\varphi) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi
-%	\label{eq:Loml}\\
-%	\vb{M}_{\text{o}m\ell} = & m\cos(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
-%					-\sin(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,
-%	\label{eq:Moml} \\
-%	\vb{N}_{\text{o}m\ell} =&\sin(m\varphi)\frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r +
-%					 \sin(m\varphi)  \frac{1}{kr} \dv{[kr\, z_\ell(kr)]}{(kr)} \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta) \,\vu{e}_\theta \notag\\
-%					 & + m \cos(m\varphi) \frac{1}{kr} \dv{[kr\, z_\ell(kr)]}{(kr)} \frac{P_\ell^m(\cos\theta)}{\sin\theta}\, \vu{e}_\varphi.
-%	 \label{eq:Noml}
-%\end{tcolorbox}
-%\label{eq:VSHOdd}
-%\end{subequations}
-%% ------------------------------
-%%
-\noindent%
-The choice at $z_\ell$ in Eqs. \eqref{eq:VSHEvenOdd} is due to the physical constraints of the scattering problem. On one hand, the spherical Bessel function of first kind, unlike the other three proposed solutions to the radial equation, is finite at $r = 0$, thus it is appropriate for the internal electric field and plane waves. This choice at $z_\ell$ will be denoted in the VSH with the superscript $(1)$. On the other hand, the asymptotic behavior ($\ell\ll \rho$) of the Hankel function of first kind $h^{(1)} = j_\ell + i y_\ell$ and its derivative are outgoing spherical waves \cite{bohren_absorption_1983}
+The choice at $z_\ell$ in Eqs. \eqref{eq:VSHEvenOdd} is due to the physical constraints of the scattering problem. On the one hand, the spherical Bessel function of first kind, unlike the other three proposed solutions to the radial equation, is finite at $r = 0$, thus it is appropriate for the internal electric field and plane waves. This choice at $z_\ell$ will be denoted in the VSH with the superscript $(1)$. On the other hand, the asymptotic behavior ($\ell\ll \rho$) of the Hankel function of first kind $h^{(1)} = j_\ell + i y_\ell$ and its derivative \textcolor{red}{represent} outgoing spherical waves \cite{bohren_absorption_1983}
 % ---------- index entries -------------
 \index{Wave!Plane}
 \index{Wave!Spherical}
@@ -194,6 +151,6 @@ The choice at $z_\ell$ in Eqs. \eqref{eq:VSHEvenOdd} is due to the physical cons
 	\dv{h_\ell^{(1)}(\rho)}{\rho} \approx (-i)^\ell \frac{\exp(i\rho)}{\rho},
 \end{align}
 % -----------------------------
-which are suited for the scattered field; the VSH with $z_\ell = h^{(1)}_\ell$ will be denoted with the superscript $(3)$.
+which are \textcolor{red}{well} suited for the scattered field; the VSH with $z_\ell = h^{(1)}_\ell$ will be denoted with the superscript $(3)$.
 
-From here on, the VSH will be those defined in Eq. \eqref{eq:VSH} under the condition of being a solution to the vectorial Helmholtz equation, which lead to the generating function $\psi$ to be a solution to the scalar Helmholtz equation. Nevertheless, there are other definitions for the VSH as discussed by \citeauthor{barrera_vector_1985} \cite{barrera_vector_1985}. The chosen definition of the VSH allows the VSH to be interpreted directly as electric and magnetic fields, specifically identifying $\vb{N}$ with the electric contribution and $\vb{M}$ with the magnetic due to its behavior in the far field regime\footnote{The VSH $\vb{L}$ is left out from the identification of either an electric or magnetic contribution since it is purely longitudinal and thus is neglected in the far field.}, as it will be shown in the Section \ref{sss:LSPR}.
+From here on, the VSH will be those defined in Eq. \eqref{eq:VSH} under the condition of being a solution to the vectorial Helmholtz equation, which lead to the generating function $\psi$ to be a solution to the scalar Helmholtz equation. Nevertheless, there are other definitions for the VSH as discussed by \citeauthor{barrera_vector_1985} \cite{barrera_vector_1985}. The chosen definition of the VSH allows the VSH to be interpreted directly as electric and magnetic fields, specifically identifying $\vb{N}$ with the electric contribution and $\vb{M}$ with the magnetic due to its behavior in the far field regime\footnote{The VSH $\vb{L}$ is left out from the identification of either an electric or magnetic contribution since it is purely longitudinal and thus \textcolor{red}{not suitable for} the far field.}, as it will be shown in Section \ref{sss:LSPR}.

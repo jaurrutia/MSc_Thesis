@@ -1,13 +1,13 @@
 % !TeX root = ../tesis.tex
 
-In this work, the optical properties of spherical gold (Au) nanoparticles (NPs) with radius $a = 12.5$ nm were studied. Even though the optical response of a non magnetic material is codified into the dielectric function $\varepsilon(\omega)$, the dielectric function for materials at the nanoscale differs from those in bulk due to surface effects. To perform a size correction to the dielectric function, let us decompose it into two additive contributions arising from intra- and interband electronic transitions \cite{noguez_surface_2007}. If no spacial dispersion is considered, the intraband contribution of the dielectric function can be described by means of the Drude-Sommerfeld model
+In this work, the optical properties of spherical gold (Au) nanoparticles (NPs) with radius $a = 12.5$ nm were studied. Even though the optical response of a non magnetic material is \textcolor{red}{encoded in} the dielectric function $\varepsilon(\omega)$, the dielectric function for materials at the nanoscale differs from those in bulk due to surface effects. To perform a size correction to the dielectric function, let us decompose it into two additive contributions arising from intra- and interband electronic transitions \cite{noguez_surface_2007}. If no spatial dispersion is considered, the intraband contribution of the dielectric function can be described by means of the Drude-Sommerfeld model
 %
 \begin{align}
 \frac{\varepsilon_\text{\scriptsize Drude}(\omega)}{\varepsilon_0} = 1 - \frac{\omega_p^2}{\omega(\omega + i \gamma)},
 \label{eq:Drude}
 \end{align}
 %
-where $\varepsilon_0$ is the vacuum permittivity, and $\omega_p$ is the plasma frequency and $\gamma$ the damping constant. In general, the damping constant is inversely proportional to the average time between collision events of the electrons inside the material and its value depends on the material itself and on its the geometry and dimensions. For example, the damping constant for a material in bulk $\gamma^\text{Bulk}$ equals $v_\text{F}/L$  with $v_\text{F}$ the Fermi velocity and $L$ the  mean free path of the electrons. On the other hand, the damping constant $\gamma^\text{NP}_a$ for a spherical NP of radius $a$ deviates from $\gamma^\text{Bulk}$ if the mean free path is greater than the size of the NP ($ L > 2a $), in which case an effective  mean free path replaces $L$, leading to the following expression for the damping constant:
+where $\varepsilon_0$ is the vacuum permittivity, and $\omega_p$ is the plasma frequency and $\gamma$ the damping constant. In general, the damping constant is inversely proportional to the average time between collision events of the electrons inside the material and its value depends on the material itself and on its the geometry and dimensions. For example, the damping constant for a material in bulk $\gamma^\text{Bulk}$ equals $v_\text{F}/L$  with $v_\text{F}$ the Fermi velocity and $L$ the  mean free path of the electrons. On the other hand, the damping constant $\gamma^\text{NP}_a$ for a spherical NP of radius $a$ deviates from $\gamma^\text{Bulk}$ if the mean free path is greater than the size of the NP ($ L > 2a $). In this case, an effective  mean free path replaces $L$, leading to the following expression for the damping constant:
 %
 \begin{align}
 \gamma^\text{\scriptsize  NP}_a =  \gamma^\text{\scriptsize Bulk} + A\frac{v_\text{F}}{a},
@@ -18,7 +18,7 @@ where $\varepsilon_0$ is the vacuum permittivity, and $\omega_p$ is the plasma f
 %
 where $A$ is a theory dependent parameter whose exact value changes according to the approach employed to calculate the effective mean free path; for this work it is considered that $A = 1$.
 
-In practice, the experimental data for the dielectric function of a material $\varepsilon_\text{\scriptsize Exp}(\omega)$ corresponds to a material in bulk, so a size  correction is performed on $\varepsilon_\text{\scriptsize Exp}(\omega)$ if the optical properties of NPs are studied. The size correction is done by subtracting the intraband  contribution that best fits the experimental bulk data and adding an intraband contribution considering Eq. \eqref{eq:SC}, that is, the size corrected dielectric function  $\varepsilon_\text{\scriptsize Size}(\omega)$ is given by
+In practice, the experimental data for the dielectric function of a material $\varepsilon_\text{\scriptsize Exp}(\omega)$ corresponds to a material in bulk, so a size  correction is \textcolor{red}{needed for} $\varepsilon_\text{\scriptsize Exp}(\omega)$ if the optical properties of NPs are studied. The size correction is done by subtracting the intraband  contribution that best fits the experimental bulk data and adding an intraband contribution considering Eq. \eqref{eq:SC}, that is, the size corrected dielectric function  $\varepsilon_\text{\scriptsize Size}(\omega)$ is given by
 %
 \begin{align}
 \frac{\varepsilon_\text{\scriptsize Size}(\omega)}{\varepsilon_0} =
@@ -28,21 +28,21 @@ In practice, the experimental data for the dielectric function of a material $\v
 	 									\eval_{\gamma = \gamma^\text{\scriptsize  Bulk}}
 	 +
 	 \frac{\varepsilon_\text{\scriptsize Drude}(\omega)}{\varepsilon_0}
- 										\eval_{\gamma = \gamma^\text{\scriptsize  NP}_a} 	),
+ 										\eval_{\gamma = \gamma^\text{\scriptsize  NP}_a} 	).
  \label{eq:EpsSC}
 \end{align}
 %
 The size correction in Eq. \eqref{eq:EpsSC} considers the size effects on the intraband contribution of the dielectric function while the size corrections due to the interband contributions are neglected since it has been reported that they are relevant for NPs with radii smaller than $2$ nm \cite{mendoza_herrera_determination_2014}.
 
-To employ the size corrected dielectric function [Eq. \eqref{eq:EpsSC}], the parameters  $\omega_p$ and $\gamma^\text{\scriptsize Bulk}$ that best fit  $\varepsilon_\text{\scriptsize Exp}(\omega)$ are needed. Let us develop two linear relations involving $\omega_p$ and $\gamma^\text{\scriptsize Bulk}$ and the real and imaginary parts of $\varepsilon_\text{\scriptsize Drude}(\omega)$ following the method from \citeauthor{mendoza_herrera_determination_2014}. The real and imaginary parts of $\varepsilon_\text{\scriptsize Drude}(\omega)$ are
+To use the size corrected dielectric function [Eq. \eqref{eq:EpsSC}], the parameters  $\omega_p$ and $\gamma^\text{\scriptsize Bulk}$ that best fit  $\varepsilon_\text{\scriptsize Exp}(\omega)$ are needed. Let us develop two linear relations involving $\omega_p$ and $\gamma^\text{\scriptsize Bulk}$ and the real and imaginary parts of $\varepsilon_\text{\scriptsize Drude}(\omega)$ following the method from \citeauthor{mendoza_herrera_determination_2014}. The real and imaginary parts of $\varepsilon_\text{\scriptsize Drude}(\omega)$ are
 %
 \begin{align}
 \Re\qty[\frac{\varepsilon_\text{\scriptsize Drude}(\omega)}{\varepsilon_0}] = 1 - \frac{\omega_p^2 \omega^2}{\omega^4 + (\omega\gamma)^2},
 \qqtext{ and}
-\Im\qty[\frac{\varepsilon_\text{\scriptsize Drude}(\omega)}{\varepsilon_0}]  = \frac{\omega_p^2  (\omega\gamma)}{\omega^4 + (\omega\gamma)^2}.
+\Im\qty[\frac{\varepsilon_\text{\scriptsize Drude}(\omega)}{\varepsilon_0}]  = \frac{\omega_p^2  (\omega\gamma)}{\omega^4 + (\omega\gamma)^2},
 \end{align}
 %
-according to Eq. \eqref{eq:Drude}. By multiplying the imaginary part of $\varepsilon_\text{\scriptsize Drude}(\omega)$ by $\omega$ and compairing it with its real part, one obtains that
+according to Eq. \eqref{eq:Drude}. By multiplying the imaginary part of $\varepsilon_\text{\scriptsize Drude}(\omega)$ by $\omega$ and comparing it with its real part, one obtains that
 %
 \begin{align}
 \omega \Im\qty[\frac{\varepsilon_\text{\scriptsize Drude}(\omega)}{\varepsilon_0}] =
@@ -58,26 +58,22 @@ and in a similar manner it can be verified that
  \label{eq:wpFit}
 \end{align}
 %%
-	\begin{figure}[b!]
-	\def\svgwidth{.85\textwidth} \small\centering
-	\includeinkscape{Size-Correction/1-DrudeFit}
-	\caption[Plasma frequency and damping constant determination for Au]{Plot of Eqs. \eqref{eq:gammaFit} (orange) and \eqref{eq:wpFit} (black) evaluated with the experimental dielectric function reported by \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972}. The shaded region corresponds to the frequency window from $0.64$ eV to $1.76$ eV, which is best described by the Drude-Sommerfeld model and which was considered to perform the linear fits (dashed), determinating a plasma frequency of $\hbar\omega_p =(8.70\pm0.08)$ eV and a damping constant of $\hbar\gamma = (8.29 \pm 0.14)\times 10^{-2}$ eV for Au. }
-	\label{fig:DrudeFit}
-	\end{figure}
-%
-%
-By plotting the left hand side of Eqs. \eqref{eq:gammaFit} and \eqref{eq:wpFit} as a function of  $1-\Re[\varepsilon_\text{\scriptsize Drude}(\omega)/\varepsilon_0]$ and fitting two linear functions, the values for $\gamma$ and $\omega_p^2$ can be calculated according to the right hand side of Eqs. \eqref{eq:gammaFit} and \eqref{eq:wpFit}, respectively. As a final remark, the experimental dielectric function includes both an intra- and an interband contribution  while  Eqs. \eqref{eq:gammaFit} and \eqref{eq:wpFit} are only valid for the intraband contribution of the dielectric function, thus the linear fits should be done within an spectral window into which the interband contributions are negligible compared to the Drude-Sommerfeld model, which best describes the optical properties of a material  when $\omega\to 0$. The  chose of the spectral window for the experimental data fit of the dielectric function can modify the calculated values of $\gamma$ and $\omega_p$.
-%
+\begin{figure}[h!]
+\def\svgwidth{.85\textwidth} \small\centering
+\includeinkscape{Size-Correction/1-DrudeFit}
+\caption[Plasma frequency and damping constant determination for Au]{Plot of Eqs. \eqref{eq:gammaFit} (orange) and \eqref{eq:wpFit} (black) evaluated with the experimental dielectric function reported by \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972}. The shaded region corresponds to the frequency window from $0.64$ eV to $1.76$ eV, which is best described by the Drude-Sommerfeld model and  was considered to perform the linear fits (dashed), determining a plasma frequency of $\hbar\omega_p =(8.70\pm0.08)$ eV and a damping constant of $\hbar\gamma = (8.29 \pm 0.14)\times 10^{-2}$ eV for Au. }
+\label{fig:DrudeFit}
+\end{figure}
 
+By plotting the left hand side of Eqs. \eqref{eq:gammaFit} and \eqref{eq:wpFit} as a function of  $1-\Re[\varepsilon_\text{\scriptsize Drude}(\omega)/\varepsilon_0]$ and fitting two linear functions, the values for $\gamma$ and $\omega_p^2$ can be calculated according to the right hand side of Eqs. \eqref{eq:gammaFit} and \eqref{eq:wpFit}, respectively. As a final remark, the experimental dielectric function includes both an intra- and an interband contribution  while  Eqs. \eqref{eq:gammaFit} and \eqref{eq:wpFit} are only valid for the intraband contribution of the dielectric function, thus the linear fits should be done within an spectral window into which the interband contributions are negligible compared to the Drude-Sommerfeld model, which best describes the optical properties of a material  when $\omega\to 0$. The  choice of the spectral window for the experimental data fit of the dielectric function modifies the calculated values of $\gamma$ and $\omega_p$.
 
  In Fig. \ref{fig:DrudeFit}, the left hand side of Eqs. \eqref{eq:gammaFit}  and \eqref{eq:wpFit} are plotted in orange and black, respectively, as a function of $1-\Re[\varepsilon(\omega)/ \varepsilon_0]$, where $\varepsilon(\omega)$  corresponds to the experimental data of the dielectric function of Au (markers) reported by \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972}; to ease the read of Fig. \ref{fig:DrudeFit}, continuous lines between the data were added as a guide to the eye and the photon energy $\hbar\omega$ of selected points of the experimental data are shown on the top margin. The shaded region in Fig. \ref{fig:DrudeFit} is the frequency window $0.64\text{ eV} < \hbar\omega < 1.76 \text{ eV}$, into which the experimental data for Au shows a linear behavior as stated by Eqs.\eqref{eq:gammaFit}  and \eqref{eq:wpFit}, that is, within this interval  the intraband contribution to the dielectric function is dominant, thus the linear fits (dashed lines) where made with the data in this region, determinating a plasma frequency of $\hbar\omega_p =(8.70\pm0.08)$ eV and a damping constant of $\hbar\gamma = (8.29 \pm 0.14)\times 10^{-2}$ eV for Au in bulk. Once the plasma frequency and the damping constant for Au have been obtained, the size corrected dielectric for spheres can be calculated.
 
-	\begin{figure}[b!]
-	\def\svgwidth{.85\textwidth} \centering \small
-	\includeinkscape{Size-Correction/2-AuCorrected}
-	\caption[Au size corrected dielectric function]{ Real (blue) and imaginary (red) parts of the size corrected dielectric function of Au in bulk (continuous lines) and  of spherical Au NPs of radius $5$ nm (dotted lines), $12.5$ nm (dash dotted lines) and $80$ nm (dashed lines), as function of the photon energy $\hbar\omega$ (wavlength $\lambda$). The size corrected dielectric function was calculated from the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972}. }
-	\label{fig:EpsSize}
-	\end{figure}
+   \begin{figure}[h!]
+   \def\svgwidth{.85\textwidth} \centering \small
+   \includeinkscape{Size-Correction/2-AuCorrected}
+   \caption[Au size corrected dielectric function]{ Real (blue) and imaginary (red) parts of the size corrected dielectric function of Au in bulk (continuous lines) and  of spherical Au NPs of radius $5$ nm (dotted lines), $12.5$ nm (dash dotted lines) and $80$ nm (dashed lines), as a function of the photon energy $\hbar\omega$ (wavelength $\lambda$). The size corrected dielectric function was calculated from the experimental data of \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972}. }
+   \label{fig:EpsSize}
+   \end{figure}
 
-
-The real part (blue) and imaginary part (red) of the size corrected dielectric function for Au, based in the experimental data from \citeauthor{johnson_optical_1972},  is plotted in Fig. \ref{fig:EpsSize} as function of the photon energy $\hbar\omega$; on the top margin it is shown the convertion of the phton energy into wavelength $\lambda$. The size corrected dielectric function was calculated for several cases: Au in bulk (continuous lines) and  spherical Au NPs of radius $5$ nm (dotted lines), $12.5$ nm (dash dotted lines) and $80$ nm (dashed lines); all lines are guides to the eye. The data in  Fig. \ref{fig:EpsSize} shows that the need for a size corrected dielectric functions increases as the frequency decreases (wavelength decreases), specifically for the visible spectrum (shaded region) the size correction is appreciated for $\hbar \omega < 2.5$ eV ($\lambda>500$ nm). From Fig. \ref{fig:EpsSize} it can also be seen that the imaginary part of the size corrected dielectric function differs the most from the bulk dielectric function compared to its real part, whose deflection from the bulk optical response are barely visible near $\hbar\omega\approx 1$ eV.
+The real part (blue) and imaginary part (red) of the size corrected dielectric function for Au, based in the experimental data from \citeauthor{johnson_optical_1972} \cite{johnson_optical_1972},  is plotted in Fig. \ref{fig:EpsSize} as a function of the photon energy $\hbar\omega$; on the top margin it is shown the conversion of the photon energy into wavelength $\lambda$. The size corrected dielectric function was calculated for several cases: Au in bulk (continuous lines) and  spherical Au NPs of radius $5$ nm (dotted lines), $12.5$ nm (dash dotted lines) and $80$ nm (dashed lines); all lines are guides to the eye. The data in  Fig. \ref{fig:EpsSize} shows that the need for a size corrected dielectric functions increases as the frequency decreases (wavelength increases), specifically for the visible spectrum (shaded region) the size correction is appreciated for $\hbar \omega < 2.5$ eV ($\lambda>500$ nm). From Fig. \ref{fig:EpsSize} it can also be seen that the imaginary part of the size corrected dielectric function differs the most from the bulk dielectric function compared to its real part, whose deviation from the bulk optical response are barely visible near $\hbar\omega\approx 1$ eV.

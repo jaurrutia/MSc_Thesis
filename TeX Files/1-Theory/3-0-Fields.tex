@@ -29,6 +29,8 @@ The monochromatic plane wave is a transversal wave, thus it can be written in te
 
 In the problem of scattering due to a spherical particle of radius $a$, the continuity conditions on the tangential components of the electric and magnetic fields are written as
   %
+  \index{Boundary Conditions!Mie Problem}%
+  %
  \begin{align}
  \qty(\vb{E}^\text{i} + \vb{E}^\text{sca}- \vb{E}^\text{int})\eval_{r=a}\times \vu{e}_r  =
   \qty(\vb{H}^\text{i} + \vb{H}^\text{sca} - \vb{H}^\text{int})\eval_{r=a} \times\vu{e}_r = 0,
@@ -161,6 +163,7 @@ Following a similar procedure but substituting Eq. \eqref{eq:coeffInt} into Eq. 
 The scattering amplitude matrix relates the incident electric field to the scattered electric field in the far field regime, that it when $kr\gg 1$. Considering that the series of Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} converge uniformly, so all contributions after the sufficiently large  term $\ell_c$ of the sum can be neglected for all values of $kr$, the asymptotic  expressions for the $\xi$ Riccati-Bessel function and its derivative can be employed, which are textcolor{red}{given by} \cite{bohren_absorption_1983}
 %
 \index{Functions!Spherical Hankel@{Spherical Hankel $h^{(1)}_\ell(\rho)$ and $h^{(2)}_\ell(\rho)$}!Asymptotic Limit}%
+\index{Wave!Spherical}
 %
 \begin{align}
 \xi(kr)\approx (-i)^\ell \frac{\exp(ikr)}{i},
@@ -192,7 +195,7 @@ Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:Esca
 \noindent
 where it can be identified that $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\parallel = E_0\cos\varphi$ and $\vb{E}^\text{i}\cdot \vu{e}^\text{i}_\perp = -E_0\sin\varphi$ for $\vb{E}^\text{i}$ a plane wave traveling along the $z$ direction with an arbitrary polarization. Finally, the scattering amplitude matrix for a spherical particle can be obtained by comparing Eqs. \eqref{eq:EthetaSca} and \eqref{eq:EphiSca} with Eq. \eqref{eq:ScatAmpMat}, yielding
 %
-\index{Scattering!Amplitude Matrix@{Amplitude Matrix $\mathbb{F}$}! for Spherical Particles,}%
+\index{Scattering!Amplitude Matrix@{Amplitude Matrix $\mathbb{F}$}!for Spherical Particles}%
 %
  \begin{subequations}
      \label{eq:FS1S2}

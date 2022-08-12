@@ -12,11 +12,13 @@ Let $\vb{E}^\text{i} = \vb{E}^\text{i}_0 \exp(i\vb{k}^\text{i}\cdot\vb{r})$ be t
  \end{equation}
 % ---------------------------------- eq: ScatAmpMat ----------------------------------
 %
-where $\mathbb{F}(\vu{k}^\text{sca}, \vu{k}^\text{i})$ is the scattering  amplitude matrix from direction $\vu{k}^\text{i}$ into $\vu{k}^\text{sca}$. Since only the far field is considered, both the incident and the scattered electric fields can be decomposed into two linearly independent components perpendicular to $\vb{k}^\text{i}$ and $\vb{k}^\text{sca}$, respectively, each forming a right-handed orthonormal system. If the particle acting as a scatterer has a symmetric shape, it is convenient to define an orthonormal system relative to the scattering plane, which is the plane containing $\vb{k}^\text{i}$ and $\vb{k}^\text{sca}$, \textcolor{red}{,} since the elements of $\mathbb{F}(\vu{k}^\text{sca}, \vu{k}^\text{i})$ get simplified when represented in these bases \cite{tsang_scattering_2000}. In Fig. \ref{fig:ScatPlane} a plane wave traveling in the $z$ direction illuminates an arbitrary particle centered at the origin of the coordinated system and the scattering plane is depicted in green. By defining the directions perpendicular  ($\perp$) and parallel ($\parallel$) to the scattering plane,  the incident and scattered electric fields can be written as
+where $\mathbb{F}(\vu{k}^\text{sca}, \vu{k}^\text{i})$ is the scattering  amplitude matrix from direction $\vu{k}^\text{i}$ into $\vu{k}^\text{sca}$. Since only the far field is considered, both the incident and the scattered electric fields can be decomposed into two linearly independent components perpendicular to $\vb{k}^\text{i}$ and $\vb{k}^\text{sca}$, respectively, each forming a right-handed orthonormal system. If the particle acting as a scatterer has a symmetric shape, it is convenient to define an orthonormal system relative to the scattering plane, which is the plane containing $\vb{k}^\text{i}$ and $\vb{k}^\text{sca}$, since the elements of $\mathbb{F}(\vu{k}^\text{sca}, \vu{k}^\text{i})$ get simplified when represented in these bases \cite{tsang_scattering_2000}. In Fig. \ref{fig:ScatPlane} a plane wave traveling in the $z$ direction illuminates an arbitrary particle centered at the origin of the coordinated system and the scattering plane is depicted in green. By defining the directions perpendicular  ($\perp$) and parallel ($\parallel$) to the scattering plane,  the incident and scattered electric fields can be written as
 % --------------------------------- index entries ----------------------------------
 \index{Scattering!Amplitude Matrix@{Amplitude Matrix $\mathbb{F}$}}%
 \index{Scattering!Plane!Unit Vector System}%
-\index{Scattering!Plane}%
+\index{Plane!Scattering!Coordinate System}%
+\index{Scattering!Plane!Coordinate System}%
+ \index{Coordinate System!Relative to Scattering Plane}%
 % ------------------------------------------------------------------------------------
 % ---------------------------------- eq:Ei // eq:Es ------------------------------
  \begin{align}
@@ -70,7 +72,6 @@ When an incident plane wave interacts with a particle with a complex refractive 
 % --------------------- index entries------------------------------------
 \index{Faraday-Lenz's!Law}%
 \index{Law!Faraday-Lenz's}
-\index{Maxwell Equations|seealso{Faraday-Lenz's}}%
 % ------------------ eq:AvePoyntingISca ---------------------------------
 \begin{equation}
 	\ev{\vb{S}^\text{i}}_t = \frac{\norm{\vb{E}_0^\text{i}}^2}{2 Z_\text{mat}}\vu{k}^\text{i},

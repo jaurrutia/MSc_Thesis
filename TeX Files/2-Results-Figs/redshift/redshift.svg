@@ -9,7 +9,7 @@
    height="353.43396"
    viewBox="0 0 670.12775 353.43397"
    sodipodi:docname="redshift.svg"
-   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -278,15 +278,17 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.2478635"
-     inkscape:cx="325.75678"
-     inkscape:cy="119.40409"
-     inkscape:window-width="1883"
-     inkscape:window-height="1052"
+     inkscape:zoom="1.4575496"
+     inkscape:cx="448.01219"
+     inkscape:cy="153.33955"
+     inkscape:window-width="1890"
+     inkscape:window-height="1042"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g8" /><g
+     inkscape:current-layer="g8"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" /><g
      id="g8"
      inkscape:groupmode="layer"
      inkscape:label="redShift1"
@@ -617,7 +619,7 @@
        id="use154"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,198.93702)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-1-5"
        x="76.198471"
@@ -881,7 +883,7 @@
        id="use286"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="21.601421"
@@ -889,7 +891,7 @@
        id="use290"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="25.801195"
@@ -897,7 +899,7 @@
        id="use294"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="30.000969"
@@ -905,7 +907,7 @@
        id="use298"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="34.200741"
@@ -913,7 +915,7 @@
        id="use302"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="38.400513"
@@ -921,7 +923,7 @@
        id="use306"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="42.600288"
@@ -929,7 +931,7 @@
        id="use310"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="46.80006"
@@ -937,7 +939,7 @@
        id="use314"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="50.999832"
@@ -945,7 +947,7 @@
        id="use318"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="55.199608"
@@ -953,7 +955,7 @@
        id="use322"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="59.39938"
@@ -961,7 +963,7 @@
        id="use326"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="63.599155"
@@ -969,7 +971,7 @@
        id="use330"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="67.798927"
@@ -977,7 +979,7 @@
        id="use334"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="71.998703"
@@ -985,7 +987,7 @@
        id="use338"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.09326)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="76.198471"
@@ -993,7 +995,7 @@
        id="use342"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="80.398247"
@@ -1001,7 +1003,7 @@
        id="use346"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="84.598022"
@@ -1009,7 +1011,7 @@
        id="use350"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="88.797791"
@@ -1017,7 +1019,7 @@
        id="use354"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="92.997566"
@@ -1025,7 +1027,7 @@
        id="use358"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="97.197342"
@@ -1033,7 +1035,7 @@
        id="use362"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="101.39711"
@@ -1041,7 +1043,7 @@
        id="use366"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="105.59689"
@@ -1049,7 +1051,7 @@
        id="use370"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="109.79666"
@@ -1057,7 +1059,7 @@
        id="use374"
        width="100%"
        height="100%"
-       transform="translate(-19.765528,199.01514)"
+       transform="translate(-19.765528,193.01514)"
        style="fill:#000000;fill-opacity:1" /><use
        xlink:href="#glyph0-2-5"
        x="17.401648"

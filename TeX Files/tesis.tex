@@ -250,12 +250,33 @@
 %
 
 \chapter{Results and Discussion}
-	\input{2-Results/0-Intro}
-	\section{Optical Properties of Supported and Totally Embedded Spherical Particles}
-    \input{2-Results/1-Totally}
-    \section{Optical Properties of Partially Embedded Spherical Particles}
-%	\input{2-Results/1-Something}
 
+    The problem of the absorption and scattering of light by a single nanoparticle (NP), illuminated by a monochromatic plane wave, is analytically described by the Mie Theory (Section \ref{s:Mie}) if the NP is considered to be embedded in an infinite medium (matrix). Were more realistic conditions considered, such as the presence of a second medium (substrate) forming a planar interface with the matrix and the possibility of a partial embedding into the substrate, would the Mie Theory no longer be suited to study the optical properties of such systems. In this Chapter, the optical response of a gold (Au) spherical NP of radius $a = 12.5$ nm below, above and at a planar interface between air and glass is calculated through the Finite Element Method (FEM) [Eq. \eqref{eq:PML-FEM}] when a monochromatic plane wave of wavelength $\lambda$ traveling in the direction $\vb{k}^\text{i}$ illuminates the system at an angle of incidence $\theta_i$ considering a defined polarization sate of the incident electric field $\vb{E}^\text{i}$. In order to identify the effect of the substrate and the embedding of the NPs into the substrate, the absorption and scattering  efficiencies [Eqs. \eqref{eq:Csca}, \eqref{eq:Cabs} and \eqref{eq:Efficiencies}], as well the the radiation pattern (see Fig. \ref{fig:ScatteringMaps}) and the distribution of the induced electric field on and inside the NP (see Fig. \ref{fig:NearField}) are calculated numerically for the desired geometries and compared with limiting cases of the Mie theory: a AuNP isolated in a matrix of air and in a matrix of glass.
+
+    The aforementioned analysis is organized as follows: In Section \ref{s:Totally} it is addressed the extreme cases of the supported and the totally embedded NP illuminated at normal incidence (Section \ref{s:Totally:Normal}) and at oblique incidence (Section \ref{s:TIR}), while in Section \ref{s:Emb} the effect of the partially embedding is studied considering once again  normal (Section \ref{s:Emb:Normal}) and oblique (Section \ref{s:Emb:Obl}) incidence.
+
+    \section{Supported and Totally Embedded Spherical Particles}
+     \label{s:Totally}
+        \input{2-Results/0-Intro}
+
+        \subsection{Normal Incidence}
+        \input{2-Results/1-Totally}
+         \label{s:Totally:Normal}
+         \subsection{Supported Spherical Particle in Total Internal Reflection}
+         \label{s:TIR}
+         %\input{2-Results/2-Supported}
+
+    \section{Partially Embedded Spherical Particle}
+    \label{s:Emb}
+       \input{2-Results/2-Supported-Intro}
+
+       \subsection{Normal Incidence}
+       \input{2-Results/3-Embedded-Normal}
+         \label{s:Emb:Normal}
+
+        \subsection{Partially Embedded Spherical Particle in Total Internal Reflection}
+        \input{2-Results/4-Embedded-Oblique}
+         \label{s:Emb:Obl}
 \chapter{Conclusions}
     \section{Future Work: Application on Metasurfaces}
 

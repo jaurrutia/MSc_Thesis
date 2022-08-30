@@ -1,23 +1,25 @@
 % !TeX root = ../tesis.tex
 
-%
-%
-%
-%\clearpage
+The problem of scattering and absorption of light by single spherical NP embedded into a matrix, with refractive index $n_\text{m}$, illuminated by a plane wave with wavelength $\lambda$  and traveling in the  $\vb{k}^\text{i}$ direction, has spherical symmetry, which was exploited to develop the Mie Theory as explained in Section \ref{s:Mie}. If a substrate, with refractive index $n_\text{m}$, is considered and the NP is located right above or below the interface ---but not at it---, there are four configurations into which the system can be found since the NP can be either embedded (E\_) in the substrate or supported (\_S) by it, and it can be illuminated either in an external (\_E) ---from the matrix to the substrate--- or an internal (\_I)--- from the substrate to matrix--- reflection as shown in Fig. \ref{sfig:TotallyNormal:1} where the four configurations are shown: Embedded-External (EE), Embedded-Internal (EI), Supported-External (SE) and Supported-Internal (SI)).
+
+In Fig. \ref{sfig:TotallyNormal:2} the absorption $Q_\text{abs}$ and scattering $Q_\text{sca}$ efficiencies are shown as function of $\lambda$ for the Embedded-External (black), Embedded Internal (orange), Supported-External (blue) and Supported-Internal (light orange) scenario. The green region corresponds to the values between the efficiencies 
+
+Each marker in \ref{sfig:TotallyNormal:2} corresponds to a value calculated by means of the FEM wile the solid lines are guides to the eye
 
 
-
-\begin{figure}
-    \hspace*{-18.75em}%
+\begin{figure}[h!]
+    \hspace*{-19.15em}%
     \vspace*{-1.25em}%
-        \begin{subfigure}{.375\textwidth}\caption{ }\label{sfig:red:1}\end{subfigure}%
-        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:red:2}\end{subfigure} \\
+        \begin{subfigure}{.385\textwidth}\caption{ }\label{sfig:TotallyNormal:1}\end{subfigure}%
+        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:TotallyNormal:2}\end{subfigure} \\
     \def\svgwidth{.95\textwidth}
     \small
     \centering
     \includeinkscape{1-Totally/1-Efficiencies/1-Normal-Eff}%
     \vspace*{0em}
-    \caption[Spectral redshift of the scattering and extinction of a spherical AuNP as function of its size and the embedding media]{Resonance wavelength $\lambda_\text{res}$ of the scattering (orange) and extinction (black) cross sections of a AuNP as function of the NP's radius when embedded \textbf{a)} into air ($n_\text{m} = 1)$ and \textbf{b)} into glass ($n_\text{m} = 1.5$), and as function of the refractive index of the matrix  $n_\text{m}$ for a AuNP of radius equal to  \textbf{c)} 12.5 nm and \textbf{d)} 50 nm, employing the dielectric function for the Au as reported by \citeauthor{johnson_optical_1972} (filled circle) and considering a size correction to it (empty circle).}
+    \caption[Absorption and Scattering Efficiencies of a 12.5 nm AuNP above and below a lanar Interface Illuminated at Normal Incidence]{\textbf{a)} Schematics of a AuNP embedded in (supported by) a glass substrate (with refractive index $n_\text{s} = 1.5$) forming a planar interface with an air matrix ($n_\text{m} = 1$)) and illuminated by a plane wave in the normal direction in an external and in an internal configuration. \textbf{b)} Absorption $Q_\text{abs}$ and scattering $Q_\text{sca}$ efficiencies as function of the wavelength $\lambda$
+    }
+\label{fig:TotallyNormal}
 \end{figure}
 
 

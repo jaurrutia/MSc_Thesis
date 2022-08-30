@@ -1,0 +1,159 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2-NearY-Supported.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{269.64528041bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.46985424)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2-NearY-Supported.pdf}}%
+    \put(0.01668862,0.25075968){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2-NearY-Supported.pdf}}%
+    \put(0.10569836,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2-NearY-Supported.pdf}}%
+    \put(0.1549526,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2-NearY-Supported.pdf}}%
+    \put(0.204207,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2-NearY-Supported.pdf}}%
+    \put(0.24621161,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{2-NearY-Supported.pdf}}%
+    \put(0.29547042,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{2-NearY-Supported.pdf}}%
+    \put(0.34472482,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{2-NearY-Supported.pdf}}%
+    \put(0.39397906,0.04516098){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{2-NearY-Supported.pdf}}%
+    \put(0.05385868,0.0951944){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{2-NearY-Supported.pdf}}%
+    \put(0.05385868,0.14444856){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{2-NearY-Supported.pdf}}%
+    \put(0.05385868,0.19370288){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{2-NearY-Supported.pdf}}%
+    \put(0.05384954,0.24295712){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{2-NearY-Supported.pdf}}%
+    \put(0.05385868,0.29221144){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{2-NearY-Supported.pdf}}%
+    \put(0.05385868,0.3414656){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{2-NearY-Supported.pdf}}%
+    \put(0.05385868,0.39071992){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{2-NearY-Supported.pdf}}%
+    \put(0.06179615,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-3a$\end{tabular}}}}%
+    \put(0.18492501,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.12335545,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.30806734,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.3696268,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.43119973,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$3a$\end{tabular}}}}%
+    \put(0.24649794,0.45451125){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.44355692,0.06112454){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-3a$\end{tabular}}}}%
+    \put(0.44355692,0.18425332){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-a$\end{tabular}}}}%
+    \put(0.44355692,0.12268039){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-2a$\end{tabular}}}}%
+    \put(0.44355692,0.3073821){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$a$\end{tabular}}}}%
+    \put(0.44355692,0.36895512){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2a$\end{tabular}}}}%
+    \put(0.44355692,0.43052464){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$3a$\end{tabular}}}}%
+    \put(0.44355692,0.24582626){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{2-NearY-Supported.pdf}}%
+    \put(0.61558071,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{2-NearY-Supported.pdf}}%
+    \put(0.66483491,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{2-NearY-Supported.pdf}}%
+    \put(0.71408926,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{2-NearY-Supported.pdf}}%
+    \put(0.75609382,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{2-NearY-Supported.pdf}}%
+    \put(0.80535275,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{2-NearY-Supported.pdf}}%
+    \put(0.8546071,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{2-NearY-Supported.pdf}}%
+    \put(0.9038613,0.04288123){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{2-NearY-Supported.pdf}}%
+    \put(0.56374102,0.09291461){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{2-NearY-Supported.pdf}}%
+    \put(0.56374102,0.14216881){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{2-NearY-Supported.pdf}}%
+    \put(0.56374102,0.19142309){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{2-NearY-Supported.pdf}}%
+    \put(0.56373188,0.24067736){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{2-NearY-Supported.pdf}}%
+    \put(0.56374102,0.28993164){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{2-NearY-Supported.pdf}}%
+    \put(0.56374102,0.33918584){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{2-NearY-Supported.pdf}}%
+    \put(0.56374102,0.38844012){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{2-NearY-Supported.pdf}}%
+    \put(0.57167836,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-3a$\end{tabular}}}}%
+    \put(0.69480723,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.63323778,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.81794967,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.87950909,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.94108208,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$3a$\end{tabular}}}}%
+    \put(0.75638022,0.45223148){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.95343921,0.05884476){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-3a$\end{tabular}}}}%
+    \put(0.95343921,0.18197355){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-a$\end{tabular}}}}%
+    \put(0.95343921,0.12040064){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$-2a$\end{tabular}}}}%
+    \put(0.95343921,0.30510235){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$a$\end{tabular}}}}%
+    \put(0.95343921,0.36667534){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$2a$\end{tabular}}}}%
+    \put(0.95343921,0.42824486){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$3a$\end{tabular}}}}%
+    \put(0.95343921,0.24354647){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
+    \put(0.52663078,0.24847996){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0.33147552,0.40661603){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.41151927,0.32562875){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.07447865,0.26550711){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.07714639,0.40281708){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
+    \put(0.24699921,0.0083443){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
+    \put(0.75736951,0.00937933){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
+    \put(0.58555796,0.40281708){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{2-NearY-Supported.pdf}}%
+    \put(0.6716486,0.08447064){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.58479777,0.17163948){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.07447865,0.22100416){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0.58625524,0.26550711){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.58625524,0.22100416){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,138 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '4-5-Far-XY.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{464.76536963bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.5976541)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{4-5-Far-XY.pdf}}%
+    \put(0.44043785,0.12182507){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.46387342,0.22927337){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
+    \put(0.40000757,0.38114962){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.4349061,0.33672164){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.45633464,0.28476923){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.35550034,0.41018348){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.40497447,0.07730729){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.36935596,0.04316747){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.25806119,0.0143768){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.26838661,0.43441723){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.30995267,0.42402572){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.31558181,0.02168798){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.46258484,0.17365403){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.06900054,0.11564567){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.10628235,0.07632156){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.15379531,0.04218175){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.19873576,0.02070812){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.04467621,0.16747889){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{4-5-Far-XY.pdf}}%
+    \put(0.04773897,0.40730571){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
+    \put(0.04851834,0.37156098){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0.04747919,0.33581624){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0.04756231,0.29995718){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.04860146,0.26432674){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.04871577,0.22858201){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{4-5-Far-XY.pdf}}%
+    \put(0.38355523,0.23064797){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.9364424,0.12383435){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.95987796,0.23128264){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
+    \put(0.89601211,0.38315889){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.93091065,0.33873092){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.95233919,0.28677851){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.85150488,0.41219276){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.90097901,0.07931657){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.8653605,0.04517675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.75406573,0.01638607){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.76439115,0.43642651){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.80595722,0.42603499){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.81158635,0.02369726){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.95858938,0.17566331){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.56500508,0.11765495){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.6022869,0.07833084){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.64979985,0.04419102){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.6947403,0.0227174){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.54068075,0.16948817){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{4-5-Far-XY.pdf}}%
+    \put(0.54165395,0.40931499){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
+    \put(0.54243332,0.37357026){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0.54139417,0.33782551){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0.54147729,0.30196646){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.54251644,0.26633602){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.54263075,0.23059129){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{4-5-Far-XY.pdf}}%
+    \put(0.74946208,0.24335142){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{4-5-Far-XY.pdf}}%
+    \put(0.76399799,0.36075072){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0.25752983,0.06300092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{4-5-Far-XY.pdf}}%
+    \put(0.02203279,0.56838523){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$h/a ,\, \lambda$\end{tabular}}}}%
+    \put(0.04799469,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{4-5-Far-XY.pdf}}%
+    \put(0.19281683,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{4-5-Far-XY.pdf}}%
+    \put(0.33796119,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{4-5-Far-XY.pdf}}%
+    \put(0.4828889,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{4-5-Far-XY.pdf}}%
+    \put(0.62872342,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{4-5-Far-XY.pdf}}%
+    \put(0.77231655,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{4-5-Far-XY.pdf}}%
+    \put(0.91807548,0.53029411){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{4-5-Far-XY.pdf}}%
+    \put(0.89432505,0.496724){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}525 nm\end{tabular}}}}%
+    \put(0.75003029,0.49671393){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}530 nm\end{tabular}}}}%
+    \put(0.60504713,0.496724){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.46006383,0.49676428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}537.5 nm\end{tabular}}}}%
+    \put(0.31508058,0.496724){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.17009733,0.49676428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}537.5 nm\end{tabular}}}}%
+    \put(0.02442557,0.49671393){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}540 nm\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

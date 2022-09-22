@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2-NearY-EmbSup.pdf' (pdf, eps, ps)
 %%
@@ -54,6 +54,8 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-NearY-EmbSup.pdf}}%
+    \put(0.43398414,0.34513738){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.43398414,0.74695963){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.01784083,0.26509917){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2-NearY-EmbSup.pdf}}%
     \put(0.1124717,0.03935859){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
@@ -85,88 +87,89 @@
     \put(0.05757677,0.41717542){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{2-NearY-EmbSup.pdf}}%
     \put(0.36030771,0.43171618){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.43398414,0.34513738){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.08556724,0.28086482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
     \put(0.09436602,0.39792024){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
-    \put(0.25215842,0.00594694){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
+    \put(0.25215842,0.00594694){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{2-NearY-EmbSup.pdf}}%
     \put(0.08556724,0.23328929){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=18]{2-NearY-EmbSup.pdf}}%
     \put(0.01784083,0.66692117){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=19]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.50306837){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=20]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.55572323){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=21]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.60837808){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=22]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{2-NearY-EmbSup.pdf}}%
     \put(0.05756699,0.66103302){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=23]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.71368791){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=24]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.76634277){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=25]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.81899762){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=26]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{2-NearY-EmbSup.pdf}}%
     \put(0.20363904,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
     \put(0.13781859,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
     \put(0.33528338,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
     \put(0.40109303,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
     \put(0.2694631,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
     \put(0.36030771,0.83353834){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.43398414,0.74695963){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.08556724,0.68268702){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
     \put(0.08511264,0.79974243){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 535.2$ nm}\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=27]{2-NearY-EmbSup.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{2-NearY-EmbSup.pdf}}%
     \put(0.08556724,0.63511149){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
-    \put(0.51483172,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
-    \put(0.56739226,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
-    \put(0.61958659,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
-    \put(0.67183847,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
-    \put(0.72390299,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
-    \put(0.77701836,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
-    \put(0.82976779,0.03692147){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
-    \put(0.90493106,0.19097837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
-    \put(0.90493106,0.12516109){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
-    \put(0.90493106,0.38843047){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
-    \put(0.67288074,0.00705344){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
-    \put(0.60599898,0.88230311){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
-    \put(0.54017853,0.88230311){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
-    \put(0.73764331,0.88230311){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
-    \put(0.80345296,0.88230311){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
-    \put(0.67182303,0.88230311){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
-    \put(0.90493106,0.59280057){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
-    \put(0.90493106,0.52698329){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
-    \put(0.90493106,0.79025271){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{2-NearY-EmbSup.pdf}}%
+    \put(0.51482377,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0.56737331,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0.61955671,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0.67179764,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.72385126,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.77695551,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0.82969389,0.03916202){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0.90484142,0.19318665){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.90484142,0.12738315){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.90484142,0.3905974){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.67283969,0.00930024){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
+    \put(0.60597194,0.88436661){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.54016527,0.88436661){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.73758871,0.88436661){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.80338457,0.88436661){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.67178221,0.88436661){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.90484142,0.5949247){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.90484142,0.52912121){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.90484142,0.79233549){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=28]{2-NearY-EmbSup.pdf}}%
-    \put(0.90493106,0.3226131){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
-    \put(0.90493106,0.25679573){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
-    \put(0.4951535,0.39792026){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
+    \put(0.90484142,0.32479381){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.90484142,0.25899023){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.49514968,0.4000852){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=29]{2-NearY-EmbSup.pdf}}%
-    \put(0.58124148,0.08732921){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.48839429,0.18051637){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.48995238,0.28086482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
-    \put(0.48995238,0.23328929){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0.58121963,0.0895592){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.48839188,0.18272684){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.48994965,0.28305427){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.48994965,0.23548871){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=30]{2-NearY-EmbSup.pdf}}%
-    \put(0.90493106,0.72443535){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
-    \put(0.90493106,0.65861794){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
-    \put(0.4951535,0.79974226){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 535.2$ nm}\end{tabular}}}}%
+    \put(0.90484142,0.72653191){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.90484142,0.66072828){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.49514968,0.80182305){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 535.2$ nm}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=31]{2-NearY-EmbSup.pdf}}%
-    \put(0.58124148,0.48915142){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.48839429,0.58233857){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.48995238,0.68268702){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
-    \put(0.48995238,0.63511149){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0.58121963,0.49129726){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.48839188,0.58446489){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.48994965,0.68479233){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.48994965,0.63722676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=32]{2-NearY-EmbSup.pdf}}%
-    \put(0.98790005,0.21108207){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=33]{2-NearY-EmbSup.pdf}}%
-    \put(0.98617877,0.33400761){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=34]{2-NearY-EmbSup.pdf}}%
-    \put(0.98640998,0.45719007){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=35]{2-NearY-EmbSup.pdf}}%
-    \put(0.98619161,0.58019268){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=36]{2-NearY-EmbSup.pdf}}%
-    \put(0.98630722,0.7034265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=37]{2-NearY-EmbSup.pdf}}%
     \put(1.0013559,0.81827705){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\dfrac{\norm{\vb{E}^\text{ind}}}{\norm{\vb{E}^\text{i}}}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{2-NearY-EmbSup.pdf}}%
+    \put(0.98799985,0.19302321){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{2-NearY-EmbSup.pdf}}%
+    \put(0.9862785,0.29789385){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{2-NearY-EmbSup.pdf}}%
+    \put(0.98650983,0.40302537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{2-NearY-EmbSup.pdf}}%
+    \put(0.98629136,0.50797308){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{2-NearY-EmbSup.pdf}}%
+    \put(0.98640694,0.61316786){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{2-NearY-EmbSup.pdf}}%
+    \put(0.98625295,0.71804246){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{2-NearY-EmbSup.pdf}}%
   \end{picture}%
 \endgroup%

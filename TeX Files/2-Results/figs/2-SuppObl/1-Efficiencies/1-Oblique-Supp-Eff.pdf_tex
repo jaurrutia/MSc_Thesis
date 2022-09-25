@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '1-Oblique-Supp-Eff.pdf' (pdf, eps, ps)
 %%
@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%%
+%% 
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{361.1532806bp}%
+    \setlength{\unitlength}{337.29413467bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,104 +50,86 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.45281884)%
+  \begin{picture}(1,0.48111321)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.12588059,0.12495884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$15^\circ$\end{tabular}}}}%
+    \put(0.13478499,0.13379803){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$15^\circ$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.1991091,0.12495884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$38^\circ$\end{tabular}}}}%
+    \put(0.21319347,0.13379803){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$38^\circ$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.12613729,0.08452364){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$42^\circ$\end{tabular}}}}%
+    \put(0.13505985,0.09050257){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$42^\circ$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.19925781,0.08452364){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$75^\circ$\end{tabular}}}}%
-    \put(0.11086173,0.15959222){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
-    \put(0.20414154,0.15959222){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0.21335269,0.09050257){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$75^\circ$\end{tabular}}}}%
+    \put(0.13204521,0.17088127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0.23637053,0.17088127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.26609562,0.00553781){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.2849184,0.00592954){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.07513973,0.03758434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0.08045488,0.04024293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.1649857,0.03758434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0.17665627,0.04024293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.25483154,0.03758434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0.27285754,0.04024293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.34467738,0.03758434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 550\end{tabular}}}}%
+    \put(0.3690588,0.04024293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.43452334,0.03758422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0.46526019,0.04024281){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.06709792,0.14416777){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0.07184422,0.15436576){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.06702618,0.18787497){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0.07176741,0.20116466){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.06702618,0.28937206){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0.07176741,0.30984134){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.06716966,0.33307926){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0.07192103,0.35664025){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.06740296,0.43457634){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
+    \put(0.07217084,0.46531692){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.24578107,0.42171215){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\scriptsize 512.5 nm\end{tabular}}}}%
-    \put(0.34698164,0.41693283){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 535 nm\end{tabular}}}}%
+    \put(0.26316686,0.45154276){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}512.5 nm\end{tabular}}}}%
+    \put(0.37152606,0.44642537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.27777947,0.23698845){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\scriptsize 512.5 nm\end{tabular}}}}%
+    \put(0.29742872,0.25375228){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}512.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.25234691,0.37546026){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\scriptsize 510 nm\end{tabular}}}}%
+    \put(0.27019716,0.40201915){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}510 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.26489377,0.37615238){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 515 nm\end{tabular}}}}%
+    \put(0.39546981,0.42055886){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}515 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.17596272,0.22733092){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\scriptsize 509 nm\end{tabular}}}}%
-    \put(0.01661343,0.25525636){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0.18840978,0.2434116){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}509 nm\end{tabular}}}}%
+    \put(0.01778861,0.27331241){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.24995482,0.12373022){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.28736423,0.0821475){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\theta_i$\end{tabular}}}}%
-    \put(0.49190528,0.25519223){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{---} $Q_\text{sca} \times 10^2$\end{tabular}}}}}%
+    \put(0.26763585,0.1324825){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.30769149,0.08795835){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\theta_i$\end{tabular}}}}%
+    \put(0.51780682,0.27324375){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca} \times 10^2$\end{tabular}}}}}%
+    \put(0.78591431,0.00592954){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.74922119,0.19777456){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 522 nm\end{tabular}}}}%
+    \put(0.75401983,0.15356604){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}522 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.73603328,0.18313577){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\scriptsize 525 nm\end{tabular}}}}%
+    \put(0.78318006,0.37814375){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}527.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=24]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.90014633,0.37429208){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\scriptsize 543 nm\end{tabular}}}}%
+    \put(0.96368428,0.15340795){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}525 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=25]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.8533158,0.15577826){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 550 mn\end{tabular}}}}%
+    \put(0.9716739,0.45166739){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}543 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=26]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.79154325,0.34862915){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 540 nm\end{tabular}}}}%
+    \put(0.59883248,0.0374985){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=27]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.79526396,0.10578958){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 540 nm\end{tabular}}}}%
+    \put(0.69519448,0.0374985){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=28]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.5537938,0.03917459){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0.79111733,0.0374985){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=29]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.64264595,0.03917459){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0.88747926,0.0374985){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=30]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.73234808,0.03917459){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0.98392494,0.03749853){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=31]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.82205002,0.03917459){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 550\end{tabular}}}}%
+    \put(0.5739126,0.12505986){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=32]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.91245851,0.03917459){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0.5739126,0.2478969){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=33]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.54638446,0.12565626){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0.57307617,0.30079541){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=34]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.54638446,0.2467146){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0.57361974,0.42362278){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=35]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.54638446,0.29885556){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0.57374537,0.07216136){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=36]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.54638446,0.41991049){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=37]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.96076627,0.07304737){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-0.1\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=38]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.96041731,0.14739746){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=39]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.96004358,0.18133512){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=40]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.96004358,0.26838939){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=41]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.95928341,0.38060314){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=42]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.5466586,0.07351529){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
-    \put(0.74645397,0.00553781){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
-    \put(0.99446219,0.25519223){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{- - -} $Q_\text{sca}$\end{tabular}}}}}%
-    \put(0.85277183,0.13539052){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\scriptsize 543 nm\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=43]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.72289137,0.08668924){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\scriptsize 490 nm\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=44]{1-Oblique-Supp-Eff.pdf}}%
   \end{picture}%
 \endgroup%

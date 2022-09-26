@@ -54,8 +54,8 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-NearY-EmbSup.pdf}}%
-    \put(0.43398414,0.34513738){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.43398414,0.74695963){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.37451558,0.34513738){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.37451558,0.74695963){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.01784083,0.26509917){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2-NearY-EmbSup.pdf}}%
     \put(0.1124717,0.03935859){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
@@ -86,7 +86,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=15]{2-NearY-EmbSup.pdf}}%
     \put(0.05757677,0.41717542){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{2-NearY-EmbSup.pdf}}%
-    \put(0.36030771,0.43171618){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.4550611,0.41451379){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0.08556724,0.28086482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
     \put(0.09436602,0.39792024){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
     \put(0.25215842,0.00594694){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
@@ -113,7 +113,7 @@
     \put(0.33528338,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
     \put(0.40109303,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
     \put(0.2694631,0.88474026){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
-    \put(0.36030771,0.83353834){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.4550611,0.81633595){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0.08556724,0.68268702){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
     \put(0.08511264,0.79974243){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 535.2$ nm}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=26]{2-NearY-EmbSup.pdf}}%

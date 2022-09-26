@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '1-Normal-Eff.pdf' (pdf, eps, ps)
 %%
@@ -81,7 +81,7 @@
     \put(0.7302314,0.19976693){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}542.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{1-Normal-Eff.pdf}}%
     \put(0.77053997,0.0659605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522.5 nm\end{tabular}}}}%
-    \put(0.30916019,0.13908177){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^{-2}$\end{tabular}}}}}%
+    \put(0.30916019,0.13908177){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^{2}$\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{1-Normal-Eff.pdf}}%
     \put(0.7824379,0.34467588){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}532.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{1-Normal-Eff.pdf}}%
@@ -95,7 +95,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=17]{1-Normal-Eff.pdf}}%
     \put(0.35525069,0.32452744){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{1-Normal-Eff.pdf}}%
-    \put(0.35525751,0.34922362){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0.35525751,0.34922362){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{1-Normal-Eff.pdf}}%
     \put(0.80507132,0.33584201){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
     \put(0.30504932,0.31904666){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%

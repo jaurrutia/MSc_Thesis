@@ -61,7 +61,7 @@
 		\usepackage{wrapfig}                    			% to include figure with text wrapping around it
 
 	%--------------------- Color/equations -related stuff
-		\usepackage[dvipsnames]{xcolor}
+		\usepackage[dvipsnames,table]{xcolor}
 			% TLOZ: BOW color palette
 			\definecolor{bone}{RGB}{253,255,224}  	% bone
 			\definecolor{lgreen}{RGB}{146,197,130} 	% light green,

@@ -20,7 +20,7 @@
 %%   \import{<path to file>}{<filename>.pdf_tex}
 %% Alternatively, one can specify
 %%   \graphicspath{{<path to file>/}}
-%%
+%% 
 %% For more information, please see info/svg-inkscape on CTAN:
 %%   http://tug.ctan.org/tex-archive/info/svg-inkscape
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{364.10946883bp}%
+    \setlength{\unitlength}{364.31056873bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,76 +50,76 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.40231426)%
+  \begin{picture}(1,0.40209218)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.38280814,0.03028756){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
-    \put(0.5326941,0.03028756){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
-    \put(0.68258006,0.03028756){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
-    \put(0.83246602,0.03028756){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
-    \put(0.98235198,0.03028756){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
-    \put(0.68119342,0.00277042){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.38752578,0.03027084){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0.53732999,0.03027084){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0.68676619,0.03027084){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0.83657041,0.03027084){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0.98644473,0.03027084){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0.6808174,0.00276889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1-Normal-Eff.pdf}}%
-    \put(0.7888911,0.1220672){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}525 nm\end{tabular}}}}%
+    \put(0.78845563,0.12199982){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}525 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{1-Normal-Eff.pdf}}%
-    \put(0.73299186,0.06525917){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+    \put(0.73258724,0.06522314){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{1-Normal-Eff.pdf}}%
-    \put(0.83111679,0.14339348){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0.83065801,0.14331432){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{1-Normal-Eff.pdf}}%
-    \put(0.35515877,0.07147489){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0.35496272,0.07143543){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{1-Normal-Eff.pdf}}%
-    \put(0.35506979,0.10778075){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.35487379,0.10772126){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{1-Normal-Eff.pdf}}%
-    \put(0.35521216,0.13524509){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.35501609,0.13517044){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{1-Normal-Eff.pdf}}%
-    \put(0.35521216,0.16270943){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0.35501609,0.16261961){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{1-Normal-Eff.pdf}}%
-    \put(0.35521216,0.1990153){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0.35501609,0.19890545){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{1-Normal-Eff.pdf}}%
-    \put(0.75037671,0.1511323){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}540 nm\end{tabular}}}}%
+    \put(0.7499625,0.15104887){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}540 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{1-Normal-Eff.pdf}}%
-    \put(0.7302314,0.19976693){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}542.5 nm\end{tabular}}}}%
+    \put(0.72982832,0.19965666){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}542.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{1-Normal-Eff.pdf}}%
-    \put(0.77053997,0.0659605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522.5 nm\end{tabular}}}}%
-    \put(0.30916019,0.13908177){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^{2}$\end{tabular}}}}}%
+    \put(0.77011463,0.06592409){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522.5 nm\end{tabular}}}}%
+    \put(0.30898954,0.139005){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^{2}$\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{1-Normal-Eff.pdf}}%
-    \put(0.7824379,0.34467588){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}532.5 nm\end{tabular}}}}%
+    \put(0.782006,0.34448562){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}532.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{1-Normal-Eff.pdf}}%
-    \put(0.72808488,0.28560101){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510 nm\end{tabular}}}}%
+    \put(0.72768297,0.28544336){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{1-Normal-Eff.pdf}}%
-    \put(0.68517882,0.2912964){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}509 nm\end{tabular}}}}%
+    \put(0.68480061,0.29113561){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}509 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{1-Normal-Eff.pdf}}%
-    \put(0.35525069,0.24248851){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0.35505459,0.24235465){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{1-Normal-Eff.pdf}}%
-    \put(0.35525069,0.26718469){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0.35505459,0.2670372){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{1-Normal-Eff.pdf}}%
-    \put(0.35525069,0.32452744){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0.35505459,0.3243483){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{1-Normal-Eff.pdf}}%
-    \put(0.35525751,0.34922362){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0.35506141,0.34903085){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{1-Normal-Eff.pdf}}%
-    \put(0.80507132,0.33584201){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
-    \put(0.30504932,0.31904666){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0.80462692,0.33565662){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.30488093,0.31887054){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{1-Normal-Eff.pdf}}%
-    \put(-0.0007739,0.38625797){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize Embedded\end{tabular}}}}%
+    \put(-0.00077348,0.38604475){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Embedded\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{1-Normal-Eff.pdf}}%
-    \put(0.0656652,0.2984365){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.20541034,0.23023038){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.0656652,0.10893308){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.20541034,0.04072695){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(-0.0007739,0.36154013){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize External (EE)\end{tabular}}}}%
-    \put(0.15165279,0.38625797){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize Embedded\end{tabular}}}}%
-    \put(0.15165279,0.36154013){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize Internal (EI)\end{tabular}}}}%
-    \put(-0.0007739,0.19675454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize Supported\end{tabular}}}}%
-    \put(-0.0007739,0.1720367){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize External (SE)\end{tabular}}}}%
-    \put(0.15165279,0.19675454){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize Supported\end{tabular}}}}%
-    \put(0.15165279,0.1720367){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\footnotesize Internal (SI)\end{tabular}}}}%
+    \put(0.06562896,0.29827176){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.20529696,0.2301033){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.06562896,0.10887295){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.20529696,0.04070447){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(-0.00077348,0.36134056){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External (EE)\end{tabular}}}}%
+    \put(0.15156907,0.38604475){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Embedded\end{tabular}}}}%
+    \put(0.15156907,0.36134056){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Internal (EI)\end{tabular}}}}%
+    \put(-0.00077348,0.19664593){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Supported\end{tabular}}}}%
+    \put(-0.00077348,0.17194174){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External (SE)\end{tabular}}}}%
+    \put(0.15156907,0.19664593){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Supported\end{tabular}}}}%
+    \put(0.15156907,0.17194174){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Internal (SI)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{1-Normal-Eff.pdf}}%
-    \put(0.41385439,0.25815448){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EE\end{tabular}}}}%
+    \put(0.41362594,0.25801198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EE\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{1-Normal-Eff.pdf}}%
-    \put(0.49258003,0.25815448){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EI\end{tabular}}}}%
+    \put(0.49230812,0.25801198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EI\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=24]{1-Normal-Eff.pdf}}%
-    \put(0.567053,0.25815448){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SE\end{tabular}}}}%
+    \put(0.56673999,0.25801198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SE\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=25]{1-Normal-Eff.pdf}}%
-    \put(0.64577866,0.25815448){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SI\end{tabular}}}}%
+    \put(0.64542219,0.25801198){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SI\end{tabular}}}}%
   \end{picture}%
 \endgroup%

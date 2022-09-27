@@ -54,7 +54,6 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-NearYX-pPol.pdf}}%
-    \put(0.43141855,1.54653999){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.01773536,0.26352573){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2-NearYX-pPol.pdf}}%
     \put(0.1118068,0.03912531){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%

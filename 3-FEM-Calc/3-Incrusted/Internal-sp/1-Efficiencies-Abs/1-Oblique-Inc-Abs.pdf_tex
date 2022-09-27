@@ -1,0 +1,159 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '1-Oblique-Inc-Abs.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{322.46904397bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.93380906)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.29815246,0.00620214){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.01860642,0.28111232){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.35660556,0.6528379){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.36623757,0.60187818){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.77734792,0.00620214){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.1480751,0.89570799){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0.14581441,0.86233017){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.26745243,0.70153565){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}509 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.4307833,0.88887){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.12312485,0.62147515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.12316808,0.58782568){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.12323306,0.5541749){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.12327633,0.52052543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.20785978,0.65765175){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.20905319,0.62339424){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.20905319,0.58913673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.20905319,0.55487923){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.20905319,0.52062173){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-1.00\end{tabular}}}}%
+    \put(0.13777661,0.65753215){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$h/a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.05011852,0.56113339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.05011852,0.72361361){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.04933352,0.79359005){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.69699369,0.68707438){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}509 nm \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.97921204,0.90382854){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}535 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.55915438,0.51863524){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.55915438,0.68107299){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.55915884,0.75103111){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.55915884,0.89486243){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}4.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.41769129,0.17359486){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}509 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.5033694,0.44785213){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}535 mn\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.08548647,0.03887515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.18577576,0.03887515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.28606504,0.03887515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.38635433,0.03887515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.48664409,0.03887525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.08082832,0.18797352){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.08083302,0.25674805){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.08083302,0.41643748){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.08083302,0.48521197){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.51735782,0.17661998){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.05\end{tabular}}}}%
+    \put(0.51719639,0.23757913){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.10\end{tabular}}}}%
+    \put(0.51719639,0.37912215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.50\end{tabular}}}}%
+    \put(0.51606577,0.44008137){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.00\end{tabular}}}}%
+    \put(0.01860642,0.71930742){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.6567446,0.59524401){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.66255353,0.65283793){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.17319621,0.14997952){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.17591898,0.21147761){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.75365987,0.43114672){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}509 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.56313064,0.03781895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.66434371,0.03781895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.76555681,0.03781895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.86676965,0.03781895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.96798328,0.03781899){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.65718687,0.15703941){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{1-Oblique-Inc-Abs.pdf}}%
+    \put(0.66359139,0.21284008){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

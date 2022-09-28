@@ -1,34 +1,34 @@
 % !TeX root = ../tesis.tex
 
 
-\begin{figure}[b!]
-    \hspace*{-21em}%
-    \vspace*{-1.25em}%
-        \begin{subfigure}{.715\textwidth}\caption{ }\label{sfig:IncNormal:1}\end{subfigure}%
-        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:IncNormal:2}\end{subfigure} \\
+\begin{figure}[b!]\small \centering
+    \hspace*{-.675\textwidth}%
+        \begin{subfigure}{.735\textwidth}\caption{ }\label{sfig:Inc:Abs:15}\end{subfigure}%
+        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:Inc:Abs:38}\end{subfigure} \\[17em]
+    \hspace*{-.675\textwidth}%
+        \begin{subfigure}{.735\textwidth}\caption{ }\label{sfig:Inc:Abs:42}\end{subfigure}%
+        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:Inc:Abs:75}\end{subfigure} \\[-19.9em]
     \def\svgwidth{.95\textwidth}
-    \small
-    \centering
     \includeinkscape{4-Inc-Obl/1-Efficiencies/1-Oblique-Inc-Abs}%
     \vspace*{0em}
     \caption[Absorption and Scattering Efficiencies of a 12.5 nm AuNP above and below a planar Interface Illuminated at Normal Incidence]{\textbf{a)}
     }
-\label{fig:IncNormal}
+\label{fig:Inc:Abs}
 \end{figure}
 
-\begin{figure}[b!]
-    \hspace*{-21em}%
-    \vspace*{-1.25em}%
-        \begin{subfigure}{.715\textwidth}\caption{ }\label{sfig:IncNormal:1}\end{subfigure}%
-        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:IncNormal:2}\end{subfigure} \\
+\begin{figure}[b!]\small \centering
+    \hspace*{-.675\textwidth}%
+        \begin{subfigure}{.735\textwidth}\caption{ }\label{sfig:Inc:Sca:15}\end{subfigure}%
+        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:Inc:Sca:38}\end{subfigure} \\[17em]
+    \hspace*{-.675\textwidth}%
+        \begin{subfigure}{.735\textwidth}\caption{ }\label{sfig:Inc:Sca:42}\end{subfigure}%
+        \begin{subfigure}{.25\textwidth}\caption{ }\label{sfig:Inc:Sca:75}\end{subfigure} \\[-19.9em]
     \def\svgwidth{.95\textwidth}
-    \small
-    \centering
     \includeinkscape{4-Inc-Obl/1-Efficiencies/2-Oblique-Inc-Sca}%
     \vspace*{0em}
     \caption[Absorption and Scattering Efficiencies of a 12.5 nm AuNP above and below a planar Interface Illuminated at Normal Incidence]{\textbf{a)}
     }
-\label{fig:IncNormal}
+\label{fig:Inc:Sca}
 \end{figure}
 
 
@@ -37,6 +37,94 @@
 % \usepackage{multirow}
 \begin{table}[]\footnotesize\centering
     \caption{Local definitions for COMSOL simulation: Component/Definitions/Variables. The below variables are locally defined in the subvolume \lstinline!Physical incidence side!. }
-    \label{tab:Incident-parameters}
+    \label{tab:Resonances}
     \input{2-Results/5-1-WLengthTab}
 \end{table}
+
+
+
+\begin{figure}[h!]
+    \centering
+    \def\svgwidth{.8\textwidth}
+    \hspace*{-.2\textwidth}%
+    \vspace*{-3.85em}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:s:a}\end{subfigure}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:s:b}\end{subfigure}\\
+    \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/4-FarXY-S/4-5-Far-XY-S-42}\\[-.75em]
+    %
+    \def\svgwidth{.8\textwidth}
+    \hspace*{-.21\textwidth}%
+    \vspace*{-.85em}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:s:c}\end{subfigure}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:s:d}\end{subfigure}\\
+    \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/4-FarXY-S/4-5-Far-XY-S-75}%
+    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm embedded in an air matrix ($n_\text{m} = 1$) and supported on  substrate (light blue, $n_\text{s} = 1.5$) illuminated by an electric plane wave of  wavelength $\lambda$ traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of $15^\circ$ (black),  $38^\circ$ (orange),  $42^\circ$ (blue) and  $75^\circ$ (light orange) relative to the normal direction to the interface between the matrix and the substrate. The radiation patterns consider a \textbf{a,b)} $s$ polarized and  a \textbf{c,d}) $p$ polarized incident electric field and the scattering plane \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.    }
+    \label{fig:Far:Inc:s}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \def\svgwidth{.8\textwidth}
+    \hspace*{-.2\textwidth}%
+    \vspace*{-3.65em}%
+        \begin{subfigure}{.375\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p1:a}\end{subfigure}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p1:b}\end{subfigure}\\
+    \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/5-FarXY-P/4-5-Far-XY-P-15}\\[-.75em]
+    %
+    \def\svgwidth{.8\textwidth}
+    \hspace*{-.21\textwidth}%
+    \vspace*{-.7em}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p1:c}\end{subfigure}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p1:d}\end{subfigure}\\
+    \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/5-FarXY-P/4-5-Far-XY-P-38}%
+    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm embedded in an air matrix ($n_\text{m} = 1$) and supported on  substrate (light blue, $n_\text{s} = 1.5$) illuminated by an electric plane wave of  wavelength $\lambda$ traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of $15^\circ$ (black),  $38^\circ$ (orange),  $42^\circ$ (blue) and  $75^\circ$ (light orange) relative to the normal direction to the interface between the matrix and the substrate. The radiation patterns consider a \textbf{a,b)} $s$ polarized and  a \textbf{c,d}) $p$ polarized incident electric field and the scattering plane \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.    }
+    \label{fig:Far:Inc:p1}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \def\svgwidth{.8\textwidth}
+    \hspace*{-.2\textwidth}%
+    \vspace*{-3.65em}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p2:a}\end{subfigure}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p2:b}\end{subfigure}\\
+    \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/5-FarXY-P/4-5-Far-XY-P-42}\\[-.75em]
+    %
+    \def\svgwidth{.8\textwidth}
+    \hspace*{-.21\textwidth}%
+    \vspace*{-.7em}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p2:c}\end{subfigure}%
+        \begin{subfigure}{.4\textwidth}\caption{%
+                    \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p2:d}\end{subfigure}\\
+    \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/5-FarXY-P/4-5-Far-XY-P-75}%
+    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm embedded in an air matrix ($n_\text{m} = 1$) and supported on  substrate (light blue, $n_\text{s} = 1.5$) illuminated by an electric plane wave of  wavelength $\lambda$ traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of $15^\circ$ (black),  $38^\circ$ (orange),  $42^\circ$ (blue) and  $75^\circ$ (light orange) relative to the normal direction to the interface between the matrix and the substrate. The radiation patterns consider a \textbf{a,b)} $s$ polarized and  a \textbf{c,d}) $p$ polarized incident electric field and the scattering plane \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.    }
+    \label{fig:Far:Inc:p2}
+\end{figure}
+
+\begin{figure}[h!]\centering
+   \def\svgwidth{.75\textwidth}
+   \footnotesize
+   \captionsetup[subfigure]{labelfont ={normal,bf,color = white}}
+   \includeinkscape{4-Inc-Obl/2-Near-SP/2-NearYX-SP-42}\\[-32.6em]
+   \hspace*{-.25\textwidth}
+       \begin{subfigure}{.25\textwidth}\textcolor{red}{\caption{ } \label{sfig:Near:Inc0:42:s1}}\end{subfigure}%
+       \begin{subfigure}{.34\textwidth}\caption{ }\label{sfig:Near:Inc0:42:s2}\end{subfigure}\\[13em]
+    \hspace*{-.25\textwidth}
+       \begin{subfigure}{.25\textwidth}\textcolor{red}{\caption{ } \label{sfig:Near:Inc0:42:p1}}\end{subfigure}%
+       \begin{subfigure}{.34\textwidth}\caption{ }\label{sfig:Near:Inc0:42:p2}\end{subfigure}\\[15em]
+   \caption[Induced Electric Field of a 12.5 nm Au NP on substrate illuminated at oblique incidence with a $s$ polarized electric field]{Induced electric field $\vb{E}^\text{ind}$ of a 12.5 nm AuNP (dashed black lines) embedded in an air  ($n_\text{m} = 1$)  matrix and supported on a glass substrate ($n_\text{s} = 1.5$) illuminated in an internal configuration at an angle of incidence $\theta_i = 42^\circ$, relative to the interface ---white dashed lines--- between the two media, by a $s$ polarized electric plane wave at with a wavelength $\lambda = 510$ nm ---resonance of the absorption efficiency---.  The norm $\norm{\vb{E}^\text{ind}}$ is evaluated at  \textbf{a)} a scattering plane perpendicular to the incidence plane (vertical gray dotted lines) and at \textbf{b)} a scattering plane equal to the incidence plane. }
+   \label{fig:Near:Inc0:42}
+ \end{figure}

@@ -74,7 +74,7 @@
     \put(0.53028862,0.16738838){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{4-5-Far-XY-P-15.pdf}}%
     \put(0.73042821,0.07069257){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\tiny$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.66776067,0.11475163){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\tiny$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.73161572,0.21064605){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\tiny$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{4-5-Far-XY-P-15.pdf}}%
     \put(0.53025667,0.40126174){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
     \put(0.53101815,0.36633714){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
@@ -125,9 +125,9 @@
     \put(0.04572894,0.26383554){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
     \put(0.04584063,0.22891094){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{4-5-Far-XY-P-15.pdf}}%
-    \put(0.08901359,0.32673558){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\tiny$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.08901359,0.3880479){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\tiny$\vb{k}^\text{i}$}\end{tabular}}}}%
-    \put(0.08901359,0.36122791){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\tiny$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=15]{4-5-Far-XY-P-15.pdf}}%
+    \put(0.11107423,0.31451442){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\tiny$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.11107423,0.37582674){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\tiny$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.11107423,0.34155158){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\tiny$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0.12344752,0.39750805){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\tiny$\theta_i = 15^\circ$}\end{tabular}}}}%
   \end{picture}%
 \endgroup%

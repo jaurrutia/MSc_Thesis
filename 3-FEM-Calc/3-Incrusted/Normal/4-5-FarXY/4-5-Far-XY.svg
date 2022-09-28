@@ -27,15 +27,15 @@
      fit-margin-left="0.2"
      fit-margin-right="0.2"
      fit-margin-bottom="0.3"
-     inkscape:zoom="1.5906308"
-     inkscape:cx="306.48219"
-     inkscape:cy="145.22541"
+     inkscape:zoom="1.1247458"
+     inkscape:cx="476.10757"
+     inkscape:cy="92.465335"
      inkscape:window-width="1890"
      inkscape:window-height="1042"
      inkscape:window-x="0"
      inkscape:window-y="38"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2512-2"
+     inkscape:current-layer="svg5"
      width="102.05864mm"
      inkscape:showpageshadow="0"
      inkscape:deskcolor="#d1d1d1"
@@ -4893,7 +4893,7 @@
          id="tspan29107"
          x="4.0047894"
          y="16.550039"
-         style="stroke-width:0.352778">540 nm</tspan></text><g
+         style="stroke-width:0.352778">515 nm</tspan></text><g
        id="g10865"
        transform="translate(-171.18909,1.4308839)"><g
          id="g9535"
@@ -4912,10 +4912,10 @@
            transform="translate(13.608,26.973125)"
            style="font-variant:normal;font-size:9.36px;font-family:CairoFont-0;-inkscape-font-specification:CairoFont-0-0;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            id="text9551"><tspan
-             x="0 5.95296 8.9200802 14.87304"
+             x="0 5.95296 8.9200802"
              y="0"
              sodipodi:role="line"
-             id="tspan9549">0.75</tspan></text></g></g></g><g
+             id="tspan9549">0.7</tspan></text></g></g></g><g
      id="g16321"
      transform="translate(11.055498,-6.0753248)"><text
        xml:space="preserve"
@@ -4927,7 +4927,7 @@
          id="tspan29042-1"
          x="27.888969"
          y="16.541784"
-         style="stroke-width:0.352778">537.5 nm</tspan></text><g
+         style="stroke-width:0.352778">520 nm</tspan></text><g
        id="g11054"
        transform="translate(-147.43101,-3.7411888)"><g
          id="g9553"
@@ -4961,7 +4961,7 @@
          id="tspan29038-1"
          x="51.660263"
          y="16.548389"
-         style="stroke-width:0.352778">535 nm</tspan></text><g
+         style="stroke-width:0.352778">522.5 nm</tspan></text><g
        id="g11248"
        transform="translate(-123.6465,-8.9501236)"><g
          id="g9571"
@@ -5006,7 +5006,7 @@
          id="tspan29042"
          x="75.431557"
          y="16.541784"
-         style="stroke-width:0.352778">537.5 nm</tspan></text><g
+         style="stroke-width:0.352778">525 nm</tspan></text><g
        id="g11437"
        transform="translate(-99.879765,-14.126609)"><g
          id="g9607"
@@ -5040,7 +5040,7 @@
          id="tspan29038"
          x="99.202858"
          y="16.548389"
-         style="stroke-width:0.352778">535 nm</tspan></text><g
+         style="stroke-width:0.352778">527.5 nm</tspan></text><g
        id="g12346"
        transform="translate(-75.761315,-19.298153)"><g
          id="g9625"
@@ -5110,7 +5110,7 @@
          id="tspan29030"
          x="149.46234"
          y="-8.8327723"
-         style="stroke-width:0.352778">525 nm</tspan></text><g
+         style="stroke-width:0.352778">530 nm</tspan></text><g
        id="g12727"
        transform="translate(-28.269104,-29.641418)"><g
          id="g9669"

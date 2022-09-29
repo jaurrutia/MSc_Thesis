@@ -11,8 +11,10 @@
     \def\svgwidth{.95\textwidth}
     \includeinkscape{4-Inc-Obl/1-Efficiencies/1-Oblique-Inc-Abs}%
     \vspace*{0em}
-    \caption[Absorption and Scattering Efficiencies of a 12.5 nm AuNP above and below a planar Interface Illuminated at Normal Incidence]{\textbf{a)}
-    }
+    \caption[Absorption Efficiency of a partially embedded 12.5 nm AuNP into a substrate Illuminated in an internal configuration at oblique incidence]{%
+    Absorption efficiency of a $12.5$ nm AuNP partially embedded in a glass substrate ($n_\text{s} = 1.5$) with an air matrix ($n_\text{m} = 1$) as function of the wavelength $\lambda$ of an \textit{s} (filled circle/solid lines) and a \textit{p} (empty circle/dashed lines) polarized incident electric plane wave propagating in the direction of the wave vector $\vb{k}^\text{i}$, in an internal configuration, at an angle of incidence $\theta_i$ of \textbf{a)} $15^\circ$, \textbf{b)} $38^\circ$, \textbf{c)} $42^\circ$ and \textbf{d)} $75^\circ$  relative to the normal direction to the glass-air interface. The green shaded region shows the two Mie-limiting cases of a AuNP embedded in air
+and in glass; the magenta (partially embedded AuNP) and red (Mie-limiting) markers corresponds to the efficiencies evaluated at the wavelength of resonance for each case; the gray (gray dashed) line is a guide to the eye for the \textit{s} (\textit{p}) polarization case.
+}
 \label{fig:Inc:Abs}
 \end{figure}
 
@@ -26,17 +28,17 @@
     \def\svgwidth{.95\textwidth}
     \includeinkscape{4-Inc-Obl/1-Efficiencies/2-Oblique-Inc-Sca}%
     \vspace*{0em}
-    \caption[Absorption and Scattering Efficiencies of a 12.5 nm AuNP above and below a planar Interface Illuminated at Normal Incidence]{\textbf{a)}
-    }
+    \caption[Scattering Efficiency of a partially embedded 12.5 nm AuNP into a substrate Illuminated in an internal configuration at oblique incidence]{%
+    Scattering efficiency of a $12.5$ nm AuNP partially embedded in a glass substrate ($n_\text{s} = 1.5$) with an air matrix ($n_\text{m} = 1$) as function of the wavelength $\lambda$ of an \textit{s} (filled circle/solid lines) and a \textit{p} (empty circle/dashed lines) polarized incident electric plane wave propagating in the direction of the wave vector $\vb{k}^\text{i}$, in an internal configuration, at an angle of incidence $\theta_i$ of \textbf{a)} $15^\circ$, \textbf{b)} $38^\circ$, \textbf{c)} $42^\circ$ and \textbf{d)} $75^\circ$  relative to the normal direction to the glass-air interface. The green shaded region shows the two Mie-limiting cases of a AuNP embedded in air
+and in glass; the magenta (partially embedded AuNP) and red (Mie-limiting) markers corresponds to the efficiencies evaluated at the wavelength of resonance for each case; the gray (gray dashed) line is a guide to the eye for the \textit{s} (\textit{p}) polarization case.
+}
 \label{fig:Inc:Sca}
 \end{figure}
 
 
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-\begin{table}[]\footnotesize\centering
-    \caption{Local definitions for COMSOL simulation: Component/Definitions/Variables. The below variables are locally defined in the subvolume \lstinline!Physical incidence side!. }
+\begin{table}[h!]\footnotesize\centering
+    \caption{Wavelength of resonance for the absorption $\lambda_\text{res}^\text{abs}$ and the scattering $\lambda_\text{res}^\text{sca}$ efficiencies of a partially embedded 12.5 nm AuNP with a glass substrate ($n_\text{s} = 1.5$) and an air matrix ($n_\text{m} = 1$)    illuminated by an \textit{s} and a \textit{p} polarized electric plane wave traveling to the glass-air interface at an incidence angle of $15^\circ$,  $38^\circ$,  $42^\circ$ and  $75^\circ$ for several incrustation degrees $h/a$ with $h$ the distance between the AuNP and its radius $a$. The values in this table correspond to the magenta markers in Figs. \ref{fig:Inc:Abs} and \ref{fig:Inc:Sca} while the saturation of the cell colors are a guide to the eye.}
     \label{tab:Resonances}
     \input{2-Results/5-1-WLengthTab}
 \end{table}
@@ -62,7 +64,9 @@
         \begin{subfigure}{.4\textwidth}\caption{%
                     \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:s:d}\end{subfigure}\\
     \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/4-FarXY-S/4-5-Far-XY-S-75}%
-    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm embedded in an air matrix ($n_\text{m} = 1$) and supported on  substrate (light blue, $n_\text{s} = 1.5$) illuminated by an electric plane wave of  wavelength $\lambda$ traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of $15^\circ$ (black),  $38^\circ$ (orange),  $42^\circ$ (blue) and  $75^\circ$ (light orange) relative to the normal direction to the interface between the matrix and the substrate. The radiation patterns consider a \textbf{a,b)} $s$ polarized and  a \textbf{c,d}) $p$ polarized incident electric field and the scattering plane \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.    }
+    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{%
+    Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm partially embedded in a glass substrate (light blue, $n_\text{s} = 1.5$) with an air matrix ($n_\text{m} = 1$) illuminated by an \textit{s} polarized incident electric plane wave $\vb{E}^\text{i}$, with a wavelength $\lambda$, traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of \textbf{a,b)} $42^\circ$ and \textbf{c,d)} $75^\circ$ relative to the normal direction to the glass-air interface. The radiation patterns consider various incrustation degrees $h/a$, with $a$ the AuNP's radius and $h$ the distance between its center and the interface, and an  incident electric field \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.%
+     }
     \label{fig:Far:Inc:s}
 \end{figure}
 
@@ -86,7 +90,9 @@
         \begin{subfigure}{.4\textwidth}\caption{%
                     \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p1:d}\end{subfigure}\\
     \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/5-FarXY-P/4-5-Far-XY-P-38}%
-    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm embedded in an air matrix ($n_\text{m} = 1$) and supported on  substrate (light blue, $n_\text{s} = 1.5$) illuminated by an electric plane wave of  wavelength $\lambda$ traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of $15^\circ$ (black),  $38^\circ$ (orange),  $42^\circ$ (blue) and  $75^\circ$ (light orange) relative to the normal direction to the interface between the matrix and the substrate. The radiation patterns consider a \textbf{a,b)} $s$ polarized and  a \textbf{c,d}) $p$ polarized incident electric field and the scattering plane \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.    }
+    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{
+    Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm partially embedded in a glass substrate (light blue, $n_\text{s} = 1.5$) with an air matrix ($n_\text{m} = 1$) illuminated by an \textit{p} polarized incident electric plane wave $\vb{E}^\text{i}$, with a wavelength $\lambda$, traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of \textbf{a,b)} $15^\circ$ and \textbf{c,d)} $38^\circ$ relative to the normal direction to the glass-air interface. The radiation patterns consider various incrustation degrees $h/a$, with $a$ the AuNP's radius and $h$ the distance between its center and the interface, and an  incident electric field \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.%
+    }
     \label{fig:Far:Inc:p1}
 \end{figure}
 
@@ -110,7 +116,9 @@
         \begin{subfigure}{.4\textwidth}\caption{%
                     \footnotesize$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \times 10^{-9}$  }\label{sfig:Far:Inc:p2:d}\end{subfigure}\\
     \includeinkscape[pretex = \footnotesize]{4-Inc-Obl/5-FarXY-P/4-5-Far-XY-P-75}%
-    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm embedded in an air matrix ($n_\text{m} = 1$) and supported on  substrate (light blue, $n_\text{s} = 1.5$) illuminated by an electric plane wave of  wavelength $\lambda$ traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of $15^\circ$ (black),  $38^\circ$ (orange),  $42^\circ$ (blue) and  $75^\circ$ (light orange) relative to the normal direction to the interface between the matrix and the substrate. The radiation patterns consider a \textbf{a,b)} $s$ polarized and  a \textbf{c,d}) $p$ polarized incident electric field and the scattering plane \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.    }
+    \caption[  Radiation pattern of a AuNP supported on a substrate illuminated at oblique incidence ]{
+    Radiation pattern of a AuNP (light yellow) of radius $a = 12.5$ nm partially embedded in a glass substrate (light blue, $n_\text{s} = 1.5$) with an air matrix ($n_\text{m} = 1$) illuminated by an \textit{p} polarized incident electric plane wave $\vb{E}^\text{i}$, with a wavelength $\lambda$, traveling in the $\vb{k}^\text{i}$ direction at an angle of incidence $\theta_i$ of \textbf{a,b)} $42^\circ$ and \textbf{c,d)} $75^\circ$ relative to the normal direction to the glass-air interface. The radiation patterns consider various incrustation degrees $h/a$, with $a$ the AuNP's radius and $h$ the distance between its center and the interface, and an  incident electric field \textbf{a,c)} perpendicular to the incidence plane (vertical gray dotted lines) and \textbf{b,d)} equal to the incidence plane. In all cases the incident wave vector $\vb{k}^\text{i}$, the perpendicular $\vb{E}_\perp^\text{i}$ and the  parallel $\vb{E}_\parallel^\text{i}$ projection of the incident electric field relative to the scattering plane are schematized.%
+    }
     \label{fig:Far:Inc:p2}
 \end{figure}
 
@@ -125,6 +133,7 @@
     \hspace*{-.25\textwidth}
        \begin{subfigure}{.25\textwidth}\textcolor{red}{\caption{ } \label{sfig:Near:Inc0:42:p1}}\end{subfigure}%
        \begin{subfigure}{.34\textwidth}\caption{ }\label{sfig:Near:Inc0:42:p2}\end{subfigure}\\[15em]
-   \caption[Induced Electric Field of a 12.5 nm Au NP on substrate illuminated at oblique incidence with a $s$ polarized electric field]{Induced electric field $\vb{E}^\text{ind}$ of a 12.5 nm AuNP (dashed black lines) embedded in an air  ($n_\text{m} = 1$)  matrix and supported on a glass substrate ($n_\text{s} = 1.5$) illuminated in an internal configuration at an angle of incidence $\theta_i = 42^\circ$, relative to the interface ---white dashed lines--- between the two media, by a $s$ polarized electric plane wave at with a wavelength $\lambda = 510$ nm ---resonance of the absorption efficiency---.  The norm $\norm{\vb{E}^\text{ind}}$ is evaluated at  \textbf{a)} a scattering plane perpendicular to the incidence plane (vertical gray dotted lines) and at \textbf{b)} a scattering plane equal to the incidence plane. }
+   \caption[Induced Electric Field of a 12.5 nm Au NP on substrate illuminated at oblique incidence with a $s$ polarized electric field]{%
+   Electric field $\vb{E}^\text{ind}$ induced by a partially embedded 12.5 nm AuNP (dashed black lines) illuminated by an \textbf{a,b)} $s$ polarized and  by a \textbf{c,d)} \textit{p} polarized incident electric plane wave $\vb{E}^\text{i}$ traveling in the $\vb{k}^\text{i}$ direction, in an internal configuration, at an angle of incidence of  $42^\circ$ relative to the normal direction to the interface ---white dashed lines--- between an air matrix ($n_\text{m} = 1$) and a glass substrate ($n_\text{s} = 1.5$). The incident electric plane wave is evaluated at $\lambda = 525$ nm and the norm $\norm{\vb{E}^\text{ind}}$ is evaluated at  \textbf{a,c)} a scattering plane perpendicular to the incidence plane (vertical gray dotted lines) and at \textbf{b,d)} a scattering plane overlapping the incidence plane. }
    \label{fig:Near:Inc0:42}
  \end{figure}

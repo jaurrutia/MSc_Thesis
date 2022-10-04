@@ -141,7 +141,7 @@
     \put(0.52841173,0.15357123){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.08615928,0.28404927){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
     \put(0.08570499,0.40102526){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
-    \put(0.49546758,0.40102521){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 512.5$ nm}\end{tabular}}}}%
+    \put(0.49546758,0.40102521){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 510$ nm}\end{tabular}}}}%
     \put(0.49026999,0.28404927){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
     \put(0.49026999,0.23650603){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
     \put(0.08615928,0.23650603){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%

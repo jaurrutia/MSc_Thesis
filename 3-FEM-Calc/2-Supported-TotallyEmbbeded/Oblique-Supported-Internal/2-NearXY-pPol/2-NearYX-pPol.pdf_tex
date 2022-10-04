@@ -166,7 +166,7 @@
     \put(0.05723639,1.21615075){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=35]{2-NearYX-pPol.pdf}}%
     \put(0.08506139,1.08064602){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
-    \put(0.08460948,1.19700941){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 515$ nm}\end{tabular}}}}%
+    \put(0.08460948,1.19700941){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 512.5$ nm}\end{tabular}}}}%
     \put(0.08506139,1.03335174){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=36]{2-NearYX-pPol.pdf}}%
     \put(0.89949222,0.99340247){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
@@ -175,7 +175,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=37]{2-NearYX-pPol.pdf}}%
     \put(0.89949222,1.12423174){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
     \put(0.89949222,1.05881711){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
-    \put(0.4922225,1.19907789){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 515$ nm}\end{tabular}}}}%
+    \put(0.4922225,1.19907789){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 512.5$ nm}\end{tabular}}}}%
     \put(0.5659603,0.89629949){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0.54462166,0.98891632){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.84700989,1.08273887){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{Air}\end{tabular}}}}%

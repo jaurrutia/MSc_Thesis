@@ -86,14 +86,13 @@
     \put(0,0){\includegraphics[width=\unitlength,page=15]{1-Oblique-Supp-Eff.pdf}}%
     \put(0.07217084,0.46531692){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.26316686,0.45154276){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}512.5 nm\end{tabular}}}}%
-    \put(0.37152606,0.44642537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.26316686,0.45154276){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}535 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.29742872,0.25375228){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}512.5 nm\end{tabular}}}}%
+    \put(0.29742872,0.25375228){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}510 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{1-Oblique-Supp-Eff.pdf}}%
     \put(0.27019716,0.40201915){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}510 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{1-Oblique-Supp-Eff.pdf}}%
-    \put(0.39546981,0.42055886){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}515 nm\end{tabular}}}}%
+    \put(0.38657549,0.42055886){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}512.5 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{1-Oblique-Supp-Eff.pdf}}%
     \put(0.18840978,0.2434116){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}509 nm\end{tabular}}}}%
     \put(0.01778861,0.27331241){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%

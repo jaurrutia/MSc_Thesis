@@ -111,7 +111,7 @@
     \put(0.03537605,0.36929669){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.2\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{4-5-Far-XY-S.pdf}}%
     \put(0.91685877,0.07742668){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$75^\circ$\end{tabular}}}}%
-    \put(0.8952305,0.04863373){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}512.5 nm\end{tabular}}}}%
+    \put(0.8952305,0.04863373){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{4-5-Far-XY-S.pdf}}%
     \put(0.94086954,0.36027108){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\theta_i,\,\lambda$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{4-5-Far-XY-S.pdf}}%

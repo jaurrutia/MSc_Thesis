@@ -43,6 +43,7 @@
 \makeindex[intoc]
 \usepackage{tocloft}
 
+
 \setlength\cftparskip{.6em}
 \setlength\cftbeforechapskip{0pt}
 	%---------------------- Figurbackref change legend latex bibtexes ----------------------------
@@ -308,7 +309,9 @@
 		\addtolength{\headheight}{0.5pt}
 		\fancypagestyle{plain}{
 			  \fancyhead{}
-			  \renewcommand{\headrulewidth}{0pt} }
+			  \renewcommand{\headrulewidth}{0pt}
+              %\cofeAm{1}{1}{90}{5.5cm}{5.5cm}   % ------------------------------------------------------ Coffee Stain
+               }
 
 		\setlength{\skip\footins}{.5cm} 			% gap between text and footer
 
@@ -440,6 +443,7 @@
 \ifposgrado
     \begin{alwayssingle}
     \thispagestyle{empty}
+    \cofeAm{.7}{1}{90}{5.5cm}{5.5cm}   % ----------------------------------------------------- Coffee-Stain
 	\begin{center}
 	\Large \vspace{-2em}
 	    \includegraphics[height=5cm]{Latex/Classes/Escudos/UNAM_crest_blue}\\[1em]

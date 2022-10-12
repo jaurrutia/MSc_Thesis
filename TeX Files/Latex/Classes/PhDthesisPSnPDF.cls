@@ -443,7 +443,7 @@
 \ifposgrado
     \begin{alwayssingle}
     \thispagestyle{empty}
-    \cofeAm{.7}{1}{90}{5.5cm}{5.5cm}   % ----------------------------------------------------- Coffee-Stain
+%    \cofeAm{.7}{1}{90}{5.5cm}{5.5cm}   % ----------------------------------------------------- Coffee-Stain
 	\begin{center}
 	\Large \vspace{-2em}
 	    \includegraphics[height=5cm]{Latex/Classes/Escudos/UNAM_crest_blue}\\[1em]

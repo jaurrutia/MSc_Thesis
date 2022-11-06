@@ -8,20 +8,38 @@
 % content in this file will be fed into the main document
 
 
-Optical metasurfaces are bidimensional arrays of metal/dielectric nanostructures ---known as meta-atoms--- specifically tailored to behave in a way no found in nature when illuminated at a specific wavelength range in the visible light regime \cite{khan_optical_2022,gonzalez-alcalde_large_2020}. Depending on the physical properties of the meta-atoms, that is, their size, shape, orientation and spatial distribution within the bidimensional array \cite{kim_plasmonic_2019,khan_optical_2022}, a metasurface  allows to shape at will the  spatial optical response of the system \cite{chen_review_2016}, thus suiting them for a variety of applications in fields as Spectroscopy \cite{khan_optical_2022}, Sensing\cite{estevez_trends_2014,jain_noble_2008,khan_optical_2022,chen_review_2016,kim_plasmonic_2019}, Color Structuration \cite{gonzalez-alcalde_large_2020} and Communications \cite{chen_review_2016}. In particular, Nanoplasmonics is the field  that studies the electromagnetic properties of metallic meta-atoms, which have been highly employed in Biosensing and Bioimaging due to their strong optical response compared to that of organic dyes typically used \cite{kim_plasmonic_2019}.
+Optical metasurfaces are bidimensional arrays of metallic/dielectric nanostructures ---known as meta-atoms--- specifically tailored to behave in a way no found in nature when illuminated at a specific wavelength in the visible light regime \cite{khan_optical_2022,gonzalez-alcalde_large_2020}. Depending on the physical properties of the meta-atoms, that is, their material, size, shape, and orientation and distribution within the bidimensional array \cite{kim_plasmonic_2019,khan_optical_2022}, a metasurface  allows to shape at will the  spatial optical response of the system \cite{chen_review_2016}, thus suiting them for a variety of applications in fields such as Spectroscopy \cite{khan_optical_2022}, Color Structuration \cite{gonzalez-alcalde_large_2020} Communications \cite{chen_review_2016} and Sensing \cite{estevez_trends_2014,jain_noble_2008,khan_optical_2022,chen_review_2016,kim_plasmonic_2019}. In the last decades, the interest of optical metasurfaces in medical disciplines has increase due to  the need for sensitive, fast, low-cost and easy-to-use technologies \cite{estevez_trends_2014,kim_plasmonic_2019}, like metasurfaces with plasmonic (metallic) meta-atoms used as contrasting agents for Bioimaging  \cite{kim_plasmonic_2019} and as free-label biosensors returning real-time measurements \cite{estevez_trends_2014,kabashin_plasmonic_2009,khan_optical_2022}.
+
+Metasurfaces designed for biosensing typically consist of a nanostructurated substrate with compatible microfluidics illuminated with a white light source and a light recollection system, allowing for scattering or extinction measurements, followed by an spectrometer \cite{estevez_trends_2014,feuz_improving_2010}. One particular kind of  biosensing-amied metasurfaces consist in plasmonic meta-atoms, which are employed since light can be confined at nanometric scales, yielding an improvement in the sensitivity of various detection techniques \cite{khan_optical_2022}. The light confinement is the result of the meta-atom's Localized Surface Plasmon Resonance (LSPR) being excited at the meta-atom's interface with its surroundings, which occurs when the electromagnetic fields couple to the free electrons of the plasmonic structure \cite{chen_review_2016,kim_plasmonic_2019,estevez_trends_2014}.  Since the LSPR is material and geometry dependent, a variety of plasmonic metasurfaces have been designed \cite{feuz_improving_2010,kabashin_plasmonic_2009,qiu_dual_2020,svedendahl_refractometric_2014} ---each with its own benefits and disadvantages \cite{chen_review_2016,estevez_trends_2014}--- as those shown in  Fig. \ref{fig:Back}, all of which are plasmonic metasurfaces consisting of gold (Au) meta-atoms on a glass substrate but with different geometries and distributions within the metasurface.  For example, Feuz et. al. \cite{feuz_improving_2010} employed a short-range ordered metasurface of nanoholes to sense protein binding events in real-time [Fig. \ref{sfig:back:a}], while  Kabashin et. al. \cite{kabashin_plasmonic_2009} measured  changes of the refractive index of the media embedding an ordered metasurface of plasmonic nanorods [Fig. \ref{sfig:back:b}].  Metasurfaces with simpler geometries and distributions can be used  for biosensing as well, as shown by Svedendahl et. al. \cite{svedendahl_refractometric_2014}, who sensed protein binding events with a short-range ordered metasurface of nanospheres [Fig. \ref{sfig:back:d}], or by  Qiu et. al. \cite{qiu_dual_2020}, who employed a disordered metasurface of nanospheres to detect selected DNA sequences from Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) [Fig. \ref{sfig:back:c}].
+
+\begin{figure}[h!]
+\centering
+\hspace*{-3.5em}%
+\begin{tikzpicture}[scale = .9]
+	  \node at (0,0) {  \includegraphics[width = \textwidth]{background.png}};
+		\node at (-8.3,4.15) {  \begin{subfigure}{.2\textwidth}\caption{ }\label{sfig:back:a}\end{subfigure}};
+		\node at (-2.3,4.15) {  \begin{subfigure}{.2\textwidth}\caption{ }\label{sfig:back:b}\end{subfigure}};
+		\node at (-2.3,-1) {  \begin{subfigure}{.2\textwidth}\caption{ }\label{sfig:back:c}\end{subfigure}};
+		\node at (5.2,4.15) {  \begin{subfigure}{.2\textwidth}\caption{ }\label{sfig:back:d}\end{subfigure}};
+\end{tikzpicture}
+  \vspace*{-1.75em}
+  \caption[Backgrounds]{Examples of biosensing-aimed plasmonic metasurfaces. \textbf{a)} Short-range ordered metasurface of nanoholes in a Au film [Scanning Electron Microscopy (SEM) image and meta-atom schema] and real-time measurements of the LSPR redshift due to protein binding events; images extracted and modified from \cite{feuz_improving_2010}. \textbf{b) } Reflectivity minimum shift of an ordered metasurface of Au nanorods (SEM image and schema in inset) as a function of the refractive index change of the media embedding the metasurface; images extracted and modified from \cite{kabashin_plasmonic_2009}. \textbf{c)} Schematics of a disordered metasurface of Au nanospheres designed for SARS-CoV-2 detection and the LSPR response of its meta-atom: Thermoplasmonic and plasmonic sensing; image extracted from \cite{qiu_dual_2020}. \textbf{d)} Experimental and theoretical results for the ellipsometric parameter $\Delta$ as a function of the incident wavelength when a short-ranged ordered metasurface of Au nanospheres (SEM image) is illuminated by a  non-polarized white light as shown in the setup diagram; extracted and modified from \cite{svedendahl_refractometric_2014}.
+  }
+\label{fig:Back}
+\end{figure}
+
+The manufacture of plasmonic metasurfaces undergo over several stages, which can be roughly divided in a theoretical design and the fabrication methods. The first estimates the optical response of the metasurface given the physical properties of the meta-atoms and its distribution along the metasurface; these optical properties can be determined either by numerical methods, like the Finite Element Method (FEM) \cite{feuz_improving_2010} or the Finite Differences Time Domain \cite{qiu_differential_2015}, both used either periodic arrays or for meta-atoms with complex geometries, or by analytical models, like the Thin Island Theory \cite{svedendahl_refractometric_2014,bedeaux_optical_2004}, the Dipolar Model \cite{barrera1991optical} ---both developed for disordered bidimensional arrays of nanospheres on a substrate--- and modifications to the  Maxwell Garnett Model \cite{sihvola_electromagnetic_2008}  ---originally developed for 3D colloidal systems of spheres--- to describe bidimensional systems of non-spherical meta-atoms as done by Kabashin et. al. \cite{kabashin_plasmonic_2009}.
 
 
+ from the choice of the meta-atom's physical properties, their distribution through the metasurface and the fabrication methods to be employed, some of which are lithography technics ---electron beam lithography or hole-mask colloidal lithography, for example--- \cite{estevez_trends_2014}, thermal annealing of thin metallic films \cite{qiu_dual_2020}
+is supported by the theoretical behavior of each meta-atom in the bidimensinoal array which may be calculated numerically and, when possible, analytically, 
 
-
-. Biosensing-aimed metasurfaces are supported onto a substrate and immersed in an aqueous medium, thus its performance is limited by its washability. One alternative to decrease a metasurface's washability is to partially embed it within the substrate while allowing the metasurface to still interact with the aqueous medium. In this work, we study the optical response of a single partially embedded metallic nanosphere  and extend its behavior analytically into a disordered metasurface by employing an effective medium approach.
+Biosensing-aimed metasurfaces are supported onto a substrate and immersed in an aqueous medium, thus its performance is limited by its washability. One alternative to decrease a metasurface's washability is to partially embed it within the substrate while allowing the metasurface to still interact with the aqueous medium. In this work, we study the optical response of a single partially embedded metallic nanosphere  and extend its behavior analytically into a disordered metasurface by employing an effective medium approach.
 
 The incrustation of the metasurface is studied by calculating the spectral behavior of a single partially embedded nanosphere with the Finite Element Method (FEM) and proposing an effective polarizability  in the elements of the metasurface.
 
 \begin{itemize}
-	\item Your field: Context about the field your are working \\
-	\textbf{Plasmonics -> Metameterials -> Biosensing}
-	\item Motivation: Backgroung about your thesis work and why did you choose this project and why is it important.\\
-	\textbf{Fabrication -> Partially embedded NPs -> No analytical (approximated) method physically introduces the incrustation degree. There are numerical solutions and Effective Medium Theories approaching the problem but the later only as a fitting method. }
+	\item \textbf{Fabrication -> Partially embedded NPs -> No analytical (approximated) method physically introduces the incrustation degree. There are numerical solutions and Effective Medium Theories approaching the problem but the later only as a fitting method. }
 	\item Objectives: What question are you answering with your work.\\
 	\textbf{Can optical non invasive tests (IR-Vis) retrieve the average incrustation degree for monolayers of small spherical particles?}
 	\item Methology: What are your secondary goals so you achieve your objective. Also, how are you answering yout question: which method or model.\\
@@ -30,3 +48,34 @@ The incrustation of the metasurface is studied by calculating the spectral behav
 	Do we need the depolarization factors?}
 	\item Structure: How is this thesis divides and what is the content of each chapter.
 \end{itemize}
+
+
+
+
+
+
+\begin{figure}[h!]\centering
+\hspace*{-.795\textwidth}
+    \begin{subfigure}{1.075\textwidth}\caption{\hfill }\label{sfig:back:1}\end{subfigure}%
+  	\begin{subfigure}{.19\textwidth}\caption{\hfill }\label{sfig:back:2}\end{subfigure}\\[-1.225em]
+  	\includegraphics[width = .6\textwidth]{Meng/embedded.png}%
+  		\hspace*{1em}
+  	 \includegraphics[width = .32\textwidth]{Moringthem/abs.png}
+  \caption[Multipolar Contributions to the Scattered Electric Field]{ Decomposition of the  scattered electric field $\vb{E}^\text{sca}$ into its contributions  proportional to \textbf{a)} $a_1$,  \textbf{b)}  $b_1$, \textbf{c)} $a_2$ and \textbf{d)} $b_2$ [see Eq. \eqref{eq:EscaLC}] when a spherical particle (not shown) is illuminated by an $x$-polarized plane wave traveling in the $z$ direction. The scattered electric field $\vb{E}^\text{sca}$ is evaluated at a sphere larger than the particle: the arrow stream corresponds to the projection parallel to the evaluation sphere of $\vb{E}^\text{sca}$  and the color code corresponds to the magnitude of  $\vb{E}^\text{sca}$. A contour surface of the magnitude of $\vb{E}^\text{sca}$ is located at the center of each \textcolor{red}{coordinated system}. }
+\label{fig:Multipoles}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

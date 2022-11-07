@@ -28,24 +28,39 @@ Metasurfaces designed for biosensing typically consist of a nanostructurated sub
 \label{fig:Back}
 \end{figure}
 
-The manufacture of plasmonic metasurfaces undergo over several stages, which can be roughly divided in a theoretical design and the fabrication methods. The first estimates the optical response of the metasurface given the physical properties of the meta-atoms and its distribution along the metasurface; these optical properties can be determined either by numerical methods, like the Finite Element Method (FEM) \cite{feuz_improving_2010} or the Finite Differences Time Domain \cite{qiu_differential_2015}, both used either periodic arrays or for meta-atoms with complex geometries, or by analytical models, like the Thin Island Theory \cite{svedendahl_refractometric_2014,bedeaux_optical_2004}, the Dipolar Model \cite{barrera1991optical} ---both developed for disordered bidimensional arrays of nanospheres on a substrate--- and modifications to the  Maxwell Garnett Model \cite{sihvola_electromagnetic_2008}  ---originally developed for 3D colloidal systems of spheres--- to describe bidimensional systems of non-spherical meta-atoms as done by Kabashin et. al. \cite{kabashin_plasmonic_2009}.
+The design of plasmonic metasurfaces undergo several stages, but it can be roughly divided in two: its fabrication process and its theoretical behavior. On the one hand, the fabrication process relies on a variety of methods depending on the desired meta-atom's physical properties and distribution, for example, metasurfaces suited for biosensing are commonly  fabricated by lithography technics, like electron beam lithography (ordered array) or hole-mask colloidal lithography  (ordered and disordered arrays) \cite{estevez_trends_2014}, thermal annealing of thin metallic films (disordered arrays)  \cite{qiu_dual_2020} and chemical growth-methods \cite{estevez_trends_2014,kabashin_plasmonic_2009}. On the other hand, the theoretical behavior estimates the optical response of the metasurface either by numerical methods, like the Finite Element Method (FEM) \cite{feuz_improving_2010} or the Finite Differences Time Domain \cite{qiu_differential_2015} ---both employed either for periodic arrays or for meta-atoms with complex geometries--- or by analytical models, like the Thin Island Theory \cite{svedendahl_refractometric_2014,bedeaux_optical_2004}, the Dipolar Model \cite{barrera1991optical} ---both developed for disordered bidimensional arrays of nanospheres on a substrate--- or the Maxwell Garnett Model ---originally developed for 3D colloidal systems of spheres \cite{sihvola_electromagnetic_2008}--- modified to describe bidimensional systems of non-spherical meta-atoms \cite{oates_characterization_2011} as done by Kabashin et. al. \cite{kabashin_plasmonic_2009}. It is stressed that such calculations returns the optical response of the metasurface under ideal conditions as, for example, perfect geometrical shapes of the meta-atoms, perfect periodicity or even perfect deposition on the substrate supporting the meta-atoms.
+
+Biosensing-aimed metasurfaces are supported on a substrate and immersed in an aqueous superstate \cite{estevez_trends_2014} and its theoretical behavior is usually analyzed under the assumption that the meta-atoms are perfectly supported on the substrate and perfectly embedded in the superstate  \cite{kabashin_plasmonic_2009,qiu_differential_2015,barrera1991optical,svedendahl_refractometric_2014,bedeaux_optical_2004} nevertheless, a partial embedding of the meta-atoms into the substrate can arise experimentally depending on the parameters of the fabrication process  \cite{meng_anisotropic_2015,moirangthem_enhanced_2012}. The partial embedding of the meta-atoms is inversely related to the sensing area of the metasurface in the superstrate, thus limiting its performance, but it is also directly related to the washability of its meta-atoms due to the coupled microfluidics. Therefore, the partial embedding of the meta-atoms is a physical feature that can be optimized to design a long-lasting and sensitive metasurface for biosensing, yet, few publications on partially embedded nanustractures can be found even for simple geometries like nanospheroids. In Fig. 
+
+\begin{figure}[h!]\centering
+\hspace*{-.795\textwidth}
+    \begin{subfigure}{1.075\textwidth}\caption{\hfill }\label{sfig:inc:1}\end{subfigure}%
+  	\begin{subfigure}{.19\textwidth}\caption{\hfill }\label{sfig:inc:2}\end{subfigure}\\[-1.225em]
+  	\includegraphics[width = .6\textwidth]{Meng/embedded.png}%
+  		\hspace*{1em}
+  	 \includegraphics[width = .32\textwidth]{Moringthem/abs.png}
+  \caption[Multipolar Contributions to the Scattered Electric Field]{ Decomposition of the  scattered electric field $\vb{E}^\text{sca}$ into its contributions  proportional to \textbf{a)} $a_1$,  \textbf{b)}  $b_1$, \textbf{c)} $a_2$ and \textbf{d)} $b_2$ [see Eq. \eqref{eq:EscaLC}] when a spherical particle (not shown) is illuminated by an $x$-polarized plane wave traveling in the $z$ direction. The scattered electric field $\vb{E}^\text{sca}$ is evaluated at a sphere larger than the particle: the arrow stream corresponds to the projection parallel to the evaluation sphere of $\vb{E}^\text{sca}$  and the color code corresponds to the magnitude of  $\vb{E}^\text{sca}$. A contour surface of the magnitude of $\vb{E}^\text{sca}$ is located at the center of each \textcolor{red}{coordinated system}. }
+\label{fig:IncPapers}
+\end{figure}
 
 
- from the choice of the meta-atom's physical properties, their distribution through the metasurface and the fabrication methods to be employed, some of which are lithography technics ---electron beam lithography or hole-mask colloidal lithography, for example--- \cite{estevez_trends_2014}, thermal annealing of thin metallic films \cite{qiu_dual_2020}
-is supported by the theoretical behavior of each meta-atom in the bidimensinoal array which may be calculated numerically and, when possible, analytically, 
+, as it can be seen in Fig. \ref{sfig:inc:1} where there are shown images of Transmission Electron Microscopy (TEM) of Au nanospheroids fabricated by thermal annealing by Meng et. al. \cite{meng_anisotropic_2015} where partially embedding  in the silica (SiO2) substrate of different degrees can be observed. While a larger incrustation degree of the meta-atoms decreases the overall sensing area of the metasurface, thus limiting its performance, a partial embedding in the substrate may be a desired feature for a biosensing-aimed metasurface since the greater its incrustation degree, the smaller the washability  of its meta-atoms due to the coupled microfluidics. 
 
-Biosensing-aimed metasurfaces are supported onto a substrate and immersed in an aqueous medium, thus its performance is limited by its washability. One alternative to decrease a metasurface's washability is to partially embed it within the substrate while allowing the metasurface to still interact with the aqueous medium. In this work, we study the optical response of a single partially embedded metallic nanosphere  and extend its behavior analytically into a disordered metasurface by employing an effective medium approach.
+ In
 
-The incrustation of the metasurface is studied by calculating the spectral behavior of a single partially embedded nanosphere with the Finite Element Method (FEM) and proposing an effective polarizability  in the elements of the metasurface.
+
+ One alternative to decrease a metasurface's washability is to partially embed it within the substrate while allowing the metasurface to still interact with the aqueous medium. 
+ 
+ 
+ In this work, we study the optical response of a single partially embedded metallic nanosphere  and extend its behavior analytically into a disordered metasurface by employing an effective medium approach.
+
+
+
+
 
 \begin{itemize}
-	\item \textbf{Fabrication -> Partially embedded NPs -> No analytical (approximated) method physically introduces the incrustation degree. There are numerical solutions and Effective Medium Theories approaching the problem but the later only as a fitting method. }
 	\item Objectives: What question are you answering with your work.\\
-	\textbf{Can optical non invasive tests (IR-Vis) retrieve the average incrustation degree for monolayers of small spherical particles?}
 	\item Methology: What are your secondary goals so you achieve your objective. Also, how are you answering yout question: which method or model.\\
-	\textbf{Bruggeman homogenization theories on bidimensional systems?\\
-	Is the dipolar approximation is enough or do we need more multipolar terms?\\
-	Do we need the depolarization factors?}
 	\item Structure: How is this thesis divides and what is the content of each chapter.
 \end{itemize}
 
@@ -54,16 +69,6 @@ The incrustation of the metasurface is studied by calculating the spectral behav
 
 
 
-\begin{figure}[h!]\centering
-\hspace*{-.795\textwidth}
-    \begin{subfigure}{1.075\textwidth}\caption{\hfill }\label{sfig:back:1}\end{subfigure}%
-  	\begin{subfigure}{.19\textwidth}\caption{\hfill }\label{sfig:back:2}\end{subfigure}\\[-1.225em]
-  	\includegraphics[width = .6\textwidth]{Meng/embedded.png}%
-  		\hspace*{1em}
-  	 \includegraphics[width = .32\textwidth]{Moringthem/abs.png}
-  \caption[Multipolar Contributions to the Scattered Electric Field]{ Decomposition of the  scattered electric field $\vb{E}^\text{sca}$ into its contributions  proportional to \textbf{a)} $a_1$,  \textbf{b)}  $b_1$, \textbf{c)} $a_2$ and \textbf{d)} $b_2$ [see Eq. \eqref{eq:EscaLC}] when a spherical particle (not shown) is illuminated by an $x$-polarized plane wave traveling in the $z$ direction. The scattered electric field $\vb{E}^\text{sca}$ is evaluated at a sphere larger than the particle: the arrow stream corresponds to the projection parallel to the evaluation sphere of $\vb{E}^\text{sca}$  and the color code corresponds to the magnitude of  $\vb{E}^\text{sca}$. A contour surface of the magnitude of $\vb{E}^\text{sca}$ is located at the center of each \textcolor{red}{coordinated system}. }
-\label{fig:Multipoles}
-\end{figure}
 
 
 

@@ -136,9 +136,9 @@
 %-------------------------------------------------------------------------------
 \frontmatter
 
-%\include{0-1-Acknowledgments/1-Acknowledgments}
+\include{0-1-Acknowledgments/1-Acknowledgments}
 %\include{0-2-Declaration/1-Declaration}
-%\include{0-3-Quote/1-Quote}
+\include{0-3-Quote/1-Quote}
 \include{0-4-Resumen/1-Resumen}
 
 %-------------------------------------------------------------------------------
@@ -147,8 +147,7 @@
 %
 \setcounter{secnumdepth}{3} % organizational level that receives a numbers
 \setcounter{tocdepth}{3}    % print table of contents for level 3
-                % Line spacing
-
+ 
 \tableofcontents            % Print main index
 
 
@@ -194,7 +193,7 @@
         \subsection{Optical Properties of a Single Spherical (Gold) Particle}
 		 \label{ss:AuMie}
 
-         In previous Sections, the general theory for the light scattering was developed, introducing the scattering amplitude matrix $\mathbb{F}$ [Eq. \eqref{eq:ScatAmpMat}]. Then, the particular problem of a spherical scatterer was addressed and the explicit \textcolor{red}{expressions for} the scattered electric field [Eq. \eqref{eq:EFar}] and for $\mathbb{F}$ were obtained [Eq. \eqref{eq:FscaS}] in terms of the Mie coefficients $a_\ell$ and  $b_\ell$ [Eqs. \eqref{eq:MieCoef}], as well as the internal electric field inside the scatterer [Eq. \eqref{eq:Eint}] in terms of the coefficients $c_\ell$ and $d_\ell$ [Eqs. \eqref{eq:coeffInt}]. The  optical properties of a particle is related to the electric field outside the scatterer,  and can be studied within two different spatial regions: the near-field and the far-field regimes. The near-field \textcolor{red}{region} consists in the complete analytical solution of the scattered electric field [Eq. \eqref{eq:EscaLC}], while the far-field regime considers only the contributions proportional to $r^{-1}$, with $r$ the distance between the center of the scatterer and the measurement point; the optical properties in the far-field regime can be determined by the scattering amplitude matrix $\mathbb{F}$ itself.  In this last Section, the previous results are employed to calculate the optical properties fo  a spherical gold nanoparticle (AuNP) with a radius of $12.5$ nm, \textcolor{red}{either} embedded in an of air or in a glass matrix, when it is illuminated by an incident plane wave with a wavelength $\lambda$.
+         In previous Sections, the general theory for the light scattering was developed, introducing the scattering amplitude matrix $\mathbb{F}$ [Eq. \eqref{eq:ScatAmpMat}]. Then, the particular problem of a spherical scatterer was addressed and the explicit \textcolor{red}{expressions for} the scattered electric field [Eq. \eqref{eq:EFar}] and for $\mathbb{F}$ were obtained [Eq. \eqref{eq:FscaS}] in terms of the Mie coefficients $a_\ell$ and  $b_\ell$ [Eqs. \eqref{eq:MieCoef}], as well as the internal electric field inside the scatterer [Eq. \eqref{eq:Eint}] in terms of the coefficients $c_\ell$ and $d_\ell$ [Eqs. \eqref{eq:coeffInt}]. The  optical properties of a particle is related to the electric field outside the scatterer,  and can be studied within two different spatial regions: the near-field and the far-field regimes. The near-field \textcolor{red}{region} consists in the complete analytical solution of the scattered electric field [Eq. \eqref{eq:EscaLC}], while the far-field regime considers only the contributions proportional to $r^{-1}$, with $r$ the distance between the center of the scatterer and the measurement point; the optical properties in the far-field regime can be determined by the scattering amplitude matrix $\mathbb{F}$ itself.  In this last Section, the previous results are employed to calculate the optical properties of  a spherical gold nanoparticle (AuNP) with a radius of $12.5$ nm, \textcolor{red}{either} embedded in an of air or in a glass matrix, when it is illuminated by an incident plane wave with a wavelength $\lambda$.
 
             \subsubsection{Localized Surface Plasmons}
              \label{sss:LSPR}
@@ -251,6 +250,7 @@
 %
 
 \chapter{Results and Discussion}
+	\label{ch:Results}
 
     The problem of the absorption and scattering of light by a single nanoparticle (NP), illuminated by a monochromatic plane wave, is analytically described by the Mie Theory (Section \ref{s:Mie}) if the NP is considered to be embedded in an infinite medium (matrix). Were more realistic conditions considered, such as the presence of a second medium (substrate) forming a planar interface with the matrix and the possibility of a partial embedding into the substrate, would the Mie Theory no longer be suited to study the optical properties of such systems. In this Chapter, the optical response of a gold (Au) spherical NP of radius $a = 12.5$ nm below, above and at a planar interface between air and glass is calculated through the Finite Element Method (FEM) [Eq. \eqref{eq:PML-FEM}] when a monochromatic plane wave of wavelength $\lambda$ traveling in the direction $\vb{k}^\text{i}$ illuminates the system at an angle of incidence $\theta_i$ considering a defined polarization sate of the incident electric field $\vb{E}^\text{i}$. In order to identify the effect of the substrate and the embedding of the NPs into the substrate, the absorption and scattering  efficiencies [Eqs. \eqref{eq:Csca}, \eqref{eq:Cabs} and \eqref{eq:Efficiencies}], as well the the radiation pattern (see Fig. \ref{fig:ScatteringMaps}) and the distribution of the induced electric field on and inside the NP (see Fig. \ref{fig:NearField}) are calculated numerically for the desired geometries and compared with limiting cases of the Mie theory: a AuNP isolated in a matrix of air and in a matrix of glass.
 
@@ -278,8 +278,16 @@
         \subsection{Partially Embedded Spherical Particle in Total Internal Reflection}
         \input{2-Results/5-Embedded-Oblique}
          \label{s:Emb:Obl}
-\chapter{Conclusions}
-    \section{Future Work: Application on Metasurfaces}
+
+\chapter*{Conclusions}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Conclusions}
+	\label{ch:Conclusions}
+	\input{3-Conclusions/1-Conclusions}	
+	
+    \section*{Future Work: Application on Metasurfaces}
+    \addcontentsline{toc}{section}{\protect\numberline{}Future Work: Application on Metasurfaces}
+    \label{s:FWork}
+    \input{3-Conclusions/2-Future}	
 
 \appendix
 

@@ -44,7 +44,7 @@
 \usepackage{tocloft}
 
 
-\setlength\cftparskip{.6em}
+\setlength\cftparskip{.11em} %0.6 em
 \setlength\cftbeforechapskip{0pt}
 	%---------------------- Figurbackref change legend latex bibtexes ----------------------------
 		\usepackage[margin=10pt,font=small,labelfont={normal,bf} ]{caption}

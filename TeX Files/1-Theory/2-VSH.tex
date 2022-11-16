@@ -1,13 +1,13 @@
 % !TeX root = ../tesis.tex
 
-The electric and magnetic fields, denoted as $\vb{E}$ and $\vb{B}$, respectively, corresponds to a solution to the homogeneous vectorial Helmholtz \textcolor{red}{equation} when a harmonic time dependence and a spatial domain with no external charge nor current densities is assumed, that is,
+The electric and magnetic fields, denoted as $\vb{E}$ and $\vb{B}$, respectively, correspond to a solution to the homogeneous vectorial Helmholtz equation when a harmonic time dependence and a spatial domain with no external charge nor current densities is assumed, that is,
 % ---------------------------- index entries
 \index{Helmholtz!Equation!Vectorial}%
 % ---------------------------eq:Helmholtz-----
 \begin{tcolorbox}[title = Vectorial Helmholtz Equation,	ams align, breakable]
 	\grad^2 \vb{E}(\vb{r},\omega) + k^2 \vb{E}(\vb{r},\omega) = \vb{0},
 		\qquad&\qquad
-  	\grad^2 \vb{B}(\vb{r},\omega) + k^2 \vb{B}(\vb{r},\omega) = \vb{0}.
+  	\grad^2 \vb{B}(\vb{r},\omega) + k^2 \vb{B}(\vb{r},\omega) = \vb{0},
   	\label{eq:Helmholtz}
 \end{tcolorbox}
 % --------------------------eq:Helmholtz ----
@@ -78,7 +78,7 @@ where $\ell$ takes natural values and zero, and $\abs{m}\leq \ell$ so that $\Phi
 \end{align}
 % ------------------------------
 %
-The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the spherical Bessel functions of the first ($j_\ell$)  and second ($y_\ell$) kind, or the spherical Hankel functions of first ($h_\ell^{(1)} = j_\ell + iy_\ell$) and second ( $h_\ell^{(2)} = j_\ell - iy_\ell$)  kind. Following the convention from most Mie Scattering literature \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} will be \textcolor{red}{decomposed} into an odd (`o') and an even (`e') \textcolor{red}{solutions}, that is, as sine and cosine functions, thus restricting the values of $m$ to non negative integers. After this,the generating function of the VSH is given by
+The solution to Eq. \eqref{eq:ThetaMu} are the associated Legendre functions $ P_\ell^m(\mu)$ and to Eq. \eqref{eq:Reqkr} the spherical Bessel functions of the first ($j_\ell$)  and second ($y_\ell$) kind, or the spherical Hankel functions of first ($h_\ell^{(1)} = j_\ell + iy_\ell$) and second ($h_\ell^{(2)} = j_\ell - iy_\ell$)  kind. Following the convention from most Mie Scattering literature \cite{zangwill_modern_2013}, the solution to Eq. \eqref{eq:Phi} can be decomposed into an odd (`o') and an even (`e') solutions, that is, as sine and cosine functions, thus restricting the values of $m$ to non negative integers. After this,the generating function of the VSH is given by
 % ---------------------------- index entries
 \index{Legendre!Associated Functions@{Associated Functions $P_\ell^m(\mu)$}}%
 \index{Functions!Legendre Associated}%
@@ -135,7 +135,7 @@ where $z_\ell$ stands for any of the four solutions to the radial equation [Eq. 
 \noindent
 where the term $\ell( \ell+1)P_\ell^m$ arises since the associated Legendre functions obeys Eq. \eqref{eq:ThetaMu}.
 
-The choice at $z_\ell$ in Eqs. \eqref{eq:VSHEvenOdd} is due to the physical constraints of the scattering problem. On the one hand, the spherical Bessel function of first kind, unlike the other three proposed solutions to the radial equation, is finite at $r = 0$, thus it is appropriate for the internal electric field and plane waves. This choice at $z_\ell$ will be denoted in the VSH with the superscript $(1)$. On the other hand, the asymptotic behavior ($\ell\ll \rho$) of the Hankel function of first kind $h^{(1)} = j_\ell + i y_\ell$ and its derivative \textcolor{red}{represent} outgoing spherical waves \cite{bohren_absorption_1983}
+The choice at $z_\ell$ in Eqs. \eqref{eq:VSHEvenOdd} is due to the physical constraints of the scattering problem. On the one hand, the spherical Bessel function of first kind, unlike the other three proposed solutions to the radial equation, is finite at $r = 0$, thus it is appropriate for the internal electric field and plane waves. This choice at $z_\ell$ will be denoted in the VSH with the superscript $(1)$. On the other hand, the asymptotic behavior ($\ell\ll \rho$) of the Hankel function of first kind $h^{(1)} = j_\ell + i y_\ell$ and its derivative represent outgoing spherical waves \cite{bohren_absorption_1983}
 % ---------- index entries -------------
 \index{Wave!Plane}
 \index{Wave!Spherical}
@@ -151,6 +151,6 @@ The choice at $z_\ell$ in Eqs. \eqref{eq:VSHEvenOdd} is due to the physical cons
 	\dv{h_\ell^{(1)}(\rho)}{\rho} \approx (-i)^\ell \frac{\exp(i\rho)}{\rho},
 \end{align}
 % -----------------------------
-which are \textcolor{red}{well} suited for the scattered field; the VSH with $z_\ell = h^{(1)}_\ell$ will be denoted with the superscript $(3)$.
+which are well suited for the scattered field; the VSH with $z_\ell = h^{(1)}_\ell$ will be denoted with the superscript $(3)$.
 
-From here on, the VSH will be those defined in Eq. \eqref{eq:VSH} under the condition of being a solution to the vectorial Helmholtz equation, which lead to the generating function $\psi$ to be a solution to the scalar Helmholtz equation. Nevertheless, there are other definitions for the VSH as discussed by \citeauthor{barrera_vector_1985} \cite{barrera_vector_1985}. The chosen definition of the VSH allows the VSH to be interpreted directly as electric and magnetic fields, specifically identifying $\vb{N}$ with the electric contribution and $\vb{M}$ with the magnetic due to its behavior in the far-field regime\footnote{The VSH $\vb{L}$ is left out from the identification of either an electric or magnetic contribution since it is purely longitudinal and thus \textcolor{red}{not suitable for} the far-field.}, as it will be shown in Section \ref{sss:LSPR}.
+From here on, the VSH will be those defined in Eq. \eqref{eq:VSH} under the condition of being a solution to the vectorial Helmholtz equation, which lead to the generating function $\psi$ to be a solution to the scalar Helmholtz equation. Nevertheless, there are other definitions for the VSH as discussed by \citeauthor{barrera_vector_1985} \cite{barrera_vector_1985}. The chosen definition of the VSH allows the VSH to be interpreted directly as electric and magnetic fields, specifically identifying $\vb{N}$ with the electric contribution and $\vb{M}$ with the magnetic due to its behavior in the far-field regime\footnote{The VSH $\vb{L}$ is left out from the identification of either an electric or magnetic contribution since it is purely longitudinal and thus  {not suitable for} the far-field.}, as it will be shown in Section \ref{sss:LSPR}.

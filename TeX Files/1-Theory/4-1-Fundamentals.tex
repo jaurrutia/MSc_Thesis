@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
-Any system of PDE describing a physical system in either equilibrium or in a steady-state, with a set of boundary conditions, can be described by \cite{dhatt_finite_2012}
+Any system of PDE that characterizes a physical system in either equilibrium or in a steady-state, with a set of boundary conditions, can be described by \cite{dhatt_finite_2012}
 %
 \index{Partial Differential Equation (PDE)!Strong Formulation}%
 \index{Partial Differential Equation (PDE)!Boundary Conditions}%
@@ -12,7 +12,7 @@ Any system of PDE describing a physical system in either equilibrium or in a ste
 \label{eq:PDESystem}
 \end{align}
 %
-where $\mathcal{L}$ and $\mathcal{C}$ are differential operators applied on the unknown functions $\vb{u}$---a $D$ dimensional quantity--- evaluated at a point $\vb{r}$ in a domain $\Omega$ and its boundary $\partial\Omega$, respectively;  $\vb{f}_\Omega$ and $\vb{f}_{\partial\Omega}$ are known functions related to the sources of $\vb{u}$ and to its boundary conditions.  The description of the physical system as stated by Eq. \eqref{eq:PDESystem} is known as its strong formulation since $u$ must be $m$-times differentiable on $\Omega$ if $\mathcal{L}$ is a differential operator of order $m$ \cite{dhatt_finite_2012,larson_finite_2013}. It is possible to relax such differentiability condition on $\vb{u}$ by employing the weak formulation of the PDE system, which is an integral representation of Eq. \eqref{eq:PDESystem} obtained by multiplying it by a trial function $\psi$ and integrating on $\Omega$ \cite{dhatt_finite_2012,larson_finite_2013,fletcher_computational_1984}
+where $\mathcal{L}$ and $\mathcal{C}$ are differential operators applied on the unknown functions $\vb{u}$---a $D$ dimensional quantity--- evaluated at a point $\vb{r}$ in a domain $\Omega$ and its boundary $\partial\Omega$, respectively;  $\vb{f}_\Omega$ and $\vb{f}_{\partial\Omega}$ are known functions related to the sources of $\vb{u}$ and to its boundary conditions.  The description of the physical system as stated by Eq. \eqref{eq:PDESystem} is known as its strong formulation since $\vb{u}$ must be $m$-times differentiable on $\Omega$ if $\mathcal{L}$ is a differential operator of order $m$ \cite{dhatt_finite_2012,larson_finite_2013}. It is possible to relax such differentiability condition on $\vb{u}$ by employing the weak formulation of the PDE system, which is an integral representation of Eq. \eqref{eq:PDESystem} obtained by multiplying it by a trial function $\psi$ and integrating on $\Omega$ \cite{dhatt_finite_2012,larson_finite_2013,fletcher_computational_1984}
 %
 \index{Partial Differential Equation (PDE)!Strong Formulation!Trial Function $\psi$}%
 \index{Finite Element!Method}%
@@ -41,7 +41,7 @@ The weak formulation of the PDE system yields a weak solution to $\vb{u}$ since 
         \label{eq:G1I}
 \end{align}
 %
-If  \textcolor{red}{either Eq. \eqref{eq:GT} or \eqref{eq:G1I}} are used $s$-fold on Eq. \eqref{eq:Weak} then $\vb{u}$ must be differentiable $m-s$ times instead of $m$, while $\psi$ must be $s$ times differentiable. More over, the boundary conditions imposed on $u$ must be satisfied only if they contain  derivatives up to order $m-s-1$ since the conditions with derivatives of order bigger than $m-s$ are taken into account in the integrals of Eqs. \eqref{eq:GT} and \eqref{eq:G1I} ---and on such boundary conditions $\psi$ must equal zero---. Thus, any solution $\vb{u}$ to Eq. \eqref{eq:Weak} is known as a weak solution  since it does not holds the differentiability condition as it is required by the equivalent strong formulation \cite{dhatt_finite_2012}.
+If either Eq. \eqref{eq:GT} or Eq. \eqref{eq:G1I} are used $s$-fold on Eq. \eqref{eq:Weak} then $\vb{u}$ must be differentiable $m-s$ times instead of $m$, while $\psi$ must be $s$ times differentiable. More over, the boundary conditions imposed on $\vb{u}$ must be satisfied only if they contain  derivatives up to order $m-s-1$ since the conditions with derivatives of order bigger than $m-s$ are taken into account in the integrals of Eqs. \eqref{eq:GT} and \eqref{eq:G1I} ---and on such boundary conditions $\psi$ must equal zero---. Thus, any solution $\vb{u}$ to Eq. \eqref{eq:Weak} is known as a weak solution  since it does not holds the differentiability condition as it is required by the equivalent strong formulation \cite{dhatt_finite_2012}.
 
 Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak}, the Galerkin method is one of the most common and implemented methods alongside the finite element approximation, which together form the finite element method. To ease the key ideas of the Galerkin method and the finite element approximation, the unknown function $\vb{u}$ is assumed to be a scalar quantity $u$ in the following section.
 
@@ -58,7 +58,7 @@ Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak
      \label{eq:uapprox}
      \end{align}
      %
-     where $\tilde{{u}}$ \textcolor{red}{fullfills} the same boundary conditions as ${u}$ at $\partial\Omega$ and ${a}_i$ are $N$ parameters to be determined\footnote{The $N$ parameters ${a}_i$ are constant for equilibrium and steady-state problems while they may depend on time for transport problems \cite{dhatt_finite_2012}.}. The values of ${a}_i$ are chosen so that $e_{{u}}\ll  \tilde{u} $, which may be achieved by increasing $N$ or by choosing ${a}_i$ that match the exact value of ${u}$ at determined points.
+     where $\tilde{{u}}$ fulfills the same boundary conditions as ${u}$ at $\partial\Omega$ and ${a}_i$ are $N$ parameters to be determined\footnote{The $N$ parameters ${a}_i$ are constants for equilibrium and steady-state problems while they may depend on time for transport problems \cite{dhatt_finite_2012}.}. The values of ${a}_i$ are chosen so that $e_{{u}}\ll  \tilde{u} $, which may be achieved by increasing $N$ or by choosing ${a}_i$ that match the exact value of ${u}$ at determined points.
 
      One particular form to the approximated solution $\tilde{u}$ in Eq. \eqref{eq:uapprox} is known as the nodal approximation \cite{dhatt_finite_2012, fletcher_computational_1984}:
      %
@@ -99,9 +99,9 @@ Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak
      \label{eq:WRM}
      \end{align}
      %
-     which is a set of $N$ independent algebraic equations with $N$ variables.  It is worth noting that if the trail functions are elements of an infinite set, that is, $N \to \infty$, then Eq. \eqref{eq:WRM} equals Eq. \eqref{eq:Weak}, and thus $u = \tilde{u}$, \cite{dhatt_finite_2012}.
+     which is a set of $N$ independent algebraic equations with $N$ variables.  It is worth noting that if the trial functions are elements of an infinite set, that is, $N \to \infty$, then Eq. \eqref{eq:WRM} equals Eq. \eqref{eq:Weak}, and thus $u = \tilde{u}$, \cite{dhatt_finite_2012}.
 
-     The weighted residual method is a family of numerical methods defined by the election of the trial functions set $\{\psi_j\}_{j\leq N}$. Some of the most common choice for the trial functions set yield the collocation method, the least-squares method,  the method of moments, and the Galerkin method, all given by \cite{fletcher_computational_1984,dhatt_finite_2012}:
+     The weighted residual method is a family of numerical methods defined by the election of the trial functions set $\{\psi_j\}_{j\leq N}$. Some of the most common choice for the trial functions set yield the collocation method, the least-squares method,  the method of moments, or the Galerkin method, given by \cite{fletcher_computational_1984,dhatt_finite_2012}:
      %
      \index{Method!Galerkin}%
      %
@@ -136,9 +136,9 @@ Among the several methods to find an approximated solution to Eq. \eqref{eq:Weak
     \noindent
     %
 
-    The Galerkin method is defined by the election of trial functions according to Eq. \eqref{eq:Galerkin}, which are assumed to be linearly independent so Eq. \eqref{eq:GalerkinMat} is a solvable system of algebraic equations for the nodes $u_j$ \cite{fletcher_computational_1984}. Additionally, for a  better performance, it is recommended to choose the set of trial functions as the first $N$ elements of a complete set of functions in the domain $\Omega$ and to meet the boundary conditions on Eq. \eqref{eq:PDESystem} as exactly as possible \cite{fletcher_computational_1984}. It is also recommended for the functions $\phi_i$ to increase their polynomial order as the size of $\Omega$ grows since the integral in   Eq. \eqref{eq:GalerkinInt} can be calculated with higher accuracy if methods as quadratures are employed \cite{fletcher_computational_1984}.
+    The Galerkin method is defined by the choice of trial functions according to Eq. \eqref{eq:Galerkin}, which are assumed to be linearly independent so Eq. \eqref{eq:GalerkinMat} is a solvable system of algebraic equations for the nodes $u_j$ \cite{fletcher_computational_1984}. Additionally, for a  better performance, it is recommended to choose the set of trial functions as the first $N$ elements of a complete set of functions in the domain $\Omega$ and to meet the boundary conditions on Eq. \eqref{eq:PDESystem} as exactly as possible \cite{fletcher_computational_1984}. It is also recommended for the functions $\phi_i$ to increase their polynomial order as the size of $\Omega$ grows since the integral in   Eq. \eqref{eq:GalerkinInt} can be calculated with higher accuracy if methods as quadratures are employed \cite{fletcher_computational_1984}.
 
-    The Galerkin method returns an approximated solution $\tilde{u}$ to $u$, in the weak sense, as a linear combination of the interpolating functions $\{\phi_i\}_{i\leq N}$ so long the error $e_{u}$ can be neglected for all points in the domain $\Omega$.  Such solution is determined by inverting the matrix $\mathbb{A}$ in Eq. \eqref{eq:GalerkinMat} thus, a crucial step is to find the set $\{\phi_i\}_{i\leq N}$ of functions to solve the problem in $\Omega$ that follows the boundary conditions on $\partial\Omega$.  From a computational approach, the required computing time and resources increase as $\Omega$ does, therefore requiring the cardinality of the sets $\{\psi_j\}_{j\leq N}$ and  $\{\phi_i\}_{i\leq N}$ to increase as well \cite{dhatt_finite_2012}. To overcome this, one alternative is to divide $\Omega$ into $M$ smaller subdomains allowing for low cardinality interpolating functions to solve Eq. \eqref{eq:WRM}  in each subdomain.  This method is known as the finite element approximation and it is discussed in the following section.
+    The Galerkin method returns an approximated solution $\tilde{u}$ to $u$, in the weak sense, as a linear combination of the interpolating functions $\{\phi_i\}_{i\leq N}$ so long the error $e_{u}$ can be neglected for all points in the domain $\Omega$.  Such solution is determined by inverting the matrix $\mathbb{A}$ in Eq. \eqref{eq:GalerkinMat} thus, a crucial step is to find the set $\{\phi_i\}_{i\leq N}$ of functions to solve the problem in $\Omega$ that follows the boundary conditions on $\partial\Omega$.  From a computational approach, the required computing time and resources increase as $\Omega$ does, therefore requiring the cardinality of the sets $\{\psi_j\}_{j\leq N}$ and  $\{\phi_i\}_{i\leq N}$ to increase as well \cite{dhatt_finite_2012}. To overcome this, one alternative is to divide $\Omega$ into $M$ smaller subdomains allowing for low cardinality interpolating functions to solve Eq. \eqref{eq:WRM}  in each subdomain.  This method is known as the finite element approximation and it is discussed in the following Section.
     %
     \index{Method!Finite Element}%
     \index{Finite Element!Approximation}%

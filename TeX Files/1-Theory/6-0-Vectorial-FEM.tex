@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
- In order to perform the vectorial finite element approximation in Eq. \eqref{eq:Vec-FEM} equivalently to the scalar method in Eq. \eqref{eq:GalerkinInt}, an approximation $\tilde{\vb{E}}$ to the electric field $\vb{E}$ is proposed as linear combination of the vectorial interpolating functions $\boldsymbol{\eta}_j$ with scalar coefficients $e_i$. If the nodal approximation [Eq. \eqref{eq:Nodal}] were used for linear combination setting the coefficients $e_i$ as the exact solution of each component of  electric field at some nodal points into the finite element $\Omega_k$, not only the boundary condtion in Eq. \eqref{eq:Dirichlet-weak} might be diffuclt to meet \cite{larson_finite_2013,jin_theory_2010}, but also  some non-physical solutions may arise \cite{bondeson_computational_2005}. Therefore, instead of employing the nodal approximation, the expression of $\tilde{\vb{E}}$ in a finite element $\Omega_k$ of $\Omega$ is given by \cite{larson_finite_2013}
+ In order to perform the vectorial finite element approximation in Eq. \eqref{eq:Vec-FEM} equivalently to the scalar method in Eq. \eqref{eq:GalerkinInt}, an approximation $\tilde{\vb{E}}$ to the electric field $\vb{E}$ is proposed as a linear combination of the vectorial interpolating functions $\boldsymbol{\eta}_j$ with scalar coefficients $e_i$. If the nodal approximation [Eq. \eqref{eq:Nodal}] were used for the linear combination setting the coefficients $e_i$ as the exact solution of each component of  electric field at some nodal points into the finite element $\Omega_k$, not only the boundary condtion in Eq. \eqref{eq:Dirichlet-weak} might be diffuclt to meet \cite{larson_finite_2013,jin_theory_2010}, but also   non-physical solutions may arise \cite{bondeson_computational_2005}. Therefore, instead of employing the nodal approximation, the expression of $\tilde{\vb{E}}$ in a finite element $\Omega_k$ of $\Omega$ is given by \cite{larson_finite_2013}
 %
 \index{Approximation!Nodal!Vectorial}%
 \index{Partial Differential Equation (PDE)!Nodal Approximation!Vectorial}
@@ -32,7 +32,7 @@ which is the square-root mean value of the interpolating function along the edge
     \label{eq:NedelecTRi}
 \end{align}
 %
-\index{Functions!Interpolating $\phi$!Lagrange}
+\index{Functions!Interpolating $\phi$!Lagrange}%
 %
 with cyclic permutation of the indices $\{i_k, j_k, \ell_k\}$, corresponding to the vertices of triangular surfaces forming  the edges of the reference element. The scalar functions $\phi_{j_k}$ in Eq. \eqref{eq:NedelecTRi}  are the interpolating functions obtained with the Lagrange linear operator [Eq. \eqref{eq:Lag}] applied on $\Omega_k$ at the vertices. Nédélec finite elements of higher orders can be obtained if, additionally, more degrees of freedom are set to the faces and the volume of $\Omega_k$ \cite{bergot_generation_2010} nevertheless, their implementation is of greater difficulty and thus, less common \cite{larson_finite_2013,jin_theory_2010}. An example of Nédélec finite elements of lowest order are shown in Fig. \ref{fig:Nedelec:a} for a triangular finite element and in Fig. \ref{fig:Nedelec:b} for a tetrahedral finite element; the edge where Eqs. \eqref{eq:Nedelec} and \eqref{eq:NedelecTRi} are applied to is shown with a thick blue line in all cases. In all interpolating functions (2D and 3D) it can be seen that all functions $\boldsymbol{\eta}_i$ are divergenceless inside the finite elements and their components parallel to the edges are zero except at the associated $i_k$-th edge. Therefore, the Nédélec finite elements are suited to solve Eq. \eqref{eq:Scatt-Weak-All}  by following an exact evaluation for a given boundary condition, and by following the electric Gauss's law with no sources.
 
@@ -47,6 +47,6 @@ with cyclic permutation of the indices $\{i_k, j_k, \ell_k\}$, corresponding to 
     \scriptsize
     \def\svgwidth{.875\textwidth}
     \includeinkscape{FEM-Theory/3-Example-Nedelec}
-\caption[Pyramidal and Tetrahedral Nédélec Finite Element Family of lowest Order]{Interpolating functions for the lowest order Nédélec \textbf{a)} pyramidal (2D) and \textbf{b)} tetrahedral (3D) reference finite elements. The thick blue lines correspond to the edges where line the linear functional of the Nédélec family [Eq. \eqref{eq:Nedelec}] is evaluated.}
+\caption[Pyramidal and Tetrahedral Nédélec Finite Element Family of lowest Order]{Interpolating functions for the lowest order Nédélec \textbf{a)} pyramidal (2D) and \textbf{b)} tetrahedral (3D) reference finite elements. The thick blue lines correspond to the edges where the linear functional of the Nédélec family [Eq. \eqref{eq:Nedelec}] is evaluated.}
 \label{fig:Nedelec}
 \end{figure}

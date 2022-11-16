@@ -1,6 +1,6 @@
 % !TeX root = ../tesis.tex
 
- Let $\vb{E}^{\text{i}}$ be a $x$-polarized plane wave traveling in the  $\vb{e}_z$ direction; its representation in the spherical unit vector basis is
+ Let $\vb{E}^{\text{i}}$ be an $x$-polarized plane wave traveling in the  $\vb{e}_z$ direction; its representation in the spherical unit vector basis is
  % ---------------- index entries
  \index{Plane!Wave!$x$ Polarized,!Spherical Unit Vector Basis}%
  \index{Wave!Plane!$x$ Polarized,!Spherical Unit Vector Basis}%
@@ -26,7 +26,7 @@ The monochromatic plane wave is a transversal wave, thus it can be written in te
  \label{eq:plane waveMultipole}%
    \end{subequations}%
 %
-
+\indent
 In the problem of scattering due to a spherical particle of radius $a$, the continuity conditions on the tangential components of the electric and magnetic fields are written as
   %
   \index{Boundary Conditions!Mie Problem}%
@@ -37,7 +37,7 @@ In the problem of scattering due to a spherical particle of radius $a$, the cont
   \label{eq:contuinity}
  \end{align}
  %
-with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electric field and  $\vb{H}^\text{sca}$ ( $\vb{H}^\text{int}$) the scattered (internal) magnetic field. If the incident field $\vb{E}^\text{i}$ is given by a $x$-polarized plane wave [Eq. \eqref{eq:ExPlane}] then the scattered and internal fields can be written also as a linear combination of $\vb{M}_{o1\ell}$ and $\vb{N}_{e1\ell}$. The internal field is finite inside the particle, thus the radial \textcolor{red}{dependence} is given by the function $j_\ell(k_\text{p} a)$, with $k_\text{p}$ the wave number inside the particle. For the scattered fields, it is chosen the spherical Hankel function of first kind $h^{(1)}(ka)$ due to its asymptotic behavior of a spherical outgoing wave. Such a choice for the radial \textcolor{red}{dependence} is denoted by the superscript $(3)$ over the VSH. To simplify the following steps, the scattered and the internal electric fields are \textcolor{red}{writen} as
+with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electric field and  $\vb{H}^\text{sca}$ ( $\vb{H}^\text{int}$) the scattered (internal) magnetic field. If the incident field $\vb{E}^\text{i}$ is given by an $x$-polarized plane wave [Eq. \eqref{eq:ExPlane}] then the scattered and internal fields can be written also as a linear combination of $\vb{M}_{o1\ell}$ and $\vb{N}_{e1\ell}$. The internal field is finite inside the particle, thus the radial dependence is given by the function $j_\ell(k_\text{p} a)$, with $k_\text{p}$ the wave number inside the particle. For the scattered fields, it is chosen the spherical Hankel function of first kind $h^{(1)}(ka)$ due to its asymptotic behavior of a spherical outgoing wave. Such a choice for the radial dependence is denoted by the superscript $(3)$ over the VSH. To simplify the following steps, the scattered and the internal electric fields are written as
   %
   \begin{subequations}
  \begin{align}
@@ -45,7 +45,8 @@ with  $\vb{E}^\text{sca}$ ( $\vb{E}^\text{int}$) the scattered (internal) electr
  \label{eq:EscaLC}\\
  \vb{E}^\text{int} (\vb{r})=& E_0 \sum_{\ell = 1}^\infty\frac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty( c_\ell\vb{M}_{o1\ell}^{(1)} - i d_\ell \vb{N}_{e1\ell}^{(1)}),
  \label{eq:EscaInt}
-  \end{align}
+  \end{align}%
+   \label{eqs:EscaInt}
  \end{subequations}
  %
 % where the Hankel spherical functions has $\rho =$
@@ -69,7 +70,7 @@ Since only the term $m=1$ is taken into account, it is convenient to define the 
 %
  \index{Scattering!Mie!Angular Functions@{Angular Functions $\pi$ and $\tau$}}%
 %
-which are not orthogonal but their addition and subtraction are, that is $\pi_\ell \pm \tau_\ell$ are orthogonal functions \cite{bohren_absorption_1983}; see Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}. After substitution  of Eqs. \eqref{eq:plane waveMultipole}, \eqref{eq:EscaInt} and \eqref{eq:HscaInt} into Eq. \eqref{eq:contuinity} and considering the orthogonality between $\vb{M}$ and $\vb{N}$,  between even and odd VSH, and between $\pi_\ell \pm \tau_\ell$, it is shown that the coefficients $a_\ell$, $b_\ell$, $c_\ell$ and $d_\ell$ are given by two decoupled equation systems
+which are not orthogonal but their addition and subtraction are, that is $\pi_\ell \pm \tau_\ell$ are orthogonal functions \cite{bohren_absorption_1983}; see Eq. \eqref{eq:(pipmtau)} in Appendix \ref{app:MieCode}. After substitution  of Eqs. \eqref{eq:plane waveMultipole}, \eqref{eqs:EscaInt} and \eqref{eq:HscaInt} into Eq. \eqref{eq:contuinity} and considering the orthogonality between $\vb{M}$ and $\vb{N}$,  between even and odd VSH, and between $\pi_\ell \pm \tau_\ell$, it is shown that the coefficients $a_\ell$, $b_\ell$, $c_\ell$ and $d_\ell$ are given by two decoupled equation systems
 %
 \begin{align}
 \mqty([x h_\ell^{(1)}(x)]  & (\mu/\mu_\text{p}) [(mx) j_\ell(mx)] \\
@@ -84,9 +85,9 @@ which are not orthogonal but their addition and subtraction are, that is $\pi_\e
 	\label{eq:syst2}
 \end{align}
 %
-where $m = k_\text{p} / k = n_\text{p} / n_\text{mat}$ is the contrast between the sphere and the matrix, $x= ka = 2\pi n_\text{mat} (a/\lambda)$ is the size parameter and  ($'$) denotes  derivative respect to the argument of the spherical Bessel or Hankel functions; the size parameter compares the size of the scatterer \textcolor{red}{with} the incident wavelength in the matrix: the larger the value of $x$, the bigger the scatterer can be considered inside such \textcolor{red}{a} matrix. The \textcolor{red}{Equations}. \eqref{eq:syst1} and \eqref{eq:syst2} are simplified when the Riccati-Bessel functions $\psi_\ell( \rho) = \rho j_\ell(\rho)$ and $\xi(\rho) = \rho h_\ell^{(1)}(\rho)$ are introduced.
+where $m = k_\text{p} / k = n_\text{p} / n_\text{mat}$ is the contrast between the sphere and the matrix, $x= ka = 2\pi n_\text{mat} (a/\lambda)$ is the size parameter and  $'$ denotes  derivative with respect to the argument of the spherical Bessel or Hankel functions; the size parameter compares the size of the scatterer with the incident wavelength in the matrix: the larger the value of $x$, the bigger the scatterer can be considered inside such a matrix.Equations \eqref{eq:syst1} and \eqref{eq:syst2} are simplified when the Riccati-Bessel functions $\psi_\ell( \rho) = \rho j_\ell(\rho)$ and $\xi(\rho) = \rho h_\ell^{(1)}(\rho)$ are introduced.
 
-When a non-magnetic particle nor matrix are assumed  ($\mu_\text{p} = \mu = \mu_0$), the coefficients $a_\ell$ and $b_\ell$ are known as the Mie coefficients, whose expression is calculated by inverting  Eqs. \eqref{eq:syst1} and \eqref{eq:syst2}, yielding
+When a non-magnetic particle nor matrix are assumed  ($\mu_\text{p} = \mu = \mu_0$), the coefficients $a_\ell$ and $b_\ell$ are known as the Mie coefficients, whose expressions are calculated by inverting  Eqs. \eqref{eq:syst1} and \eqref{eq:syst2}, yielding
 %
  \index{Scattering!Mie!Coefficients}%
  %
@@ -160,7 +161,7 @@ Following a similar procedure but substituting Eq. \eqref{eq:coeffInt} into Eq. 
 \end{subequations}
 
 
-The scattering amplitude matrix relates the incident electric field to the scattered electric field in the far-field regime, that it when $kr\gg 1$. Considering that the series of Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} converge uniformly, so all contributions after the sufficiently large  term $\ell_c$ of the sum can be neglected for all values of $kr$, the asymptotic  expressions for the $\xi$ Riccati-Bessel function and its derivative can be employed, which are textcolor{red}{given by} \cite{bohren_absorption_1983}
+The scattering amplitude matrix relates the incident electric field to the scattered electric field in the far-field regime, that is when $kr\gg 1$. Considering that the series of Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} converge uniformly, so all contributions after the sufficiently large  term $\ell_c$ of the sum can be neglected for all values of $kr$, the asymptotic  expressions for the $\xi$ Riccati-Bessel function and its derivative can be employed, which are given by \cite{bohren_absorption_1983}
 %
 \index{Functions!Spherical Hankel@{Spherical Hankel $h^{(1)}_\ell(\rho)$ and $h^{(2)}_\ell(\rho)$}!Asymptotic Limit}%
 \index{Wave!Spherical}
@@ -174,7 +175,7 @@ The scattering amplitude matrix relates the incident electric field to the scatt
 \label{eq:RBXiAssym}
 \end{align}
 %
-
+%
 Substituting Eq. \eqref{eq:RBXiAssym} into  Eqs. \eqref{eq:EscaR}-\eqref{eq:EscaMPhi} and neglecting terms proportional to $(kr)^{-2}$, it yields a zero radial electric field, while
 %
 \begin{subequations}%
@@ -216,4 +217,4 @@ S_2(\theta) &= \sum_{\ell = 1}^\infty \frac{2\ell+1}{\ell(\ell+1)}
 \end{subequations}
 %
 \noindent
-which depend entirely on the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ modulated by the Mie coefficients $a_\ell$ and $b_\ell$. The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when it is written in a base relative to the scattering plane, asstated in Section \ref{s:AmpMatCrossSect}. Since the scatterer is a spherical isotropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ maintains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.
+which depend entirely on the angular functions $\pi_\ell(\cos\theta)$ and $\tau_\ell(\cos\theta)$ modulated by the Mie coefficients $a_\ell$ and $b_\ell$. The scattering amplitude matrix $\mathbb{F}$ shows the symmetry of the system when it is written in a base relative to the scattering plane, as stated in Section \ref{s:AmpMatCrossSect}. Since the scatterer is a spherical isotropic NP,  $\mathbb{F}$ is a diagonal matrix in the base  $\{\vu{e}^\text{sca}_\parallel, \vu{e}^\text{sca}_\perp  \}$, that is, that the scattered electric field $\vb{E}^\text{sca}$ maintains the same polarization degree relative to the scattering plane than the incident electric field $\vb{E}^\text{i}$ that illuminates the spherical particle.

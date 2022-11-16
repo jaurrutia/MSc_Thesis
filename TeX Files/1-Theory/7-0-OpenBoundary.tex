@@ -21,7 +21,7 @@ In 1912 Arnold Sommerfeld first stated its radiation condition in order to guara
 into Green's second identity\footnote{%
         Let $\psi$ and $\phi$ be $\mathcal{C}^2$ in $\Omega$, then %
         $\int_\Omega (\psi\nabla^2\psi-\phi\nabla^2\psi)\dd[3]{r} = %
-        \oint_{\partial\Omega}\vu{n}\cdot(\psi\nabla\phi-\phi\nabla\psi)\dd[2]{r}$, with $\vu{n}$ a normal vector to the boundary $\delta\Omega$  \cite{zangwill_modern_2013}.} %
+        \oint_{\partial\Omega}\vu{n}\cdot(\psi\nabla\phi-\phi\nabla\psi)\dd[2]{r}$, with $\vu{n}$ a normal vector to the boundary $\delta\Omega$  \cite{zangwill_modern_2013}.}, %
  leading to
 \begin{align}
     4\pi \phi(\vb{r}) =& \oint_{\partial\Omega}  \frac{\exp[i\vb{k}\cdot(\vb{r}-\vb{r}')]}{\norm{\vb{r}-\vb{r}'}^2} \phi(\vb{r}) \dd[2]{r}+
@@ -29,7 +29,7 @@ into Green's second identity\footnote{%
     \label{eq:pot-Green}
 \end{align}
 %
-The boundary condition that the potential $\phi$ must decay to zero as $r\to\infty$ sets Eq. \eqref{eq:pot-Green} equal to zero, which is  hold immediately by its the left hand side. The first integral in the right hand side of Eq. \eqref{eq:pot-Green} equals zero since $\phi(r\to 0 ) = 0$ while $\dd[2]{r}/\norm{\vb{r}-\vb{r}}\approx\dd[2]{r}/r^2$ remains bounded, thus the term between brackets in the second integral must equal to zero \textcolor{red}{in the far-field regime} \cite{schot_eighty_1992}, that is
+The boundary condition that the potential $\phi$ must decay to zero as $r\to\infty$ sets Eq. \eqref{eq:pot-Green} equal to zero, which is  hold immediately by the left hand side of Eq. \eqref{eq:pot-Green}. The first integral in the right hand side of Eq. \eqref{eq:pot-Green} equals zero since $\phi(r\to 0 ) = 0$ while $\dd[2]{r}/\norm{\vb{r}-\vb{r}}\approx\dd[2]{r}/r^2$ remains bounded, thus the term between brackets in the second integral must equal to zero in the far-field regime \cite{schot_eighty_1992}, that is
 %
 \index{Boundary Conditions!Open!Sommerfeld's Radiation Condition}%
 \index{Partial Differential Equation (PDE)!Boundary Conditions!Open!Sommerfeld's Radiation Condition}%
@@ -42,9 +42,12 @@ The boundary condition that the potential $\phi$ must decay to zero as $r\to\inf
 %
 where $\norm{\vb{r}-\vb{r}'} \approx r$ and $\vb{k} = k \vu{e}_r$. The Eq. \eqref{eq:SommScal} is known as the Sommerfeld's radiation condition since it states that in the far-field there can only be outgoing waves that decay uniformly in all directions \cite{schot_eighty_1992,jin_theory_2010,bondeson_computational_2005}.
 
-A generalization of the Eq. \eqref{eq:SommScal} to the electric field $\vb{E}$ and the $\vb{H}$ field, both of which are solution to the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}], can be obtained \textcolor{red}{by substituting into the Green's second identity for vector fields\footnote{%
+A generalization of the Eq. \eqref{eq:SommScal} to the electric field $\vb{E}$ and the $\vb{H}$ field, both of which are solution to the vectorial Helmholtz equation [Eq. \eqref{eq:Helmholtz}], can be obtained by substituting into the Green's second identity for vector fields%
+	%
+	\footnote{%
     This can be obtained if  Eq. \eqref{eq:curlcurlE} is subtracted by itself interchanging $\boldsymbol{\eta}_j $ and $\vb{E}$ and setting $\boldsymbol{\eta}_i(\vb{r}) = \vb{n}g(\vb{r}|\vb{r}')$ as explained by \citeauthor{stratton_diffraction_1939} \cite{stratton_diffraction_1939}.}%
-    } the electric field  $\vb{E}$ ---or magnetic field $\vb{H}$--- and the vectorial Green's function \cite{schot_eighty_1992,silver_microwave_1984,colton_inverse_2019}. Yet, an equivalent derivation is achieved by separating the electromagnetic fields into two contributions and introducing  two vectorial potentials according to the origin of their sources: magnetic and electric  charges and currents induced into a bounded volume \cite{jin_theory_2010,bondeson_computational_2005}. Under such considerations, the electromagnetic fields can be written as:
+    %
+    the electric field  $\vb{E}$ ---or magnetic field $\vb{H}$--- and the vectorial Green's function \cite{schot_eighty_1992,silver_microwave_1984,colton_inverse_2019}. Yet, an equivalent derivation is achieved by separating the electromagnetic fields into two contributions and introducing  two vectorial potentials according to the origin of their sources: magnetic and electric  charges and currents induced into a bounded volume \cite{jin_theory_2010,bondeson_computational_2005}. Under such considerations, the electromagnetic fields can be written as:
 %
 \begin{align}
 \vb{E} = \vb{E}_\text{e} + \vb{E}_\text{m},
@@ -76,10 +79,10 @@ where the subscript `e' (`m') stands for the electric (magnetic) sources \cite{j
 \index{Lorenz!Gauge}%
 \index{Gauge!Lorenz}%
 %
-where $\rho_\text{m}$ and $\vb{J}_\text{m}$ are  induced charge and current densities due to the magnetization of the sources \cite{jin_theory_2010}. From the magnetic Gauss's law applied on $\mu\vb{H}_\text{e}$, it is defined the vector potential $\vb{A}$ and, analogously, the vector potential $\vb{F}$ arises from the electric Gauss's law on $\varepsilon\vb{E}\text{m}$ \cite{jin_theory_2010}. Then, scalar potentials $\phi_\text{e}$ and $\phi_\text{m}$ for $\vb{E}_\text{e} $ and $\vb{H}_\text{m}$ are obtained from the Faraday-Lenz's law and the Ampère-Maxwell's law applied on them, accordingly \cite{jin_theory_2010}. If the electric scalar and vector potentials are chosen so that they follow the Lorenz gauge, and the same is imposed for the magnetic scalar and vector potential, that is $\nabla\cdot\vb{A} = -i\omega\mu\varepsilon \phi_\text{e}$ and $\nabla\cdot\vb{F} = -i\omega\mu\varepsilon \phi_\text{m}$ \cite{zangwill_modern_2013}, then the EM fields are given by
+where $\rho_\text{m}$ and $\vb{J}_\text{m}$ are  induced charge and current densities due to the magnetization of the sources \cite{jin_theory_2010}. From the magnetic Gauss's law applied on $\mu\vb{H}_\text{e}$, it is defined the vector potential $\vb{A}$ and, analogously, the vector potential $\vb{F}$ arises from the electric Gauss's law on $\varepsilon\vb{E}_\text{m}$ \cite{jin_theory_2010}. Then, scalar potentials $\phi_\text{e}$ and $\phi_\text{m}$ for $\vb{E}_\text{e} $ and $\vb{H}_\text{m}$ are obtained from the Faraday-Lenz's law and the Ampère-Maxwell's law applied on them, accordingly \cite{jin_theory_2010}. If the electric scalar and vector potentials are chosen so that they follow the Lorenz gauge, and the same is imposed for the magnetic scalar and vector potential, that is $\nabla\cdot\vb{A} = -i\omega\mu\varepsilon \phi_\text{e}$ and $\nabla\cdot\vb{F} = -i\omega\mu\varepsilon \phi_\text{m}$ \cite{zangwill_modern_2013}, then the EM fields are given by
 %
 \begin{align}
-    \vb{E} = - \frac{\nabla[\nabla\cdot\vb{A}]}{i\omega\varepsilon\mu} + i \omega\vb{A} + \frac{1}{\varepsilon}\nabla\times\vb{F},
+    \vb{E} = - \frac{\nabla[\nabla\cdot\vb{A}]}{i\omega\varepsilon\mu} + i \omega\vb{A} + \frac{1}{\varepsilon}\nabla\times\vb{F}
     \qquad
     \text{and}
     \qquad
@@ -90,7 +93,7 @@ where $\rho_\text{m}$ and $\vb{J}_\text{m}$ are  induced charge and current dens
 where the vectorial potentials $\vb{A}$ and $\vb{F}$ are also solution to Helmholtz equation on each component and thus can be expressed as \cite{jin_theory_2010}
 %
 \begin{align}
-    \vb{A} = \frac{\mu}{4\pi} \int_\Omega \vb{J}_\text{ext}  \frac{\exp[i\vb{k}\cdot(\vb{r}-\vb{r}')]}{\norm{\vb{r}-\vb{r}'}}\dd{\Omega'},
+    \vb{A} = \frac{\mu}{4\pi} \int_\Omega \vb{J}_\text{ext}  \frac{\exp[i\vb{k}\cdot(\vb{r}-\vb{r}')]}{\norm{\vb{r}-\vb{r}'}}\dd{\Omega'}
     \qquad
     \text{and}
     \qquad
@@ -107,7 +110,7 @@ In the far-field regime it follows that $\norm{\vb{r}-\vb{r}'}^{-1}\approx r^{-1
 \end{align}
 \end{subequations}
 %
-and that also the operator $\nabla$ acts as $\nabla\to i\vb{k} = ik\vb{e}_r$ since the electric field can be written as a plane traveling in the $\vb{k}$ direction \cite{jin_theory_2010,jackson_classical_1999}. Substituting Eqs. \eqref{eq:AF} into Eq. \eqref{eq:EMFields} leads to the following expressions for the electromagnetic field in the far-field regime \cite{jin_theory_2010}:
+and that also the operator $\nabla$ acts as $\nabla\to i\vb{k} = ik\vb{e}_r$ since the electric field can be written as a plane traveling in the $\vb{k}$ direction \cite{jin_theory_2010,jackson_classical_1999}. Substituting Eqs. \eqref{eq:AF} into Eq. \eqref{eq:EMFields} leads to the following expressions for the electromagnetic fields in the far-field regime \cite{jin_theory_2010}:
 %
 \begin{subequations}
     \label{eq:EHFarlim}
@@ -121,7 +124,7 @@ and that also the operator $\nabla$ acts as $\nabla\to i\vb{k} = ik\vb{e}_r$ sin
 \end{align}
 \end{subequations}
 %
-where the dispersion relation $k^2 = \omega^2\mu\varepsilon$ was employed. From Eq. \eqref{eq:EHFarlim} it can be seen that the EM fields in the far-field regime have no radial components and, by calculating the cross product $\vu{e}_r\times\vb{E}$ in the far-field, an comparing with Eq. \eqref{eq:HFarlim}, one obtains
+where the dispersion relation $k^2 = \omega^2\mu\varepsilon$ was employed. From Eq. \eqref{eq:EHFarlim} it can be seen that the EM fields in the far-field regime have no radial components and, by calculating the cross product $\vu{e}_r\times\vb{E}$ in the far-field, and comparing with Eq. \eqref{eq:HFarlim}, one obtains
 %
 \begin{align}
     \lim_{r\to\infty} \qty(\vu{e}_r\times\vb{E} - \sqrt{\frac{\mu}{\varepsilon}} \vb{H}) = 0,
@@ -130,13 +133,13 @@ where the dispersion relation $k^2 = \omega^2\mu\varepsilon$ was employed. From 
 %
 \index{Wave!Plane!Dispersion Relation}%
 %
-which states that the electric field is perpendicular to the direction of propagation and to the $\vb{H}$ field in the far-field and that their amplitudes have a fixed ratio of $\sqrt{{\mu}/{\varepsilon}}$, known as the impedance of the medium \cite{jin_theory_2010,schot_eighty_1992}. Lastly, Eq. \eqref{eq:FarLimit} can be rewritten in terms of only $\vb{E}$ with aide of the Faraday-Lenz's law and dispersion relation for a plane wave, which yields the generalization of the Eq. \eqref{eq:SommScal},
+which states that the electric field is perpendicular to the direction of propagation and to the $\vb{H}$ field in the far-field and that their amplitudes have a fixed ratio of $\sqrt{{\mu}/{\varepsilon}}$, known as the impedance of the medium \cite{jin_theory_2010,schot_eighty_1992}. Lastly, Eq. \eqref{eq:FarLimit} can be rewritten in terms of only $\vb{E}$ with aide of the Faraday-Lenz's law and the dispersion relation for a plane wave, which yields the generalization of the Eq. \eqref{eq:SommScal}
 %
 \index{Scattering!Sommerfeld!Radiation Condition!Vectorial}%
 \index{Sommerfeld!Radiation Condition!Vectorial}%
 %
 \begin{tcolorbox}[title = Generalized Sommerfeld or Silver-Müller Radiation Condition, ams align, breakable ]
-    \lim_{r\to \infty} r\qty(\nabla\times \vb{E} - i k \vu{e}_r\times\vb{E}) = 0
+    \lim_{r\to \infty} r\qty(\nabla\times \vb{E} - i k \vu{e}_r\times\vb{E}) = 0,
     \label{eq:SommVec}
 \end{tcolorbox}%
  \noindent%
@@ -147,7 +150,7 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
     \subsubsection{Perfectly Matching Layer}
 
     \index{Boundary Conditions!Open!Perfectly Matching Layer (PML)}%
-    The \textcolor{red}{Perfectly Matching Layer (PML)} is an \textcolor{red}{Absorbing Boundary Condition (ABC)} described by a mathematical  domain $\Omega_\text{PML}$ \cite{jin_theory_2010} that surrounds  $\Omega$, where Eq. \eqref{eq:Scatt-Weak-All} is to be solved, which has the property that any reflection on its boundary is damped \cite{bondeson_computational_2005,jin_theory_2010,chew_complex_1997}. The PML was originally developed by \citeauthor{berenger_perfectly_1994} \cite{berenger_perfectly_1994} in 1994 as a highly absorbing media for finite differences time domain simulations and then it was proposed as a \textit{complex coordinate stretching} viewpoint\footnote{\textcolor{red}{The complex coordinate stretching approach to the PML for FEM simulations employs a curvilinear system with complex evaluated scale factors to suppress any non-physical reflections.}} \cite{chew_complex_1997}, thus attributing the non-reflectivity of the PML to its geometric properties. The FEM solution to the scattering problem with time harmonic dependency, such as described in Eq. \eqref{eq:Scatt-Weak-All}, exploits the later approach since the introduction of the PML do not modifies the method \cite{jin_theory_2010}.
+    The Perfectly Matching Layer (PML) is an Absorbing Boundary Condition (ABC) described by a mathematical  domain $\Omega_\text{PML}$ \cite{jin_theory_2010} that surrounds  $\Omega$, where Eq. \eqref{eq:Scatt-Weak-All} is to be solved, which has the property that any reflection on its boundary is damped \cite{bondeson_computational_2005,jin_theory_2010,chew_complex_1997}. The PML was originally developed by \citeauthor{berenger_perfectly_1994} \cite{berenger_perfectly_1994} in 1994 as a highly absorbing media for finite differences time domain simulations and then it was proposed as a \textit{complex coordinate stretching} viewpoint\footnote{The complex coordinate stretching approach to the PML for FEM simulations employs a curvilinear system with complex evaluated scale factors to suppress any non-physical reflections.} \cite{chew_complex_1997}, thus attributing the non-reflectivity of the PML to its geometric properties. The FEM solution to the scattering problem with time harmonic dependency, such as described in Eq. \eqref{eq:Scatt-Weak-All}, exploits the later approach since the introduction of the PML does not modifies the method \cite{jin_theory_2010}.
 
     To determine which conditions are needed for the PML to damp all reflections in $\Omega$, let us use stretched coordinates on the PML domain $\Omega_\text{PML}$ where it is assumed that the far-field approximation of the electromagnetic fields is valid. Thus, the gradient in such coordinate system can be written as
     %
@@ -160,7 +163,7 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
      %
      \index{Coordinate System!Stretched}%
      %
-     where the subscript 's` stands for stretched and $\vb{k}$ is the wave vector of the traveling electric plane wave in the far-field. The stretching factors $s_{x_i}$, with $x_i \in \{x, y, z\}$, depend only on the coordinate of its stretching direction, that is, $s_{x_i} = s_{x_i}(x_i)$ and are, in general, complex quantities \cite{chew_complex_1997,jin_theory_2010}; on the domain $\Omega$, outside the PML, the scale factors are equal to one. Additionally, the divergence and curl operators in the stretched coordinate system are \cite{arfken_mathematical_2001}:
+     where the subscript `s' stands for stretched and $\vb{k}$ is the wave vector of the traveling electric plane wave in the far-field. The stretching factors $s_{x_i}$, with $x_i \in \{x, y, z\}$, depend only on the coordinate of its stretching direction, that is, $s_{x_i} = s_{x_i}(x_i)$ and are, in general, complex quantities \cite{chew_complex_1997,jin_theory_2010}; on the domain $\Omega$, outside the PML, the scale factors are equal to one. Additionally, the divergence and curl operators in the stretched coordinate system are \cite{arfken_mathematical_2001}:
      %
      \begin{align}
         \nabla_\text{s}\cdot \vb{v} =&
@@ -197,13 +200,13 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
      \label{eq:kstretchcomp}
     \end{align}
     %
-    with $\varphi$ and $\theta$ the azimuthal and polar angles. If any of the stretching factores are chosen so that $\Im[s_{x_i}]<0$, then the EM fields in the PML decay exponentially in the $x_i$-direction.
+    with $\varphi$ and $\theta$ the azimuthal and polar angles, respectively. If any of the stretching factors are chosen so that $\Im[s_{x_i}]<0$, then the EM fields in the PML decay exponentially in the $x_i$-direction.
 
     In between the domains $\Omega$ and $\Omega_\text{PML}$ there is a boundary, which can be locally considered as a plane interface. The Fresnel's reflection amplitude coefficients ---for s- and p-polarization relative to the boundary between the domains--- can be defined as usual since the ratio of the incident and the reflected electric field in the stretched coordinate system does not depend on any stretching coefficient $s_{x_i}$ \cite{jin_theory_2010,chew_complex_1997}. From the continuity of the tangential component of the electric field, the reflection amplitude coefficients for both polarization states are \cite{jackson_classical_1999}
     %
     \begin{align}
        r_\text{s} = \frac{k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} - k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}}
-                        {k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} + k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}},
+                        {k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} + k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}}
            \quad
            \text{and}
            \quad
@@ -212,7 +215,7 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
        \label{eq:refl-Fresnel}
     \end{align}
    %
-   where the $z$ component of the wave vector $\vb{k}$ is perpendicular to the locally plane interface, and the superscripts denote whether the \textcolor{red}{functions are} evaluated at $\Omega$ or $\Omega_\text{PML}$. In a similar manner, the phase matching condition of the reflected and incident wave at the interface between $\Omega$ and $\Omega_k$ states that \cite{jin_theory_2010}
+   where the $z$ component of the wave vector $\vb{k}$ is perpendicular to the locally plane interface, and the superscripts denote whether the functions are evaluated at $\Omega$ or $\Omega_\text{PML}$. In a similar manner, the phase matching condition of the reflected and incident wave at the interface between $\Omega$ and $\Omega_k$ states that \cite{jin_theory_2010}
    %
    \begin{subequations}
        \label{eq:PhaseMatch}
@@ -260,7 +263,7 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
             \qquad
              &\iff
             \qquad
-       \vb{H}^\text{(PML)} = \text{diag}\qty(\frac{1}{s_x},\frac{1}{s_y},\frac{1}{s_z})\vb{H}^{(\Omega)},
+       \vb{H}^\text{(PML)} = \text{diag}\qty(\frac{1}{s_x},\frac{1}{s_y},\frac{1}{s_z})\vb{H}^{(\Omega)}.
        \label{eq:H-Omega-PML}
    \end{align}
     \end{subequations}
@@ -284,7 +287,7 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
             \\
         \nabla_\text{s}  \times\Big(\mu \vb{H}^\text{(PML)} \Big) =   - i\omega \varepsilon \vb{E}^\text{(PML)}
             \qquad &\implies\qquad
-            \nabla \times \Big[\Big(\mu \mathbb{\Lambda}\Big) \vb{E}^{(\Omega)}\Big] =  -i\omega\Big(\varepsilon\mathbb{\Lambda}\Big)\vb{E}^{(\Omega)}.
+            \nabla \times \Big[\Big(\mu \mathbb{\Lambda}\Big) \vb{E}^{(\Omega)}\Big] =  -i\omega\Big(\varepsilon\mathbb{\Lambda}\Big)\vb{E}^{(\Omega)},
     \end{align}
     \end{subequations}
     %
@@ -296,7 +299,7 @@ The implementation of the light scattering problem [Eq. \eqref{eq:Scatt-Weak-All
     %
     Within the approach in Eqs. \eqref{eq:MaxwellsEq-PML}, the PML can be implemented into the weak formulation of the scattering problem  by introducing a homogeneous, but anisotropic, optical response to the material that embeds the scatterers, and thus simulate an infinite embedding media \cite{chew_complex_1997,bondeson_computational_2005,jin_theory_2010}. Comparing the Maxwell's equations representation in Eqs. \eqref{eq:MaxwellsEq} and \eqref{eq:MaxwellsEq-PML}, the anisotropy of the media is introduced into the weak formulation of the scattering problem [Eq. \eqref{eq:Scatt-Weak-All}] by replacing $\vb{E}$ by $\mathbb{\Lambda}\vb{E}$ \cite{jin_theory_2010}.
 
-     As stated in the PML conditions [Eq. \eqref{eq:PMLgen}], the scalar values of $\varepsilon$ and $\mu$, and of $s_x$ and $s_y$, must match in the medium surrounding the sactterers and in the PML domain. The anisotropy of the dielectric function  sets $s_x = s_y = s_z = 1$  in $\Omega$ so the scattering problem is described exactly as in Eq. \eqref{eq:Scatt-Weak-All}.  In order to guarantee no incoming waves in the domain $\Omega$ due to the finite size of $\Omega_\text{PML}$, let us choose $s_z$ with a negative imaginary part in $\Omega_\text{PML}$.  Lastly, anisotropy is introduced into the finite element formulation of the scattering problem [Eqs. \eqref{eq:Vec-FEM}] by including the matrix $\mathbb{\Lambda}$ as discussed above. Therefore, the PML implementation into the FEM is summarized as follows
+     As stated in the PML conditions [Eq. \eqref{eq:PMLgen}], the scalar values of $\varepsilon$ and $\mu$, and of $s_x$ and $s_y$, must match in the medium surrounding the sactterers and in the PML domain. The anisotropy of the dielectric function  sets $s_x = s_y = s_z = 1$  in $\Omega$ so the scattering problem is described exactly as in Eq. \eqref{eq:Scatt-Weak-All}.  In order to guarantee no incoming waves in the domain $\Omega$ due to the finite size of $\Omega_\text{PML}$, let us choose $s_z$ with a negative imaginary part in $\Omega_\text{PML}$.  Lastly, anisotropy is introduced into the finite element formulation of the scattering problem [Eqs. \eqref{eq:Vec-FEM}] by including the matrix $\mathbb{\Lambda}$ as discussed above. Therefore, the PML implementation into the FEM is summarized as follows:
      %
      \index{Boundary Conditions!Open!Perfectly Matching Layer (PML)!Implementation}%
      %

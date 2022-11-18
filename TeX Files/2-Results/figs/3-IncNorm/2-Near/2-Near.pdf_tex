@@ -192,9 +192,9 @@
     \put(0,0){\includegraphics[width=\unitlength,page=44]{2-Near.pdf}}%
     \put(0.52863172,0.08690488){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=45]{2-Near.pdf}}%
-    \put(0.09436602,0.76662983){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.09436602,0.76662983){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0$}\end{tabular}}}}%
     \put(0.08511264,1.16845201){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.50$}\end{tabular}}}}%
-    \put(0.49514968,0.76879482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.49514968,0.76879482){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0$}\end{tabular}}}}%
     \put(0.49514968,1.17053264){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.50$}\end{tabular}}}}%
     \put(0.09436602,0.36223783){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.50$}\end{tabular}}}}%
     \put(0.49514968,0.364403){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.50$}\end{tabular}}}}%

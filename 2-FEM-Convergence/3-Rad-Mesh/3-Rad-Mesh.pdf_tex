@@ -1,0 +1,104 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '3-Rad-Mesh.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{292.56094384bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.4386536)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.02197463,0.14631296){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error\end{tabular}}}}}%
+    \put(0.47450227,0.01083575){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP Maximum Mesh Size [nm]\end{tabular}}}}%
+    \put(0.12747774,0.33442822){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1\times 10^{-3}$\end{tabular}}}}%
+    \put(0.12747774,0.37570852){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$5\times 10^{-3}$\end{tabular}}}}%
+    \put(0.12747774,0.39764459){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1\times 10^{-2}$\end{tabular}}}}%
+    \put(0.16035105,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.10 a$\end{tabular}}}}%
+    \put(0.24036592,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.15 a$\end{tabular}}}}%
+    \put(0.32038095,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.20 a$\end{tabular}}}}%
+    \put(0.40039582,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.25 a$\end{tabular}}}}%
+    \put(0.48041069,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.30 a$\end{tabular}}}}%
+    \put(0.56042556,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.35 a$\end{tabular}}}}%
+    \put(0.64044059,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.40 a$\end{tabular}}}}%
+    \put(0.72045546,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.45 a$\end{tabular}}}}%
+    \put(0.80047033,0.42067201){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0.50 a$\end{tabular}}}}%
+    \put(0.12747774,0.31249215){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$5\times 10^{-4}$\end{tabular}}}}%
+    \put(0.12747774,0.06772789){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$5\times 10^{-4}$\end{tabular}}}}%
+    \put(0.12747774,0.27120358){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1\times 10^{-4}$\end{tabular}}}}%
+    \put(0.12747774,0.24926751){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$5\times 10^{-5}$\end{tabular}}}}%
+    \put(0.12747774,0.17369648){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1\times 10^{-2}$\end{tabular}}}}%
+    \put(0.12747774,0.14694307){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$5\times 10^{-3}$\end{tabular}}}}%
+    \put(0.12747774,0.09448122){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$1\times 10^{-3}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{3-Rad-Mesh.pdf}}%
+    \put(0.90852272,0.26363553){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
+    \put(0.90852272,0.22263009){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
+    \put(0.90852272,0.18518212){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{3-Rad-Mesh.pdf}}%
+    \put(0.9096993,0.34265251){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}509 nm\end{tabular}}}}%
+    \put(0.9091013,0.30696134){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{3-Rad-Mesh.pdf}}%
+    \put(0.90969932,0.10039621){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.90910132,0.06470504){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}545 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{3-Rad-Mesh.pdf}}%
+    \put(0.91185591,0.37781639){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$Air\end{tabular}}}}%
+    \put(0.91190722,0.13556011){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$Glass\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{3-Rad-Mesh.pdf}}%
+    \put(0.02197463,0.32140158){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{3-Rad-Mesh.pdf}}%
+    \put(0.25188088,0.03910623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{3-Rad-Mesh.pdf}}%
+    \put(0.37990833,0.03910623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{3-Rad-Mesh.pdf}}%
+    \put(0.50793578,0.03910623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{3-Rad-Mesh.pdf}}%
+    \put(0.63596326,0.03910623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{3-Rad-Mesh.pdf}}%
+    \put(0.76399071,0.03910623){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{3-Rad-Mesh.pdf}}%
+  \end{picture}%
+\endgroup%

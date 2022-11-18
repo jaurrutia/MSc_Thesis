@@ -69,6 +69,7 @@
 			\definecolor{lblue}{RGB}{134,165,169}	% light blue
 			\definecolor{lgray}{RGB}{118,118,118}	% light gray
 			\definecolor{dgreen}{RGB}{83,111,80}	% dark green
+			\definecolor{Mblue}{RGB}{93,109,193}	% Mathematica blue
 			%\definecolor{bblue}{RGB}{56,182,241} % bright blue: Blue of the tunic
 			%UNAM color palette
 			\definecolor{UNAMblue}{RGB}{0,60,113}		% Blue pantone  541 (C)

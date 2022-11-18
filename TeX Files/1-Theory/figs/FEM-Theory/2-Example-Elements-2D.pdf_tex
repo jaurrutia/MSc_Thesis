@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (08b2f3d93c, 2022-04-05), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '2-Example-Elements-2D.pdf' (pdf, eps, ps)
 %%
@@ -53,8 +53,8 @@
   \begin{picture}(1,0.76857264)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.18790112,0.27151337){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.25579542,0.30795282){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.18790112,0.27151336){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.25579543,0.30795281){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
     \put(0.14286009,0.26999123){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
     \put(0.08336838,0.31421953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
     \put(0.04051744,0.34531423){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
@@ -64,101 +64,100 @@
     \put(0.29510158,0.2947428){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
     \put(0.06182124,0.29169367){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
     \put(0.30869575,0.33489981){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.1871656,0.48009137){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_1(\boldsymbol{\xi}) = (\xi _1+\xi _2-1) (2\xi _1+2 \xi _2-1)$\end{tabular}}}}%
-    \put(0.51835621,0.48009137){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_2(\boldsymbol{\xi}) = 4 \xi _1 (1-\xi _1-\xi _2)$\end{tabular}}}}%
-    \put(0.85289994,0.48009137){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_3(\boldsymbol{\xi}) = \xi _1 (2 \xi _1-1)$\end{tabular}}}}%
-    \put(0.18999416,0.22033677){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_4(\boldsymbol{\xi}) = 4 \xi _2 (1-\xi _1-\xi _2)$\end{tabular}}}}%
-    \put(0.51835621,0.22033677){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_5(\boldsymbol{\xi}) = 4 \xi_1 \xi_2$\end{tabular}}}}%
-    \put(0.85289995,0.22033677){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_6(\boldsymbol{\xi}) = \xi_2(2\xi_2-1)$\end{tabular}}}}%
+    \put(0.1871656,0.48009138){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_1(\boldsymbol{\xi}) = (\xi _1+\xi _2-1) (2\xi _1+2 \xi _2-1)$\end{tabular}}}}%
+    \put(0.5183562,0.48009138){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_2(\boldsymbol{\xi}) = 4 \xi _1 (1-\xi _1-\xi _2)$\end{tabular}}}}%
+    \put(0.85289994,0.48009138){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_3(\boldsymbol{\xi}) = \xi _1 (2 \xi _1-1)$\end{tabular}}}}%
+    \put(0.18999415,0.22033679){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_4(\boldsymbol{\xi}) = 4 \xi _2 (1-\xi _1-\xi _2)$\end{tabular}}}}%
+    \put(0.51835621,0.22033679){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_5(\boldsymbol{\xi}) = 4 \xi_1 \xi_2$\end{tabular}}}}%
+    \put(0.85289995,0.22033679){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_6(\boldsymbol{\xi}) = \xi_2(2\xi_2-1)$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-Example-Elements-2D.pdf}}%
-    \put(0.52466038,0.27151337){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.59255468,0.30795282){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.47961935,0.26999123){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.42012764,0.31421953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.37949221,0.34309871){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.36887268,0.36432925){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.36531908,0.40112038){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.36068208,0.44250206){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.63186084,0.2947428){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
-    \put(0.3985805,0.29169367){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
-    \put(0.64545501,0.33489981){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.86284256,0.27151337){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.93073686,0.30795282){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.81780153,0.26999123){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.75830982,0.31421953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.71545887,0.34531423){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.70705486,0.37097582){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.70350126,0.40555142){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.69886426,0.44250206){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.97004302,0.2947428){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
-    \put(0.73676268,0.29169367){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
-    \put(0.98363719,0.33489981){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.86284256,0.01008184){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.93073686,0.04652129){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.81780153,0.0085597){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.75830982,0.05278801){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.71545887,0.0838827){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.70705486,0.10954429){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.70350126,0.14411989){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.69886426,0.18107054){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.97004302,0.03331128){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
-    \put(0.73676268,0.03026214){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
-    \put(0.98363719,0.07346828){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.52466038,0.01008184){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.59255468,0.04652129){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.47961935,0.0085597){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.42012764,0.05278801){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.37949221,0.08166718){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.36887268,0.10289773){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.36531908,0.13968885){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.36068208,0.18107054){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.63186084,0.03331128){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
-    \put(0.3985805,0.03026214){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
-    \put(0.64545501,0.07346828){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.18790112,0.01008184){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.25579542,0.04652129){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.14286009,0.0085597){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.08336838,0.05278801){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.04273296,0.08166718){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.03211343,0.10289773){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0.02855982,0.13968885){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
-    \put(0.02392282,0.18107054){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0.29510158,0.03331128){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
-    \put(0.06182124,0.03026214){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
-    \put(0.30869575,0.07346828){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.52466037,0.27151336){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.59255467,0.30795281){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.47961934,0.26999123){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.42012763,0.31421953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.37949221,0.3430987){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.36887267,0.36432925){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.36531907,0.40112038){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.36068207,0.44250206){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.63186083,0.2947428){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.39858049,0.29169367){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.645455,0.33489981){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.86284255,0.27151336){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.93073685,0.30795281){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.81780152,0.26999123){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.75830981,0.31421953){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.71545886,0.34531423){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.70705485,0.37097582){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.70350125,0.40555142){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.69886425,0.44250206){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.97004301,0.2947428){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.73676267,0.29169367){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.98363718,0.33489981){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.86284255,0.01008182){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.93073685,0.04652127){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.81780152,0.00855969){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.75830981,0.05278799){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.71545886,0.08388268){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.70705485,0.10954427){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.70350125,0.14411988){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.69886425,0.18107052){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.97004301,0.03331126){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.73676267,0.03026212){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.98363718,0.07346826){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.52466037,0.01008182){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.59255467,0.04652127){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.47961934,0.00855969){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.42012763,0.05278799){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.37949221,0.08166716){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.36887267,0.10289771){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.36531907,0.13968883){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.36068207,0.18107052){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.63186083,0.03331126){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.39858049,0.03026212){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.645455,0.07346826){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.18790112,0.01008182){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.25579543,0.04652127){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.14286009,0.00855969){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.08336838,0.05278799){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.04273296,0.08166716){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.03211343,0.10289771){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
+    \put(0.02855982,0.13968883){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0.02392282,0.18107052){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.29510158,0.03331126){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_1$\end{tabular}}}}%
+    \put(0.06182124,0.03026212){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi_2$\end{tabular}}}}%
+    \put(0.30869575,0.07346826){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
     \put(0.63774312,0.72153099){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\phi_1(\xi) =  (1-\xi ) (3 \xi -2) (3 \xi -1)/2$\\\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{2-Example-Elements-2D.pdf}}%
-    \put(0.1983369,0.54947434){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{2-Example-Elements-2D.pdf}}%
-    \put(0.27121352,0.54947434){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=4]{2-Example-Elements-2D.pdf}}%
-    \put(0.34410914,0.54947434){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=5]{2-Example-Elements-2D.pdf}}%
-    \put(0.41701422,0.54947434){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=6]{2-Example-Elements-2D.pdf}}%
-    \put(0.49009948,0.54947434){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=7]{2-Example-Elements-2D.pdf}}%
-    \put(0.56184763,0.54947434){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=8]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.59038315){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-0.2\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=9]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.61528114){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=10]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.64017913){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=11]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.6650771){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=12]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.68997503){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.6\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=13]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.71487302){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.8\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=14]{2-Example-Elements-2D.pdf}}%
-    \put(0.18449388,0.73977101){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=15]{2-Example-Elements-2D.pdf}}%
     \put(0.13575618,0.66953286){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\phi_i(\xi)$\end{tabular}}}}}%
     \put(0.38049965,0.52416663){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\xi$\end{tabular}}}}%
     \put(0.63774312,0.67962386){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\phi_2(\xi) = (9/2) (\xi -1) \xi  (3 \xi -2)$\\\end{tabular}}}}%
     \put(0.63774312,0.63771672){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\phi_3(\xi) = (9/2) (1-\xi) \xi  (3 \xi -1)$\\\end{tabular}}}}%
     \put(0.63774312,0.59580959){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\phi_4(\xi) = (9/2)(\xi -1) \xi ^2+\xi$\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=16]{2-Example-Elements-2D.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2-Example-Elements-2D.pdf}}%
+    \put(0.19037354,0.54922478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2-Example-Elements-2D.pdf}}%
+    \put(0.26227924,0.54922478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2-Example-Elements-2D.pdf}}%
+    \put(0.33418493,0.54922478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2-Example-Elements-2D.pdf}}%
+    \put(0.40609062,0.54922478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{2-Example-Elements-2D.pdf}}%
+    \put(0.4779963,0.54922478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{2-Example-Elements-2D.pdf}}%
+    \put(0.549902,0.54922478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.5928752){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.61744441){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.64201363){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.66658285){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.69115206){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.71572127){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{2-Example-Elements-2D.pdf}}%
+    \put(0.18598427,0.74029049){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{2-Example-Elements-2D.pdf}}%
   \end{picture}%
 \endgroup%

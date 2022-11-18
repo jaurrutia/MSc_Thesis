@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (b8e25be833, 2022-02-05), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '4-Conv.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{292.13472622bp}%
+    \setlength{\unitlength}{310.50019031bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,50 +50,82 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.50359173)%
+  \begin{picture}(1,0.4850208)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{4-Conv.pdf}}%
-    \put(0.03622593,0.12575183){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\abs{Q^\text{Mie}-Q^\text{FEM}}$\end{tabular}}}}}%
-    \put(0.11542432,0.29757737){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\\NP Max Mesh Size: $a/10$\\Matrix Max Mesh Size: $\lambda/6$\\PML \& Matrix Thickness: $\lambda/4$\end{tabular}}}}%
+    \put(0.85706011,0.45554315){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{4-Conv.pdf}}%
-    \put(0.08138667,0.19239501){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0.85679995,0.4234964){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{4-Conv.pdf}}%
-    \put(0.0769791,0.2476058){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.1\end{tabular}}}}%
+    \put(0.51931813,0.20884965){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mie (Glass)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{4-Conv.pdf}}%
-    \put(0.0769791,0.30281652){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0.15784355,0.20884965){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mie (Air) \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{4-Conv.pdf}}%
-    \put(0.0769791,0.35802746){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.3\end{tabular}}}}%
+    \put(0.33527077,0.20793372){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM (Air)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{4-Conv.pdf}}%
-    \put(0.0769791,0.41323803){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0.7159917,0.20766705){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM (Glass)\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{4-Conv.pdf}}%
-    \put(0.0769791,0.46844882){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.02173912,0.13059851){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $\times 10^{3}$\end{tabular}}}}}%
+    \put(0.02173912,0.36036633){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Efficiencies  (Air)\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{4-Conv.pdf}}%
-    \put(0.11341501,0.03252977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0.93086196,0.19215412){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.04882705,0.19204728){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{4-Conv.pdf}}%
-    \put(0.3250058,0.03252977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0.03160483,0.24459849){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.1\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{4-Conv.pdf}}%
-    \put(0.53659659,0.03252977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0.03160483,0.29714973){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{4-Conv.pdf}}%
-    \put(0.74818753,0.03252977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0.03160483,0.34970093){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.3\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{4-Conv.pdf}}%
-    \put(0.95977847,0.03252977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0.03160483,0.40225217){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.4\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{4-Conv.pdf}}%
-    \put(0.08579425,0.05424918){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0.03160483,0.45480336){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{4-Conv.pdf}}%
-    \put(0.08501368,0.09147062){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.93085344,0.24114542){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{4-Conv.pdf}}%
-    \put(0.08400732,0.12869206){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.93085344,0.29010343){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{4-Conv.pdf}}%
-    \put(0.08244278,0.16591342){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0.93085344,0.33906144){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{4-Conv.pdf}}%
-    \put(0.5297226,0.28551515){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Mie\end{tabular}}}}%
+    \put(0.93085344,0.38801946){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{4-Conv.pdf}}%
-    \put(0.52978415,0.25751956){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM: Spherical Geometry\end{tabular}}}}%
-    \put(0.52978415,0.22607754){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}FEM: Box Geometry\end{tabular}}}}%
-    \put(0.54512614,0.0033877){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
-    \put(0.03622593,0.34783921){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q^\text{ext}$\end{tabular}}}}}%
-    \put(0.34616229,0.15376827){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\times 10^{-3}$\end{tabular}}}}%
-    \put(0.63268723,0.12022914){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{orange}{$\times 10^{-3}$}\end{tabular}}}}%
+    \put(0.93085344,0.43697744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{4-Conv.pdf}}%
+    \put(0.08482111,0.03807526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{4-Conv.pdf}}%
+    \put(0.28631027,0.03807526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{4-Conv.pdf}}%
+    \put(0.48779942,0.03807526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{4-Conv.pdf}}%
+    \put(0.68928859,0.03807526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{4-Conv.pdf}}%
+    \put(0.89077773,0.03807526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{4-Conv.pdf}}%
+    \put(0.04947069,0.06255288){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{4-Conv.pdf}}%
+    \put(0.93148714,0.06255288){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{4-Conv.pdf}}%
+    \put(0.93150568,0.08631842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{4-Conv.pdf}}%
+    \put(0.93150568,0.11007614){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{4-Conv.pdf}}%
+    \put(0.93150568,0.13383384){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{4-Conv.pdf}}%
+    \put(0.93150568,0.15759155){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{4-Conv.pdf}}%
+    \put(0.03230271,0.09153339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{4-Conv.pdf}}%
+    \put(0.03230271,0.12048713){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{4-Conv.pdf}}%
+    \put(0.03230271,0.14944087){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{4-Conv.pdf}}%
+    \put(0.85679993,0.39144973){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{ext}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{4-Conv.pdf}}%
+    \put(0.16058778,0.44401212){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\times 10^{2}$\end{tabular}}}}%
+    \put(0.56782829,0.2610427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\times 10^{2}$\end{tabular}}}}%
+    \put(0.99275366,0.36036632){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Efficiencies  (Glass)\end{tabular}}}}}%
+    \put(0.99275366,0.13059851){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $\times 10^{2}$\end{tabular}}}}}%
+    \put(0.49685693,0.00367694){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
   \end{picture}%
 \endgroup%

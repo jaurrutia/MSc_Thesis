@@ -97,6 +97,10 @@
 					backend = bibtex,
 					sorting = none, % Sort as they appear
 					backref=true]{biblatex} %style = trad-abbrv
+		\AtEveryBibitem{\clearfield{url}}
+		\AtEveryBibitem{\clearfield{month}}
+		\AtEveryBibitem{\clearfield{day}}
+		\AtEveryBibitem{\clearfield{issn}}
 		\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 
 %		\DefineBibliographyStrings{spanish}{%
@@ -481,9 +485,9 @@
 	    	{\normalsize \MakeUppercase {\@ctutordosdep}}
 	        }
 	    \vfill
-	        {\bf \MakeUppercase {\@lugar}}{,\bf \MakeUppercase {\@degreedate}}
+	        {\bf \MakeUppercase {\@lugar}}{, \bf \MakeUppercase {\@degreedate}}
 	    \else
-		    {\bf \MakeUppercase {\@lugar}}{,\bf \MakeUppercase {\@degreedate}}
+		    {\bf \MakeUppercase {\@lugar}}{, \bf \MakeUppercase {\@degreedate}}
 	    \fi
 	\end{center}
 	\end{alwayssingle}

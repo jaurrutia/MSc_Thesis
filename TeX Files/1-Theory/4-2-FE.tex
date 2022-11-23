@@ -51,7 +51,7 @@ The finite element corresponds to a particular way of discretization of the doma
 The transformation $T$ is a change of coordinates from the coordinate system $\boldsymbol{\xi}$  of the reference finite element into the real-space system $\vb{r}$. The use of Eq. \eqref{eq:linfunc} in the reference elements yields different kind of interpolating functions, which can be employed to solve the weak formulation of a PDE system [Eq. \eqref{eq:WRM}] by transforming the derivatives in the real space coordinate system by means of the Jacobian matrix $\mathbbm{J}$, whose elements are $J_{ij} = \partial \xi_i/\partial r_j$, and its determinant, the Jacobian, that is \cite{dhatt_finite_2012,fletcher_computational_1984}:
 %
 \begin{align}
-    \pdv{r_i} = \pdv{\xi_i}{r_j} \pdv{\xi_j},
+    \pdv{r_i} = \pdv{\xi_i}{r_j} \pdv{\xi_j}
     \qquad
     \text{and}
     \qquad
@@ -59,7 +59,7 @@ The transformation $T$ is a change of coordinates from the coordinate system $\b
 \label{eq:jac}
 \end{align}
 %
-The Equation \eqref{eq:jac} sets a constriction into the discretization of the original domain $\Omega$ and its partition into finite elements, since the Jacobian must be non singular ---different from zero--- in all points in $\Omega_k$, meaning that the transformation $T$ of the reference element into the real-space finite element is bijective \cite{dhatt_finite_2012,fletcher_computational_1984}. To avoid singular points in $\Omega_k$, the real-space finite element must not be deformed considerably when transformed into the reference element \cite{dhatt_finite_2012}.
+Equation \eqref{eq:jac} sets a constriction into the discretization of the original domain $\Omega$ and its partition into finite elements, since the Jacobian must be non singular ---different from zero--- in all points in $\Omega_k$, meaning that the transformation $T$ of the reference element into the real-space finite element is bijective \cite{dhatt_finite_2012,fletcher_computational_1984}. To avoid singular points in $\Omega_k$, the real-space finite element must not be deformed considerably when transformed into the reference element \cite{dhatt_finite_2012}.
 
 To build the interpolating functions $\phi_{i_k}(\boldsymbol{\xi})$ in the reference finite element, the polynomial functions space on $\Omega_k$ must be chosen by selecting the number of geometrical nodes found along the  edges \cite{larson_finite_2013}, so that the boundary conditions are met. If there are $m$ geometrical nodes on each edge, the finite element is said to be of order $m-1$ since a polynomial of order $m-1$ is guaranteed to pass through the values given the  $m$ nodes. For example, the reference finite elements in Fig. \ref{fig:FinEleEx:a} correspond to a cubic order 1D finite element (three geometrical nodes along the edges), a quadratic order triangular finite element (2D shape with three nodes along the edges), and a linear tetrahedral finite element (3D volume with four triangular faces and two nodes at each edge).
 

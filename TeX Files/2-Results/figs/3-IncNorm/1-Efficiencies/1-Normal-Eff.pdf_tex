@@ -142,7 +142,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=38]{1-Normal-Eff.pdf}}%
     \put(0.76574509,0.13651083){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\scriptsize 525 nm \end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=39]{1-Normal-Eff.pdf}}%
-    \put(0.51866714,0.18719526){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^2$\end{tabular}}}}}%
+    \put(0.51866714,0.18719526){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
     \put(0.78334544,0.00409404){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=40]{1-Normal-Eff.pdf}}%
     \put(0.59083405,0.34113317){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.00\end{tabular}}}}%

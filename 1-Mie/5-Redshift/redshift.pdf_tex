@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14, custom), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file 'redshift.pdf' (pdf, eps, ps)
 %%
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{497.57949219bp}%
+    \setlength{\unitlength}{497.57949829bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,105 +50,101 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.5347635)%
+  \begin{picture}(1,0.53476351)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0.16767941,0.00452189){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ [nm]\end{tabular}}}}%
-    \put(0.40710285,0.00452189){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ [nm]\end{tabular}}}}%
-    \put(0.65233623,0.00550418){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$n_m$ [RIU]\end{tabular}}}}%
-    \put(0.89132005,0.00550418){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$n_m$ [RIU]\end{tabular}}}}%
-    \put(0.01356567,0.26207956){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda_ {\text{res}}$ [nm]\end{tabular}}}}}%
-    \put(0.07798488,0.43729385){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}AuNP$@$Air\end{tabular}}}}%
-    \put(0.31897818,0.43805354){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}AuNP$@$Glass\end{tabular}}}}%
-    \put(0.5618672,0.43729385){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm AuNP\end{tabular}}}}%
-    \put(0.79991215,0.43729385){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50 nm AuNP\end{tabular}}}}%
-    \put(0.10086289,0.50279934){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}No size correction\end{tabular}}}}%
+    \put(0.16767941,0.0045219){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ [nm]\end{tabular}}}}%
+    \put(0.40710285,0.0045219){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$ [nm]\end{tabular}}}}%
+    \put(0.65233622,0.0055042){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$n_\text{m}$ [RIU]\end{tabular}}}}%
+    \put(0.89132004,0.0055042){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$n_\text{m}$ [RIU]\end{tabular}}}}%
+    \put(0.02562404,0.26207957){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda_ {\text{res}}$ [nm]\end{tabular}}}}}%
+    \put(0.10086289,0.50279935){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}No size correction\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{redshift.pdf}}%
-    \put(0.3833533,0.5027008){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Size correction\end{tabular}}}}%
+    \put(0.38335329,0.50270081){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Size correction\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{redshift.pdf}}%
-    \put(0.64375142,0.50183022){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Extinction\end{tabular}}}}%
+    \put(0.64375142,0.50183023){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Extinction\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{redshift.pdf}}%
-    \put(0.87078856,0.5043491){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Scattering\end{tabular}}}}%
+    \put(0.87078855,0.5043491){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Scattering\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{redshift.pdf}}%
-    \put(0.09298898,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.09298897,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=5]{redshift.pdf}}%
-    \put(0.13555823,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0.13555822,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{redshift.pdf}}%
-    \put(0.17773598,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0.17773598,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{redshift.pdf}}%
-    \put(0.22013007,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}40\end{tabular}}}}%
+    \put(0.22013007,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}40\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{redshift.pdf}}%
-    \put(0.25085748,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0.25085747,0.03224461){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{redshift.pdf}}%
-    \put(0.04977658,0.06218132){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}505\end{tabular}}}}}%
+    \put(0.05580576,0.06218133){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}505\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{redshift.pdf}}%
-    \put(0.049859,0.13615128){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}510\end{tabular}}}}}%
+    \put(0.05588819,0.1361513){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}510\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{redshift.pdf}}%
-    \put(0.04966324,0.21028607){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}515\end{tabular}}}}}%
+    \put(0.05569243,0.21028608){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}515\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{redshift.pdf}}%
-    \put(0.049859,0.28425603){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}520\end{tabular}}}}}%
+    \put(0.05588819,0.28425604){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}520\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{redshift.pdf}}%
-    \put(0.04976627,0.35839083){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}525\end{tabular}}}}}%
+    \put(0.05579546,0.35839084){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}525\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{redshift.pdf}}%
-    \put(0.049859,0.43236075){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}530\end{tabular}}}}}%
+    \put(0.05588819,0.43236076){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}530\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{redshift.pdf}}%
-    \put(0.33240607,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.33240607,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{redshift.pdf}}%
-    \put(0.37497532,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0.37497531,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{redshift.pdf}}%
-    \put(0.41715305,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0.41715305,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=18]{redshift.pdf}}%
-    \put(0.45954715,0.03224458){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}40\end{tabular}}}}%
+    \put(0.45954715,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}40\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=19]{redshift.pdf}}%
-    \put(0.49047193,0.0322446){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0.49047192,0.03224461){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=20]{redshift.pdf}}%
-    \put(0.29224252,0.12734794){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}540\end{tabular}}}}}%
+    \put(0.29525711,0.12734795){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}540\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{redshift.pdf}}%
-    \put(0.29226998,0.22224826){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}560\end{tabular}}}}}%
+    \put(0.29528457,0.22224827){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}560\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{redshift.pdf}}%
-    \put(0.29229746,0.31876832){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}580\end{tabular}}}}}%
+    \put(0.29531205,0.31876832){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}580\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{redshift.pdf}}%
-    \put(0.29221503,0.41699191){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}}%
+    \put(0.29522962,0.41699192){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=24]{redshift.pdf}}%
-    \put(0.55652941,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.5565294,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=25]{redshift.pdf}}%
-    \put(0.60500148,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
+    \put(0.60500148,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=26]{redshift.pdf}}%
-    \put(0.65310067,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.4\end{tabular}}}}%
+    \put(0.65310066,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.4\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=27]{redshift.pdf}}%
-    \put(0.70182847,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.6\end{tabular}}}}%
+    \put(0.70182846,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.6\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=28]{redshift.pdf}}%
-    \put(0.7359814,0.03336894){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.8\end{tabular}}}}%
+    \put(0.73598139,0.03336895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.8\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=29]{redshift.pdf}}%
-    \put(0.53428861,0.09309637){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510\end{tabular}}}}}%
+    \put(0.54031779,0.09309639){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=30]{redshift.pdf}}%
-    \put(0.5342886,0.14723243){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}520\end{tabular}}}}}%
+    \put(0.54031778,0.14723244){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}520\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=31]{redshift.pdf}}%
-    \put(0.53428861,0.20136849){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}530\end{tabular}}}}}%
+    \put(0.54031779,0.2013685){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}530\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=32]{redshift.pdf}}%
-    \put(0.5342886,0.25550455){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}540\end{tabular}}}}}%
+    \put(0.54031778,0.25550456){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}540\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=33]{redshift.pdf}}%
-    \put(0.5342886,0.30964061){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}}%
+    \put(0.54031778,0.30964062){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=34]{redshift.pdf}}%
-    \put(0.53428861,0.36377667){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}560\end{tabular}}}}}%
+    \put(0.54031779,0.36377667){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}560\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=35]{redshift.pdf}}%
-    \put(0.53338686,0.41986028){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}570\end{tabular}}}}}%
+    \put(0.53941604,0.41986029){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}570\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=36]{redshift.pdf}}%
-    \put(0.79551326,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.79551325,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=37]{redshift.pdf}}%
-    \put(0.84398209,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
+    \put(0.84398208,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=38]{redshift.pdf}}%
-    \put(0.89207796,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.4\end{tabular}}}}%
+    \put(0.89207795,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.4\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=39]{redshift.pdf}}%
-    \put(0.94080241,0.03336889){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.6\end{tabular}}}}%
+    \put(0.9408024,0.03336891){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.6\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=40]{redshift.pdf}}%
-    \put(0.97515447,0.03336894){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.8\end{tabular}}}}%
+    \put(0.97515446,0.03336895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.8\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=41]{redshift.pdf}}%
-    \put(0.77628078,0.14545176){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}}%
+    \put(0.78230995,0.14545178){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=42]{redshift.pdf}}%
-    \put(0.77619554,0.2573773){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}}%
+    \put(0.78222472,0.25737731){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=43]{redshift.pdf}}%
-    \put(0.77619554,0.36921768){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}650\end{tabular}}}}}%
+    \put(0.78222472,0.36921769){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}650\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=44]{redshift.pdf}}%
   \end{picture}%
 \endgroup%

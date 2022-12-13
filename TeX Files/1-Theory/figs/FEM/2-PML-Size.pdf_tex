@@ -56,10 +56,10 @@
     \put(0.7514369,0.32023079){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\times 10$\end{tabular}}}}%
     \put(0.17036832,0.08816681){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\times 10$\end{tabular}}}}%
     \put(0.41918886,0.00563734){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}PML Thickness [nm]\end{tabular}}}}%
-    \put(0.06475799,0.30072732){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\end{tabular}}}}%
-    \put(0.77812398,0.07971477){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}12.5 nm-AuNP$@$Glass\end{tabular}}}}%
-    \put(0.0140773,0.16105585){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $\times 10^{2}$\end{tabular}}}}}%
-    \put(0.01488526,0.38025442){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $\times 10^{3}$\end{tabular}}}}}%
+    \put(0.06475799,0.30072732){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm~AuNP$@$Air\end{tabular}}}}%
+    \put(0.77812398,0.07971477){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}12.5 nm~AuNP$@$Glass\end{tabular}}}}%
+    \put(0.0140773,0.16105585){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $[10^{-2}]$\end{tabular}}}}}%
+    \put(0.01488526,0.38025442){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $[10^{-3}]$\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2-PML-Size.pdf}}%
     \put(0.89524156,0.30928339){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
     \put(0.89524156,0.26424876){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%

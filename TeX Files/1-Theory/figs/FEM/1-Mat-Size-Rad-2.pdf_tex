@@ -74,7 +74,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=10]{1-Mat-Size-Rad-2.pdf}}%
     \put(0.03005861,0.22315666){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{1-Mat-Size-Rad-2.pdf}}%
-    \put(0.013616,0.15561327){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $\times 10^{3}$\end{tabular}}}}}%
+    \put(0.013616,0.15561327){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $[10^{-3}]$\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{1-Mat-Size-Rad-2.pdf}}%
     \put(0.89807817,0.27837071){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{sca}$\end{tabular}}}}%
     \put(0.89807817,0.23481185){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Q_\text{abs}$\end{tabular}}}}%
@@ -92,7 +92,7 @@
     \put(0.16576896,0.45290705){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2 a $ \end{tabular}}}}%
     \put(0.4080093,0.45290705){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$ \frac{15}{2}a $ \end{tabular}}}}%
     \put(0.78383627,0.45290705){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$8 a $ \end{tabular}}}}%
-    \put(0.01439748,0.34543782){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $\times 10^{3}$\end{tabular}}}}}%
+    \put(0.01439748,0.34543782){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Abs. Error $[10^{-3}]$\end{tabular}}}}}%
     \put(0.90161909,0.39966172){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$Air\end{tabular}}}}%
     \put(0.90167359,0.14232001){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}AuNP$@$Glass\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{1-Mat-Size-Rad-2.pdf}}%
@@ -104,8 +104,8 @@
     \put(0,0){\includegraphics[width=\unitlength,page=20]{1-Mat-Size-Rad-2.pdf}}%
     \put(0.0300574,0.39172122){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=21]{1-Mat-Size-Rad-2.pdf}}%
-    \put(0.07754874,0.26520011){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Air\end{tabular}}}}%
-    \put(0.07749518,0.0839094){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm-AuNP$@$Glass\end{tabular}}}}%
+    \put(0.07754874,0.26520011){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm~AuNP$@$Air\end{tabular}}}}%
+    \put(0.07749518,0.0839094){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}12.5 nm~AuNP$@$Glass\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=22]{1-Mat-Size-Rad-2.pdf}}%
   \end{picture}%
 \endgroup%

@@ -175,10 +175,10 @@
     \put(0.99695601,1.21560535){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\dfrac{\norm{\vb{E}^\text{ind}}}{\norm{\vb{E}^\text{i}}}$\end{tabular}}}}%
     \put(0.25208639,0.00591259){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
     \put(0.67033759,0.00924674){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
-    \put(0.09520551,0.76220127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
-    \put(0.08600557,1.16170227){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
-    \put(0.49367398,0.76435376){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
-    \put(0.49367398,1.16377088){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.09520551,0.76220127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0$}\end{tabular}}}}%
+    \put(0.08600557,1.16170227){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0$}\end{tabular}}}}%
+    \put(0.49367398,0.76435376){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0$}\end{tabular}}}}%
+    \put(0.49367398,1.16377088){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0$}\end{tabular}}}}%
     \put(0.09520551,0.3601453){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.75$}\end{tabular}}}}%
     \put(0.49367398,0.36229797){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.75$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=38]{2-NearYX-SP-42-Ver2.pdf}}%

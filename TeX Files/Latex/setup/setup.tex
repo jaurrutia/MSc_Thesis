@@ -1,0 +1,87 @@
+% !TeX root = ../PhaseShiftNanoSensor.tex
+% packages
+\usepackage[spanish]{babel} \spanishdecimal{.}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.86]{beramono}
+%\usepackage{helvet}
+\usefonttheme{serif}
+\usepackage{animate}
+		\usepackage[margin=10pt,font=scriptsize,labelfont=bf]{caption}
+		\usepackage[labelformat=simple]{subcaption} 
+        \usepackage{float}
+		\renewcommand*{\thesubfigure}{\alph{subfigure})}
+\usepackage{physics}
+
+\usepackage{fancyhdr}
+\usepackage{eurosym}
+\usepackage[output-decimal-marker={,},per-mode=symbol,exponent-product={\cdot},retain-unity-mantissa=false]{siunitx}
+\usepackage{csquotes}
+\usepackage{tikz}
+				\usepackage{tikz-3dplot}
+
+\usepackage{textpos}
+	
+\usepackage{pgfplots}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage{textcomp}
+\usepackage[version=4]{mhchem}
+\usepackage{bm}
+\usepackage{tabu}
+\usepackage{appendixnumberbeamer}
+\usepackage{bbding}
+%\renewcommand{\footnotesize}{\tiny}
+%\usepackage{etoolbox}
+%\makeatletter    % save the meaning of \@footnotetext
+%\let\BEAMER@footnotetext\@footnotetext
+%\makeatother
+%\usepackage{ amssymb,setspace,  graphics} 
+%
+%\makeatletter % restore the meaning of \@footnotetext
+%\let\@footnotetext\BEAMER@footnotetext % patch the relevant command to do single spacing in footnotes
+%\expandafter\patchcmd\csname beamerx@\string\beamer@framefootnotetext\endcsname
+%  {\reset@font}
+%  {\def\baselinestretch{\setspace@singlespace}\reset@font}
+%  {}{}
+%\makeatother
+\makeatletter
+\@newctr{footnote}[page]
+\makeatother
+%
+\usepackage[ backend = bibtex, style = trad-abbrv,
+			doi=false,isbn=false,url=false
+			]{biblatex}%trad-abbrv numeric-comp
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\AtEveryCitekey{\clearfield{title}}
+%\DeclareBibliographyDriver{article}{\printnames{author} \newunit \printfield{year} \newunit \printfield{journaltitle} \newunit \printfield{volume} \newunit \printfield{pages} \finentry}
+\addbibresource{4-References/references.bib}
+
+
+% tikz libraries
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes}
+
+% pgfplots libraries
+\usepgfplotslibrary{fillbetween}
+
+\usepackage{amsmath} % for \text
+\usepackage{tikz}
+\tikzset{>=latex} % for LaTeX arrow head
+\usepackage{xcolor}
+\colorlet{myblue}{black!40!blue}
+\colorlet{myred}{black!40!red}
+			\definecolor{bone}{RGB}{253,255,224}  	% bone
+			\definecolor{lgreen}{RGB}{146,197,130} 	% light green,
+			\definecolor{lblue}{RGB}{134,165,169}	% light blue
+			\definecolor{lgray}{RGB}{118,118,118}	% light gray
+			\definecolor{dgreen}{RGB}{83,111,80}	% dark green
+
+\usepackage{appendixnumberbeamer}
+		
+\usepackage{multicol}						% for pages with multiple text columns, e.g. References
+	\setlength{\columnsep}{20pt} 				% space between columns; default 10pt quite narrow
+\usepackage{multirow}

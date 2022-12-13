@@ -54,7 +54,7 @@
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0.01748939,0.16016823){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{ext}$\end{tabular}}}}}%
-    \put(0.52663333,0.16016823){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^2$\end{tabular}}}}}%
+    \put(0.52663333,0.16016823){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
     \put(0.17821359,0.28761654){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}12.5 nm-AuNP\\\\\end{tabular}}}}%
     \put(0.37716513,0.30875675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Matrix\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{1-Efficiencies.pdf}}%

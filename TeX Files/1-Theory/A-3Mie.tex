@@ -1,0 +1,40 @@
+
+\begin{frame}{Solución de Mie$^{1,2}$}
+	{Esparcimiento de luz por partículas esféricas embebidas en medios infinitos}
+	\small
+	\begin{align*}
+	\vb{E}^\text{i} (\vb{r})= E_0 \sum_{\ell = 1}^\infty\dfrac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty( \vb{M}_{o1\ell}^{(1)} -i \vb{N}_{e1\ell}^{(1)})
+	\qquad & \qquad
+	\vb{E}^\text{sca} (\vb{r}) = E_0 \sum_{\ell = 1}^\infty\dfrac{i^\ell(2\ell+1)}{\ell(\ell+1)}\qty(i a_\ell \vb{N}_{e1\ell}^{(3)} -b_\ell \vb{M}_{o1\ell}^{(3)})\\
+	(1) \Longrightarrow z_\ell(\rho) = j_\ell(\rho)    \qquad\qquad \qquad & \qquad\qquad \qquad(3) \Longrightarrow z_\ell(\rho)  = h^{(1)}_\ell(\rho)  =  j_\ell(\rho)  + i y_\ell(\rho)
+	\end{align*}
+
+	\begin{itemize}
+		\item Funciones angulares:\; $ \pi_\ell(\cos\theta )  = \dfrac{P_\ell^1(\cos\theta)}{\sin\theta} \qquad  \tau_\ell(\cos\theta) = \dv*{P_\ell^1(\cos\theta)}{\theta} $
+		\item Funciones de Riccati-Bessel:\; $\psi_\ell(\rho) = \rho j_\ell(\rho)\qquad \xi(\rho) = \rho h^{(1)}(\rho)$
+		\item Parámetro de tamaño:\;$x = k a = 2\pi n \dfrac{a}{\lambda}$
+		\item Coeficientes de Mie:\; $
+			a_\ell = \dfrac{\psi_\ell(x)\psi_\ell' (mx)-m\psi_\ell(mx)\psi_\ell'(x)}
+				{\xi_\ell(x)\psi_\ell'(mx)-m\psi_\ell(mx)\xi_\ell'(x)}
+				\qquad
+	b_\ell = \dfrac{m\psi_\ell(x)\psi_\ell' (mx)-\psi_\ell(mx)\psi_\ell'(x)}
+			{m\xi_\ell(x)\psi_\ell'(mx)-\psi_\ell(mx)\xi_\ell'(x)}
+		$
+		\item Secciones transversales: \; $C_\text{ext} = \dfrac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) \Re(a_\ell + b_\ell)
+										\qquad
+										C_\text{sca} = \dfrac{2 \pi}{k^2}\sum_{\ell = 1}^\infty (2 \ell + 1) (\abs{a_\ell}^2 + \abs{b_\ell}^2)$
+		\item Resonancia de plasmón de superficie localizada (LSPR): %
+			\begin{align*}
+			\xi_\ell(x)\psi_\ell'(mx)-m\psi_\ell(mx)\xi_\ell'(x) &\to 0 \quad \text{(LSPR eléctrica)}\\
+ 	m\xi_\ell(x)\psi_\ell'(mx)-\psi_\ell(mx)\xi_\ell'(x) &\to 0 \quad \text{(LSPR magnética)}
+			\end{align*}
+	\end{itemize}
+
+
+	\vspace*{0em}
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{5} \selectfont
+	$^1$ \fullcite{bohren_absorption_1983}\\
+	$^2$ \fullcite{tsang_scattering_2000}
+	\end{spacing}
+\end{frame}

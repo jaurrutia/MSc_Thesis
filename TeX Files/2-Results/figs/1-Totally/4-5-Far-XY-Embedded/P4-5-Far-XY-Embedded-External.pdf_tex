@@ -1,0 +1,133 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P4-5-Far-XY-Embedded-External.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{528.77110759bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.39504307)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(-0.00063244,0.41535899){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \; [10^{-9}]$  \end{tabular}}}}%
+    \put(0.43338654,0.41535899){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\dfrac{\norm{\vb{E}^\text{sca}_\text{far}}}{\norm{\vb{E}^\text{i}}} \; [10^{-9}]$  \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.39890705,0.10757326){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.41950582,0.20201535){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
+    \put(0.36337069,0.33550755){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.39404489,0.29645741){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.41287959,0.25079365){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.32425089,0.36102698){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.36773637,0.06844419){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.33642934,0.03843686){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.23860638,0.01313119){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.24768195,0.38232732){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.2842166,0.37319366){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.28916435,0.01955739){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.41837322,0.15312852){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.07243081,0.10214185){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.1051998,0.06757778){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.14696149,0.03757046){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.18646207,0.01869613){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.05105085,0.14770086){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.05576325,0.36198215){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0.05531969,0.32193586){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0.05552732,0.28164016){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.05613129,0.24134455){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.05654653,0.20105996){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.34265785,0.20339948){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.83686338,0.10853385){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.85746215,0.20297594){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
+    \put(0.80132702,0.33646814){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.83200122,0.297418){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.85083592,0.25175424){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.76220722,0.36198757){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.8056927,0.06940478){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.77438567,0.03939746){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.67656271,0.01409178){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.68563828,0.38328792){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
+    \put(0.72217293,0.37415425){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.72712068,0.02051798){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.85632955,0.15408911){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.51038714,0.10310245){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
+    \put(0.54315613,0.06853837){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
+    \put(0.58491782,0.03853105){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
+    \put(0.6244184,0.01965673){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
+    \put(0.48900718,0.14866145){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.49361577,0.36294275){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0.49317221,0.32289647){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0.49337983,0.28260077){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.49398381,0.24230515){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.49439905,0.20202056){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.68569374,0.08393942){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.67636032,0.34035556){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.2366588,0.34035556){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.28672457){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.25888252){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}440 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.23104047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}480 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.20319842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}505 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.17535636){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}515 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.14751431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}525 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.11967226){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.92496246,0.09183019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}590 \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P4-5-Far-XY-Embedded-External.pdf}}%
+    \put(0.93115965,0.32188101){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

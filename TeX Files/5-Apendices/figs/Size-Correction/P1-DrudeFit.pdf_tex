@@ -1,0 +1,112 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P1-DrudeFit.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{294.59921265bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.57852097)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.14722799,0.42916489){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hbar\omega_p =(8.70 \pm 0.08)$ eV\end{tabular}}}}%
+    \put(0.14834822,0.46877526){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}{\color{orange}$\;\,\hbar\gamma =(8.29 \pm 0.14)\times 10^{-2}$ eV}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P1-DrudeFit.pdf}}%
+    \put(0.11126376,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P1-DrudeFit.pdf}}%
+    \put(0.2123774,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P1-DrudeFit.pdf}}%
+    \put(0.44772087,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P1-DrudeFit.pdf}}%
+    \put(0.54852559,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P1-DrudeFit.pdf}}%
+    \put(0.78417456,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P1-DrudeFit.pdf}}%
+    \put(0.88509476,0.03860138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P1-DrudeFit.pdf}}%
+    \put(0.0813662,0.11989148){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P1-DrudeFit.pdf}}%
+    \put(0.08085704,0.19046193){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P1-DrudeFit.pdf}}%
+    \put(0.08043952,0.26149062){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P1-DrudeFit.pdf}}%
+    \put(0.08036977,0.33228511){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P1-DrudeFit.pdf}}%
+    \put(0.08031682,0.40308978){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P1-DrudeFit.pdf}}%
+    \put(0.08022415,0.47107831){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10$^4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P1-DrudeFit.pdf}}%
+    \put(0.97934144,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.64\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P1-DrudeFit.pdf}}%
+    \put(0.87253191,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.89\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P1-DrudeFit.pdf}}%
+    \put(0.78953776,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.14\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P1-DrudeFit.pdf}}%
+    \put(0.7232511,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.39\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P1-DrudeFit.pdf}}%
+    \put(0.66105474,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.64\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P1-DrudeFit.pdf}}%
+    \put(0.604354,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.88\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P1-DrudeFit.pdf}}%
+    \put(0.53537554,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.13\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P1-DrudeFit.pdf}}%
+    \put(0.44606099,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.38\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P1-DrudeFit.pdf}}%
+    \put(0.35773758,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P1-DrudeFit.pdf}}%
+    \put(0.26318542,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5.48\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P1-DrudeFit.pdf}}%
+    \put(0.17482468,0.52908129){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6.6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P1-DrudeFit.pdf}}%
+    \put(0.55375984,0.56324599){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{$\hbar\omega$ [eV]}\end{tabular}}}}%
+    \put(-0.03762479,0.29582541){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{\color{orange}$\hbar\omega \Re[\varepsilon(\omega)/\varepsilon_0]$ [eV]} \end{tabular}}}}}%
+    \put(0.0065755,0.29379894){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$(\hbar\omega)^2 \{\Im[\varepsilon(\omega)/\varepsilon_0]^2$\end{tabular}}}}}%
+    \put(0.55317937,0.00509168){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{$1-\Re[\varepsilon(\omega)/\varepsilon_0]$}\end{tabular}}}}%
+    \put(0.63802121,0.14279552){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$1.76$ eV > $\hbar\omega$ > 0.64 eV\\Intraband dominated\\regime\end{tabular}}}}%
+    \put(0.03712548,0.29379893){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$+(1-\Re[\varepsilon(\omega)/\varepsilon_0])^2\}$ [eV$^2$]\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%

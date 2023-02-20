@@ -96,8 +96,8 @@
      \draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp}^\text{i}$};
 
  % plane wave
-     \foreach \i in {-7,...,-2}{
+     \foreach \i in {-5}{%{-7,...,-2}{
          \draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
-     \node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}^\text{i}$};
+     \node[tdplot_screen_coords] at (-4.75/10,1.1,0){\color{red}$\vb{k}^\text{i}$};
      \node[tdplot_screen_coords] at (-4.5/10,-.15,0){\begin{minipage}{2.cm}\centering\small \color{red}Incident plane wave\end{minipage}};
 \end{tikzpicture}%

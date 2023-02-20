@@ -1,0 +1,218 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P2-NearYX-SP-42-Ver2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{255.41926106bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.29065676)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.00587273,0.6611328){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.49932524){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.55132278){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.60332032){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05684837,0.65531795){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.70731549){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.75931303){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.81131061){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.08449907,0.67670163){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.09318802,0.82165932){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.08449907,0.62972001){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0.00587273,1.05793868){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.89613132){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.94812886){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,1.0001264){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05684837,1.05212403){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,1.10412161){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,1.15611915){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,1.20811669){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.20109694,1.27303864){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.13609815,1.27303864){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.3310979,1.27303864){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.39608602,1.27303864){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.26609928,1.27303864){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.08449907,1.07350771){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.08405015,1.21846538){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.08449907,1.02652609){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.89354584,0.59011798){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.89354584,0.52513596){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.89354584,0.78506439){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.59840727,1.27266964){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.5334222,1.27266964){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.72838114,1.27266964){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.79335554,1.27266964){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.66339607,1.27266964){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.89354584,0.98684096){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.89354584,0.92185893){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.89354584,1.18178738){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.89354584,0.72008228){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.89354584,0.65510009){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.48896851,0.82379722){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.48383339,0.6788638){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.48383339,0.63189199){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.89354584,1.11680528){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.89354584,1.05182311){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.48896851,1.22052001){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.48229508,0.97651172){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.48383339,1.07558673){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.48383339,1.02861497){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0.00587273,0.26178921){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.11106767,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.1629719,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.21451476,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.26611469,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.3175291,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.36998149,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.42207234,0.03886652){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.09998212){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.1519789){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.20397695){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05684837,0.25597406){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.30797186){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.35996914){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.05685802,0.41196651){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.08449907,0.27735826){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.09318802,0.42231552){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.08449907,0.23037672){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.50839703,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0.56029059,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0.61182252,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0.66341131,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.71481505,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.76725644,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0.81933645,0.03867279){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0.89354584,0.1907741){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.89354584,0.12579191){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.89354584,0.38572059){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.89354584,0.32073806){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.89354584,0.25575621){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.48896851,0.42445365){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.48383339,0.27951974){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.48383339,0.23254811){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(1.00647339,1.21915052){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\dfrac{\norm{\vb{E}^\text{ind}}}{\norm{\vb{E}^\text{i}}}$\end{tabular}}}}%
+    \put(0.24901062,0.00587265){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
+    \put(0.6644404,0.00918431){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
+    \put(0.09318802,0.7864231){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.08405015,1.18322916){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.48896851,0.78856104){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.48896851,1.18528381){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.09318802,0.38707931){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.75$}\end{tabular}}}}%
+    \put(0.48896851,0.38921745){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.75$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.29849753,0.95937746){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.3825248,0.89339296){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.32189555,0.93318014){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\theta_i = 42^\circ$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.58029075,0.8920712){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\theta_i = 42^\circ$}\end{tabular}}}}%
+    \put(0.53340226,0.95350476){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.52346764,0.89339296){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0.97243344,0.33067317){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.97236934,0.51624047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.97228128,0.7017825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.97239516,0.88727372){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
+    \put(0.96513894,1.07275227){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.55280973,0.49792299){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.53748494,0.58992805){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.35689046,0.49792324){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.35645973,0.57230994){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.35689046,0.53903208){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.5979948,0.49886191){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\theta_i = 42^\circ$}\end{tabular}}}}%
+    \put(0.3463964,0.49886191){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\theta_i = 42^\circ$}\end{tabular}}}}%
+    \put(0.55280973,0.09857938){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.53748494,0.19058444){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.35689046,0.09857963){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.35645973,0.17296633){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.35689046,0.13968847){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{P2-NearYX-SP-42-Ver2.pdf}}%
+    \put(0.5979948,0.0995183){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\theta_i = 42^\circ$}\end{tabular}}}}%
+    \put(0.3463964,0.0995183){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\theta_i = 42^\circ$}\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

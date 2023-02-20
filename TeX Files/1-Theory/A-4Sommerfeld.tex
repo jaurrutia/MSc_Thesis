@@ -1,0 +1,85 @@
+\begin{frame}{Condición de radiación de Sommerfeld generalizada}
+{Contribuciones eléctricas y magnéticas debido a cargas y corrientes externas e inducidas}\small
+
+Descomposición en contribuciones eĺéctricas y magnéticas:
+$$
+\vb{E} =  \vb{E}_\text{e} +  \vb{E}_\text{m}\qquad \text{y} \qquad \vb{H} =  \vb{H}_\text{e} +  \vb{H}_\text{m}
+$$
+\begin{align*}
+    \nabla \cdot \qty(\varepsilon \vb{E}_\text{e})  &= \rho_\text{ext},
+                    &\nabla \cdot \qty(\varepsilon \vb{E}_\text{m})  &= 0\\
+    \nabla \cdot  (\mu\vb{H}_\text{e})  &= 0
+                    & \nabla \cdot  (\mu\vb{H}_\text{m})  &= \rho_\text{m}\\
+    \nabla \times \vb{E}_\text{e}  &= i\omega \mu \vb{H}_\text{e}
+                    & \nabla \times \vb{E}_\text{m}  &= i\omega \mu \vb{H}_\text{m} + \vb{J}_\text{m}\\
+    \nabla \times \vb{H}_\text{e}  &= \vb{J}_\text{ext} - i\omega \varepsilon \vb{E}_\text{e}
+                & \nabla \times \vb{H}_\text{m}  &=- i\omega \varepsilon \vb{E}_\text{m}
+\end{align*}
+
+Imponiendo la norma de Lorenz se cumple que
+$$\nabla\cdot\vb{A} = -i\omega\mu\varepsilon \phi_\text{e}\qquad \text{y} \qquad \nabla\cdot\vb{F} = -i\omega\mu\varepsilon \phi_\text{m}$$
+
+por lo que
+
+\begin{align*}
+    \vb{E} = - \dfrac{\nabla[\nabla\cdot\vb{A}]}{i\omega\varepsilon\mu} + i \omega\vb{A} + \dfrac{1}{\varepsilon}\nabla\times\vb{F}
+    \qquad
+    \vb{H} =- \dfrac{\nabla[\nabla\cdot\vb{F}]}{i\omega\varepsilon\mu} + i \omega\vb{F} + \dfrac{1}{\mu}\nabla\times\vb{A}
+\end{align*}
+
+donde
+
+\begin{align*}
+    \vb{A} = \dfrac{\mu}{4\pi} \int_\Omega \vb{J}_\text{ext}  \dfrac{\exp[i\vb{k}\cdot(\vb{r}-\vb{r}')]}{\norm{\vb{r}-\vb{r}'}}\dd{\Omega'}
+    \qquad
+    \vb{F} = \dfrac{\varepsilon}{4\pi} \int_\Omega \vb{J}_\text{m}  \dfrac{\exp[i\vb{k}\cdot(\vb{r}-\vb{r}')]}{\norm{\vb{r}-\vb{r}'}}\dd{\Omega'}
+\end{align*}
+
+%
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{Condición de radiación de Sommerfeld generalizada}
+{Comportamiento en el régimen de campo lejano}\small
+
+En el régimen de campo lejano:
+
+\begin{align*}
+    \vb{A} &= \dfrac{\mu\exp(ikr)}{4\pi r}\vb{N},         &\text{con} \qquad \vb{N} &= \int_\Omega \vb{J}_\text{ext}  \exp(-i\vb{k}\cdot\vb{r}')\dd{\Omega'}\\
+    \vb{F} &= \dfrac{\varepsilon\exp(ikr)}{4\pi r}\vb{L}, &\text{con} \qquad \vb{L} &= \int_\Omega \vb{J}_\text{m}  \exp(-i\vb{k}\cdot\vb{r}')\dd{\Omega'}
+\end{align*}
+
+por lo que los campos electromagnéticos se escriben como
+
+\begin{align*}
+    \left.
+    \begin{array}{rcl}
+    \lim_{r\to\infty}\vb{E} &=& -i k\dfrac{\exp(ikr)}{4\pi r}
+                \left[ \vu{e}_r\times\vb{L}-\sqrt{\dfrac{\mu}{\varepsilon}}  \Big(\vb{N}-(\vu{e}_r\cdot\vb{N})\vu{e}_r\Big) \right]
+           \\ \\
+    \lim_{r\to\infty}\vb{H} &=& i k\dfrac{\exp(ikr)}{4\pi r}
+                \left[\sqrt{\dfrac{\varepsilon}{\mu}}  \Big(\vb{L}-(\vu{e}_r\cdot\vb{L})\vu{e}_r + \vu{e}_r\times\vb{N}\Big) \right]
+    \end{array}
+    \right\}
+    \Longrightarrow\lim_{r\to\infty} \qty(\vu{e}_r\times\vb{E} - \sqrt{\dfrac{\mu}{\varepsilon}} \vb{H}) = \vb{0}
+\end{align*}
+
+Empleando la ley de Faraday-Lenz:
+
+\begin{alertblock}{Condición de radiación de Sommerfeld}
+    $$\lim_{r\to \infty} r\qty(\nabla\times \vb{E} - i k \vu{e}_r\times\vb{E}) = \vb{0}$$
+\end{alertblock}%
+
+
+\vspace*{1em}
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+
+\end{frame}

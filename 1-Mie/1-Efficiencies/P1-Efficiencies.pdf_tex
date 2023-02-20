@@ -1,0 +1,142 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P1-Efficiencies.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{281.8244033bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.34233633)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.01748939,0.16016823){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{ext}$\end{tabular}}}}}%
+    \put(0.52663333,0.16016823){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\times 10^2$\end{tabular}}}}}%
+    \put(0.17821359,0.28761654){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}12.5 nm-AuNP\\\\\end{tabular}}}}%
+    \put(0.37716513,0.30875675){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Matrix\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P1-Efficiencies.pdf}}%
+    \put(0.39753807,0.27788918){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Glass\\\end{tabular}}}}%
+    \put(0.32108195,0.27738854){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Air\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P1-Efficiencies.pdf}}%
+    \put(0.53502932,0.27590399){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}No Size Correction\\\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P1-Efficiencies.pdf}}%
+    \put(0.81126946,0.27590399){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Size Correction\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P1-Efficiencies.pdf}}%
+    \put(0.71065335,0.30672544){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Dielectric Function\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P1-Efficiencies.pdf}}%
+    \put(0.31281052,0.22947155){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sim536$ nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P1-Efficiencies.pdf}}%
+    \put(0.21960982,0.16915516){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\sim509$ nm\end{tabular}}}}%
+    \put(0.19829033,0.22875059){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\sim507$ nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P1-Efficiencies.pdf}}%
+    \put(0.30337099,0.20158766){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\sim535$ nm\end{tabular}}}}%
+    \put(0.2913793,0.10301786){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\times 5$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P1-Efficiencies.pdf}}%
+    \put(0.06682607,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P1-Efficiencies.pdf}}%
+    \put(0.13464631,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P1-Efficiencies.pdf}}%
+    \put(0.20246671,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P1-Efficiencies.pdf}}%
+    \put(0.2702871,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P1-Efficiencies.pdf}}%
+    \put(0.33810765,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P1-Efficiencies.pdf}}%
+    \put(0.4059279,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}650\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P1-Efficiencies.pdf}}%
+    \put(0.47374829,0.03404248){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}700\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P1-Efficiencies.pdf}}%
+    \put(0.02930566,0.05765276){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P1-Efficiencies.pdf}}%
+    \put(0.02930566,0.09011238){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P1-Efficiencies.pdf}}%
+    \put(0.02930566,0.12257184){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P1-Efficiencies.pdf}}%
+    \put(0.02930566,0.15503123){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P1-Efficiencies.pdf}}%
+    \put(0.02930566,0.18749066){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P1-Efficiencies.pdf}}%
+    \put(0.02930566,0.21995013){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P1-Efficiencies.pdf}}%
+    \put(0.28414982,0.00522193){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.74206299,0.21490183){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\sim543$ nm\end{tabular}}}}%
+    \put(0.71080808,0.13445574){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\sim521$ nm\end{tabular}}}}%
+    \put(0.74253723,0.07618792){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\sim522$ nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P1-Efficiencies.pdf}}%
+    \put(0.56034597,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P1-Efficiencies.pdf}}%
+    \put(0.62816636,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P1-Efficiencies.pdf}}%
+    \put(0.69598676,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P1-Efficiencies.pdf}}%
+    \put(0.76380716,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P1-Efficiencies.pdf}}%
+    \put(0.83162755,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{P1-Efficiencies.pdf}}%
+    \put(0.8994478,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}650\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{P1-Efficiencies.pdf}}%
+    \put(0.96726819,0.03529149){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}700\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.05808566){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.08217555){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.10626536){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.13035517){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.15444498){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.17853487){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.20262468){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{P1-Efficiencies.pdf}}%
+    \put(0.54117836,0.22671449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{P1-Efficiencies.pdf}}%
+    \put(0.77666245,0.11492155){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\times 5$\end{tabular}}}}%
+    \put(0.77692444,0.00656257){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

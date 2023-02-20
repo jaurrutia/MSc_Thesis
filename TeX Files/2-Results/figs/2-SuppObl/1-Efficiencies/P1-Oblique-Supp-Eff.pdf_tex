@@ -1,0 +1,138 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P1-Oblique-Supp-Eff.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{350.79412746bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.64508688)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.54349011,0.52251471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$15^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.65113352,0.52251471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$38^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.75749252,0.52251471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$42^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.86544985,0.52251471){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$75^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.2953336,0.00570138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.09873872,0.03869425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.19123787,0.03869425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.28373689,0.03869425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.37623593,0.03869425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.46873509,0.03869413){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.09045943,0.14842516){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.09038558,0.19342305){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.09038558,0.2979174){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.09053329,0.34291532){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.09077348,0.44740965){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.27441916,0.43416558){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}535 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.30736247,0.24398687){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}510 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.28117889,0.38654784){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}510 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.3603658,0.42875572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}512.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.20253905,0.23404416){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}509 nm\end{tabular}}}}%
+    \put(0.01710404,0.26279425){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0.60212915,0.59317317){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.49344163,0.5928989){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Polarization:\end{tabular}}}}%
+    \put(0.42311034,0.51903166){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\theta_i$: \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.16450399,0.55409429){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.20383929,0.51192254){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\theta_i$\end{tabular}}}}%
+    \put(0.51925952,0.26272822){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca} \; [10^{-2}]$\end{tabular}}}}}%
+    \put(0.79415327,0.00570138){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.76348617,0.14765621){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}522 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.7915242,0.36359126){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}527.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.96508188,0.14750421){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}525 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.97276402,0.43428541){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.61427107,0.03605543){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.70692466,0.03605543){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.79915601,0.03605543){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.89180953,0.03605543){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.98454359,0.03605546){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.59031021,0.12024707){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.59031021,0.23835684){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.58950597,0.2892196){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.59002862,0.40732007){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.59014941,0.06938432){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{P1-Oblique-Supp-Eff.pdf}}%
+    \put(0.81529636,0.59317323){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{P1-Oblique-Supp-Eff.pdf}}%
+  \end{picture}%
+\endgroup%

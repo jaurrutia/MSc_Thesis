@@ -3,7 +3,6 @@
 \usepackage[spanish]{babel} \spanishdecimal{.}
 \usepackage[T1]{fontenc} 
 \usepackage[utf8]{inputenc}
-\usepackage[scaled=0.86]{beramono}
 %\usepackage{helvet}
 \usefonttheme{serif}
 \usepackage{animate}
@@ -14,9 +13,6 @@
 \usepackage{physics}
 
 \usepackage{fancyhdr}
-\usepackage{eurosym}
-\usepackage[output-decimal-marker={,},per-mode=symbol,exponent-product={\cdot},retain-unity-mantissa=false]{siunitx}
-\usepackage{csquotes}
 \usepackage{tikz}
 				\usepackage{tikz-3dplot}
 
@@ -31,6 +27,7 @@
 \usepackage{tabu}
 \usepackage{appendixnumberbeamer}
 \usepackage{bbding}
+\usepackage{bbold}
 %\renewcommand{\footnotesize}{\tiny}
 %\usepackage{etoolbox}
 %\makeatletter    % save the meaning of \@footnotetext
@@ -49,11 +46,20 @@
 \@newctr{footnote}[page]
 \makeatother
 %
-\usepackage[ backend = bibtex, style = trad-abbrv,
-			doi=false,isbn=false,url=false
+\usepackage[ bibstyle = trad-abbrv,
+			 citestyle = numeric-comp,
+			 backend = bibtex,
+			 maxcitenames=1,
+			 date = year,
+			 doi = false, url = false, isbn = false
 			]{biblatex}%trad-abbrv numeric-comp
 \DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
-\AtEveryCitekey{\clearfield{title}}
+% \AtEveryCitekey{\clearfield{title}}
+\DeclareFieldFormat[article]{title}{}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{day}}
+\DefineBibliographyStrings{spanish}{%
+	andothers = {et\addabbrvspace al\adddot}}
 %\DeclareBibliographyDriver{article}{\printnames{author} \newunit \printfield{year} \newunit \printfield{journaltitle} \newunit \printfield{volume} \newunit \printfield{pages} \finentry}
 \addbibresource{4-References/references.bib}
 
@@ -85,3 +91,5 @@
 \usepackage{multicol}						% for pages with multiple text columns, e.g. References
 	\setlength{\columnsep}{20pt} 				% space between columns; default 10pt quite narrow
 \usepackage{multirow}
+\usepackage{svg}
+\usepackage{setspace}

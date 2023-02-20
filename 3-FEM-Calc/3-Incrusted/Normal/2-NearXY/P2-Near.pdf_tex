@@ -1,0 +1,210 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P2-Near.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{255.2307201bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.29161017)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P2-Near.pdf}}%
+    \put(0.01763118,0.66162118){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P2-Near.pdf}}%
+    \put(0.06277709,0.4996941){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P2-Near.pdf}}%
+    \put(0.06277709,0.55173005){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P2-Near.pdf}}%
+    \put(0.06277709,0.603766){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P2-Near.pdf}}%
+    \put(0.06276744,0.65580204){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P2-Near.pdf}}%
+    \put(0.06277709,0.70783799){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P2-Near.pdf}}%
+    \put(0.06277709,0.75987394){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P2-Near.pdf}}%
+    \put(0.06277709,0.81190993){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P2-Near.pdf}}%
+    \put(0.09043856,0.67720152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.09913393,0.82226629){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.09043856,0.63018519){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0.01763118,1.05872018){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P2-Near.pdf}}%
+    \put(0.06277709,0.8967933){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P2-Near.pdf}}%
+    \put(0.06277709,0.94882925){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P2-Near.pdf}}%
+    \put(0.06277709,1.0008652){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P2-Near.pdf}}%
+    \put(0.06276744,1.05290124){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P2-Near.pdf}}%
+    \put(0.06277709,1.10493723){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P2-Near.pdf}}%
+    \put(0.06277709,1.15697318){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P2-Near.pdf}}%
+    \put(0.06277709,1.20900913){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P2-Near.pdf}}%
+    \put(0.20712256,1.27397904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.14207576,1.27397904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.33721955,1.27397904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.40225568,1.27397904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.27217292,1.27397904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.09043856,1.07430072){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.08998931,1.21936547){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 520$ nm}\end{tabular}}}}%
+    \put(0.09043856,1.02728439){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P2-Near.pdf}}%
+    \put(0.90008298,0.59055391){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.90008298,0.52552388){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.90008298,0.78564432){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.60472639,1.27360977){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.53969332,1.27360977){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.73479627,1.27360977){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.79981867,1.27360977){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0.6697632,1.27360977){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.90008298,0.98756994){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.90008298,0.92253992){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.90008298,1.18266038){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P2-Near.pdf}}%
+    \put(0.90008298,0.72061421){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.90008298,0.65558402){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.49520679,0.82440577){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 525$ nm}\end{tabular}}}}%
+    \put(0.49006787,0.67936528){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.49006787,0.63235878){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P2-Near.pdf}}%
+    \put(0.90008298,1.11763027){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.90008298,1.0526001){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.49520679,1.22142162){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 520$ nm}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P2-Near.pdf}}%
+    \put(0.52829529,0.88516056){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0.48852843,0.97723307){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.49006787,1.07638127){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.49006787,1.02937481){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P2-Near.pdf}}%
+    \put(0.18065759,0.88631916){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.08892094,0.97839171){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P2-Near.pdf}}%
+    \put(0.18065759,0.48814451){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.08892094,0.58021705){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P2-Near.pdf}}%
+    \put(0.01763118,0.2619826){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P2-Near.pdf}}%
+    \put(0.11702679,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P2-Near.pdf}}%
+    \put(0.16896937,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{P2-Near.pdf}}%
+    \put(0.2205503,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{P2-Near.pdf}}%
+    \put(0.27218834,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{P2-Near.pdf}}%
+    \put(0.32364073,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{P2-Near.pdf}}%
+    \put(0.37613187,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{P2-Near.pdf}}%
+    \put(0.4282612,0.03889523){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{P2-Near.pdf}}%
+    \put(0.06277709,0.10005598){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{P2-Near.pdf}}%
+    \put(0.06277709,0.15209117){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{P2-Near.pdf}}%
+    \put(0.06277709,0.20412763){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{P2-Near.pdf}}%
+    \put(0.06276744,0.25616315){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{P2-Near.pdf}}%
+    \put(0.06277709,0.30819936){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{P2-Near.pdf}}%
+    \put(0.06277709,0.36023506){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{P2-Near.pdf}}%
+    \put(0.06277709,0.41227084){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{P2-Near.pdf}}%
+    \put(0.09043856,0.27756315){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.09913393,0.42262749){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 530$ nm}\end{tabular}}}}%
+    \put(0.09043856,0.2305469){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{P2-Near.pdf}}%
+    \put(0.51464966,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-30\end{tabular}}}}%
+    \put(0.56658155,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-20\end{tabular}}}}%
+    \put(0.61815155,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-10\end{tabular}}}}%
+    \put(0.66977845,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.72122016,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}10\end{tabular}}}}%
+    \put(0.77370029,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}20\end{tabular}}}}%
+    \put(0.82581877,0.03870136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}30\end{tabular}}}}%
+    \put(0.90008298,0.19091503){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.90008298,0.12588483){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.90008298,0.38600552){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{P2-Near.pdf}}%
+    \put(0.90008298,0.32097499){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.90008298,0.25594513){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.49520679,0.4247672){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 530$ nm}\end{tabular}}}}%
+    \put(0.49006787,0.27972623){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Air}\end{tabular}}}}%
+    \put(0.49006787,0.2327199){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{Glass}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{P2-Near.pdf}}%
+    \put(0.18065759,0.08850591){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.08892094,0.18057845){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(1.00134004,1.22005111){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$\dfrac{\norm{\vb{E}^\text{ind}}}{\norm{\vb{E}^\text{i}}}$\end{tabular}}}}%
+    \put(0.25507164,0.00587699){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
+    \put(0.6708083,0.00919109){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{P2-Near.pdf}}%
+    \put(0.52829529,0.4855218){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{P2-Near.pdf}}%
+    \put(0.52829529,0.08588335){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{P2-Near.pdf}}%
+    \put(0.09913393,0.78700404){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.08998931,1.18410322){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.50$}\end{tabular}}}}%
+    \put(0.49520679,0.78914356){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.00$}\end{tabular}}}}%
+    \put(0.49520679,1.18615939){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = 0.50$}\end{tabular}}}}%
+    \put(0.09913393,0.38736524){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.50$}\end{tabular}}}}%
+    \put(0.49520679,0.38950496){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$h/a = -0.50$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{P2-Near.pdf}}%
+    \put(0.97660767,0.29551222){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0.97503366,0.44641353){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.97513517,0.5975687){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.97496994,0.74854618){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.97490664,0.89975215){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.97488114,1.05065346){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{P2-Near.pdf}}%
+  \end{picture}%
+\endgroup%

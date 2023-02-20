@@ -1,0 +1,197 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P3-Oblique-Inc-Sca.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{322.38966814bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.02177779)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.5648545,0.87709731){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0.55884338,0.7556646){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.56390317,0.79364885){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.56439697,0.92443208){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10.0\end{tabular}}}}%
+    \put(0.56479382,0.70751079){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3.0\end{tabular}}}}%
+    \put(0.56390317,0.56686349){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.56479825,0.65565831){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.07381297,0.90492802){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0.07112206,0.7790066){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.07341759,0.81694148){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.07381297,0.85491578){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.07392449,0.72888171){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.10029307,0.48145026){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.20078702,0.48145026){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.30104448,0.48145026){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.40153843,0.48145026){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.50207741,0.48145026){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.07518604,0.69206973){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0.07249518,0.55457951){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.07479063,0.59599696){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.07518604,0.63745381){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.31875832,0.51805944){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+    \put(0.42285338,0.69896474){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.31875832,0.74139147){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+    \put(0.42285338,0.91764434){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.78455718,0.73601739){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+    \put(0.90996072,0.91258364){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.10050245,-0.01703234){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.2010036,-0.01703234){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.30126818,-0.01703234){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.4017694,-0.01703234){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.50231556,-0.01703234){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.07311591,0.35225417){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0.07331535,0.22768729){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.07311591,0.2652144){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.07311591,0.38982632){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10.0\end{tabular}}}}%
+    \put(0.07311591,0.16718749){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0.07311591,0.03833405){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.07311591,0.09390875){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.58841401,-0.01762932){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.68899958,-0.01762932){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.7893451,-0.01762932){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.88993082,-0.01762932){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.9905621,-0.01762932){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.56491168,0.11598129){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0.56470962,0.17167282){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0.56491168,0.04238373){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0.56470962,0.26359253){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0.56470962,0.37154026){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0.56491168,0.23110221){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0.56470962,0.33903278){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0.29822586,-0.04497665){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.018611,0.11282882){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
+    \put(0.78684482,-0.04497665){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.018611,0.61166974){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
+    \put(0.64374425,0.88341914){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.6198778,0.90652259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0.2070032,0.3828611){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.18313675,0.40596454){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0.68981697,0.66521245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.65709982,0.689731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0.36924951,0.02397884){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.33653241,0.04849712){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.63863664,0.1682152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0.60591949,0.19273239){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+    \put(0.018611,0.83080079){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
+    \put(0.018611,0.33195768){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
+    \put(0.15567748,0.88341914){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.13181106,0.90652259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0.16452816,0.66521245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.13181108,0.689731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0.78621918,0.45401108){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.58772694,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0.68848873,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0.78884883,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0.8892089,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0.98971495,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0.29815149,0.45401108){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0.71173882,0.38516624){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.68787237,0.40826969){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.42464716,0.42139525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.41992977,0.19521182){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.59027916,0.95435339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.00\end{tabular}}}}%
+    \put(0.50830052,0.95430127){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.67442258,0.95401736){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.25\end{tabular}}}}%
+    \put(0.42613809,0.95422984){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.75839889,0.95408519){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.50 \end{tabular}}}}%
+    \put(0.34415952,0.95415842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.84322758,0.9541584){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.75\end{tabular}}}}%
+    \put(0.26199709,0.95407985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.92720389,0.95423163){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-1.00\end{tabular}}}}%
+    \put(0.57584579,0.99260955){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$h/a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.24351217,0.99243468){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Supported AuNP\end{tabular}}}}%
+    \put(0.96272399,0.99252212){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Totally embedded AuNP\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.16827014,0.9846505){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.13881263,0.95485477){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\theta_i$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{P3-Oblique-Inc-Sca.pdf}}%
+    \put(0.80744753,0.23997702){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

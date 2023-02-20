@@ -1,0 +1,204 @@
+% !TeX root = ../presentacion.tex
+
+
+\section{Resultados}
+
+    \begin{frame}{Análisis de convergencia}{Comsol vs Mie: 12.5 AuNP$@$Aire  y 12.5 AuNP$@$BK7}
+    \begin{center}
+        \begin{columns}
+        \column{.4\textwidth}
+      \begin{description}
+      \item[\textbf{Tamaño del elemento (matriz):}] $\lambda/(6 n_m)$
+      \item[\textbf{Tamaño del elemento (esfera):}] $a/5$
+      \item[\textbf{Tamaño de la matriz:}] $2(15+1)an_m$
+      \item[\textbf{Grosor PML:}] $\lambda/4$
+      \end{description}
+        \column{.5\textwidth}\centering\vspace*{-2em}
+      \begin{figure}[h!]
+        \def\svgwidth{1\textwidth}\footnotesize %\fontsize{4}{5}\selectfont
+      \includeinkscape{Geometries/SistemaBox}
+    \end{figure}
+    \end{columns}
+      \begin{figure}[h!]\scriptsize
+        \def\svgwidth{.6\textwidth} %\fontsize{4}{5}\selectfont
+        \includeinkscape{FEM/4-Conv}
+    \end{figure}
+    \end{center}
+    \end{frame}
+
+  \subsection{Esfera soportada y completamente embebida}
+  \subsubsection{Incidencia normal}
+    \begin{frame}{Esfera soportada y completamente embebida}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
+    \begin{figure}
+        \def\svgwidth{.95\textwidth}
+        \includeinkscape[pretex = \small]{1-Totally/1-Efficiencies/1-Normal-Eff}%
+    \end{figure}
+    \end{frame}
+%
+    \begin{frame}{Esfera soportada y completamente embebida}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
+    \begin{columns}
+    \column{.5\textwidth}
+    \begin{figure}    \centering
+        \def\svgwidth{.95\textwidth} \fontsize{4}{5}\selectfont
+        \includeinkscape{1-Totally/4-5-Far-XY-Embedded/P4-5-Far-XY-Embedded-External}\\[2em]
+        %
+        \def\svgwidth{.95\textwidth}
+        \includeinkscape{1-Totally/4-5-Far-XY-Embedded/P4-5-Far-XY-Embedded-Internal}%
+    \end{figure}
+    \column{.5\textwidth}
+    \begin{figure}\centering
+      \def\svgwidth{.95 \textwidth}
+      \tiny
+      \includeinkscape{1-Totally/2-NearY/P2-NearY-EmbSup}
+    \end{figure}
+    \end{columns}
+    \end{frame}
+%
+\subsubsection{Incidencia oblicua}
+    \begin{frame}{Esfera soportada en incidencia interna}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
+    \begin{columns}
+    \column{.5\textwidth}
+    \begin{figure}\centering
+      \def\svgwidth{1 \textwidth}
+      \includeinkscape[pretex = \scriptsize]{2-SuppObl/1-Efficiencies/P1-Oblique-Supp-Eff}
+    \end{figure}
+    \column{.5\textwidth}
+    \begin{figure}    \centering \fontsize{4}{5}\selectfont
+        \def\svgwidth{1\textwidth}
+        \includeinkscape{2-SuppObl/4-5-FarXY/P4-5-Far-XY-S}\\[2em]
+        %
+        \def\svgwidth{1\textwidth}
+        \includeinkscape{2-SuppObl/4-5-FarXY/P4-5-Far-XY-P}%
+    \end{figure}
+    \end{columns}
+    \end{frame}
+%
+  \subsection{Esfera parcialmente incrustada}
+    \subsubsection{Incidencia normal}
+      \begin{frame}{Esfera parcialmete incrustada}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
+      \centering
+      \begin{columns}
+      \column{.5\textwidth}
+      \begin{figure}    \centering \fontsize{4}{5}\selectfont
+          \def\svgwidth{.96\textwidth}
+          \includeinkscape{3-IncNorm/1-Efficiencies/P1-Normal-Eff}\\
+      %     %
+          \def\svgwidth{.96\textwidth}
+          \hspace{.5em}\includeinkscape{3-IncNorm/4-5-FarXY/P4-5-Far-XY}%
+      \end{figure}
+      \column{.5\textwidth}
+      \begin{figure}\centering
+        \def\svgwidth{.8\textwidth}\vspace*{-2em} \fontsize{4}{5}\selectfont
+        \includeinkscape{3-IncNorm/2-Near/P2-Near}
+      \end{figure}
+      \end{columns}
+      \end{frame}
+
+
+    \subsubsection{Incidencia oblicua}
+      \begin{frame}{Esfera parcialmete incrustada}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
+      \vspace{-3.5em}\begin{columns}\scriptsize
+      \column{.4\textwidth}	\begin{table} \input{2-Results/P5-1-WLengthTab-Abs}\end{table}%\includegraphics[width =\textwidth]{img/3-Resultados/tab}
+      \column{.55\textwidth}	\begin{figure}\centering\fontsize{4}{5}\selectfont
+          \def\svgwidth{.9\textwidth}
+          \includeinkscape{4-Inc-Obl/1-Efficiencies/P2-Oblique-Inc-Abs}%
+      \end{figure}
+      \end{columns}
+      \end{frame}
+
+      \begin{frame}{Esfera parcialmete incrustada}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
+      \vspace{-3.5em}\begin{columns}\scriptsize
+      \column{.4\textwidth}	\begin{table} \input{2-Results/P5-1-WLengthTab-Sca}\end{table}%\includegraphics[width =\textwidth]{img/3-Resultados/tab}
+      \column{.55\textwidth}	\begin{figure}\centering\fontsize{4}{5}\selectfont
+          \def\svgwidth{.9\textwidth}
+          \includeinkscape{4-Inc-Obl/1-Efficiencies/P3-Oblique-Inc-Sca}%
+      \end{figure}
+      \end{columns}
+      \end{frame}
+
+      \begin{frame}{Esfera parcialmete incrustada}{Incidencia oblicua en polarización $p$: 12.5 AuNP$@$Aire/BK7}\fontsize{4.5}{5.5}\selectfont
+      \begin{columns}
+      \column{.5\textwidth}	\begin{figure} \centering
+          \def\svgwidth{.85\textwidth}
+          \includeinkscape{4-Inc-Obl/5-FarXY-P/P4-5-Far-XY-P-15}\\[1em]
+          \def\svgwidth{.85\textwidth}
+          \includeinkscape{4-Inc-Obl/5-FarXY-P/P4-5-Far-XY-P-38}%
+      \end{figure}
+      \column{.5\textwidth}	\begin{figure} \centering
+          \def\svgwidth{.85\textwidth}
+          \includeinkscape{4-Inc-Obl/5-FarXY-P/P4-5-Far-XY-P-42}\\[1em]
+          \def\svgwidth{.85\textwidth}
+          \includeinkscape{4-Inc-Obl/5-FarXY-P/P4-5-Far-XY-P-75}%
+      \end{figure}
+      \end{columns}
+      \end{frame}
+
+      \begin{frame}{Esfera parcialmete incrustada}{Incidencia después del ángulo crítico: 12.5 AuNP$@$Aire/BK7}%\fontsize{4}{5}\selectfont
+      \begin{columns}\fontsize{4}{5}\selectfont
+      \column{.5\textwidth}	\begin{figure} \centering
+          \def\svgwidth{.85\textwidth}
+          \includeinkscape{4-Inc-Obl/5-FarXY-P/P4-5-Far-XY-P-42}\\[1em]
+          \def\svgwidth{.85\textwidth}
+          \includeinkscape{4-Inc-Obl/4-FarXY-S/P4-5-Far-XY-S-42}%
+      \end{figure}
+      \column{.5\textwidth}	\begin{figure}\centering
+        \def\svgwidth{.8\textwidth}\vspace*{-2em} \fontsize{4}{5}
+          \includeinkscape{4-Inc-Obl/2-Near-SP/P2-NearYX-SP-42-Ver2}%
+      \end{figure}
+      \end{columns}
+      \end{frame}
+
+
+      \begin{frame}{Resumen}%{Incidencia después del ángulo crítico: 12.5 AuNP$@$Aire/BK7}%\fontsize{4}{5}\selectfont
+      \begin{center}
+  	\begin{tikzpicture}[node distance=1em and 1em,font=\small]
+        \path (0,0) node [flowbox] (Sus) {\fbtitle{\ding{172} Efecto del sustrato}\vphantom{yÖ}
+	    \nodepart{two}
+	    Anisotropía:\\
+         \begin{minipage}{.3\textwidth} \begin{itemize}
+			\item Campo cercano
+            \item Patrón de radiación
+         \end{itemize}\end{minipage}
+        };
+
+        \node[below = of Sus] {\includegraphics[width = .28\textwidth]{P-Resumen/P1.png}};
+
+
+        \node[flowbox, right = of Sus] (Ilu) {\fbtitle{\ding{173} Efecto de la iluminación}\vphantom{yÖ}
+        \nodepart{two}
+         \begin{minipage}{.3\textwidth}
+          \begin{itemize}
+          \item Partícula parcialmente embebida e incidente interna
+            \begin{itemize}
+            \item Onda plana $\theta_i < \theta_c$
+            \item Onda evanescente $\theta_i > \theta_c$
+         \end{itemize}
+         \item Maximización de propiedads ópticas $\theta_i  \approx \theta_c$
+        \end{itemize}
+         \end{minipage}
+        };
+
+        \node[below = of Ilu] {\includegraphics[width = .28\textwidth]{P-Resumen/P2.png}};
+
+        \node[flowbox, right = of Ilu] (Inc) {\fbtitle{\ding{174} Efecto de la incrustación}\vphantom{yÖ}
+        \nodepart{two}
+         \begin{minipage}{.3\textwidth}
+          \begin{itemize}
+            \item Corrimiento al rojo (LSPR)
+            \item Aumento de la extinsión
+            \item Pol. \textit{s}:
+            \begin{itemize}
+              \item Proceso homogéneo
+            \end{itemize}
+            \item Pol. \textit{p}:
+                        \begin{itemize}
+              \item $h/a$ y $\theta_i$
+            \end{itemize}
+          \end{itemize}\end{minipage}
+        };
+
+        \node[below = of Inc] {\includegraphics[width = .28\textwidth]{P-Resumen/P3.png}};
+
+        \end{tikzpicture}
+        \end{center}
+      \end{frame}

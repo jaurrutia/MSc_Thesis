@@ -1,0 +1,57 @@
+
+
+\begin{frame}{Armónicos esféricos vectoriales$^1$: $\{\vb{L},\vb{M}, \vb{N}\}$}
+{Base de campos vectoriales que son solución a la ecuación de Helmholtz}\small
+\begin{align*}
+	\vb{L} = \nabla \psi \qquad \qquad
+	\vb{M} = \nabla\times(\vb{r}\psi) \qquad \qquad
+	\vb{N} =  \frac{1}{k}\nabla\times\vb{M} \\
+	\text{Función generadora }\psi:\,\qquad\nabla^2 \psi + k^2 \psi = 0
+\end{align*}%
+
+ Considerando el sistema coordenado esférico:\\[1em]
+
+\begin{columns}
+\column{.05\textwidth}
+\column{.4\textwidth}
+$$ \psi_{ { }^{\text{e}}_{\text{o}}\ell m}(r,\theta,\varphi) =
+			\, {\, }^{\sin(m\varphi)}_{\cos(m\varphi)}	P_\ell^m(\cos\theta)z_\ell(kr),$$
+ \begin{align*}
+ 	\vb{L}_{{ }^{\text{e}}_{\text{o}} m\ell} =&
+			{\, }^{\cos(m\varphi)}_{\sin(m\varphi)} k P_\ell^m(\cos\theta)\dv{z_\ell(kr)}{(kr)}\,\vu{e}_r
+ 			+ {\,}^{\cos(m\varphi)}_{\sin(m\varphi)} k\frac{z_\ell(kr)}{kr}\dv{P_\ell^m(\cos\theta)}{\theta} \,\vu{e}_\theta +  \\
+			&  {\, }^{-\sin(m\varphi)}_{+\cos(m\varphi)} km \frac{P_\ell^m(\cos\theta)}{\sin\theta}\frac{z_\ell(kr)}{kr} \,\vu{e}_\varphi\\
+	\vb{M}_{{ }^{\text{e}}_{\text{o}} m\ell} = &
+			{\, }^{-\sin(m\varphi)}_{+\cos(m\varphi)} m z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
+			-{\, }^{\cos(m\varphi)}_{\sin(m\varphi)} z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi \\
+	\vb{N}_{{ }^{\text{e}}_{\text{o}} m\ell} = &
+			{\, }^{\cos(m\varphi)}_{\sin(m\varphi)} \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r
+			+ {\, }^{\cos(m\varphi)}_{\sin(m\varphi)}  \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}
+						\dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\theta +  \\
+			&  {\, }^{-\sin(m\varphi)}_{+\cos(m\varphi)} m \frac{1}{kr} \dv{[kr\, z_\ell(kr)] }{(kr)}\frac{P_\ell^m(\cos\theta)}{\sin\theta}
+		 \,\vu{e}_\varphi
+ \end{align*}
+\column{.3\textwidth}
+\begin{itemize}
+\item[$P_m^\ell$:] Funciones asociadas de Legendre
+ \item[$z_\ell$:] Funciones esféricas de Bessel (Hankel)\\[1em]
+ \end{itemize}
+
+ Comportamiento asintótico$^2$ de $h^{(1)}_\ell= j_\ell + i y_\ell$:
+\begin{align*}
+	h_\ell^{(1)}(\rho)\approx (-i)^\ell \frac{\exp(i\rho)}{i\rho}
+	\\
+	\dv{h_\ell^{(1)}(\rho)}{\rho} \approx (-i)^\ell \frac{\exp(i\rho)}{\rho},
+\end{align*}
+\column{.25\textwidth}
+\end{columns}
+\vspace*{1em}
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+
+  \end{frame}
+
+

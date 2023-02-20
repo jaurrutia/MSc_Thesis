@@ -1,0 +1,70 @@
+\begin{frame}{Función dieléctica: corrección por tamaño}
+{Contribución intrabanda}\small
+\begin{itemize}
+\item Modelo de Drude:
+$$\frac{\varepsilon_\text{ Drude}(\omega)}{\varepsilon_0} = 1 - \frac{\omega_p^2}{\omega(\omega + i \gamma)} $$
+\item Constantes de amortiguamiento para partículas esféricas:
+$$ 
+\gamma^\text{   NP}_a =  \gamma^\text{  Bulk} + A\frac{v_\text{F}}{a}
+\qquad\qquad
+\gamma^\text{   Bulk} = \frac{v_\text{F}}{L}
+$$
+\item Corrección: Ajuste y término con efectos de borde
+
+\begin{align*}
+\frac{\varepsilon_\text{  Size}(\omega)}{\varepsilon_0} =
+	\frac{\varepsilon_\text{  Exp}(\omega)}{\varepsilon_0} +
+ \qty(-
+	 \frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}
+	 									\eval_{\gamma = \gamma^\text{   Bulk}}
+	 +
+	 \frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}
+ 										\eval_{\gamma = \gamma^\text{   NP}_a} 	).
+\end{align*}
+\item Determinación de parámetros mediante relaciones lineales
+
+\begin{align*}
+\omega \Im\qty[\frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}] =&
+ \gamma \qty(1 - \Re\qty[\frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}])\\
+\omega^2\left\{ \Im\qty[\frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}]^2
+			+ \qty(1-\Re\qty[\frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}])^2 \right\}
+ =& \omega_p^2 \qty(1 - \Re\qty[\frac{\varepsilon_\text{  Drude}(\omega)}{\varepsilon_0}])
+\end{align*}
+\end{itemize}
+%
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{Función dieléctica: corrección por tamaño}
+{Contribución intrabanda}\small
+ \begin{figure} \centering
+\def\svgwidth{.7\textwidth}
+\includeinkscape{Size-Correction/1-DrudeFit}
+\end{figure}
+
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{Función dieléctica: corrección por tamaño}
+{Contribución intrabanda}\small
+ \begin{figure} \centering
+\def\svgwidth{.7\textwidth}
+\includeinkscape{Size-Correction/2-AuCorrected}
+\end{figure}
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}
+
+
+

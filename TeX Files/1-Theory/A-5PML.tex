@@ -1,0 +1,132 @@
+\begin{frame}{\textit{Perfect Matching Layer} (PML)}
+{Propiedades geométricas de $\Omega_\text{PML}$, dominio que rodea a $\Omega$}
+
+\begin{itemize}
+    \item Elongaciones geométrias y aproximación de campo lejano considerada como válida
+         \begin{align*}
+         \nabla_\text{s} \equiv \qty(\frac{\vu{e}_x }{s_x}\pdv{x} + \frac{\vu{e}_y}{s_y}\pdv{y} + \frac{\vu{e}_z}{s_z}\pdv{z}) \to \vb{k} = \frac{k_x}{s_x}\vu{e}_x + \frac{k_y}{s_y}\vu{e}_y  +\frac{k_y}{s_z}\vu{e}_z
+     \end{align*}
+%
+    \item Factores de deformación complejos:  $s_{x_i} = s_{x_i}(x_i)$; en $\Omega,\, s_{x_i} = 1$
+        \begin{align*}
+        \nabla_\text{s}\cdot \vb{v} =&
+         %            \frac{1}{s_x s_y s_z}\qty[\pdv{x}\big( s_y s_z v_x\big) + \pdv{y} \big( s_x s_z v_y\big)+ \pdv{z}\big( s_x s_y v_z\big)]
+                   \frac{1}{s_x s_y s_z} \nabla\cdot \qty[\text{diag}(s_y s_z,s_x s_z,s_x s_y)\vb{v}]
+         \\
+        \nabla_\text{s}\times \vb{v} =& %\frac{1}{s_x s_y s_z}\mqty|s_x\vu{e}_x & s_y\vu{e}_y & s_z\vu{e}_z \\
+                                         %                    \pdv*{x} & \pdv*{y} & \pdv*{z} \\
+                                         %                    s_x v_x & s_y v_y & s_z v_z|
+                                     = \text{diag}\qty(\frac{1}{s_y s_z},\frac{1}{s_x s_z},\frac{1}{s_x s_y}) \nabla\times
+                                     \qty[\text{diag}(s_x,s_y,s_z) \vb{v}]
+        \end{align*}
+    \item Relación de dispersión de una onda plana:
+        \begin{align*}
+        \vb{k} \cdot \vb{k}  = k^2 = \mu\varepsilon\omega^2 =
+            \qty(\frac{k_x}{s_x}^2 )+ \qty(\frac{k_y}{s_y})^2 + \qty(\frac{k_z}{s_z})^2\\
+        k_x = k s_x \sin\theta\cos\varphi \qquad
+            k_y = k s_y \sin\theta\sin\varphi \qquad
+                k_z = k s_z \cos\theta
+        \end{align*}
+\end{itemize}
+%
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{\textit{Perfect Matching Layer} (PML)}
+{Condiciones para nulas reflexiones}
+
+\begin{itemize}
+     \item Coeficientes de amplitud de reflexión:
+        \begin{align*}
+       r_\text{s} = \frac{k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} - k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}}
+                        {k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} + k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}}
+           \quad
+       r_\text{p} = \frac{k^\text{(PML)}_z s^\text{(PML)}_z\varepsilon_{{}_\text{PML}} - k^{(\Omega)}_z s^{(\Omega)}_z\varepsilon_{{}_\Omega}}
+                        {k^\text{(PML)}_z s^\text{(PML)}_z\varepsilon_{{}_\text{PML}} + k^{(\Omega)}_z s^{(\Omega)}_z\varepsilon_{{}_\Omega}}
+        \end{align*}
+    \item Condciones de empatamiento de fase (componentes paralelas a la interfaz entre $\Omega$ y $\Omega_\text{PML}$)
+        \begin{align*}
+             k^\text{(PML)} s^\text{(PML)}_x \sin\theta_{{}_\text{PML}}\cos\varphi_{{}_\text{PML}} =
+                        k^{(\Omega)} s^{(\Omega)}_x \sin\theta_{{}_\Omega}\cos\varphi_{{}_\Omega}\\
+        k^\text{(PML)} s^\text{(PML)}_y \sin\theta_{{}_\text{PML}}\sin\varphi_{{}_\text{PML}} =
+                     k^{(\Omega)} s^{(\Omega)}_y \sin\theta_{{}_\Omega}\sin\varphi_{{}_\Omega}
+        \end{align*}
+\end{itemize}
+
+    \begin{alertblock}{Condiciones para una PML}
+    \begin{align*}
+            \left. \mqty{\varepsilon_{{}_\Omega}=\varepsilon_{{}_\text{PML}} ,
+                                                &\mu_{{}_\Omega}=\mu_{{}_\text{PML}}
+                                                \\
+                                                \\
+                                            s^{(\Omega)}_x  = s^\text{(PML)}_x,
+                                            &  s^{(\Omega)}_y  = s^\text{(PML)}_y} \right\}
+                    \qquad\implies \qquad
+           r_\text{s} = r_\text{p} = 0 .
+    \end{align*}
+
+    Adicionalmente $\Im[s_z^{(PML)}]<0$ para que sea un material absorbente.
+    \end{alertblock}
+%
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}
+
+
+
+\begin{frame}{\textit{Perfect Matching Layer} (PML)}
+{Campos electromagnéticos}\small
+\begin{itemize}
+\item Relación entre los campos en $\Omega$ y $\Omega_\text{PML}$
+\begin{align*}
+        \vb{E}^{(\Omega)} = \text{diag}(s_x,s_y,s_z)\vb{E}^\text{(PML)}
+            \qquad
+            &\iff
+            \qquad
+         \vb{E}^\text{(PML)} = \text{diag}\qty(\frac{1}{s_x},\frac{1}{s_y},\frac{1}{s_z})\vb{E}^{(\Omega)}
+    \\
+       \vb{H}^{(\Omega)} = \text{diag}(s_x,s_y,s_z)\vb{H}^\text{(PML)}
+            \qquad
+             &\iff
+            \qquad
+       \vb{H}^\text{(PML)} = \text{diag}\qty(\frac{1}{s_x},\frac{1}{s_y},\frac{1}{s_z})\vb{H}^{(\Omega)}
+   \end{align*}
+%
+\item Transormación de las ecuaciones de Maxwell
+\begin{align*}
+        \nabla_\text{s} \cdot \qty(\varepsilon \vb{E}^\text{(PML)})  = 0
+            \qquad &\implies\qquad
+            \nabla \cdot \Big[\Big(\varepsilon \mathbb{\Lambda}\Big)\vb{E}^{(\Omega)}\Big] =  0
+             \\
+        \nabla_\text{s}  \cdot    \Big(\mu \vb{H}^\text{(PML)}\Big) = 0
+            \qquad &\implies\qquad
+            \nabla \cdot \Big[\Big(\mu \mathbb{\Lambda} \Big)\vb{H}^{(\Omega)}\Big] =  0
+            \\
+        \nabla_\text{s} \times \vb{E}^\text{(PML)}  = i\omega \mu \vb{H}^\text{(PML)}
+            \qquad &\implies\qquad
+            \nabla \times \Big(\vb{E}^{(\Omega)}\Big) = i\omega\Big( \mu\mathbb{\Lambda}\Big) \vb{H}^{(\Omega)}
+            \\
+        \nabla_\text{s}  \times\Big(\mu \vb{H}^\text{(PML)} \Big) =   - i\omega \varepsilon \vb{E}^\text{(PML)}
+            \qquad &\implies\qquad
+            \nabla \times \Big[\Big(\mu \mathbb{\Lambda}\Big) \vb{E}^{(\Omega)}\Big] =  -i\omega\Big(\varepsilon\mathbb{\Lambda}\Big)\vb{E}^{(\Omega)}
+    \end{align*}
+\item Matriz de transformación:
+        \begin{align*}
+        \mathbb{\Lambda} = \text{diag}\qty(\frac{s_y s_z}{s_x},\frac{s_x s_z}{s_y},\frac{s_x s_y}{s_z})
+    \end{align*}
+
+\end{itemize}
+
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+\end{frame}

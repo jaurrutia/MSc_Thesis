@@ -1,0 +1,167 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P1-Normal-Eff.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{565.4358583bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.3897832)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P1-Normal-Eff.pdf}}%
+    \put(0.09971983,0.32892331){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.13385703,0.36818534){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}$a$\end{tabular}}}}%
+    \put(0.19605016,0.35124365){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$h$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P1-Normal-Eff.pdf}}%
+    \put(0.40586074,0.22664977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P1-Normal-Eff.pdf}}%
+    \put(0.40703265,0.25570828){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}515 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P1-Normal-Eff.pdf}}%
+    \put(0.2274213,0.18018738){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}520 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P1-Normal-Eff.pdf}}%
+    \put(0.2576151,0.19930986){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P1-Normal-Eff.pdf}}%
+    \put(0.26828157,0.21843232){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}525 nm\end{tabular}}}}%
+    \put(0.2905169,0.2374752){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}527.5 nm\end{tabular}}}}%
+    \put(0.30118338,0.25667726){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}530 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P1-Normal-Eff.pdf}}%
+    \put(0.31100222,0.27579972){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}530 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P1-Normal-Eff.pdf}}%
+    \put(0.3279319,0.29492219){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}532.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P1-Normal-Eff.pdf}}%
+    \put(0.28044836,0.06912848){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}509 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P1-Normal-Eff.pdf}}%
+    \put(0.40782683,0.2848988){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P1-Normal-Eff.pdf}}%
+    \put(0.08808027,0.02967977){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P1-Normal-Eff.pdf}}%
+    \put(0.18816541,0.02967977){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P1-Normal-Eff.pdf}}%
+    \put(0.28812444,0.02967977){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P1-Normal-Eff.pdf}}%
+    \put(0.38820973,0.02967977){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P1-Normal-Eff.pdf}}%
+    \put(0.48834072,0.02967977){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.05353556){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.09614868){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.13876183){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.18137499){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.22398813){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.26660127){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P1-Normal-Eff.pdf}}%
+    \put(0.06125125,0.30921442){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P1-Normal-Eff.pdf}}%
+    \put(0.01193769,0.18352123){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0.28441838,0.00397922){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P1-Normal-Eff.pdf}}%
+    \put(0.79281564,0.15322175){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}530 nm\end{tabular}}}}%
+    \put(0.80446375,0.17707149){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}535 nm\end{tabular}}}}%
+    \put(0.81525481,0.20086331){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}537.5 nm\end{tabular}}}}%
+    \put(0.82239612,0.22477097){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}535 nm\end{tabular}}}}%
+    \put(0.8278237,0.24856278){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}537.5 nm\end{tabular}}}}%
+    \put(0.83496501,0.27240676){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}540 nm\end{tabular}}}}%
+    \put(0.84898088,0.29463545){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}542.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P1-Normal-Eff.pdf}}%
+    \put(0.98920336,0.2778001){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+    \put(0.89693181,0.29607474){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P1-Normal-Eff.pdf}}%
+    \put(0.59172889,0.03012757){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{P1-Normal-Eff.pdf}}%
+    \put(0.69142951,0.03012757){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{P1-Normal-Eff.pdf}}%
+    \put(0.79100285,0.03012757){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{P1-Normal-Eff.pdf}}%
+    \put(0.89070344,0.03012757){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{P1-Normal-Eff.pdf}}%
+    \put(0.99045062,0.03012757){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{P1-Normal-Eff.pdf}}%
+    \put(0.56638916,0.05416236){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{P1-Normal-Eff.pdf}}%
+    \put(0.56586203,0.09232354){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{P1-Normal-Eff.pdf}}%
+    \put(0.56626168,0.13048478){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{P1-Normal-Eff.pdf}}%
+    \put(0.56635428,0.16864608){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{P1-Normal-Eff.pdf}}%
+    \put(0.56651653,0.20674359){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}4.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{P1-Normal-Eff.pdf}}%
+    \put(0.56626168,0.24496854){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{P1-Normal-Eff.pdf}}%
+    \put(0.56635428,0.2831298){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}6.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{P1-Normal-Eff.pdf}}%
+    \put(0.77270124,0.13662034){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}525 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{P1-Normal-Eff.pdf}}%
+    \put(0.51961526,0.18370767){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca} [10^{-2}]$\end{tabular}}}}}%
+    \put(0.7873209,0.00401777){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{P1-Normal-Eff.pdf}}%
+    \put(0.59427265,0.33743044){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.00\end{tabular}}}}%
+    \put(0.50990892,0.33737825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.25\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{P1-Normal-Eff.pdf}}%
+    \put(0.67980371,0.337094){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.25\end{tabular}}}}%
+    \put(0.42536115,0.33730674){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{P1-Normal-Eff.pdf}}%
+    \put(0.76383272,0.33716192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.50 \end{tabular}}}}%
+    \put(0.34099747,0.33723523){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.75\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{P1-Normal-Eff.pdf}}%
+    \put(0.84871515,0.33723522){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-0.75\end{tabular}}}}%
+    \put(0.25644971,0.33715657){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{P1-Normal-Eff.pdf}}%
+    \put(0.93307884,0.33730853){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-1.00\end{tabular}}}}%
+    \put(0.58531757,0.36629161){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$h/a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{P1-Normal-Eff.pdf}}%
+    \put(0.24786792,0.36611653){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Supported AuNP\end{tabular}}}}%
+    \put(0.97660074,0.36620407){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}Totally embedded AuNP\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{P1-Normal-Eff.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,35 @@
+
+
+\begin{frame}{Elementos finitos}
+{Sistema real, de referencia y ejemplos}\small
+
+\begin{columns}
+\column{.4\textwidth}
+$$
+    \pdv{r_i} = \pdv{\xi_i}{r_j} \pdv{\xi_j}
+    \qquad
+    \dd{\Omega_k} \to \det[\mathbbm{J}]\dd{\Omega_k}
+$$
+ \begin{figure}\centering    \fontsize{4}{5} \selectfont
+        \def\svgwidth{\textwidth}
+        \includeinkscape{FEM-Theory/P1-systems-Elements-orders}
+\end{figure}
+
+\column{.6\textwidth}
+$$  \mathcal{F}^{L}_\ell[f(\boldsymbol{\xi})] = f(\boldsymbol{\xi}_{\ell_k}) $$
+\begin{figure} \fontsize{4}{5} \selectfont
+    \def\svgwidth{\textwidth}
+     \includeinkscape{FEM-Theory/2-Example-Elements-2D}
+\end{figure}
+\end{columns}
+
+\vspace*{1em}
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{tsang_scattering_2000}\\
+	$^2$ \fullcite{bohren_absorption_1983}
+	\end{spacing}
+
+\end{frame}
+
+

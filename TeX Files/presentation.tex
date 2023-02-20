@@ -1,29 +1,31 @@
 % !TeX spellcheck = es_MX
-\documentclass[spanish,11pt,aspectratio=1610,xcolor=table]{beamer}
+\documentclass[spanish,8pt,aspectratio=169,xcolor=table]{beamer}
 \input{Latex/setup/setup}
 \input{Latex/setup/setup-colors}
 \input{Latex/setup/setup-settings}
+\usepackage{pifont}
+\usepackage{bbm}
 
 \usetheme{JD}
 \beamertemplatenavigationsymbolsempty
 
-%\svgpath{{1-Theory/figs},{5-Apendices/figs},{2-Results/figs}}
-\graphicspath{{5-Apendices/figs},{0-5-Introduccion/figs}}
+\svgpath{{1-Theory/figs},{5-Apendices/figs},{2-Results/figs}}
+\graphicspath{{1-Theory/figs},{2-Results/figs},{3-Conclusions/figs},{5-Apendices/figs},{0-5-Introduccion/figs},{0-1-Acknowledgments/figs}}
 
 \title
-    [AuNPs parcialmente embebidas]
-    {\textit{Optical properties of partially embedded nanospheres}}
+    [Examen de maestría]
+    {\textit{\huge Optical properties of partially embedded nanospheres}}
 
 \subtitle{Examen de maestría: Propiedades ópticas de nanoesferas parcialmente embebidas} % short version unused by this template
 \author
-    [J. Urrutia]
-    {Jonathan A. Urrutia Anguiano$^1$}
+    [J. Urrutia Anguiano]
+    {Fís. Jonathan Alexis Urrutia Anguiano$^1$}
 \institute
-    [PCF OyF]
+    [PCF - OyF]
     {Facultad de Ciencias, UNAM\\
  	Dr. Alejandro Reyes Coronado$^1$\\[2em]
     $^1$Departamento de Física,\\
-    Facultad de Ciencias, UNAM
+    \;\;Facultad de Ciencias, UNAM
     }
 \date
     []
@@ -41,7 +43,70 @@
 
 \input{0-5-Introduccion/P1-Introduction.tex}
 
+\begin{frame}{Contenido}
+\vfill
+\begin{columns}
+\column{.5\textwidth}
+    \tableofcontents
+\column{.5\textwidth}
+    \hspace*{-3em}\begin{tikzpicture}[node distance=1em and 1em]
+        \path (1,0) node {
+            \includegraphics[scale = .3]{Mie.png}
+        };
+        %
+      \path (-1.5,1.65) node {\begin{minipage}{.18\textwidth}
+                        \tiny
+                         Fotografía de Gustav Mie alrededor de 1905$^1$
+                         \end{minipage}
+                         };
+      \path (-3.75,-2) node {
+            \includegraphics[scale = .3]{comsol.png}
+        };
+        %
+      \path (-1.5,-3.5) node {\begin{minipage}{.5\textwidth}
+                        \tiny
+                         COMSOL Multiphysics\textsuperscript{\texttrademark} Ver. 5.4
+                         \end{minipage}
+                         };
+    \end{tikzpicture}
+\end{columns}
+\vfill
+\noindent\rule{.25\textwidth}{0.4pt}
+         \begin{spacing}{0}\fontsize{4}{12} \selectfont
+            $^1$ \fullcite{horvath_gustav_2009}
+         \end{spacing}
+\end{frame}
 
 
+
+\input{1-Theory/P-1Optical.tex}
+\input{1-Theory/P-2Mie.tex}
+\input{1-Theory/P-3FEM.tex}
+\input{2-Results/P-4Resultados.tex}
+
+\input{3-Conclusions/P-1Conclusiones.tex}
+\input{0-1-Acknowledgments/P-1Agradecimientos.tex}
+
+\appendix
+
+\begin{frame}{Secciones de apoyo}
+    \tableofcontents
+\end{frame}
+
+\section{Armónicos esféricos vectoriales}
+    \input{1-Theory/A-2VSH}
+\section{Solución de Mie}
+    \input{1-Theory/A-3Mie}
+\section{Elemento finito}
+    \input{1-Theory/A-4Elements}
+\section{Condiciones de frontera abierta}
+    \subsection{Condición de radiación de Sommerfeld}
+        \input{1-Theory/A-4Sommerfeld}
+    \subsection{\textit{Perfect Matching Layer}}
+        \input{1-Theory/A-5PML}
+\section{Función dieléctrica: Corrección por tamaño}
+    \input{5-Apendices/A2-Size}
+\section{Análisis de convergencia: Mie vs. COMSOL}
+    \input{1-Theory/A5-Convergencia.tex}
 
 \end{document}

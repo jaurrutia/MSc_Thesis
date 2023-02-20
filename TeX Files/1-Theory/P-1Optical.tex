@@ -1,0 +1,37 @@
+
+\section{Teoría}
+\subsection{Esparcimiento por una partícula esférica}
+
+\begin{frame}{Esparcimiento por una partícula}{Secciones transversales de absorción, esparcimiento y extinción}
+    \begin{columns}
+	\column{.45\textwidth}\centering \small
+	\input{1-Theory/figs/P-Scattering-Plane.tex}
+	\column{.55\textwidth}\centering
+\begin{alertblock}{Teorema óptico$^1$ y operador de campo lejano$^2$:}	
+	
+	
+ $$ C_\text{ext}  = C_\text{abs} + C_\text{sca} $$
+  $$ \vb{E}^\text{sca} =   \frac{\exp(i\vb{k}^\text{sca}\cdot\vb{r})}{r} \mathbb{F}(\vu{k}^\text{sca}, \vu{k}^\text{i}) \vb{E}^\text{i} $$
+
+ \begin{align*}
+ C_\text{abs} =&  \frac12\int_\mathcal{V} \frac{\Re(\vb{J}\cdot \vb{E}^\text{int*})}
+ 									{\norm{\vb{E}_0^\text{i}}^2/2Z_\text{mat}}\dd{V}
+ 			= \int_\mathcal{V} \omega Z_\text{mat}\Im(n_\text{p}^2) \frac{\norm{\vb{E}^\text{int}}^2}{\norm{\vb{E}^\text{i}_0}^2} \dd{V}\\
+ 	C_\text{sca} =& \frac{2Z_\text{mat}}{\norm{\vb{E}_0}^2} \oint_\mathcal{S} \ev{\vb{S}^\text{sca}}_t \cdot\dd{\vb{a}}
+ 	 =  \oint_\mathcal{S} \frac{\norm{\mathbb{F}(\vu{k}^\text{sca},\vu{k}^\text{i})\vb{E}^\text{i}}^2}
+									{\norm{\vb{E}^\text{i}_0}^2}\dd{a}\\
+C_\text{ext} =&  \frac{4\pi}{k \norm{\vb{E}_0^\text{i}}^2}\Im\qty[ \vb{E}_0^\text{i}\cdot \mathbb{F}^*(\vu{k}^\text{i},\vu{k}^\text{i}) \vb{E}^\text{i*} ]
+ \end{align*}
+ \end{alertblock}
+\end{columns}
+
+\vspace*{2em}
+	\noindent\rule{.25\textwidth}{0.4pt}
+ \begin{spacing}{0}\fontsize{4}{12} \selectfont
+	$^1$ \fullcite{bohren_absorption_1983}\\
+	$^2$ \fullcite{tsang_scattering_2000}
+	\end{spacing}
+
+  \end{frame}
+
+

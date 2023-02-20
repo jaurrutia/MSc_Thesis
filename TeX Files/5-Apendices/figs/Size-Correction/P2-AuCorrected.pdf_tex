@@ -1,0 +1,111 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P2-AuCorrected.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{289.55175018bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.59201714)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P2-AuCorrected.pdf}}%
+    \put(0.81392347,0.48255829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Bulk\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P2-AuCorrected.pdf}}%
+    \put(0.81392347,0.45602762){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a = 5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P2-AuCorrected.pdf}}%
+    \put(0.81392347,0.42909287){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a = 12.5 mn\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P2-AuCorrected.pdf}}%
+    \put(0.81392347,0.40215813){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}a = 80 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P2-AuCorrected.pdf}}%
+    \put(0.16928234,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P2-AuCorrected.pdf}}%
+    \put(0.29641333,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P2-AuCorrected.pdf}}%
+    \put(0.42372045,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P2-AuCorrected.pdf}}%
+    \put(0.55085147,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P2-AuCorrected.pdf}}%
+    \put(0.67783734,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P2-AuCorrected.pdf}}%
+    \put(0.80496845,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P2-AuCorrected.pdf}}%
+    \put(0.93201645,0.04002172){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P2-AuCorrected.pdf}}%
+    \put(0.07316827,0.10484348){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P2-AuCorrected.pdf}}%
+    \put(0.07316827,0.22661099){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P2-AuCorrected.pdf}}%
+    \put(0.0723653,0.27895398){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P2-AuCorrected.pdf}}%
+    \put(0.0723653,0.40047629){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P2-AuCorrected.pdf}}%
+    \put(0.07154162,0.45282272){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P2-AuCorrected.pdf}}%
+    \put(0.97939314,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}300\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P2-AuCorrected.pdf}}%
+    \put(0.71687355,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P2-AuCorrected.pdf}}%
+    \put(0.55906066,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P2-AuCorrected.pdf}}%
+    \put(0.45408117,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P2-AuCorrected.pdf}}%
+    \put(0.38407986,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}700\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P2-AuCorrected.pdf}}%
+    \put(0.32794138,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}800\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P2-AuCorrected.pdf}}%
+    \put(0.26862211,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}900\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P2-AuCorrected.pdf}}%
+    \put(0.19094341,0.54452998){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1200\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P2-AuCorrected.pdf}}%
+    \put(0.35755074,0.48445433){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Visible spectrum\end{tabular}}}}%
+    \put(0.538484,0.0051804){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{$\hbar\omega$ [eV]}\end{tabular}}}}%
+    \put(0.538484,0.57647587){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{$\lambda$ [nm]}\end{tabular}}}}%
+    \put(0.01360959,0.3018065){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}{{\color{blue} $\Re[-\varepsilon_\text{Size}(\omega)/\varepsilon_0]$}, {\color{red} $\Im[\varepsilon_\text{Size}(\omega)/\varepsilon_0]$}}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P2-AuCorrected.pdf}}%
+  \end{picture}%
+\endgroup%

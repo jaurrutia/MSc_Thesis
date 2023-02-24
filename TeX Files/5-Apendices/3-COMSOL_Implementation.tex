@@ -55,7 +55,7 @@ Before defining the scattering, absorption and extinction cross sections in the 
      \textbf{Name}      &   \textbf{Expression}                                                                                 &   \textbf{Description} \\ \hline \hline
      \lstinline!k_ir!   &    \lstinline!(2*pi/wlength)*n_i*(x*sin(theta_i)*cos(phi)+y*sin(theta_i)*sin(phi)+z*cos(theta_i))!     &   Incident plane wave phase          \\
      \lstinline!k_rr!   &    \lstinline!(2*pi/wlength)*n_i*(x*sin(theta_i)*cos(phi)+y*sin(theta_i)*sin(phi)-z*cos(theta_i))!     &   Reflected plane wave phase         \\
-     \lstinline!Ei_x!   &   \lstinline!(-E_s*sin(phi) + E_p*cos(theta_i)*cos(phi) ) * exp(-j*k_ir)!                              &   Incident plane wave - x component  \\
+     \lstinline!Ei_x!   &   \lstinline!(-E_s*sin(phi) - E_p*cos(theta_i)*cos(phi) ) * exp(-j*k_ir)!                              &   Incident plane wave - x component  \\
      \lstinline!Ei_y!   &   \lstinline!( E_s*cos(phi) + E_p*cos(theta_i)*sin(phi) ) * exp(-j*k_ir)!                              &   Incident plane wave - y component  \\
      \lstinline!Ei_z!   &   \lstinline! E_p*sin(theta_i) * exp(-j*k_i)!                                                         &   Incident  plane wave - z component \\
      \lstinline!r_s!    &   \lstinline!(n_i*cos(theta_i)-n_t*cos(theta_t))/(n_i*cos(theta_i)+n_t*cos(theta_t))!                 &   S reflection amplitude coefficient \\

@@ -66,8 +66,8 @@
     \put(0,0){\includegraphics[width=\unitlength,page=3]{P2-ScatteringMaps.pdf}}%
     \put(0.90607637,0.23447882){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=4]{P2-ScatteringMaps.pdf}}%
-    \put(0.57983648,0.42724954){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{orange}{$\lambda = 543$ nm}\end{tabular}}}}%
-    \put(0.56368364,0.44878696){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\abs{S_{1,2}(\theta)}^2\times 10^3$\end{tabular}}}}%
+    \put(0.57983648,0.42186519){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{orange}{$\lambda = 543$ nm}\end{tabular}}}}%
+    \put(0.56368364,0.45417132){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\abs{S_{1,2}(\theta)}^2\times 10^3$\end{tabular}}}}%
     \put(0.96594592,0.11729947){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$120^\circ$\end{tabular}}}}%
     \put(0.99023213,0.22864785){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
     \put(0.92404812,0.3860368){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
@@ -129,7 +129,7 @@
     \put(0,0){\includegraphics[width=\unitlength,page=12]{P2-ScatteringMaps.pdf}}%
     \put(0.3951852,0.23069478){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{P2-ScatteringMaps.pdf}}%
-    \put(0.06127827,0.42545478){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda = 522$ nm\end{tabular}}}}%
-    \put(0.04512543,0.45237656){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\abs{S_{1,2}(\theta)}^2\times 10^4$\end{tabular}}}}%
+    \put(0.06127827,0.42007043){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\lambda = 522$ nm\end{tabular}}}}%
+    \put(0.04512543,0.45776092){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\abs{S_{1,2}(\theta)}^2\times 10^4$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

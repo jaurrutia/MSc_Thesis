@@ -42,17 +42,17 @@
 
 
 \usepackage{Latex/mmacells}
-\usepackage{Latex/coffee4}
-\usepackage{rotating}
-
-\mmaDefineMathReplacement[≤]{<=}{\leq}
-\mmaDefineMathReplacement[≥]{>=}{\geq}
-\mmaDefineMathReplacement[≠]{!=}{\neq}
-\mmaDefineMathReplacement[→]{->}{\to}[2]
-\mmaDefineMathReplacement[⧴]{:>}{:\hspace{-.2em}\to}[2]
-\mmaDefineMathReplacement{∉}{\notin}
-\mmaDefineMathReplacement{∞}{\infty}
-\mmaDefineMathReplacement{𝕕}{\mathbbm{d}}
+% \usepackage{Latex/coffee4}
+ \usepackage{rotating}
+%
+% \mmaDefineMathReplacement[≤]{<=}{\leq}
+% \mmaDefineMathReplacement[≥]{>=}{\geq}
+% \mmaDefineMathReplacement[≠]{!=}{\neq}
+% \mmaDefineMathReplacement[→]{->}{\to}[2]
+% \mmaDefineMathReplacement[⧴]{:>}{:\hspace{-.2em}\to}[2]
+% \mmaDefineMathReplacement{∉}{\notin}
+% \mmaDefineMathReplacement{∞}{\infty}
+% \mmaDefineMathReplacement{𝕕}{\mathbbm{d}}
 
 
 \mmaSet{
@@ -165,7 +165,7 @@
 \chapter{Scattering Theory of a Single Spherical Particle}
   \label{ch:OpticalProperties}
 
-  The problem addressed in this thesis corresponds to the numerical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those found in plasmonic biosensors, where the NPs are partially embedded in a substrate \cite{moirangthem_enhanced_2012}. The performed analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP, employing the Finite Element Method (FEM). To verify the validity of the obtained numerical results, the problem of the absorption and scattering of light by a single free-standing spherical particle is considered. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and a spherical particle, given by the Mie Theory\footnote{The term \emph{Mie Theory} refers rather to a solution set to Maxwell's equations for the scattering of an electromagnetic plane wave due to a spherical particle, developed by Gustav Mie and published on 1907 \cite{mie_beitrage_1908}. Ludvig Lorenz published beforehand an equivalent solution to the same scattering problem nevertheless, Mie's solution consists in an iterative method suited for easier computations, which boosted its spread \cite{horvath_gustav_2009}. } \cite{bohren_absorption_1983}.
+  The problem addressed in this thesis corresponds to the numerical analysis of the Localized Surface Plasmon Resonances (LSPR) \index{Plasmon!Localized Surface Plasmon Resonance (LSPR)} excited on plasmonic spherical nanoparticles (NPs) when these are under realistic experimental conditions, such as those found in plasmonic biosensors, where the NPs are partially embedded in a substrate \cite{moirangthem_enhanced_2012}. The performed analysis consists on the numerical calculation of the absorption, scattering and extinction  cross sections of a partially embedded metal NP, employing the Finite Element Method (FEM). To verify the validity of the obtained numerical results, the problem of the absorption and scattering of light by a single free-standing spherical particle is considered. In this chapter, we revisit the general solution of the light absorption and scattering by both an arbitrary particle and a spherical particle, given by the Mie Theory\footnote{The term \emph{Mie Theory} refers rather to a solution set to Maxwell's equations for the scattering of an electromagnetic plane wave due to a spherical particle, developed by Gustav Mie and published on 1908 \cite{mie_beitrage_1908}. Ludvig Lorenz published beforehand an equivalent solution to the same scattering problem nevertheless, Mie's solution consists in an iterative method suited for easier computations, which boosted its spread \cite{horvath_gustav_2009}. } \cite{bohren_absorption_1983}.
 
 	\section{The Optical Theorem: Amplitude Matrix and Cross Sections}
 	 \label{s:AmpMatCrossSect}

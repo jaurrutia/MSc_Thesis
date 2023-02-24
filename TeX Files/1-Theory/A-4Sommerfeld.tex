@@ -1,5 +1,5 @@
 \begin{frame}{Condición de radiación de Sommerfeld generalizada}
-{Contribuciones eléctricas y magnéticas debido a cargas y corrientes externas e inducidas}\small
+{Contribuciones eléctricas y magnéticas debido a cargas y corrientes externas e inducidas$^{1,2}$}\small
 
 Descomposición en contribuciones eĺéctricas y magnéticas:
 $$
@@ -38,22 +38,24 @@ donde
 %
 	\noindent\rule{.25\textwidth}{0.4pt}
  \begin{spacing}{0}\fontsize{4}{12} \selectfont
-	$^1$ \fullcite{tsang_scattering_2000}\\
-	$^2$ \fullcite{bohren_absorption_1983}
+	$^1$ \fullcite{jin_theory_2010}\\
+	$^2$ \fullcite{bondeson_computational_2005}
 	\end{spacing}
 \end{frame}
 
-\begin{frame}{Condición de radiación de Sommerfeld generalizada}
+
+
+\begin{frame}{Condición de radiación de Sommerfeld generalizada$^1$}
 {Comportamiento en el régimen de campo lejano}\small
 
-En el régimen de campo lejano:
+En el régimen de campo lejano$^2$:
 
 \begin{align*}
     \vb{A} &= \dfrac{\mu\exp(ikr)}{4\pi r}\vb{N},         &\text{con} \qquad \vb{N} &= \int_\Omega \vb{J}_\text{ext}  \exp(-i\vb{k}\cdot\vb{r}')\dd{\Omega'}\\
     \vb{F} &= \dfrac{\varepsilon\exp(ikr)}{4\pi r}\vb{L}, &\text{con} \qquad \vb{L} &= \int_\Omega \vb{J}_\text{m}  \exp(-i\vb{k}\cdot\vb{r}')\dd{\Omega'}
 \end{align*}
 
-por lo que los campos electromagnéticos se escriben como
+por lo que los campos electromagnéticos se escriben como$^2$
 
 \begin{align*}
     \left.
@@ -70,16 +72,17 @@ por lo que los campos electromagnéticos se escriben como
 
 Empleando la ley de Faraday-Lenz:
 
-\begin{alertblock}{Condición de radiación de Sommerfeld}
+\begin{alertblock}{Condición de radiación de Sommerfeld$^3$}
     $$\lim_{r\to \infty} r\qty(\nabla\times \vb{E} - i k \vu{e}_r\times\vb{E}) = \vb{0}$$
 \end{alertblock}%
 
 
-\vspace*{1em}
+\vspace*{-0.5em}
 	\noindent\rule{.25\textwidth}{0.4pt}
  \begin{spacing}{0}\fontsize{4}{12} \selectfont
-	$^1$ \fullcite{tsang_scattering_2000}\\
-	$^2$ \fullcite{bohren_absorption_1983}
+	$^1$ \fullcite{jin_theory_2010}\\
+	$^2$ \fullcite{jackson_classical_1999}\\
+	$^3$ \fullcite{silver_microwave_1984}
 	\end{spacing}
 
 \end{frame}

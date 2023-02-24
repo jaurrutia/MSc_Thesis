@@ -1,8 +1,8 @@
-\begin{frame}{\textit{Perfect Matching Layer} (PML)}
+\begin{frame}{\textit{Perfect Matching Layer}$^{1,2}$ (PML)}
 {Propiedades geométricas de $\Omega_\text{PML}$, dominio que rodea a $\Omega$}
 
 \begin{itemize}
-    \item Elongaciones geométrias y aproximación de campo lejano considerada como válida
+    \item Elongaciones geométrias$^3$ y aproximación de campo lejano considerada como válida
          \begin{align*}
          \nabla_\text{s} \equiv \qty(\frac{\vu{e}_x }{s_x}\pdv{x} + \frac{\vu{e}_y}{s_y}\pdv{y} + \frac{\vu{e}_z}{s_z}\pdv{z}) \to \vb{k} = \frac{k_x}{s_x}\vu{e}_x + \frac{k_y}{s_y}\vu{e}_y  +\frac{k_y}{s_z}\vu{e}_z
      \end{align*}
@@ -31,16 +31,17 @@
 %
 	\noindent\rule{.25\textwidth}{0.4pt}
  \begin{spacing}{0}\fontsize{4}{12} \selectfont
-	$^1$ \fullcite{tsang_scattering_2000}\\
-	$^2$ \fullcite{bohren_absorption_1983}
+	$^1$ \fullcite{fletcher_computational_1984}\\
+	$^2$ \fullcite{jin_theory_2010}\\
+	$^3$ \fullcite{bergot_generation_2010}
 	\end{spacing}
 \end{frame}
 
 \begin{frame}{\textit{Perfect Matching Layer} (PML)}
 {Condiciones para nulas reflexiones}
-
+\small
 \begin{itemize}
-     \item Coeficientes de amplitud de reflexión:
+     \item Coeficientes de amplitud de reflexión$^1$:
         \begin{align*}
        r_\text{s} = \frac{k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} - k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}}
                         {k^\text{(PML)}_z s^\text{(PML)}_z\mu_{{}_\text{PML}} + k^{(\Omega)}_z s^{(\Omega)}_z\mu_{{}_\Omega}}
@@ -57,7 +58,7 @@
         \end{align*}
 \end{itemize}
 
-    \begin{alertblock}{Condiciones para una PML}
+    \begin{alertblock}{Condiciones para una PML$^2$}
     \begin{align*}
             \left. \mqty{\varepsilon_{{}_\Omega}=\varepsilon_{{}_\text{PML}} ,
                                                 &\mu_{{}_\Omega}=\mu_{{}_\text{PML}}
@@ -74,15 +75,15 @@
 %
 	\noindent\rule{.25\textwidth}{0.4pt}
  \begin{spacing}{0}\fontsize{4}{12} \selectfont
-	$^1$ \fullcite{tsang_scattering_2000}\\
-	$^2$ \fullcite{bohren_absorption_1983}
+	$^1$ \fullcite{jackson_classical_1999}\\
+	$^2$ \fullcite{jin_theory_2010}
 	\end{spacing}
 \end{frame}
 
 
 
 \begin{frame}{\textit{Perfect Matching Layer} (PML)}
-{Campos electromagnéticos}\small
+{Campos electromagnéticos$^1$}\small
 \begin{itemize}
 \item Relación entre los campos en $\Omega$ y $\Omega_\text{PML}$
 \begin{align*}
@@ -126,7 +127,6 @@
 
 	\noindent\rule{.25\textwidth}{0.4pt}
  \begin{spacing}{0}\fontsize{4}{12} \selectfont
-	$^1$ \fullcite{tsang_scattering_2000}\\
-	$^2$ \fullcite{bohren_absorption_1983}
+	$^1$ \fullcite{jin_theory_2010}
 	\end{spacing}
 \end{frame}

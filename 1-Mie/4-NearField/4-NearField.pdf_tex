@@ -1,4 +1,4 @@
-%% Creator: Inkscape 1.1.2 (76b9e6a115, 2022-02-25), www.inkscape.org
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
 %% Accompanies image file '4-NearField.pdf' (pdf, eps, ps)
 %%
@@ -85,8 +85,8 @@
     \put(0.0755527,0.37864244){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}30\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{4-NearField.pdf}}%
     \put(0.08323545,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-3a$\end{tabular}}}}%
-    \put(0.20241308,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
-    \put(0.1428193,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
+    \put(0.20241307,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-a$\end{tabular}}}}%
+    \put(0.14281929,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$-2a$\end{tabular}}}}%
     \put(0.32160374,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
     \put(0.38118774,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$2a$\end{tabular}}}}%
     \put(0.44078478,0.44038669){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$3a$\end{tabular}}}}%
@@ -142,38 +142,37 @@
     \put(0.94626546,0.4149632){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$3a$\end{tabular}}}}%
     \put(0.94626546,0.23619182){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$0$\end{tabular}}}}%
     \put(0.53315343,0.240967){\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$z$ [nm]\end{tabular}}}}}%
-    \put(0.89185588,0.39402844){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
-    \put(0.34426074,0.39402844){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
+    \put(0.89185587,0.39402844){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\perp^\text{i}$}\end{tabular}}}}%
+    \put(0.34426075,0.39402844){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}\color{white}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
     \put(0.42173588,0.31564007){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.09343932,0.0783676){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 509$ nm}\end{tabular}}}}%
     \put(0.09531394,0.10350063){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{12.5 nm AuNP $@$ Air}\\\\\\\end{tabular}}}}%
     \put(0.2624953,0.00853735){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$x$ [nm]\end{tabular}}}}%
-    \put(0.7564877,0.00953916){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
+    \put(0.75648769,0.00953916){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$y$ [nm]\end{tabular}}}}%
     \put(0.58879302,0.07836763){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{$\lambda = 509$ nm}\end{tabular}}}}%
     \put(0.59066764,0.10350065){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{white}{12.5 nm AuNP $@$ Air}\\\\\\\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=32]{4-NearField.pdf}}%
     \put(0.91194348,0.31564007){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\color{white}{$\vb{k}^\text{i}$}\end{tabular}}}}%
     \put(0.36921173,0.49213303){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\norm{\vb{E}^\text{ind}}/\norm{\vb{E}^\text{i}}$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=33]{4-NearField.pdf}}%
-    \put(0.10659054,0.46788047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.5\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=34]{4-NearField.pdf}}%
-    \put(0.17241285,0.46788047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=35]{4-NearField.pdf}}%
-    \put(0.23823516,0.46788047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.5\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=36]{4-NearField.pdf}}%
-    \put(0.30405748,0.46788047){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=37]{4-NearField.pdf}}%
     \put(0.86273166,0.49213303){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\norm{\vb{E}^\text{ind}}/\norm{\vb{E}^\text{i}}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{4-NearField.pdf}}%
+    \put(0.10356417,0.46773845){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{4-NearField.pdf}}%
+    \put(0.15684706,0.46773845){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{4-NearField.pdf}}%
+    \put(0.21012994,0.46773845){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{4-NearField.pdf}}%
+    \put(0.26341282,0.46773845){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=38]{4-NearField.pdf}}%
-    \put(0.5888002,0.46788418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.2\end{tabular}}}}%
+    \put(0.31669571,0.46773845){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.5\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=39]{4-NearField.pdf}}%
-    \put(0.64621769,0.46788418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.4\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=40]{4-NearField.pdf}}%
-    \put(0.70363517,0.46788418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.6\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=41]{4-NearField.pdf}}%
-    \put(0.76105266,0.46788418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0.8\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=42]{4-NearField.pdf}}%
-    \put(0.81847014,0.46788418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=43]{4-NearField.pdf}}%
+    \put(0.58812052,0.46742653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.2\end{tabular}}}}%
+    \put(0.63113892,0.46742653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.4\end{tabular}}}}%
+    \put(0.67415731,0.46742653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.6\end{tabular}}}}%
+    \put(0.71717571,0.46742653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0.8\end{tabular}}}}%
+    \put(0.76019411,0.46742653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.0\end{tabular}}}}%
+    \put(0.8032125,0.46742653){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.2\end{tabular}}}}%
+    \put(0.83105445,0.46742654){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1.4\end{tabular}}}}%
   \end{picture}%
 \endgroup%

@@ -169,7 +169,7 @@
       \begin{frame}{Resumen}%{Incidencia después del ángulo crítico: 12.5 AuNP$@$Aire/BK7}%\fontsize{4}{5}\selectfont
       \begin{center}
   	\begin{tikzpicture}[node distance=1em and 1em,font=\small]
-        \path (0,0) node [flowbox] (Sus) {\fbtitle{\ding{172} Efecto del sustrato}\vphantom{yÖ}
+        \path (0,0) node [flowbox] (Sus) {\fbtitle{Efecto del sustrato}\vphantom{yÖ}
 	    \nodepart{two}
 	    Anisotropía:\\
          \begin{minipage}{.3\textwidth} \begin{itemize}
@@ -178,12 +178,14 @@
          \end{itemize}\end{minipage}
         };
 
-        \node[below = of Sus] {\includegraphics[width = .28\textwidth]{P-Resumen/P1.png}};
+%         \node[below = of Sus] {\includegraphics[width = .28\textwidth]{P-Resumen/P1.png}};
+          \node[below = of Sus]{\def\svgwidth{.3\textwidth}%
+          \fontsize{5}{6}%
+          \includeinkscape{P-Resumen/P2-Near}};%}
 
-
-        \node[flowbox, right = of Sus] (Ilu) {\fbtitle{\ding{173} Efecto de la iluminación}\vphantom{yÖ}
+        \node[flowbox, right = of Sus] (Ilu) {\fbtitle{Efecto de la iluminación}\vphantom{yÖ}
         \nodepart{two}
-         \begin{minipage}{.3\textwidth}
+         \begin{minipage}{.275\textwidth}
           \begin{itemize}
           \item Partícula parcialmente embebida e incidente interna
             \begin{itemize}
@@ -195,9 +197,13 @@
          \end{minipage}
         };
 
-        \node[below = of Ilu] {\includegraphics[width = .28\textwidth]{P-Resumen/P2.png}};
+%         \node[below = of Ilu] {\includegraphics[width = .28\textwidth]{P-Resumen/P2.png}};
+          \node[below = of Ilu]{\renewcommand{\newcirc}{{\scaleobj{.7}{\circ}}}%
+          \def\svgwidth{.3\textwidth}%
+          \fontsize{4.5}{5.5}%
+          \includeinkscape{P-Resumen/P4-5-Far-XY-P}};%}
 
-        \node[flowbox, right = of Ilu] (Inc) {\fbtitle{\ding{174} Efecto de la incrustación}\vphantom{yÖ}
+        \node[flowbox, right = of Ilu] (Inc) {\fbtitle{Efecto de la incrustación}\vphantom{yÖ}
         \nodepart{two}
          \begin{minipage}{.3\textwidth}
           \begin{itemize}
@@ -214,7 +220,11 @@
           \end{itemize}\end{minipage}
         };
 
-        \node[below = of Inc] {\includegraphics[width = .28\textwidth]{P-Resumen/P3.png}};
+%         \node[below = of Inc] {\includegraphics[width = .28\textwidth]{P-Resumen/P3.png}};
+          \node[below = of Inc]{\renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}%
+          \def\svgwidth{.275\textwidth}%
+          \fontsize{4}{5}%
+          \includeinkscape{P-Resumen/P2-Oblique-Inc-Abs}};%}
 
         \end{tikzpicture}
         \end{center}

@@ -38,7 +38,18 @@
 \titlegraphic{%
 \begin{picture}(0,0)
     \put(0,-150){\makebox(0,0)[rt]{\includegraphics[scale=.45]{Latex/setup/pcf-logo.png}}}
-  \end{picture}
+  \end{picture}%
+  %
+  \begin{picture}(0,0)
+    \put(-150,-125){
+    \makebox(0,0)[rt]{
+    \renewcommand{\newcirc}{{\scaleobj{.65}{\circ}}}%
+          \def\svgwidth{.225\textwidth}%
+          \fontsize{4}{5}%
+          \includeinkscape{P-Resumen/Portada}
+    }
+    }
+  \end{picture}%
   }
 
 \begin{document}

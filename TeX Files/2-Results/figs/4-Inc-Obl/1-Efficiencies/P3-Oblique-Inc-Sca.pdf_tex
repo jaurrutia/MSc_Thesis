@@ -134,27 +134,27 @@
     \put(0.018611,0.61166974){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
     \put(0.64374425,0.88341914){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=25]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.6198778,0.90652259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0.6198778,0.90652259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\newcirc$\end{tabular}}}}%
     \put(0.2070032,0.3828611){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=26]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.18313675,0.40596454){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0.18313675,0.40596454){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\newcirc$\end{tabular}}}}%
     \put(0.68981697,0.66521245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=27]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.65709982,0.689731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0.65709982,0.689731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\newcirc$\end{tabular}}}}%
     \put(0.36924951,0.02397884){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=28]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.33653241,0.04849712){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0.33653241,0.04849712){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=29]{P3-Oblique-Inc-Sca.pdf}}%
     \put(0.63863664,0.1682152){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
-    \put(0.60591949,0.19273239){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+    \put(0.60591949,0.19273239){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\newcirc$\end{tabular}}}}%
     \put(0.018611,0.83080079){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
     \put(0.018611,0.33195768){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
     \put(0.15567748,0.88341914){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=30]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.13181106,0.90652259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0.13181106,0.90652259){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\newcirc$\end{tabular}}}}%
     \put(0.16452816,0.66521245){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=31]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.13181108,0.689731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0.13181108,0.689731){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\newcirc$\end{tabular}}}}%
     \put(0.78621918,0.45401108){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0.58772694,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
     \put(0.68848873,0.48082675){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
@@ -164,7 +164,7 @@
     \put(0.29815149,0.45401108){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0.71173882,0.38516624){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=32]{P3-Oblique-Inc-Sca.pdf}}%
-    \put(0.68787237,0.40826969){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+    \put(0.68787237,0.40826969){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=33]{P3-Oblique-Inc-Sca.pdf}}%
     \put(0.42464716,0.42139525){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=34]{P3-Oblique-Inc-Sca.pdf}}%

@@ -72,24 +72,24 @@
     \put(0,0){\includegraphics[width=\unitlength,page=9]{P4-5-Far-XY-Embedded-Internal.pdf}}%
     \put(0.93147356,0.32171599){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=10]{P4-5-Far-XY-Embedded-Internal.pdf}}%
-    \put(0.39882391,0.10662332){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
-    \put(0.41941853,0.20104638){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
-    \put(0.36329471,0.33451169){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
-    \put(0.39396273,0.29546942){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
-    \put(0.41279363,0.24981486){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
-    \put(0.3241828,0.36002597){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.36765951,0.06750214){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
-    \put(0.33635879,0.03750087){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.23855555,0.01220029){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
-    \put(0.24762929,0.38132203){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
-    \put(0.28415657,0.3721902){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
-    \put(0.28910333,0.01862519){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
-    \put(0.41828616,0.15216941){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
-    \put(0.07241346,0.10119301){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
-    \put(0.10517585,0.06663591){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
-    \put(0.14692913,0.03663463){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.18642174,0.01776411){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
-    \put(0.0510378,0.14674284){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.39882391,0.10662332){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\newcirc$\end{tabular}}}}%
+    \put(0.41941853,0.20104638){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\newcirc$\end{tabular}}}}%
+    \put(0.36329471,0.33451169){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\newcirc$\end{tabular}}}}%
+    \put(0.39396273,0.29546942){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\newcirc$\end{tabular}}}}%
+    \put(0.41279363,0.24981486){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\newcirc$\end{tabular}}}}%
+    \put(0.3241828,0.36002597){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\newcirc$\end{tabular}}}}%
+    \put(0.36765951,0.06750214){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\newcirc$\end{tabular}}}}%
+    \put(0.33635879,0.03750087){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\newcirc$\end{tabular}}}}%
+    \put(0.23855555,0.01220029){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\newcirc$\end{tabular}}}}%
+    \put(0.24762929,0.38132203){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\newcirc$\end{tabular}}}}%
+    \put(0.28415657,0.3721902){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\newcirc$\end{tabular}}}}%
+    \put(0.28910333,0.01862519){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\newcirc$\end{tabular}}}}%
+    \put(0.41828616,0.15216941){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\newcirc$\end{tabular}}}}%
+    \put(0.07241346,0.10119301){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\newcirc$\end{tabular}}}}%
+    \put(0.10517585,0.06663591){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\newcirc$\end{tabular}}}}%
+    \put(0.14692913,0.03663463){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\newcirc$\end{tabular}}}}%
+    \put(0.18642174,0.01776411){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\newcirc$\end{tabular}}}}%
+    \put(0.0510378,0.14674284){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=11]{P4-5-Far-XY-Embedded-Internal.pdf}}%
     \put(0.05372929,0.35749706){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
     \put(0.05441418,0.32608542){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
@@ -99,24 +99,24 @@
     \put(0.05458768,0.20043883){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.0\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=12]{P4-5-Far-XY-Embedded-Internal.pdf}}%
     \put(0.34883678,0.20225437){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\color{red}{$\vb{E}_\parallel^\text{i}$}\end{tabular}}}}%
-    \put(0.83470114,0.10838904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
-    \put(0.85529576,0.20281209){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\circ$\end{tabular}}}}%
-    \put(0.79917194,0.3362774){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
-    \put(0.82983996,0.29723513){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
-    \put(0.84867086,0.25158057){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
-    \put(0.76006003,0.36179168){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.80353674,0.06926785){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
-    \put(0.77223602,0.03926658){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.67443278,0.013966){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
-    \put(0.68350652,0.38308774){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\circ$\end{tabular}}}}%
-    \put(0.7200338,0.37395592){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
-    \put(0.72498056,0.0203909){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
-    \put(0.85416339,0.15393512){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
-    \put(0.50829069,0.10295873){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\circ$\end{tabular}}}}%
-    \put(0.54105308,0.06840162){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\circ$\end{tabular}}}}%
-    \put(0.58280635,0.03840034){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\circ$\end{tabular}}}}%
-    \put(0.62229897,0.01952982){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\circ$\end{tabular}}}}%
-    \put(0.48691503,0.14850855){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\circ$\end{tabular}}}}%
+    \put(0.83470114,0.10838904){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\newcirc$\end{tabular}}}}%
+    \put(0.85529576,0.20281209){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$90^\newcirc$\end{tabular}}}}%
+    \put(0.79917194,0.3362774){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\newcirc$\end{tabular}}}}%
+    \put(0.82983996,0.29723513){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\newcirc$\end{tabular}}}}%
+    \put(0.84867086,0.25158057){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\newcirc$\end{tabular}}}}%
+    \put(0.76006003,0.36179168){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\newcirc$\end{tabular}}}}%
+    \put(0.80353674,0.06926785){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\newcirc$\end{tabular}}}}%
+    \put(0.77223602,0.03926658){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\newcirc$\end{tabular}}}}%
+    \put(0.67443278,0.013966){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\newcirc$\end{tabular}}}}%
+    \put(0.68350652,0.38308774){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$0^\newcirc$\end{tabular}}}}%
+    \put(0.7200338,0.37395592){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\newcirc$\end{tabular}}}}%
+    \put(0.72498056,0.0203909){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\newcirc$\end{tabular}}}}%
+    \put(0.85416339,0.15393512){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\newcirc$\end{tabular}}}}%
+    \put(0.50829069,0.10295873){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$60^\newcirc$\end{tabular}}}}%
+    \put(0.54105308,0.06840162){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$45^\newcirc$\end{tabular}}}}%
+    \put(0.58280635,0.03840034){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$30^\newcirc$\end{tabular}}}}%
+    \put(0.62229897,0.01952982){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15^\newcirc$\end{tabular}}}}%
+    \put(0.48691503,0.14850855){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$75^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=13]{P4-5-Far-XY-Embedded-Internal.pdf}}%
     \put(0.48777026,0.35926277){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.5\end{tabular}}}}%
     \put(0.48845514,0.32785113){\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%

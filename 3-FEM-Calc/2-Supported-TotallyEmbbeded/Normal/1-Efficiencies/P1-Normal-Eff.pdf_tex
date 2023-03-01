@@ -1,0 +1,128 @@
+%% Creator: Inkscape 1.2.2 (b0a8486541, 2022-12-01), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'P1-Normal-Eff.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{373.23761707bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.42954375)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{P1-Normal-Eff.pdf}}%
+    \put(-0.00048851,0.37838499){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Embedded\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{P1-Normal-Eff.pdf}}%
+    \put(0.08843904,0.29271135){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.22476648,0.22617333){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.08843904,0.09578589){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(0.22476648,0.02924786){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{red}{$\vb{k}^\text{i}$}\end{tabular}}}}%
+    \put(-0.00048851,0.35427167){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External (EE)\end{tabular}}}}%
+    \put(0.1562481,0.37838499){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Embedded\end{tabular}}}}%
+    \put(0.1562481,0.35427167){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Internal (EI)\end{tabular}}}}%
+    \put(-0.00048851,0.18145953){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Supported\end{tabular}}}}%
+    \put(-0.00048851,0.15734621){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}External (SE)\end{tabular}}}}%
+    \put(0.1562481,0.18145953){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Supported\end{tabular}}}}%
+    \put(0.1562481,0.15734621){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Internal (SI)\end{tabular}}}}%
+    \put(0.40263671,0.03112038){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
+    \put(0.54885794,0.03112038){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
+    \put(0.6947199,0.03112038){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
+    \put(0.84094111,0.03112038){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
+    \put(0.98723075,0.03112038){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}600\end{tabular}}}}%
+    \put(0.6889134,0.00427622){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{P1-Normal-Eff.pdf}}%
+    \put(0.79397712,0.12065543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}525 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{P1-Normal-Eff.pdf}}%
+    \put(0.73944497,0.06523672){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}522 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{P1-Normal-Eff.pdf}}%
+    \put(0.83517013,0.14146012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}543 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{P1-Normal-Eff.pdf}}%
+    \put(0.3708525,0.07130043){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{P1-Normal-Eff.pdf}}%
+    \put(0.37076573,0.10671838){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{P1-Normal-Eff.pdf}}%
+    \put(0.37090462,0.13351102){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{P1-Normal-Eff.pdf}}%
+    \put(0.37090462,0.16030367){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{P1-Normal-Eff.pdf}}%
+    \put(0.37090462,0.19572163){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}5.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{P1-Normal-Eff.pdf}}%
+    \put(0.75640469,0.14900968){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}540 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{P1-Normal-Eff.pdf}}%
+    \put(0.73675211,0.19645488){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}542.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{P1-Normal-Eff.pdf}}%
+    \put(0.77607489,0.06592088){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}522.5 nm\end{tabular}}}}%
+    \put(0.32196003,0.13725387){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{sca}\; [10^{-2}]$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{P1-Normal-Eff.pdf}}%
+    \put(0.79386401,0.33781992){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}532.5 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{P1-Normal-Eff.pdf}}%
+    \put(0.73465804,0.28018975){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}510 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{P1-Normal-Eff.pdf}}%
+    \put(0.69280134,0.28574587){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}509 nm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{P1-Normal-Eff.pdf}}%
+    \put(0.37094217,0.23813163){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{P1-Normal-Eff.pdf}}%
+    \put(0.37094217,0.26222383){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{P1-Normal-Eff.pdf}}%
+    \put(0.37094217,0.31816423){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{P1-Normal-Eff.pdf}}%
+    \put(0.37094883,0.34225642){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{P1-Normal-Eff.pdf}}%
+    \put(0.80976169,0.32920208){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}535 nm\end{tabular}}}}%
+    \put(0.31794966,0.3128175){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{P1-Normal-Eff.pdf}}%
+    \put(0.42811268,0.25341451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EE\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{P1-Normal-Eff.pdf}}%
+    \put(0.50491295,0.25341451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}EI\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{P1-Normal-Eff.pdf}}%
+    \put(0.57756456,0.25341451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SE\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{P1-Normal-Eff.pdf}}%
+    \put(0.65436485,0.25341451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}SI\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{P1-Normal-Eff.pdf}}%
+    \put(0.5412348,0.41224716){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Max: FEM\end{tabular}}}}%
+    \put(0.71448281,0.41382086){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Max: Mie-limiting case\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

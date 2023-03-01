@@ -2,7 +2,8 @@
 
 
 \section{Resultados}
-
+% ------------------------------------------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------------------------------------------
     \begin{frame}{Análisis de convergencia}{Comsol vs Mie: 12.5 AuNP$@$Aire  y 12.5 AuNP$@$BK7}
     \begin{center}
         \begin{columns}
@@ -25,17 +26,19 @@
     \end{figure}
     \end{center}
     \end{frame}
-
+% ------------------------------------------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------------------------------------------
   \subsection{Esfera soportada y completamente embebida}
   \subsubsection{Incidencia normal}
     \begin{frame}{Esfera soportada y completamente embebida}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
     \begin{figure}
         \def\svgwidth{.95\textwidth}
-        \includeinkscape[pretex = \small]{1-Totally/1-Efficiencies/1-Normal-Eff}%
+        \includeinkscape[pretex = \small]{1-Totally/1-Efficiencies/P1-Normal-Eff}%
     \end{figure}
     \end{frame}
-%
+% ------------------------------------------------------------------------------------------------------------------
     \begin{frame}{Esfera soportada y completamente embebida}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
+    \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
     \begin{columns}
     \column{.5\textwidth}
     \begin{figure}    \centering
@@ -53,16 +56,16 @@
     \end{figure}
     \end{columns}
     \end{frame}
-%
+% ------------------------------------------------------------------------------------------------------------------
 \subsubsection{Incidencia oblicua}
     \begin{frame}{Esfera soportada en incidencia interna}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
     \begin{columns}
-    \column{.5\textwidth}
+    \column{.5\textwidth}\renewcommand{\newcirc}{{\scaleobj{.75}{\circ}}}
     \begin{figure}\centering
       \def\svgwidth{1 \textwidth}
       \includeinkscape[pretex = \scriptsize]{2-SuppObl/1-Efficiencies/P1-Oblique-Supp-Eff}
     \end{figure}
-    \column{.5\textwidth}
+    \column{.5\textwidth}\renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
     \begin{figure}    \centering \fontsize{4}{5}\selectfont
         \def\svgwidth{1\textwidth}
         \includeinkscape{2-SuppObl/4-5-FarXY/P4-5-Far-XY-S}\\[2em]
@@ -73,9 +76,12 @@
     \end{columns}
     \end{frame}
 %
+% ------------------------------------------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------------------------------------------
   \subsection{Esfera parcialmente incrustada}
     \subsubsection{Incidencia normal}
-      \begin{frame}{Esfera parcialmete incrustada}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
+      \begin{frame}{Esfera parcialmente incrustada}{Incidencia normal: 12.5 AuNP$@$Aire/BK7}
+      \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
       \centering
       \begin{columns}
       \column{.5\textwidth}
@@ -93,30 +99,37 @@
       \end{figure}
       \end{columns}
       \end{frame}
-
-
+%
+% ------------------------------------------------------------------------------------------------------------------
     \subsubsection{Incidencia oblicua}
-      \begin{frame}{Esfera parcialmete incrustada}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
+      \begin{frame}{Esfera parcialmente incrustada}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
       \vspace{-3.5em}\begin{columns}\scriptsize
+      \renewcommand{\newcirc}{{\scaleobj{.85}{\circ}}}
       \column{.4\textwidth}	\begin{table} \input{2-Results/P5-1-WLengthTab-Abs}\end{table}%\includegraphics[width =\textwidth]{img/3-Resultados/tab}
-      \column{.55\textwidth}	\begin{figure}\centering\fontsize{4}{5}\selectfont
+      \column{.55\textwidth}
+      \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
+      \begin{figure}\centering\fontsize{4}{5}\selectfont
           \def\svgwidth{.9\textwidth}
           \includeinkscape{4-Inc-Obl/1-Efficiencies/P2-Oblique-Inc-Abs}%
       \end{figure}
       \end{columns}
       \end{frame}
-
-      \begin{frame}{Esfera parcialmete incrustada}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
+% ------------------------------------------------------------------------------------------------------------------
+      \begin{frame}{Esfera parcialmente incrustada}{Incidencia oblicua: 12.5 AuNP$@$Aire/BK7}
       \vspace{-3.5em}\begin{columns}\scriptsize
+      \renewcommand{\newcirc}{{\scaleobj{.85}{\circ}}}
       \column{.4\textwidth}	\begin{table} \input{2-Results/P5-1-WLengthTab-Sca}\end{table}%\includegraphics[width =\textwidth]{img/3-Resultados/tab}
-      \column{.55\textwidth}	\begin{figure}\centering\fontsize{4}{5}\selectfont
+      \column{.55\textwidth}
+      \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
+      \begin{figure}\centering\fontsize{4}{5}\selectfont
           \def\svgwidth{.9\textwidth}
           \includeinkscape{4-Inc-Obl/1-Efficiencies/P3-Oblique-Inc-Sca}%
       \end{figure}
       \end{columns}
       \end{frame}
-
-      \begin{frame}{Esfera parcialmete incrustada}{Incidencia oblicua en polarización $p$: 12.5 AuNP$@$Aire/BK7}\fontsize{4.5}{5.5}\selectfont
+% ------------------------------------------------------------------------------------------------------------------
+      \begin{frame}{Esfera parcialmente incrustada}{Incidencia oblicua en polarización $p$: 12.5 AuNP$@$Aire/BK7}\fontsize{4.5}{5.5}\selectfont
+      \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
       \begin{columns}
       \column{.5\textwidth}	\begin{figure} \centering
           \def\svgwidth{.85\textwidth}
@@ -132,8 +145,9 @@
       \end{figure}
       \end{columns}
       \end{frame}
-
-      \begin{frame}{Esfera parcialmete incrustada}{Incidencia después del ángulo crítico: 12.5 AuNP$@$Aire/BK7}%\fontsize{4}{5}\selectfont
+% ------------------------------------------------------------------------------------------------------------------
+      \begin{frame}{Esfera parcialmente incrustada}{Incidencia después del ángulo crítico: 12.5 AuNP$@$Aire/BK7}%\fontsize{4}{5}\selectfont
+      \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
       \begin{columns}\fontsize{4}{5}\selectfont
       \column{.5\textwidth}	\begin{figure} \centering
           \def\svgwidth{.85\textwidth}
@@ -141,14 +155,17 @@
           \def\svgwidth{.85\textwidth}
           \includeinkscape{4-Inc-Obl/4-FarXY-S/P4-5-Far-XY-S-42}%
       \end{figure}
-      \column{.5\textwidth}	\begin{figure}\centering
+      \column{.5\textwidth}
+      \renewcommand{\newcirc}{{\scaleobj{.625}{\circ}}}
+      \begin{figure}\centering
         \def\svgwidth{.8\textwidth}\vspace*{-2em} \fontsize{4}{5}
           \includeinkscape{4-Inc-Obl/2-Near-SP/P2-NearYX-SP-42-Ver2}%
       \end{figure}
       \end{columns}
       \end{frame}
 
-
+% ------------------------------------------------------------------------------------------------------------------
+% ------------------------------------------------------------------------------------------------------------------
       \begin{frame}{Resumen}%{Incidencia después del ángulo crítico: 12.5 AuNP$@$Aire/BK7}%\fontsize{4}{5}\selectfont
       \begin{center}
   	\begin{tikzpicture}[node distance=1em and 1em,font=\small]
@@ -185,7 +202,7 @@
          \begin{minipage}{.3\textwidth}
           \begin{itemize}
             \item Corrimiento al rojo (LSPR)
-            \item Aumento de la extinsión
+            \item Aumento de la extinción
             \item Pol. \textit{s}:
             \begin{itemize}
               \item Proceso homogéneo

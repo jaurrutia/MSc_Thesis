@@ -82,10 +82,10 @@
     \put(0.56657623,0.65352505){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.0\end{tabular}}}}%
     \put(0.61117495,0.74383648){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=6]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.58730849,0.76693993){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0.58730849,0.76693993){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\newcirc$\end{tabular}}}}%
     \put(0.62002563,0.52562972){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.58730848,0.55014822){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\circ$\end{tabular}}}}%
+    \put(0.58730848,0.55014822){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 38^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{P2-Oblique-Inc-Abs.pdf}}%
     \put(0.10027845,-0.01273919){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=9]{P2-Oblique-Inc-Abs.pdf}}%
@@ -109,10 +109,10 @@
     \put(0.07540195,0.43143813){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10.0\end{tabular}}}}%
     \put(0.13317436,0.24808105){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=14]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.09924178,0.27259946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0.09924178,0.27259946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\newcirc$\end{tabular}}}}%
     \put(0.13195888,0.02863165){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=15]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.09924178,0.05315002){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\circ$\end{tabular}}}}%
+    \put(0.09924178,0.05315002){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 42^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=16]{P2-Oblique-Inc-Abs.pdf}}%
     \put(0.58835258,-0.01350809){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=17]{P2-Oblique-Inc-Abs.pdf}}%
@@ -137,10 +137,10 @@
     \put(0.56436191,0.20895845){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.00\end{tabular}}}}%
     \put(0.6212411,0.24808105){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=23]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.58730848,0.27259946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+    \put(0.58730848,0.27259946){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\newcirc$\end{tabular}}}}%
     \put(0.62002563,0.02863165){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=24]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.58730848,0.05315002){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\circ$\end{tabular}}}}%
+    \put(0.58730848,0.05315002){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 75^\newcirc$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=25]{P2-Oblique-Inc-Abs.pdf}}%
     \put(0.59027916,0.95435339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.00\end{tabular}}}}%
     \put(0.50830052,0.95430127){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 0.25\end{tabular}}}}%
@@ -167,10 +167,10 @@
     \put(0.02791651,0.33195768){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$Q_\text{abs}$\end{tabular}}}}}%
     \put(0.1231082,0.74383648){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{s} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=33]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.09924178,0.76693993){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0.09924178,0.76693993){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\newcirc$\end{tabular}}}}%
     \put(0.13195888,0.52562972){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{p} Pol.\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=34]{P2-Oblique-Inc-Abs.pdf}}%
-    \put(0.09924178,0.55014822){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\circ$\end{tabular}}}}%
+    \put(0.09924178,0.55014822){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\theta_i = 15^\newcirc$\end{tabular}}}}%
     \put(0.78621918,0.45866384){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$\lambda$ [nm]\end{tabular}}}}%
     \put(0.58772694,0.48547951){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}400\end{tabular}}}}%
     \put(0.68848873,0.48547951){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%

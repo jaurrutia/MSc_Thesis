@@ -17,6 +17,93 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{barrera1991optical}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={R\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=dCMM}{%
+         prefix={del},
+         prefixi={d\bibinitperiod},
+         family={Castillo-Mussot},
+         familyi={C\bibinithyphendelim M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Monsivais},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Villaseor},
+         familyi={V\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MWL}{%
+         family={Moch{\'{a}}n},
+         familyi={M\bibinitperiod},
+         given={W\bibnamedelima L},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BRG+1}
+    \strng{fullhash}{BRGdCMMMGVPMWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.43.13819
+    \endverb
+    \field{number}{17}
+    \field{pages}{13819\bibrangedash 13826}
+    \field{title}{{Optical properties of two-dimensional disordered systems on
+  a substrate}}
+    \field{volume}{43}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1991}
+  \endentry
+
+  \entry{bedeaux_optical_2004}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BD}{%
+         family={Bedeaux},
+         familyi={B\bibinitperiod},
+         given={Dick},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vlieger},
+         familyi={V\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Imperial College Press}%
+    }
+    \strng{namehash}{BD+1}
+    \strng{fullhash}{BDVJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{edition}{2}
+    \field{isbn}{978-1-86094-450-5}
+    \field{pagetotal}{450}
+    \field{title}{Optical properties of surfaces}
+    \list{location}{1}{%
+      {London}%
+    }
+    \field{year}{2004}
+  \endentry
+
   \entry{bergot_generation_2010}{article}{}
     \name{author}{2}{}{%
       {{hash=BM}{%
@@ -576,6 +663,58 @@
     \field{year}{2013}
   \endentry
 
+  \entry{lopez_recent_2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LGA}{%
+         family={Lopez},
+         familyi={L\bibinitperiod},
+         given={Gerardo\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=EMC}{%
+         family={Estevez},
+         familyi={E\bibinitperiod},
+         given={M.-Carmen},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Soler},
+         familyi={S\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LLM}{%
+         family={Lechuga},
+         familyi={L\bibinitperiod},
+         given={Laura\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LGA+1}
+    \strng{fullhash}{LGAEMCSMLLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1515/nanoph-2016-0101
+    \endverb
+    \field{issn}{2192-8614, 2192-8606}
+    \field{number}{1}
+    \field{pages}{123\bibrangedash 136}
+    \field{shorttitle}{Recent advances in nanoplasmonic biosensors}
+    \field{title}{Recent advances in nanoplasmonic biosensors: applications and
+  lab-on-a-chip integration}
+    \verb{url}
+    \verb https://www.degruyter.com/view/journals/nanoph/6/1/article-p123.xml
+    \endverb
+    \field{volume}{6}
+    \field{journaltitle}{Nanophotonics}
+    \field{day}{06}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
   \entry{mendoza_herrera_determination_2014}{article}{}
     \name{author}{4}{}{%
       {{hash=MHLJ}{%
@@ -683,64 +822,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{moirangthem_enhanced_2012}{article}{}
-    \name{author}{5}{}{%
-      {{hash=MRS}{%
-         family={Moirangthem},
-         familyi={M\bibinitperiod},
-         given={Rakesh\bibnamedelima Singh},
-         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=YMT}{%
-         family={Yaseen},
-         familyi={Y\bibinitperiod},
-         given={Mohammad\bibnamedelima Tariq},
-         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=WPK}{%
-         family={Wei},
-         familyi={W\bibinitperiod},
-         given={Pei-Kuen},
-         giveni={P\bibinithyphendelim K\bibinitperiod},
-      }}%
-      {{hash=CJY}{%
-         family={Cheng},
-         familyi={C\bibinitperiod},
-         given={Ji-Yen},
-         giveni={J\bibinithyphendelim Y\bibinitperiod},
-      }}%
-      {{hash=CYC}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Yia-Chung},
-         giveni={Y\bibinithyphendelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MRS+1}
-    \strng{fullhash}{MRSYMTWPKCJYCYC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \verb{doi}
-    \verb 10.1364/BOE.3.000899
-    \endverb
-    \field{issn}{2156-7085, 2156-7085}
-    \field{number}{5}
-    \field{pages}{899}
-    \field{shortjournal}{Biomed. Opt. Express}
-    \field{title}{Enhanced localized plasmonic detections using
-  partially-embedded gold nanoparticles and ellipsometric measurements}
-    \verb{url}
-    \verb https://www.osapublishing.org/boe/abstract.cfm?uri=boe-3-5-899
-    \endverb
-    \field{volume}{3}
-    \field{journaltitle}{Biomedical Optics Express}
-    \field{day}{01}
-    \field{month}{05}
-    \field{year}{2012}
-  \endentry
-
   \entry{qiu_dual_2020}{article}{}
     \name{author}{6}{}{%
       {{hash=QG}{%
@@ -803,6 +884,31 @@
     \field{day}{26}
     \field{month}{05}
     \field{year}{2020}
+  \endentry
+
+  \entry{sihvola_electromagnetic_2008}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Sihvola},
+         familyi={S\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {The Institution of Engineering}%
+      {Technology}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{isbn}{978-0-85296-772-0}
+    \field{series}{Electronic Waves}
+    \field{title}{Electromagnetic Mixing Formulas and Applications}
+    \field{year}{2008}
   \endentry
 
   \entry{silver_microwave_1984}{book}{}

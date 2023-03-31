@@ -65,75 +65,77 @@
 \headcommand {\beamer@framepages {21}{21}}
 \headcommand {\beamer@sectionpages {12}{21}}
 \headcommand {\beamer@subsectionpages {16}{21}}
-\headcommand {\sectionentry {4}{Conclusiones}{22}{Conclusiones}{0}}
+\headcommand {\sectionentry {4}{Conclusiones y trabajo a futuro}{22}{Conclusiones y trabajo a futuro}{0}}
 \headcommand {\slideentry {4}{0}{1}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
 \headcommand {\slideentry {4}{0}{2}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\gdef \insertmainframenumber {23}}
-\headcommand {\partentry {Ap\'{e}ndice}{1}}
-\headcommand {\beamer@partpages {1}{23}}
-\headcommand {\beamer@sectionpages {22}{23}}
-\headcommand {\beamer@subsectionpages {22}{23}}
-\headcommand {\beamer@appendixpages {24}}
-\headcommand {\slideentry {4}{0}{3}{24/24}{}{1}}
+\headcommand {\slideentry {4}{0}{3}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@sectionpages {24}{24}}
-\headcommand {\beamer@subsectionpages {24}{24}}
-\headcommand {\sectionentry {5}{Armónicos esféricos vectoriales}{25}{Armónicos esféricos vectoriales}{1}}
-\headcommand {\slideentry {5}{0}{1}{25/25}{}{1}}
+\headcommand {\gdef \insertmainframenumber {24}}
+\headcommand {\partentry {Ap\'{e}ndice}{1}}
+\headcommand {\beamer@partpages {1}{24}}
+\headcommand {\beamer@sectionpages {22}{24}}
+\headcommand {\beamer@subsectionpages {22}{24}}
+\headcommand {\beamer@appendixpages {25}}
+\headcommand {\slideentry {4}{0}{4}{25/25}{}{1}}
 \headcommand {\beamer@framepages {25}{25}}
 \headcommand {\beamer@sectionpages {25}{25}}
 \headcommand {\beamer@subsectionpages {25}{25}}
-\headcommand {\sectionentry {6}{Solución de Mie}{26}{Solución de Mie}{1}}
-\headcommand {\slideentry {6}{0}{1}{26/26}{}{1}}
+\headcommand {\sectionentry {5}{Armónicos esféricos vectoriales}{26}{Armónicos esféricos vectoriales}{1}}
+\headcommand {\slideentry {5}{0}{1}{26/26}{}{1}}
 \headcommand {\beamer@framepages {26}{26}}
 \headcommand {\beamer@sectionpages {26}{26}}
 \headcommand {\beamer@subsectionpages {26}{26}}
-\headcommand {\sectionentry {7}{Elemento finito}{27}{Elemento finito}{1}}
-\headcommand {\slideentry {7}{0}{1}{27/27}{}{1}}
+\headcommand {\sectionentry {6}{Solución de Mie}{27}{Solución de Mie}{1}}
+\headcommand {\slideentry {6}{0}{1}{27/27}{}{1}}
 \headcommand {\beamer@framepages {27}{27}}
 \headcommand {\beamer@sectionpages {27}{27}}
 \headcommand {\beamer@subsectionpages {27}{27}}
-\headcommand {\sectionentry {8}{Condiciones de frontera abierta}{28}{Condiciones de frontera abierta}{1}}
-\headcommand {\beamer@subsectionpages {28}{27}}
-\headcommand {\beamer@subsectionentry {1}{8}{1}{28}{Condición de radiación de Sommerfeld}}
-\headcommand {\slideentry {8}{1}{1}{28/28}{Condición de radiación de Sommerfeld}{1}}
+\headcommand {\sectionentry {7}{Elemento finito}{28}{Elemento finito}{1}}
+\headcommand {\slideentry {7}{0}{1}{28/28}{}{1}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {8}{1}{2}{29/29}{Condición de radiación de Sommerfeld}{1}}
+\headcommand {\beamer@sectionpages {28}{28}}
+\headcommand {\beamer@subsectionpages {28}{28}}
+\headcommand {\sectionentry {8}{Condiciones de frontera abierta}{29}{Condiciones de frontera abierta}{1}}
+\headcommand {\beamer@subsectionpages {29}{28}}
+\headcommand {\beamer@subsectionentry {1}{8}{1}{29}{Condición de radiación de Sommerfeld}}
+\headcommand {\slideentry {8}{1}{1}{29/29}{Condición de radiación de Sommerfeld}{1}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\beamer@subsectionpages {28}{29}}
-\headcommand {\beamer@subsectionentry {1}{8}{2}{30}{\textit {Perfect Matching Layer}}}
-\headcommand {\slideentry {8}{2}{1}{30/30}{\textit {Perfect Matching Layer}}{1}}
+\headcommand {\slideentry {8}{1}{2}{30/30}{Condición de radiación de Sommerfeld}{1}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {8}{2}{2}{31/31}{\textit {Perfect Matching Layer}}{1}}
+\headcommand {\beamer@subsectionpages {29}{30}}
+\headcommand {\beamer@subsectionentry {1}{8}{2}{31}{\textit {Perfect Matching Layer}}}
+\headcommand {\slideentry {8}{2}{1}{31/31}{\textit {Perfect Matching Layer}}{1}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {8}{2}{3}{32/32}{\textit {Perfect Matching Layer}}{1}}
+\headcommand {\slideentry {8}{2}{2}{32/32}{\textit {Perfect Matching Layer}}{1}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\beamer@sectionpages {28}{32}}
-\headcommand {\beamer@subsectionpages {30}{32}}
-\headcommand {\sectionentry {9}{Función dieléctrica: Corrección por tamaño}{33}{Función dieléctrica: Corrección por tamaño}{1}}
-\headcommand {\slideentry {9}{0}{1}{33/33}{}{1}}
+\headcommand {\slideentry {8}{2}{3}{33/33}{\textit {Perfect Matching Layer}}{1}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {9}{0}{2}{34/34}{}{1}}
+\headcommand {\beamer@sectionpages {29}{33}}
+\headcommand {\beamer@subsectionpages {31}{33}}
+\headcommand {\sectionentry {9}{Función dieléctrica: Corrección por tamaño}{34}{Función dieléctrica: Corrección por tamaño}{1}}
+\headcommand {\slideentry {9}{0}{1}{34/34}{}{1}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {9}{0}{3}{35/35}{}{1}}
+\headcommand {\slideentry {9}{0}{2}{35/35}{}{1}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@sectionpages {33}{35}}
-\headcommand {\beamer@subsectionpages {33}{35}}
-\headcommand {\sectionentry {10}{Análisis de convergencia: Mie vs. COMSOL}{36}{Análisis de convergencia: Mie vs. COMSOL}{1}}
-\headcommand {\slideentry {10}{0}{1}{36/36}{}{1}}
+\headcommand {\slideentry {9}{0}{3}{36/36}{}{1}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {10}{0}{2}{37/37}{}{1}}
+\headcommand {\beamer@sectionpages {34}{36}}
+\headcommand {\beamer@subsectionpages {34}{36}}
+\headcommand {\sectionentry {10}{Análisis de convergencia: Mie vs. COMSOL}{37}{Análisis de convergencia: Mie vs. COMSOL}{1}}
+\headcommand {\slideentry {10}{0}{1}{37/37}{}{1}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {10}{0}{3}{38/38}{}{1}}
+\headcommand {\slideentry {10}{0}{2}{38/38}{}{1}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {10}{0}{4}{39/39}{}{1}}
+\headcommand {\slideentry {10}{0}{3}{39/39}{}{1}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\beamer@partpages {24}{39}}
-\headcommand {\beamer@subsectionpages {36}{39}}
-\headcommand {\beamer@sectionpages {36}{39}}
-\headcommand {\beamer@documentpages {39}}
+\headcommand {\slideentry {10}{0}{4}{40/40}{}{1}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\beamer@partpages {25}{40}}
+\headcommand {\beamer@subsectionpages {37}{40}}
+\headcommand {\beamer@sectionpages {37}{40}}
+\headcommand {\beamer@documentpages {40}}
 \headcommand {\gdef \inserttotalframenumber {16}}
-\headcommand {\gdef \inserttotalframenumber {23}}
+\headcommand {\gdef \inserttotalframenumber {24}}
 \headcommand {\gdef \appendixtotalframenumber {16}}

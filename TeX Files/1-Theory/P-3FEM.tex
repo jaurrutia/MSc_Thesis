@@ -75,7 +75,7 @@
         \begin{minipage}{.30\textwidth}\begin{itemize}
 			\item Formulación débil del problema en $\Omega_k$
 			\item Funciones de prueba: $$\{\psi_{i_k}\}_{i_k\leq N_k} = \{\phi_{i_k}\}_{i_k\leq N_k}$$
-			\item Sistema de ecuaciones algebráicas: $$\mathbb{A} \vb{u} = \vb{f}$$
+			\item Sistema de ecuaciones algebraicas: $$\mathbb{A} \vb{u} = \vb{f}$$
 			donde $A_{i_k j_k} = \int \phi_{i_k}(\vb{r}) \mathcal{L}[\phi_{j_k}(\vb{r})]\dd{\Omega}$, $
 				 u_{i_k} = u(\vb{r}_{i_k}) $ y $ f_{j_k} = \int f_{\Omega_k} \phi_{j_k}(\vb{r}) \dd{\Omega}$.
          \end{itemize}\end{minipage}
@@ -90,14 +90,10 @@
 	$^2$ \fullcite{larson_finite_2013}\\
 	$^3$ \fullcite{jin_theory_2010}\\
 	$^4$ \fullcite{fletcher_computational_1984}
-	
-  
-
 \end{frame}
 
 
 \begin{frame}{Implementación numérica del problema de esparcimiento de luz}{Familia de elementos finitos de Nédélec$^{1,2}$}
-
 \begin{columns}
 \column{.5\textwidth}
  \begin{center}
@@ -105,7 +101,7 @@
   	\begin{tikzpicture}[node distance=1em and 1em,font=\footnotesize]
         \path (0,0) node [flowbox] (fem) {\fbtitle{Aproximación nodal}\vphantom{yÖ}
 	    \nodepart{two}
-         \begin{minipage}{.28\textwidth} \begin{align*}
+         \begin{minipage}{.28\textwidth}\label{eq:ei} \begin{align*}
 {\vb{E}}(\vb{r}) \approx \sum_{i_k} e_{i_k} \boldsymbol{\eta}_{i_k}(\vb{r})
         \qquad
     e_{i} = \vu{t}_{i_k}\cdot \vb{E}(\vb{r}\in E_{i_k})
@@ -115,7 +111,7 @@
     	\node[flowbox,below=of fem] (nodal) {
         \fbtitle{Método de Galerkin}\vphantom{yÖ}
     \nodepart{two}
-        \begin{minipage}{.8\textwidth} $$\mathbb{A} \vb{e} = \vb{0}$$
+        \begin{minipage}{.8\textwidth} $$\mathbb{A} \vb{e} = \vb{0}$$ \label{eq:Aij}
         \begin{align*}
     A_{ij}  = &    \int_{\Omega_k} \left\{\qty(\mu^{-1}\nabla\times\boldsymbol{\eta}_i)\cdot\qty(\nabla\times\boldsymbol{\eta}_j)
     			-  \kappa^2  \cdot   \boldsymbol{\eta}_i \cdot \boldsymbol{\eta}_j \right\} \dd{\Omega_k} +\\
@@ -176,10 +172,10 @@ $$\mathcal{F}^{L}_{\ell_k}[\phi_{j_k}(\boldsymbol{\xi})] = \phi_{j_k}(\boldsymbo
         \path (0,0) node [flowbox] (fem) {\fbtitle{Método de Galerkin$^3$}\vphantom{yÖ}
 	    \nodepart{two}
          \begin{minipage}{.28\textwidth}	\begin{align*}
-	 \mathbb{A}\vb{e} = \vb{0} \qquad &\text{con}\qquad \text{ $\mathbb{A}$ y $\vb{e}$ definidas anteriormente,}\\
+	 \mathbb{A}\vb{e} = \vb{0} \qquad &\text{con}\qquad \text{ con \hyperlink{eq:Aij}{{$\mathbb{A}$} y \hyperlink{eq:ei}{{$\vb{e}$}}  como en la diapositiva anterior,} }\\
          \mathbb{\Lambda} = \text{diag}\qty(s_z, s_z ,s_z^{-1}),      \qquad&\text{con}\qquad     s_z= 1 \text{ en } \Omega \text{ y } \Im[s_z] < 0 \text{ en } \Omega_\text{PML}, \\
          \qty(\mu^{-1}\nabla\times\boldsymbol{\eta}_i)\cdot\qty(\nabla\times\boldsymbol{\eta}_j)   \qquad&\to\qquad   \qty(\mathbb{\Lambda}^{-1}\mu^{-1}\nabla\times\boldsymbol{\eta}_i)\cdot  \qty(\nabla\times\boldsymbol{\eta}_j),\\
-         \boldsymbol{\eta}_i \cdot \boldsymbol{\eta}_j  \qquad&\to\qquad  \boldsymbol{\eta}_i \cdot \mathbb{\Lambda} \boldsymbol{\eta}_j,
+         \boldsymbol{\eta}_i \cdot \boldsymbol{\eta}_j  \qquad&\to\qquad  \boldsymbol{\eta}_i \cdot \mathbb{\Lambda} \boldsymbol{\eta}_j.
 	\end{align*}\end{minipage}
         };
        

@@ -10,12 +10,12 @@
 \beamer@subsectionintoc {3}{2}{Esfera parcialmente incrustada}{16}{0}{2}
 \beamer@subsubsectionintoc {3}{2}{1}{Incidencia normal}{16}{0}{2}
 \beamer@subsubsectionintoc {3}{2}{2}{Incidencia oblicua}{17}{0}{2}
-\beamer@sectionintoc {4}{Conclusiones}{22}{0}{3}
-\beamer@sectionintoc {5}{Armónicos esféricos vectoriales}{25}{1}{4}
-\beamer@sectionintoc {6}{Solución de Mie}{26}{1}{5}
-\beamer@sectionintoc {7}{Elemento finito}{27}{1}{6}
-\beamer@sectionintoc {8}{Condiciones de frontera abierta}{28}{1}{7}
-\beamer@subsectionintoc {8}{1}{Condición de radiación de Sommerfeld}{28}{1}{7}
-\beamer@subsectionintoc {8}{2}{\textit {Perfect Matching Layer}}{30}{1}{7}
-\beamer@sectionintoc {9}{Función dieléctrica: Corrección por tamaño}{33}{1}{8}
-\beamer@sectionintoc {10}{Análisis de convergencia: Mie vs. COMSOL}{36}{1}{9}
+\beamer@sectionintoc {4}{Conclusiones y trabajo a futuro}{22}{0}{3}
+\beamer@sectionintoc {5}{Armónicos esféricos vectoriales}{26}{1}{4}
+\beamer@sectionintoc {6}{Solución de Mie}{27}{1}{5}
+\beamer@sectionintoc {7}{Elemento finito}{28}{1}{6}
+\beamer@sectionintoc {8}{Condiciones de frontera abierta}{29}{1}{7}
+\beamer@subsectionintoc {8}{1}{Condición de radiación de Sommerfeld}{29}{1}{7}
+\beamer@subsectionintoc {8}{2}{\textit {Perfect Matching Layer}}{31}{1}{7}
+\beamer@sectionintoc {9}{Función dieléctrica: Corrección por tamaño}{34}{1}{8}
+\beamer@sectionintoc {10}{Análisis de convergencia: Mie vs. COMSOL}{37}{1}{9}

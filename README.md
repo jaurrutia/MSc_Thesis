@@ -22,5 +22,5 @@ Plasmonic metasurfaces, metallic nanostructures supported on a substrate, have b
    - Aside form the Finite Element calculations performed in Comsol Multiphysics, all codes for the Mie Theory results, as well as for any graph shown in the Thesis can be found in here.
    - The codes for the graphs are in both Mathematica  (.nb) and in Jupyter (.ipynb) Notebooks.
    - To run the Mie Theory related codes and employ the size-correctred dielectric function for gold nanospheres you need to use the (soon to have a proper documentation) **Mie Theory for Mathematica** packege found in [here](https://github.com/jaurrutia/Mie-Theory-Mathematica).
- - The complete thesis tex-files, whose main file is [tesis.tex](./Tex%Files/tesis.tex)
- - The complete presentation tex-files, whose main file is [presentation    |.tex](./Tex%Files/tesis.tex)
+ - The complete thesis tex-files, whose main file is [tesis.tex](./TeX%Files/tesis.tex)
+ - The complete presentation tex-files, whose main file is [presentation.tex](./TeX%Files/tesis.tex)

@@ -2,6 +2,12 @@
 #### by Jonathan Alexis Urrutia Anguiano
 #### Directed by Dr. Alejandro Reyes Coronado (http://sistemas.fciencias.unam.mx/~coronado/)
 
+<style>
+body {
+text-align: justify}
+</style>
+
+
 Master thesis for obtaining the title of *Master in Science (Physics)*
 
 Dissertation at the **Posgrado en Ciencias Físicas**, National Autonomous University of Mexico (PCF-UNAM)
